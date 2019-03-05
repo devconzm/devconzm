@@ -22,10 +22,10 @@ function Speakers() {
           <div className="col-lg-4" key={speaker.i}>
             <img
               className="rounded-circle"
-              src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
+              src="https://via.placeholder.com/600/771796"
               alt="Generic placeholder"
-              width="140"
-              height="140"
+              width="180"
+              height="180"
             />
             <h2>{speaker.text}</h2>
             <p>
