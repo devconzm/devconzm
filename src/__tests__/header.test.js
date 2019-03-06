@@ -13,7 +13,7 @@ describe("Header Component", () => {
     expect(links).toHaveTextContent("DevCon19");
   });
   it('should match the snapshot', () => {
-      expect(container).toMatchSnapshot()
+      expect(render(<Header />)).toMatchSnapshot()
   });
 });
 
