@@ -20,7 +20,7 @@ function App() {
           <br />
           <br />
           <br />
-          <div class="card-deck mb-3 text-center">
+          <div className="card-deck mb-3 text-center">
             {[1, 2, 4].map(i => (
               <Tickets key={i} />
             ))}
