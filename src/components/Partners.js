@@ -5,4 +5,4 @@ function Partners(){
         <div/>
     )
 }
-export function Partners
+export default Partners;
