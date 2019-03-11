@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import Header from "./components/Header";
 import Info from "./components/Info";
 import Speakers from "./components/Speakers";
 import Tickets from "./components/Tickets";
@@ -7,7 +6,7 @@ import Tickets from "./components/Tickets";
 function App() {
   return (
     <Fragment>
-      <Header />
+      {/* <Header /> */}
       <Info />
       <br />
       <br />

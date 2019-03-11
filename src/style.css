@@ -1,0 +1,21 @@
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .product-holder {
+    position: relative;
+    display: block;
+}
+
+.plus-image {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin-top: -25px;
+    margin-left: -25px;
+}
