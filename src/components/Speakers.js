@@ -19,16 +19,16 @@ function Speakers() {
         <br />
       <div className="row">
         {details.map(speaker => (
-          <div className="col-lg-4" key={speaker.i}>
+          <div className="col-lg-4 col-sm-6" key={speaker.i}>
             <img
-              className="rounded-circle"
+              className="rounded-circle mx-auto d-block"
               src="https://via.placeholder.com/600/771796"
               alt="Generic placeholder"
               width="180"
               height="180"
             />
-            <h2>{speaker.text}</h2>
-            <p>
+            <h2 className='text-center'>{speaker.text}</h2>
+            <p className='text-center'>
               Donec sed odio dui. Etiam porta sem malesuada magna mollis
               euismod.
             </p>
