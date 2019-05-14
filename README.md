@@ -1,8 +1,6 @@
 # Devconzm
 [![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors)
 
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
-
 
 > This repo is for the zambia developer conference website
 
