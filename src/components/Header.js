@@ -24,7 +24,7 @@ function Header() {
             className="collapse navbar-collapse justify-content-end"
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav pull-right" data-testid="head-list">
+            <ul className="navbar-nav pull-right smooth-scroll" data-testid="head-list">
               <li className="nav-item">
                 <a className="nav-link active" href="#venue">
                   Venue
@@ -53,6 +53,11 @@ function Header() {
               <li className="nav-item">
                 <a className="nav-link" href="#about">
                   About
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#contact_us">
+                  Contact Us
                 </a>
               </li>
               <li className="nav-item">

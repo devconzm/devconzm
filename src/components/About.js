@@ -1,15 +1,15 @@
 import React from 'react'
 
-function Partners() {
+function About() {
   return (
-    <section id="partners">
+    <section id="about">
       <div className="container">
-        <h1 className='text-center'>Partners</h1>
+        <h1 className='text-center'>About</h1>
         <div className="row">
-          <p>Partners</p>
+          <p>About</p>
         </div>
       </div>
     </section>
   )
 }
-export default Partners;
+export default About;
