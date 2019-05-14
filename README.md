@@ -54,7 +54,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="http://www.agorainnovatus.com"><img src="https://avatars0.githubusercontent.com/u/12296763?v=4" width="100px;" alt="Mukuma Musenge"/><br /><sub><b>Mukuma Musenge</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=k9uma" title="Documentation">📖</a></td></tr></table>
+<table><tr><td align="center"><a href="http://www.agorainnovatus.com"><img src="https://avatars0.githubusercontent.com/u/12296763?v=4" width="100px;" alt="Mukuma Musenge"/><br /><sub><b>Mukuma Musenge</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=k9uma" title="Documentation">📖</a> <a href="#eventOrganizing-k9uma" title="Event Organizing">📋</a> <a href="#ideas-k9uma" title="Ideas, Planning, & Feedback">🤔</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
