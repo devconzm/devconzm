@@ -1,4 +1,5 @@
 # Devconzm
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors)
 
 > This repo for the zambia developer conference website
 
@@ -46,3 +47,16 @@ or
 ### Issues
 
 If you encounter any issues feel free to report them [here](https://github.com/devconzm/devconzm/issues)
+
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+<table><tr><td align="center"><a href="http://www.agorainnovatus.com"><img src="https://avatars0.githubusercontent.com/u/12296763?v=4" width="100px;" alt="Mukuma Musenge"/><br /><sub><b>Mukuma Musenge</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=k9uma" title="Documentation">📖</a> <a href="#eventOrganizing-k9uma" title="Event Organizing">📋</a> <a href="#ideas-k9uma" title="Ideas, Planning, & Feedback">🤔</a></td><td align="center"><a href="http://www.linkedin.com/in/luis-zulu-b7b49bb8"><img src="https://avatars1.githubusercontent.com/u/34923214?v=4" width="100px;" alt="Luis Roy Zulu"/><br /><sub><b>Luis Roy Zulu</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=LuisRoyZulu06" title="Documentation">📖</a></td><td align="center"><a href="http://www.twitter.com/djtwenty6"><img src="https://avatars2.githubusercontent.com/u/32264045?v=4" width="100px;" alt="John Allan Zgambo Jr"/><br /><sub><b>John Allan Zgambo Jr</b></sub></a><br /><a href="#ideas-djtwenty6" title="Ideas, Planning, & Feedback">🤔</a></td><td align="center"><a href="https://malgamves.dev"><img src="https://avatars1.githubusercontent.com/u/25641936?v=4" width="100px;" alt="Daniel Madalitso Phiri"/><br /><sub><b>Daniel Madalitso Phiri</b></sub></a><br /><a href="#ideas-malgamves" title="Ideas, Planning, & Feedback">🤔</a></td><td align="center"><a href="https://pastsix.netlify.com/"><img src="https://avatars1.githubusercontent.com/u/11255454?v=4" width="100px;" alt="Olivier JM"/><br /><sub><b>Olivier JM</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=OlivierJM" title="Code">💻</a> <a href="https://github.com/devconzm/devconzm/commits?author=OlivierJM" title="Documentation">📖</a></td><td align="center"><a href="https://github.com/Mulency"><img src="https://avatars2.githubusercontent.com/u/23038552?v=4" width="100px;" alt="Cynthia M. Mulenga"/><br /><sub><b>Cynthia M. Mulenga</b></sub></a><br /><a href="#eventOrganizing-Mulency" title="Event Organizing">📋</a> <a href="#ideas-Mulency" title="Ideas, Planning, & Feedback">🤔</a></td></tr></table>
+
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
