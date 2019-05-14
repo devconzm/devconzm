@@ -11,7 +11,9 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/12296763?v=4",
       "profile": "http://www.agorainnovatus.com",
       "contributions": [
-        "doc"
+        "doc",
+        "eventOrganizing",
+        "ideas"
       ]
     },
     {
@@ -45,7 +47,7 @@
       "login": "OlivierJM",
       "name": "Olivier JM",
       "avatar_url": "https://avatars1.githubusercontent.com/u/11255454?v=4",
-      "profile": "https://pastsix.netlify.com/",
+      "profile": "https://olivierjm.dev/",
       "contributions": [
         "code",
         "doc"
@@ -56,6 +58,15 @@
       "name": "Mbuyu  Makayi",
       "avatar_url": "https://avatars1.githubusercontent.com/u/16419710?v=4",
       "profile": "http://www.twitter.com/mbuyu_",
+      "contributions": [
+        "eventOrganizing",
+        "ideas"
+      ]
+      },
+      "login": "Mulency",
+      "name": "Cynthia M. Mulenga",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/23038552?v=4",
+      "profile": "https://github.com/Mulency",
       "contributions": [
         "eventOrganizing",
         "ideas"
