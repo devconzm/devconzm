@@ -35,6 +35,15 @@
         "doc",
         "ideas"
       ]
+    },
+    {
+      "login": "malgamves",
+      "name": "Daniel Madalitso Phiri",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/25641936?v=4",
+      "profile": "https://malgamves.dev",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
