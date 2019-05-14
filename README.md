@@ -1,7 +1,8 @@
 # Devconzm
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors)
 
-> This repo for the zambia developer conference website
+> This repo is for the zambia developer conference website
 
 more details about the conference can be found [here](http://devcon.co.zm)
 
@@ -24,7 +25,7 @@ read the [code of conduct](https://github.com/devconzm/devconzm/blob/master/CODE
 
 **Requirements**
 
-- Node(ˆv8.0) 
+- Node(ˆv8.0)
 - npm (ˆv5) or yarn(ˆv1.12)
 - git
 
@@ -35,13 +36,13 @@ clone the repo
 **Install dependencies**
 
 `npm install`
-or 
-`yarn `
+or
+`yarn`
 
 **Run**
 
-`npm start` 
-or 
+`npm start`
+or
 `yarn start`
 
 ### Issues
@@ -54,7 +55,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-
 <table><tr><td align="center"><a href="http://www.agorainnovatus.com"><img src="https://avatars0.githubusercontent.com/u/12296763?v=4" width="100px;" alt="Mukuma Musenge"/><br /><sub><b>Mukuma Musenge</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=k9uma" title="Documentation">📖</a></td><td align="center"><a href="http://www.linkedin.com/in/luis-zulu-b7b49bb8"><img src="https://avatars1.githubusercontent.com/u/34923214?v=4" width="100px;" alt="Luis Roy Zulu"/><br /><sub><b>Luis Roy Zulu</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=LuisRoyZulu06" title="Documentation">📖</a></td><td align="center"><a href="http://www.twitter.com/djtwenty6"><img src="https://avatars2.githubusercontent.com/u/32264045?v=4" width="100px;" alt="John Allan Zgambo Jr"/><br /><sub><b>John Allan Zgambo Jr</b></sub></a><br /><a href="#ideas-djtwenty6" title="Ideas, Planning, & Feedback">🤔</a></td><td align="center"><a href="https://malgamves.dev"><img src="https://avatars1.githubusercontent.com/u/25641936?v=4" width="100px;" alt="Daniel Madalitso Phiri"/><br /><sub><b>Daniel Madalitso Phiri</b></sub></a><br /><a href="#ideas-malgamves" title="Ideas, Planning, & Feedback">🤔</a></td><td align="center"><a href="https://pastsix.netlify.com/"><img src="https://avatars1.githubusercontent.com/u/11255454?v=4" width="100px;" alt="Olivier JM"/><br /><sub><b>Olivier JM</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=OlivierJM" title="Code">💻</a> <a href="https://github.com/devconzm/devconzm/commits?author=OlivierJM" title="Documentation">📖</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
