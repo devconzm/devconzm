@@ -4,6 +4,10 @@
 
 more details about the conference can be found [here](http://devcon.co.zm)
 
+### Website Design - Prototype
+
+Website design details are available [here](https://drive.google.com/drive/folders/1-edCcmkQPXrmgG1VfFAxXawgZXFwYpjE?usp=sharing)
+
 ### Technologies used
 
 - React
