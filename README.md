@@ -1,5 +1,5 @@
 # Devconzm
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 > This repo for the zambia developer conference website
 
@@ -54,7 +54,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore -->
-<table><tr><td align="center"><a href="http://www.agorainnovatus.com"><img src="https://avatars0.githubusercontent.com/u/12296763?v=4" width="100px;" alt="Mukuma Musenge"/><br /><sub><b>Mukuma Musenge</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=k9uma" title="Documentation">📖</a></td></tr></table>
+<table><tr><td align="center"><a href="http://www.agorainnovatus.com"><img src="https://avatars0.githubusercontent.com/u/12296763?v=4" width="100px;" alt="Mukuma Musenge"/><br /><sub><b>Mukuma Musenge</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=k9uma" title="Documentation">📖</a></td><td align="center"><a href="http://www.linkedin.com/in/luis-zulu-b7b49bb8"><img src="https://avatars1.githubusercontent.com/u/34923214?v=4" width="100px;" alt="Luis Roy Zulu"/><br /><sub><b>Luis Roy Zulu</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=LuisRoyZulu06" title="Documentation">📖</a></td></tr></table>
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
