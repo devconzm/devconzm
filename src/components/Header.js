@@ -2,7 +2,7 @@ import React from "react";
 
 function Header() {
   return (
-    <header>
+    <header id="header">
       <nav
         className="navbar fixed  navbar-expand-lg navbar-light top-navbar"
         data-toggle="sticky-onscroll"

@@ -11,7 +11,7 @@ function Speakers() {
 
   ]
   return (
-    <div id="speakers">
+    <section id="speakers">
       <div className="container">
         <h1 className='text-center'>Speakers</h1>
         <div className="row">
@@ -33,7 +33,7 @@ function Speakers() {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

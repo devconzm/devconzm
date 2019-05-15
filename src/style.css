@@ -75,6 +75,20 @@ textarea.form-control {
     color: #fff;
 }
 
+section {
+    padding: 2rem 0;
+}
+
+header,
+footer {
+    padding: 0;
+}
+
+.mr-4 {
+    margin-right: 1.5rem;
+    color: #fff;
+}
+
 #agenda,
 #tickets,
 #contact_us {
@@ -82,7 +96,7 @@ textarea.form-control {
 }
 
 .stylish-color-dark {
-	background-color: #3e4551
+	background-color: #3e4551;
 }
 
 footer.page-footer .footer-copyright {

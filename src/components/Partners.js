@@ -6,6 +6,7 @@ function Partners() {
       <div className="container">
         <h1 className='text-center'>Partners</h1>
         <div className="row">
+          {/* TODO */}
           <p>Partners</p>
         </div>
       </div>
