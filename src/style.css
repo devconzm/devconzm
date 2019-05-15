@@ -74,3 +74,26 @@ textarea.form-control {
     background-color: transparent;
     color: #fff;
 }
+
+#agenda,
+#tickets,
+#contact_us {
+	background-color: whitesmoke;
+}
+
+.stylish-color-dark {
+	background-color: #3e4551
+}
+
+footer.page-footer .footer-copyright {
+	overflow: hidden;
+	background-color:rgba(0,0,0,.2);
+	color:rgba(255,255,255,.6);
+}
+
+footer.page-footer {
+	color: #fff;
+}
+
+footer.page-footer a {
+}

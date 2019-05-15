@@ -6,8 +6,9 @@ import Speakers from './components/Speakers'
 import Tickets from './components/Tickets'
 import About from './components/About'
 import ContactUs from './components/ContactUs'
+import Footer from './components/Footer';
 
-function App () {
+function App() {
   return (
     <Fragment>
       {/* <Header /> */}
@@ -16,17 +17,20 @@ function App () {
       <Agenda />
       <Speakers />
       <Fragment>
-        <div className='container'>
-          <h1 className='text-center'>Tickets</h1>
-          <div className='card-deck mb-3 text-center'>
-            {[1, 2, 4].map(i => (
-              <Tickets key={i} />
-            ))}
+        <section id='tickets'>
+          <div className='container'>
+            <h1 className='text-center'>Tickets</h1>
+            <div className='card-deck mb-3 text-center'>
+              {[1, 2, 4].map(i => (
+                <Tickets key={i} />
+              ))}
+            </div>
           </div>
-        </div>
+        </section>
       </Fragment>
       <About />
       <ContactUs />
+      <Footer />
     </Fragment>
   )
 }
