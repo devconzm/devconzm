@@ -76,7 +76,7 @@ textarea.form-control {
 }
 
 section {
-    padding: 2rem 0;
+	margin-top: 1rem;
 }
 
 header,
@@ -122,11 +122,36 @@ footer {
 #venue .container,
 #contact_us .container {
 	background-color: whitesmoke;
+	padding: 2rem;
+}
+
+#venue .container p {
+	font-weight: bold;
+    font-size: 1.4em;
+}
+
+#venue .container p a.email {
+	color: #e6e6e6;
+	font-weight: bold;
+    font-size: 1em;
+}
+
+#venue .container p .btn-light {
+	background-color: #fff;
+	border-color: #fff;
+}
+
+#venue .container p .btn-outline-light {
+	border-color: #fff;
+}
+
+#venue .container p a.register {
+	font-weight: bold;
 }
 
 footer.page-footer .footer-copyright {
 	overflow: hidden;
-	margin-top: 10px;
+	margin-top: 1rem;
 	background-color: #e6e6e6;
 	color: #000000;
 }
