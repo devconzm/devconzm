@@ -84,6 +84,12 @@ footer {
     padding: 0;
 }
 
+.navbar-nav li.nav-item a.nav-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #420042;
+}
+
 .navbar {
     padding-top: 0;
 }

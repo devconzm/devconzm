@@ -33,7 +33,7 @@ function Header() {
 
             {/* Navbar Info */}
             <div className="d-flex flex-column my-flex-container">
-              <div className="pr-4 pt-4 my-flex-item ml-auto">
+              <div className="pr-4 pt-2 my-flex-item ml-auto">
                 <div
                   className="collapse navbar-collapse justify-content-end"
                   id="navbarSupportedContent"
@@ -82,9 +82,9 @@ function Header() {
                   </ul>
                 </div>
               </div>
-              <div className="pl-4 pt-4 my-flex-item"><img src={devConZmLogoPlus19} alt="DevConZM19" title="DevConZM19" /></div>
-              <div className="pl-4 pt-4 event-date my-flex-item">17th<br />November<br />2019<br /></div>
-              <div className="pl-5 pt-4 my-flex-item">
+              <div className="pl-4 pt-5 my-flex-item"><img src={devConZmLogoPlus19} alt="DevConZM19" title="DevConZM19" /></div>
+              <div className="pl-4 pt-5 event-date my-flex-item">17th<br />November<br />2019<br /></div>
+              <div className="pl-5 pt-5 my-flex-item">
                 <button type="button" className="btn btn-outline-light text-white">
                   Register Now
               </button>
