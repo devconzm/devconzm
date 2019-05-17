@@ -1,6 +1,10 @@
 # Devconzm
 [![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors)
-
+![David](https://img.shields.io/david/dev/devconzm/devconzm.svg?style=flat-square)
+![GitHub repo size](https://img.shields.io/github/repo-size/devconzm/devconzm.svg?style=flat-square)
+![GitHub](https://img.shields.io/github/license/devconzm/devconzm.svg?style=flat-square)
+![GitHub issues](https://img.shields.io/github/issues-raw/devconzm/devconzm.svg?style=flat-square)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/devconzm/devconzm.svg?style=flat-square)
 
 > This repo is for the zambia developer conference website
 
