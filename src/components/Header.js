@@ -1,7 +1,6 @@
 import React from "react";
 import navbarBranding from "../assets/dev1.png";
 import devConZmLogoPlus19 from "../assets/dev2.png";
-import devConZmLogo from "../assets/dev4.png";
 
 function Header() {
   return (
