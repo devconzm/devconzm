@@ -117,20 +117,18 @@ footer {
     color: #fff;
 }
 
-#agenda,
-#tickets,
-#contact_us {
+#agenda .container,
+#tickets .container,
+#venue .container,
+#contact_us .container {
 	background-color: whitesmoke;
-}
-
-.stylish-color-dark {
-	background-color: #3e4551;
 }
 
 footer.page-footer .footer-copyright {
 	overflow: hidden;
-	background-color:rgba(0,0,0,.2);
-	color:rgba(255,255,255,.6);
+	margin-top: 10px;
+	background-color: #e6e6e6;
+	color: #000000;
 }
 
 footer.page-footer {
