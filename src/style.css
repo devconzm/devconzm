@@ -1,10 +1,12 @@
 .masthead {
     height: 100vh;
-    min-height: 500px;
+    min-height: 800px;
     background-image: url('assets/background.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: -1;
 }
 
 .product-holder {
@@ -76,7 +78,6 @@ textarea.form-control {
 }
 
 section {
-	margin-top: 1rem;
 }
 
 header,
@@ -117,14 +118,137 @@ footer {
     color: #fff;
 }
 
-#agenda .container,
-#tickets .container,
-#venue .container,
-#contact_us .container {
-	background-color: whitesmoke;
-	padding: 2rem;
+#agenda,
+#speakers,
+#venue,
+#contact_us {
+    background-color: #e6e6e6;
+    padding: 2rem 0;
 }
 
+#partners {
+    background-image: url('assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* White Chevron */
+#about,
+#tickets {
+    position: relative;
+    padding: 60px 0;
+}
+
+#about:before,
+#tickets:before {
+    content: '';
+    position: absolute;
+    top: -60px;
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid #fff;
+    border-right: 70vw solid transparent;
+}
+#about:after,
+#tickets:after {
+    content: '';
+    position: absolute;
+    top: -60px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid #fff;
+    border-left: 30vw solid transparent;
+}
+/* White Chevron */
+
+/* Grey Chevron */
+#speakers,
+#partners {
+    position: relative;
+    padding: 60px 0;
+    
+}
+
+#speakers:before {
+    content: '';
+    position: absolute;
+    top: -60px;
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid #e6e6e6;
+    border-right: 70vw solid transparent;
+}
+#speakers:after {
+    content: '';
+    position: absolute;
+    top: -60px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid #e6e6e6;
+    border-left: 30vw solid transparent;
+}
+/* Grey Chevron */
+
+/* Reverse White Chevron */
+#partners {
+    position: relative;
+    padding-top: 60px;
+}
+
+#partners:before {
+    content: '';
+    position: absolute;
+    top: 0px;
+    width: 0;
+    height: 0;
+    border-top: 60px solid #fff;
+    border-right: 70vw solid transparent;
+}
+
+#partners:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-top: 60px solid #fff;
+    border-left: 30vw solid transparent;
+}
+/* Reverse White Chevron */
+
+/* Opposite Grey Chevron */
+#venue {
+    position: relative;
+    padding: 60px 0;
+    
+}
+
+#venue:before {
+    content: '';
+    position: absolute;
+    top: -60px;
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid #e6e6e6;
+    border-right: 30vw solid transparent;
+}
+
+#venue:after {
+    content: '';
+    position: absolute;
+    top: -60px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid #e6e6e6;
+    border-left: 70vw solid transparent;
+}
+/* Opposite Grey Chevron */
 #venue .container p {
 	font-weight: bold;
     font-size: 1.4em;
@@ -149,7 +273,7 @@ footer {
 	font-weight: bold;
 }
 
-footer.page-footer .footer-copyright {
+footer.page-footer {
 	overflow: hidden;
 	margin-top: 1rem;
 	background-color: #e6e6e6;
@@ -157,7 +281,6 @@ footer.page-footer .footer-copyright {
 }
 
 footer.page-footer {
-	color: #fff;
 }
 
 footer.page-footer a {

@@ -1,11 +1,9 @@
 import React, { Fragment } from 'react'
 import Info from './components/Info'
 import Partners from './components/Partners'
-import Agenda from './components/Agenda'
 import Speakers from './components/Speakers'
 import Tickets from './components/Tickets'
 import About from './components/About'
-import ContactUs from './components/ContactUs'
 import Venue from './components/Venue'
 import Footer from './components/Footer'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -18,8 +16,7 @@ function App() {
     <Fragment>
       {/* <Header /> */}
       <Info />
-      <Partners />
-      <Agenda />
+      <About />
       <Speakers />
       <Fragment>
         <section id='tickets'>
@@ -33,8 +30,7 @@ function App() {
           </div>
         </section>
       </Fragment>
-      <About />
-      <ContactUs />
+      <Partners />
       <Venue />
       <Footer />
     </Fragment>
