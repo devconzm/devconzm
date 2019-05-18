@@ -118,12 +118,11 @@ footer {
     color: #fff;
 }
 
-#agenda,
-#speakers,
-#venue,
-#contact_us {
+#agenda .container,
+#speakers .container,
+#venue .container,
+#contact_us .container {
     background-color: #e6e6e6;
-    padding: 2rem 0;
 }
 
 #partners {
@@ -135,24 +134,24 @@ footer {
 }
 
 /* White Chevron */
-#about,
-#tickets {
+#about .container,
+#tickets .container {
     position: relative;
     padding: 60px 0;
 }
 
-#about:before,
-#tickets:before {
+#about .container:before,
+#tickets .container:before {
     content: '';
     position: absolute;
     top: -60px;
     width: 0;
     height: 0;
     border-bottom: 60px solid #fff;
-    border-right: 70vw solid transparent;
+    border-right: 50vw solid transparent;
 }
-#about:after,
-#tickets:after {
+#about .container:after,
+#tickets .container:after {
     content: '';
     position: absolute;
     top: -60px;
@@ -165,23 +164,23 @@ footer {
 /* White Chevron */
 
 /* Grey Chevron */
-#speakers,
-#partners {
+#speakers .container,
+#partners .container {
     position: relative;
     padding: 60px 0;
     
 }
 
-#speakers:before {
+#speakers .container:before {
     content: '';
     position: absolute;
     top: -60px;
     width: 0;
     height: 0;
     border-bottom: 60px solid #e6e6e6;
-    border-right: 70vw solid transparent;
+    border-right: 50vw solid transparent;
 }
-#speakers:after {
+#speakers .container:after {
     content: '';
     position: absolute;
     top: -60px;
@@ -194,22 +193,22 @@ footer {
 /* Grey Chevron */
 
 /* Reverse White Chevron */
-#partners {
+#partners .container {
     position: relative;
     padding-top: 60px;
 }
 
-#partners:before {
+#partners .container:before {
     content: '';
     position: absolute;
     top: 0px;
     width: 0;
     height: 0;
     border-top: 60px solid #fff;
-    border-right: 70vw solid transparent;
+    border-right: 50vw solid transparent;
 }
 
-#partners:after {
+#partners .container:after {
     content: '';
     position: absolute;
     top: 0px;
@@ -222,13 +221,13 @@ footer {
 /* Reverse White Chevron */
 
 /* Opposite Grey Chevron */
-#venue {
+#venue .container {
     position: relative;
     padding: 60px 0;
     
 }
 
-#venue:before {
+#venue .container:before {
     content: '';
     position: absolute;
     top: -60px;
@@ -238,7 +237,7 @@ footer {
     border-right: 30vw solid transparent;
 }
 
-#venue:after {
+#venue .container:after {
     content: '';
     position: absolute;
     top: -60px;
@@ -246,7 +245,7 @@ footer {
     width: 0;
     height: 0;
     border-bottom: 60px solid #e6e6e6;
-    border-left: 70vw solid transparent;
+    border-left: 50vw solid transparent;
 }
 /* Opposite Grey Chevron */
 #venue .container p {

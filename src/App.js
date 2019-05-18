@@ -30,6 +30,7 @@ function App() {
           </div>
         </section>
       </Fragment>
+      <Partners />
       <Venue />
       <Footer />
     </Fragment>
