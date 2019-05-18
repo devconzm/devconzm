@@ -5,7 +5,6 @@ import Agenda from './components/Agenda'
 import Speakers from './components/Speakers'
 import Tickets from './components/Tickets'
 import About from './components/About'
-import ContactUs from './components/ContactUs'
 import Footer from './components/Footer'
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
@@ -33,7 +32,6 @@ function App() {
         </section>
       </Fragment>
       <About />
-      <ContactUs />
       <Footer />
     </Fragment>
   )
