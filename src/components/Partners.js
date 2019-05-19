@@ -5,7 +5,7 @@ function Partners() {
     <section id="partners">
       <div className="container">
         <h1 className='text-center'>Partners</h1>
-        <div className="row">
+        <div className="">
           {/* TODO */}
           <p>Partners</p>
         </div>
