@@ -34,7 +34,7 @@ read the [code of conduct](https://github.com/devconzm/devconzm/blob/master/CODE
 - git
 
 clone the repo
-`git clone https://github.com/devconzm/devconzm.git`
+`git clone https://github.com/devconzm/devconzm.git`  
 `cd devconzm`
 
 **Install dependencies**
