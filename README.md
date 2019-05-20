@@ -33,7 +33,7 @@ read the [code of conduct](https://github.com/devconzm/devconzm/blob/master/CODE
 - npm (ˆv5) or yarn (ˆv1.12)
 - git
 
-clone the repo
+Clone the repo  
 `git clone https://github.com/devconzm/devconzm.git`  
 `cd devconzm`
 
