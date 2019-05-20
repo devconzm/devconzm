@@ -1,0 +1,748 @@
+2018-03-17 00:16:49,732 [se-915-b01]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2018-03-17 00:16:49,744 [se-915-b01]   INFO -        #com.intellij.idea.Main - IDE: Android Studio (build #AI-171.4443003, 09 Nov 2017 20:31) 
+2018-03-17 00:16:49,745 [se-915-b01]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2018-03-17 00:16:49,745 [se-915-b01]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-915-b01 (JetBrains s.r.o) 
+2018-03-17 00:16:49,745 [se-915-b01]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b01 (OpenJDK 64-Bit Server VM) 
+2018-03-17 00:16:49,750 [se-915-b01]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms256m -Xmx1280m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djna.nosys=true -Djna.boot.library.path= -da -Djb.vmOptionsFile=C:\Program Files\Android\Android Studio\bin\studio64.exe.vmoptions -Xbootclasspath/a:C:\Program Files\Android\Android Studio\lib\boot.jar -Didea.platform.prefix=AndroidStudio -Didea.jre.check=true -Didea.paths.selector=AndroidStudio3.0 -XX:ErrorFile=C:\Users\mastermind\java_error_in_studio_%p.log -XX:HeapDumpPath=C:\Users\mastermind\java_error_in_studio.hprof 
+2018-03-17 00:16:49,779 [se-915-b01]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\Android\Android Studio\jre\jre\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2018-03-17 00:16:49,780 [se-915-b01]   INFO -        #com.intellij.idea.Main - JNU charset: Cp1252 
+2018-03-17 00:16:49,842 [se-915-b01]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 62 ms 
+2018-03-17 00:16:49,848 [se-915-b01]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2018-03-17 00:16:49,881 [se-915-b01]   INFO -        #com.intellij.idea.Main - Using "FocusKiller" library to prevent focus stealing. 
+2018-03-17 00:16:51,824 [entQueue-0]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor duplicates-groovy.xml 
+2018-03-17 00:16:53,098 [entQueue-0]   INFO - llij.ide.plugins.PluginManager - 37 plugins initialized in 2132 ms 
+2018-03-17 00:16:53,120 [entQueue-0]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android APK Support (1.0), Android Games (1.0), Android NDK Support (1.0), Android Support (10.3.0.1), App Links Assistant (0.1), CVS Integration (11), Copyright (8.1), Coverage (171.4249.39), EditorConfig (171.4249.39), Firebase App Indexing (0.1), Firebase Services (0.1), Firebase Testing (1.0), Git Integration (8.1), GitHub (171.4249.39), Google Cloud Tools Core (0.2.8), Google Cloud Tools For Android Studio (0.2.8), Google Developers Samples (0.3.1), Google Login (1.0), Google Services (0.1), Gradle (171.4249.39), Groovy (9.0), I18n for Java (171.4249.39), IDEA CORE (171.4249.39), IntelliLang (8.0), JUnit (1.0), Java Bytecode Decompiler (171.4249.39), Kotlin (1.1.51-release-Studio3.0-1), Properties Support (171.4249.39), Settings Repository (171.4249.39), Smali Support (1.0), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), Test Recorder (1.0), TestNG-J (8.0), YAML (171.4249.39), hg4idea (10.0) 
+2018-03-17 00:16:55,397 [entQueue-0]   INFO - ellij.vfs.persistent.FSRecords - Marking VFS as corrupted: 'C:\Users\mastermind\.AndroidStudio3.0\system\caches\names.dat' does not exist 
+2018-03-17 00:16:55,431 [entQueue-0]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1226 
+2018-03-17 00:16:55,490 [entQueue-0]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\Android\Android Studio\bin\fsnotifier64.exe 
+2018-03-17 00:16:55,507 [entQueue-0]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2018-03-17 00:16:56,287 [entQueue-0]   INFO - .history.utils.LocalHistoryLog - local history version mismatch (was: 0, expected: 6), rebuilding... 
+2018-03-17 00:16:56,287 [entQueue-0]   INFO - .history.utils.LocalHistoryLog - FS has been rebuild, rebuilding local history... 
+2018-03-17 00:16:56,575 [entQueue-0]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2018-03-17 00:16:56,846 [d thread 1]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2018-03-17 00:16:56,846 [entQueue-0]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2018-03-17 00:16:57,156 [se-915-b01]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:243 
+2018-03-17 00:16:57,163 [se-915-b01]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:6 
+2018-03-17 00:16:57,267 [se-915-b01]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:102 
+2018-03-17 00:16:57,268 [se-915-b01]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:0 
+2018-03-17 00:16:57,313 [se-915-b01]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2018-03-17 00:16:58,153 [d thread 1]   INFO - ij.psi.stubs.StubUpdatingIndex - Following new file types will be indexed:HTML,Properties,GDBCommands,KJSM,LLDBCommands,kotlin_builtins,CLASS,Groovy,JAVA,Kotlin,XML 
+2018-03-17 00:16:58,155 [se-915-b01]   INFO - ellij.project.impl.ProjectImpl - 19 project components initialized in 573 ms 
+2018-03-17 00:17:00,249 [se-915-b01]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index org.jetbrains.kotlin.idea.versions.KotlinJvmMetadataVersionIndex 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:72)
+	at org.jetbrains.kotlin.idea.versions.KotlinUpdatePluginComponent.initComponent(KotlinUpdatePluginComponent.kt:54)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:491)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:120)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$8(ApplicationImpl.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:176)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:556)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:501)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:66)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:163)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:473)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:104)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:425)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:411)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:206)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:49)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:343)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-03-17 00:17:00,262 [se-915-b01]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index org.jetbrains.kotlin.idea.versions.KotlinJsMetadataVersionIndex 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:72)
+	at org.jetbrains.kotlin.idea.versions.KotlinUpdatePluginComponent.initComponent(KotlinUpdatePluginComponent.kt:55)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:491)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:120)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$8(ApplicationImpl.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:176)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:556)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:501)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:66)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:163)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:473)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:104)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:425)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:411)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:206)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:49)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:343)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-03-17 00:17:00,268 [se-915-b01]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index org.jetbrains.kotlin.idea.vfilefinder.KotlinClassFileIndex 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:72)
+	at org.jetbrains.kotlin.idea.versions.KotlinUpdatePluginComponent.initComponent(KotlinUpdatePluginComponent.kt:56)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:491)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:120)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$8(ApplicationImpl.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:176)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:556)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:501)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:66)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:163)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:473)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:104)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:425)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:411)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:206)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:49)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:343)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-03-17 00:17:00,273 [se-915-b01]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index org.jetbrains.kotlin.idea.vfilefinder.KotlinJavaScriptMetaFileIndex 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:72)
+	at org.jetbrains.kotlin.idea.versions.KotlinUpdatePluginComponent.initComponent(KotlinUpdatePluginComponent.kt:57)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:491)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:120)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$8(ApplicationImpl.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:176)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:556)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:501)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:66)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:163)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:473)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:104)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:425)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:411)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:206)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:49)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:343)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-03-17 00:17:00,277 [se-915-b01]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFileIndex 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:72)
+	at org.jetbrains.kotlin.idea.versions.KotlinUpdatePluginComponent.initComponent(KotlinUpdatePluginComponent.kt:58)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:491)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:120)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$8(ApplicationImpl.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:176)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:556)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:501)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:66)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:163)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:473)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:104)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:425)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:411)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:206)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:49)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:343)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-03-17 00:17:00,283 [se-915-b01]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index org.jetbrains.kotlin.idea.vfilefinder.KotlinMetadataFilePackageIndex 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:72)
+	at org.jetbrains.kotlin.idea.versions.KotlinUpdatePluginComponent.initComponent(KotlinUpdatePluginComponent.kt:59)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:491)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:120)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$8(ApplicationImpl.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:176)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:556)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:501)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:66)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:163)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:473)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:104)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:425)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:411)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:206)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:49)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:343)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-03-17 00:17:00,286 [se-915-b01]   INFO - il.indexing.FileBasedIndexImpl - Rebuild requested for index org.jetbrains.kotlin.idea.vfilefinder.KotlinModuleMappingIndex 
+java.lang.Throwable
+	at com.intellij.util.indexing.FileBasedIndex.requestRebuild(FileBasedIndex.java:72)
+	at org.jetbrains.kotlin.idea.versions.KotlinUpdatePluginComponent.initComponent(KotlinUpdatePluginComponent.kt:60)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl$ComponentConfigComponentAdapter.getComponentInstance(ComponentManagerImpl.java:491)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.createComponents(ComponentManagerImpl.java:120)
+	at com.intellij.openapi.application.impl.ApplicationImpl.lambda$createComponents$8(ApplicationImpl.java:466)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:176)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:556)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:501)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:66)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:163)
+	at com.intellij.openapi.application.impl.ApplicationImpl.createComponents(ApplicationImpl.java:473)
+	at com.intellij.openapi.components.impl.ComponentManagerImpl.init(ComponentManagerImpl.java:104)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:425)
+	at com.intellij.openapi.application.impl.ApplicationImpl.load(ApplicationImpl.java:411)
+	at com.intellij.idea.IdeaApplication.run(IdeaApplication.java:206)
+	at com.intellij.idea.MainImpl$1.lambda$null$0(MainImpl.java:49)
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:762)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:732)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:343)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+2018-03-17 00:17:00,289 [se-915-b01]   INFO - plication.impl.ApplicationImpl - 87 application components initialized in 9334ms 
+2018-03-17 00:17:00,305 [se-915-b01]   INFO - .intellij.idea.IdeaApplication - App initialization took 30613 ms 
+2018-03-17 00:17:00,664 [d thread 3]   INFO - ateSettings.impl.UpdateChecker - dl.google.com 
+java.net.UnknownHostException: dl.google.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:511)
+	at com.intellij.util.io.HttpRequests.access$300(HttpRequests.java:61)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:289)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getInputStream(HttpRequests.java:298)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:316)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:309)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$checkPlatformUpdate$1.process(UpdateChecker.kt:182)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$checkPlatformUpdate$1.process(UpdateChecker.kt:68)
+	at com.intellij.util.io.HttpRequests.lambda$doProcess$0(HttpRequests.java:420)
+	at com.intellij.util.net.ssl.CertificateManager.runWithUntrustedCertificateStrategy(CertificateManager.java:349)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:420)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:395)
+	at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:61)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:263)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.checkPlatformUpdate(UpdateChecker.kt:180)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.doUpdateAndShowResult(UpdateChecker.kt:125)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.access$doUpdateAndShowResult(UpdateChecker.kt:68)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$updateAndShowResult$1.run(UpdateChecker.kt:94)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:334)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-03-17 00:17:00,664 [d thread 3]   INFO - ateSettings.impl.UpdateChecker - Connection failed (dl.google.com). Please check network connection and try again. 
+2018-03-17 00:17:00,664 [d thread 4]   INFO - atibilityChecksMetadataUpdater - Failed to parse XML metadata 
+java.net.UnknownHostException: dl.google.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:511)
+	at com.intellij.util.io.HttpRequests.access$300(HttpRequests.java:61)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:289)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getInputStream(HttpRequests.java:298)
+	at com.android.tools.idea.gradle.project.sync.compatibility.CompatibilityChecksMetadataUpdater.lambda$null$1(CompatibilityChecksMetadataUpdater.java:85)
+	at com.intellij.util.io.HttpRequests.lambda$doProcess$0(HttpRequests.java:420)
+	at com.intellij.util.net.ssl.CertificateManager.runWithUntrustedCertificateStrategy(CertificateManager.java:349)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:420)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:395)
+	at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:61)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:263)
+	at com.android.tools.idea.gradle.project.sync.compatibility.CompatibilityChecksMetadataUpdater.lambda$fetchMetadata$2(CompatibilityChecksMetadataUpdater.java:83)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:334)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-03-17 00:17:01,664 [d thread 1]   INFO - pl$FileIndexDataInitialization - Initialization done:4506 
+2018-03-17 00:17:02,336 [d thread 2]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@1c5b5d33 
+2018-03-17 00:17:03,508 [d thread 1]   INFO - exImpl$StubIndexInitialization - Initialization done:1846 
+2018-03-17 00:17:04,727 [d thread 2]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@2a5e3026 
+2018-03-17 00:17:05,164 [d thread 2]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@30cc5b6a 
+2018-03-17 00:17:55,444 [d thread 1]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2018-03-17 00:17:55,459 [d thread 1]   WARN - s.RepoProgressIndicatorAdapter - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/repository2-1.xml': dl.google.com 
+2018-03-17 00:17:55,459 [d thread 1]   WARN - s.RepoProgressIndicatorAdapter - File C:\Users\mastermind\.android\repositories.cfg could not be loaded. 
+2018-03-17 00:17:55,459 [d thread 1]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2018-03-17 00:17:55,459 [d thread 1]   INFO - s.RepoProgressIndicatorAdapter - IOException: https://dl.google.com/android/repository/addons_list-3.xml 
+2018-03-17 00:17:55,459 [d thread 1]   INFO - s.RepoProgressIndicatorAdapter - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-3.xml': dl.google.com 
+2018-03-17 00:17:55,459 [d thread 1]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-2.xml 
+2018-03-17 00:17:55,459 [d thread 1]   INFO - s.RepoProgressIndicatorAdapter - IOException: https://dl.google.com/android/repository/addons_list-2.xml 
+2018-03-17 00:17:55,459 [d thread 1]   INFO - s.RepoProgressIndicatorAdapter - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-2.xml': dl.google.com 
+2018-03-17 00:17:55,475 [d thread 1]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-1.xml 
+2018-03-17 00:17:55,475 [d thread 1]   INFO - s.RepoProgressIndicatorAdapter - IOException: https://dl.google.com/android/repository/addons_list-1.xml 
+2018-03-17 00:17:55,475 [d thread 1]   INFO - s.RepoProgressIndicatorAdapter - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-1.xml': dl.google.com 
+2018-03-17 00:17:55,475 [d thread 1]   WARN - s.RepoProgressIndicatorAdapter - Failed to download any source lists! 
+2018-03-17 00:17:55,475 [d thread 1]   INFO - s.RepoProgressIndicatorAdapter - Downloading file:/C:/Program%20Files/Android/Android%20Studio/plugins/sdk-updates/offline-repo/offline-repo.xml 
+2018-03-17 00:17:56,532 [se-915-b01]   INFO - rtup.GradleSpecificInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2018-03-17 00:17:56,532 [se-915-b01]   INFO - rtup.GradleSpecificInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2018-03-17 00:17:56,533 [se-915-b01]   INFO - rtup.GradleSpecificInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2018-03-17 00:17:56,533 [se-915-b01]   INFO - rtup.GradleSpecificInitializer - Unable to locate SDK within the Android studio installation. 
+2018-03-17 00:17:56,533 [se-915-b01]   INFO - rtup.GradleSpecificInitializer - Checking if ANDROID_HOME is set: 'ANDROID_HOME' is 'null' 
+2018-03-17 00:17:56,535 [se-915-b01]   INFO - rtup.GradleSpecificInitializer - Unable to locate last SDK used by Android tools 
+2018-03-17 00:17:56,535 [se-915-b01]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2018-03-17 00:17:56,535 [se-915-b01]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2018-03-17 00:17:56,536 [se-915-b01]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2018-03-17 00:17:56,536 [se-915-b01]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2018-03-17 00:17:56,536 [se-915-b01]   INFO - .startup.AndroidSdkInitializer - Checking if ANDROID_HOME is set: 'ANDROID_HOME' is 'null' 
+2018-03-17 00:17:56,536 [se-915-b01]   INFO - .startup.AndroidSdkInitializer - Unable to locate last SDK used by Android tools 
+2018-03-17 00:17:56,559 [se-915-b01]   WARN - vdmanager.AvdManagerConnection - No Android SDK Found 
+2018-03-17 00:19:21,891 [d thread 2]  ERROR - ard.ConsolidatedProgressStep$1 - SDK tools directory is missing 
+com.android.tools.idea.welcome.install.WizardException: SDK tools directory is missing
+	at com.android.tools.idea.welcome.install.CheckSdkOperation.perform(CheckSdkOperation.java:118)
+	at com.android.tools.idea.welcome.install.CheckSdkOperation.perform(CheckSdkOperation.java:39)
+	at com.android.tools.idea.welcome.install.InstallOperation.execute(InstallOperation.java:69)
+	at com.android.tools.idea.welcome.install.InstallOperation$OperationChain.perform(InstallOperation.java:152)
+	at com.android.tools.idea.welcome.install.InstallOperation.execute(InstallOperation.java:69)
+	at com.android.tools.idea.welcome.wizard.InstallComponentsPath.runLongOperation(InstallComponentsPath.java:251)
+	at com.android.tools.idea.welcome.wizard.ConsolidatedProgressStep.doLongRunningOperation(ConsolidatedProgressStep.java:78)
+	at com.android.tools.idea.welcome.wizard.ConsolidatedProgressStep.access$000(ConsolidatedProgressStep.java:32)
+	at com.android.tools.idea.welcome.wizard.ConsolidatedProgressStep$1.run(ConsolidatedProgressStep.java:58)
+	at com.android.tools.idea.welcome.wizard.FirstRunWizardHost$LongRunningOperationWrapper.run(FirstRunWizardHost.java:430)
+	at com.intellij.openapi.progress.impl.CoreProgressManager$TaskRunnable.run(CoreProgressManager.java:726)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.lambda$runProcess$1(CoreProgressManager.java:176)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.registerIndicatorAndRun(CoreProgressManager.java:556)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.executeProcessUnderProgress(CoreProgressManager.java:501)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl.executeProcessUnderProgress(ProgressManagerImpl.java:66)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.runProcess(CoreProgressManager.java:163)
+	at com.intellij.openapi.progress.impl.ProgressManagerImpl$1.run(ProgressManagerImpl.java:137)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:334)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-03-17 00:19:21,906 [d thread 2]  ERROR - ard.ConsolidatedProgressStep$1 - Android Studio 3.0.1  Build #AI-171.4443003 
+2018-03-17 00:19:21,906 [d thread 2]  ERROR - ard.ConsolidatedProgressStep$1 - JDK: 1.8.0_152-release 
+2018-03-17 00:19:21,906 [d thread 2]  ERROR - ard.ConsolidatedProgressStep$1 - VM: OpenJDK 64-Bit Server VM 
+2018-03-17 00:19:21,906 [d thread 2]  ERROR - ard.ConsolidatedProgressStep$1 - Vendor: JetBrains s.r.o 
+2018-03-17 00:19:21,906 [d thread 2]  ERROR - ard.ConsolidatedProgressStep$1 - OS: Windows 10 
+2018-03-17 00:19:21,906 [d thread 2]  ERROR - ard.ConsolidatedProgressStep$1 - Last Action:  
+2018-03-17 00:22:04,525 [d thread 2]   WARN - dio.samples.SampleImportAction - Failed to download samples index, please check your connection and try again 
+2018-03-17 00:22:23,069 [d thread 4]   WARN - er.configure.SourcesTableModel - File C:\Users\mastermind\.android\repositories.cfg could not be loaded. 
+2018-03-17 00:22:23,069 [d thread 4]   INFO - er.configure.SourcesTableModel - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2018-03-17 00:22:23,085 [d thread 4]   INFO - er.configure.SourcesTableModel - IOException: https://dl.google.com/android/repository/addons_list-3.xml 
+2018-03-17 00:22:23,085 [d thread 4]   INFO - er.configure.SourcesTableModel - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-3.xml': dl.google.com 
+2018-03-17 00:22:23,085 [d thread 4]   INFO - er.configure.SourcesTableModel - Downloading https://dl.google.com/android/repository/addons_list-2.xml 
+2018-03-17 00:22:23,069 [d thread 2]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2018-03-17 00:22:23,085 [d thread 2]   WARN - s.RepoProgressIndicatorAdapter - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/repository2-1.xml': dl.google.com 
+2018-03-17 00:22:23,085 [d thread 4]   INFO - er.configure.SourcesTableModel - IOException: https://dl.google.com/android/repository/addons_list-2.xml 
+2018-03-17 00:22:23,085 [d thread 4]   INFO - er.configure.SourcesTableModel - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-2.xml': dl.google.com 
+2018-03-17 00:22:23,085 [d thread 2]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2018-03-17 00:22:23,085 [d thread 4]   INFO - er.configure.SourcesTableModel - Downloading https://dl.google.com/android/repository/addons_list-1.xml 
+2018-03-17 00:22:23,085 [d thread 2]   INFO - s.RepoProgressIndicatorAdapter - IOException: https://dl.google.com/android/repository/addons_list-3.xml 
+2018-03-17 00:22:23,085 [d thread 2]   INFO - s.RepoProgressIndicatorAdapter - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-3.xml': dl.google.com 
+2018-03-17 00:22:23,085 [d thread 4]   INFO - er.configure.SourcesTableModel - IOException: https://dl.google.com/android/repository/addons_list-1.xml 
+2018-03-17 00:22:23,085 [d thread 4]   INFO - er.configure.SourcesTableModel - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-1.xml': dl.google.com 
+2018-03-17 00:22:23,085 [d thread 4]   WARN - er.configure.SourcesTableModel - Failed to download any source lists! 
+2018-03-17 00:22:23,085 [d thread 2]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-2.xml 
+2018-03-17 00:22:23,101 [d thread 2]   INFO - s.RepoProgressIndicatorAdapter - IOException: https://dl.google.com/android/repository/addons_list-2.xml 
+2018-03-17 00:22:23,101 [d thread 2]   INFO - s.RepoProgressIndicatorAdapter - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-2.xml': dl.google.com 
+2018-03-17 00:22:23,101 [d thread 2]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-1.xml 
+2018-03-17 00:22:23,101 [d thread 2]   INFO - s.RepoProgressIndicatorAdapter - IOException: https://dl.google.com/android/repository/addons_list-1.xml 
+2018-03-17 00:22:23,101 [d thread 2]   INFO - s.RepoProgressIndicatorAdapter - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-1.xml': dl.google.com 
+2018-03-17 00:22:23,101 [d thread 2]   WARN - s.RepoProgressIndicatorAdapter - Failed to download any source lists! 
+2018-03-17 00:22:23,101 [d thread 2]   INFO - s.RepoProgressIndicatorAdapter - Downloading file:/C:/Program%20Files/Android/Android%20Studio/plugins/sdk-updates/offline-repo/offline-repo.xml 
+2018-03-17 00:22:23,226 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2018-03-17 00:22:23,226 [d thread 4]   WARN - s.RepoProgressIndicatorAdapter - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/repository2-1.xml': dl.google.com 
+2018-03-17 00:22:23,226 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2018-03-17 00:22:23,241 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - IOException: https://dl.google.com/android/repository/addons_list-3.xml 
+2018-03-17 00:22:23,241 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-3.xml': dl.google.com 
+2018-03-17 00:22:23,241 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-2.xml 
+2018-03-17 00:22:23,241 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - IOException: https://dl.google.com/android/repository/addons_list-2.xml 
+2018-03-17 00:22:23,241 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-2.xml': dl.google.com 
+2018-03-17 00:22:23,241 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-1.xml 
+2018-03-17 00:22:23,241 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - IOException: https://dl.google.com/android/repository/addons_list-1.xml 
+2018-03-17 00:22:23,241 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-1.xml': dl.google.com 
+2018-03-17 00:22:23,241 [d thread 4]   WARN - s.RepoProgressIndicatorAdapter - Failed to download any source lists! 
+2018-03-17 00:22:23,257 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - Downloading file:/C:/Program%20Files/Android/Android%20Studio/plugins/sdk-updates/offline-repo/offline-repo.xml 
+2018-03-17 00:24:31,511 [se-915-b01]  ERROR - llij.ide.plugins.PluginManager - Unable to continue until an Android SDK is specified 
+com.intellij.openapi.externalSystem.model.ExternalSystemException: Unable to continue until an Android SDK is specified
+	at com.android.tools.idea.gradle.project.sync.SdkSync.syncIdeAndProjectAndroidSdk(SdkSync.java:116)
+	at com.android.tools.idea.gradle.project.sync.SdkSync.syncIdeAndProjectAndroidSdks(SdkSync.java:65)
+	at com.android.tools.idea.gradle.project.importing.GradleProjectImporter.setUpLocalProperties(GradleProjectImporter.java:127)
+	at com.android.tools.idea.gradle.project.importing.GradleProjectImporter.openOrImportProject(GradleProjectImporter.java:100)
+	at com.android.tools.idea.gradle.project.importing.GradleProjectImporter.openProject(GradleProjectImporter.java:84)
+	at com.android.tools.idea.actions.AndroidOpenFileAction.openOrImportProject(AndroidOpenFileAction.java:149)
+	at com.android.tools.idea.actions.AndroidOpenFileAction.doOpenFile(AndroidOpenFileAction.java:101)
+	at com.android.tools.idea.actions.AndroidOpenFileAction.lambda$actionPerformed$0(AndroidOpenFileAction.java:82)
+	at com.intellij.openapi.fileChooser.ex.FileChooserDialogImpl.choose(FileChooserDialogImpl.java:160)
+	at com.intellij.openapi.fileChooser.FileChooser.chooseFiles(FileChooser.java:114)
+	at com.intellij.openapi.fileChooser.FileChooser.chooseFiles(FileChooser.java:91)
+	at com.android.tools.idea.actions.AndroidOpenFileAction.actionPerformed(AndroidOpenFileAction.java:74)
+	at com.intellij.ui.components.labels.ActionLink$1.linkSelected(ActionLink.java:66)
+	at com.intellij.ui.components.labels.LinkLabel.doClick(LinkLabel.java:156)
+	at com.intellij.ui.components.labels.ActionLink.doClick(ActionLink.java:79)
+	at com.intellij.ui.components.labels.LinkLabel$MyMouseHandler.mouseReleased(LinkLabel.java:327)
+	at java.awt.Component.processMouseEvent(Component.java:6541)
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3324)
+	at java.awt.Component.processEvent(Component.java:6306)
+	at java.awt.Container.processEvent(Container.java:2237)
+	at java.awt.Component.dispatchEventImpl(Component.java:4897)
+	at java.awt.Container.dispatchEventImpl(Container.java:2295)
+	at java.awt.Component.dispatchEvent(Component.java:4719)
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4889)
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4526)
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4467)
+	at java.awt.Container.dispatchEventImpl(Container.java:2281)
+	at java.awt.Window.dispatchEventImpl(Window.java:2746)
+	at java.awt.Component.dispatchEvent(Component.java:4719)
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:764)
+	at java.awt.EventQueue.access$500(EventQueue.java:98)
+	at java.awt.EventQueue$3.run(EventQueue.java:715)
+	at java.awt.EventQueue$3.run(EventQueue.java:709)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:90)
+	at java.awt.EventQueue$4.run(EventQueue.java:737)
+	at java.awt.EventQueue$4.run(EventQueue.java:735)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80)
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:734)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.java:827)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.java:651)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.java:365)
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201)
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116)
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93)
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82)
+
+2018-03-17 00:24:31,513 [se-915-b01]  ERROR - llij.ide.plugins.PluginManager - Android Studio 3.0.1  Build #AI-171.4443003 
+2018-03-17 00:24:31,513 [se-915-b01]  ERROR - llij.ide.plugins.PluginManager - JDK: 1.8.0_152-release 
+2018-03-17 00:24:31,513 [se-915-b01]  ERROR - llij.ide.plugins.PluginManager - VM: OpenJDK 64-Bit Server VM 
+2018-03-17 00:24:31,513 [se-915-b01]  ERROR - llij.ide.plugins.PluginManager - Vendor: JetBrains s.r.o 
+2018-03-17 00:24:31,513 [se-915-b01]  ERROR - llij.ide.plugins.PluginManager - OS: Windows 10 
+2018-03-17 00:24:31,513 [se-915-b01]  ERROR - llij.ide.plugins.PluginManager - Last Action:  
+2018-03-17 00:24:32,670 [se-915-b01]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2018-03-17 00:24:32,670 [se-915-b01]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2018-03-17 00:24:32,676 [se-915-b01]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2018-03-17 00:24:32,678 [se-915-b01]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 50 auto-detected files
+Elapsed time on auto-detect: 646 ms 
+2018-03-17 00:24:32,698 [fier64.exe]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2018-03-17 00:24:32,699 [se-915-b01]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2018-03-17 00:24:32,841 [se-915-b01]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2018-03-17 00:24:32,841 [se-915-b01]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2018-03-17 00:24:32,857 [se-915-b01]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2018-03-17 00:24:32,857 [ - logging]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2018-03-17 00:24:32,873 [wn tracker]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2018-03-17 12:14:57,914 [ain Thread]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE STARTED ------------------------------------------------------ 
+2018-03-17 12:14:58,070 [se-915-b01]   INFO -        #com.intellij.idea.Main - IDE: Android Studio (build #AI-171.4443003, 09 Nov 2017 20:58) 
+2018-03-17 12:14:58,070 [se-915-b01]   INFO -        #com.intellij.idea.Main - OS: Windows 10 (10.0, amd64) 
+2018-03-17 12:14:58,070 [se-915-b01]   INFO -        #com.intellij.idea.Main - JRE: 1.8.0_152-release-915-b01 (JetBrains s.r.o) 
+2018-03-17 12:14:58,070 [se-915-b01]   INFO -        #com.intellij.idea.Main - JVM: 25.152-b01 (OpenJDK 64-Bit Server VM) 
+2018-03-17 12:14:58,133 [se-915-b01]   INFO -        #com.intellij.idea.Main - JVM Args: -Xms256m -Xmx1280m -XX:ReservedCodeCacheSize=240m -XX:+UseConcMarkSweepGC -XX:SoftRefLRUPolicyMSPerMB=50 -Dsun.io.useCanonCaches=false -Djava.net.preferIPv4Stack=true -Djna.nosys=true -Djna.boot.library.path= -da -Djb.vmOptionsFile=C:\Program Files\Android\Android Studio\bin\studio64.exe.vmoptions -Xbootclasspath/a:C:\Program Files\Android\Android Studio\lib\boot.jar -Didea.platform.prefix=AndroidStudio -Didea.jre.check=true -Didea.paths.selector=AndroidStudio3.0 -XX:ErrorFile=C:\Users\mastermind\java_error_in_studio_%p.log -XX:HeapDumpPath=C:\Users\mastermind\java_error_in_studio.hprof 
+2018-03-17 12:14:58,133 [se-915-b01]   INFO -        #com.intellij.idea.Main - ext: C:\Program Files\Android\Android Studio\jre\jre\lib\ext: [access-bridge-64.jar, cldrdata.jar, dnsns.jar, jaccess.jar, localedata.jar, meta-index, nashorn.jar, sunec.jar, sunjce_provider.jar, sunmscapi.jar, sunpkcs11.jar, zipfs.jar] 
+2018-03-17 12:14:58,133 [se-915-b01]   INFO -        #com.intellij.idea.Main - JNU charset: Cp1252 
+2018-03-17 12:14:58,211 [se-915-b01]   INFO -        #com.intellij.idea.Main - JNA library (64-bit) loaded in 78 ms 
+2018-03-17 12:14:58,289 [se-915-b01]   INFO - penapi.util.io.win32.IdeaWin32 - Native filesystem for Windows is operational 
+2018-03-17 12:14:58,320 [se-915-b01]   INFO -        #com.intellij.idea.Main - Using "FocusKiller" library to prevent focus stealing. 
+2018-03-17 12:14:58,492 [se-915-b01]   INFO -     #com.intellij.util.ui.JBUI - UI scale factor: 1.0 
+2018-03-17 12:15:04,930 [entQueue-0]   INFO - llij.ide.plugins.PluginManager - Cannot find optional descriptor duplicates-groovy.xml 
+2018-03-17 12:15:07,617 [entQueue-0]   INFO - llij.ide.plugins.PluginManager - 37 plugins initialized in 5734 ms 
+2018-03-17 12:15:07,649 [entQueue-0]   INFO - llij.ide.plugins.PluginManager - Loaded bundled plugins: Android APK Support (1.0), Android Games (1.0), Android NDK Support (1.0), Android Support (10.3.0.1), App Links Assistant (0.1), CVS Integration (11), Copyright (8.1), Coverage (171.4249.39), EditorConfig (171.4249.39), Firebase App Indexing (0.1), Firebase Services (0.1), Firebase Testing (1.0), Git Integration (8.1), GitHub (171.4249.39), Google Cloud Tools Core (0.2.8), Google Cloud Tools For Android Studio (0.2.8), Google Developers Samples (0.3.1), Google Login (1.0), Google Services (0.1), Gradle (171.4249.39), Groovy (9.0), I18n for Java (171.4249.39), IDEA CORE (171.4249.39), IntelliLang (8.0), JUnit (1.0), Java Bytecode Decompiler (171.4249.39), Kotlin (1.1.51-release-Studio3.0-1), Properties Support (171.4249.39), Settings Repository (171.4249.39), Smali Support (1.0), Subversion Integration (1.1), Task Management (1.0), Terminal (0.1), Test Recorder (1.0), TestNG-J (8.0), YAML (171.4249.39), hg4idea (10.0) 
+2018-03-17 12:15:18,368 [entQueue-0]   INFO - ellij.util.io.PagedFileStorage - lower=100; upper=500; buffer=10; max=1226 
+2018-03-17 12:15:18,618 [entQueue-0]   INFO - pl.local.NativeFileWatcherImpl - Starting file watcher: C:\Program Files\Android\Android Studio\bin\fsnotifier64.exe 
+2018-03-17 12:15:18,727 [entQueue-0]   INFO - pl.local.NativeFileWatcherImpl - Native file watcher is operational. 
+2018-03-17 12:15:25,723 [entQueue-0]   INFO - til.net.ssl.CertificateManager - Default SSL context initialized 
+2018-03-17 12:15:26,542 [d thread 2]   INFO - rains.ide.BuiltInServerManager - built-in server started, port 63342 
+2018-03-17 12:15:26,605 [entQueue-0]   INFO - gs.impl.UpdateCheckerComponent - channel: release 
+2018-03-17 12:15:29,663 [se-915-b01]   INFO - il.indexing.FileBasedIndexImpl - Index exts enumerated:2156 
+2018-03-17 12:15:29,709 [se-915-b01]   INFO - il.indexing.FileBasedIndexImpl - Index scheduled:37 
+2018-03-17 12:15:29,955 [se-915-b01]   INFO - tellij.psi.stubs.StubIndexImpl - All stub exts enumerated:173 
+2018-03-17 12:15:29,970 [se-915-b01]   INFO - tellij.psi.stubs.StubIndexImpl - stub exts update scheduled:26 
+2018-03-17 12:15:30,639 [se-915-b01]   INFO - j.ide.script.IdeStartupScripts - 0 startup script(s) found 
+2018-03-17 12:15:39,862 [d thread 2]   INFO - pl$FileIndexDataInitialization - Initialization done:10152 
+2018-03-17 12:15:40,142 [se-915-b01]   INFO - ellij.project.impl.ProjectImpl - 19 project components initialized in 6613 ms 
+2018-03-17 12:15:40,820 [d thread 2]   INFO - exImpl$StubIndexInitialization - Initialization done:957 
+2018-03-17 12:15:47,497 [se-915-b01]   INFO - plication.impl.ApplicationImpl - 87 application components initialized in 45614ms 
+2018-03-17 12:15:47,607 [se-915-b01]   INFO - .intellij.idea.IdeaApplication - App initialization took 56418 ms 
+2018-03-17 12:15:48,763 [d thread 4]   INFO - atibilityChecksMetadataUpdater - Failed to parse XML metadata 
+java.net.UnknownHostException: dl.google.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:511)
+	at com.intellij.util.io.HttpRequests.access$300(HttpRequests.java:61)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:289)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getInputStream(HttpRequests.java:298)
+	at com.android.tools.idea.gradle.project.sync.compatibility.CompatibilityChecksMetadataUpdater.lambda$null$1(CompatibilityChecksMetadataUpdater.java:85)
+	at com.intellij.util.io.HttpRequests.lambda$doProcess$0(HttpRequests.java:420)
+	at com.intellij.util.net.ssl.CertificateManager.runWithUntrustedCertificateStrategy(CertificateManager.java:349)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:420)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:395)
+	at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:61)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:263)
+	at com.android.tools.idea.gradle.project.sync.compatibility.CompatibilityChecksMetadataUpdater.lambda$fetchMetadata$2(CompatibilityChecksMetadataUpdater.java:83)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:334)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-03-17 12:15:48,857 [d thread 2]   INFO - ateSettings.impl.UpdateChecker - dl.google.com 
+java.net.UnknownHostException: dl.google.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:511)
+	at com.intellij.util.io.HttpRequests.access$300(HttpRequests.java:61)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:289)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getInputStream(HttpRequests.java:298)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:316)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getReader(HttpRequests.java:309)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$checkPlatformUpdate$1.process(UpdateChecker.kt:182)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$checkPlatformUpdate$1.process(UpdateChecker.kt:68)
+	at com.intellij.util.io.HttpRequests.lambda$doProcess$0(HttpRequests.java:420)
+	at com.intellij.util.net.ssl.CertificateManager.runWithUntrustedCertificateStrategy(CertificateManager.java:349)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:420)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:395)
+	at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:61)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:263)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.checkPlatformUpdate(UpdateChecker.kt:180)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.doUpdateAndShowResult(UpdateChecker.kt:125)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker.access$doUpdateAndShowResult(UpdateChecker.kt:68)
+	at com.intellij.openapi.updateSettings.impl.UpdateChecker$updateAndShowResult$1.run(UpdateChecker.kt:94)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:334)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-03-17 12:15:48,919 [d thread 2]   INFO - ateSettings.impl.UpdateChecker - Connection failed (dl.google.com). Please check network connection and try again. 
+2018-03-17 12:15:55,240 [d thread 1]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.openapi.actionSystem.impl.ActionPreloader@195376d7 
+2018-03-17 12:15:57,802 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-3.xml 
+2018-03-17 12:15:57,818 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - IOException: https://dl.google.com/android/repository/addons_list-3.xml 
+2018-03-17 12:15:57,818 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-3.xml': dl.google.com 
+2018-03-17 12:15:57,818 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-2.xml 
+2018-03-17 12:15:57,833 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - IOException: https://dl.google.com/android/repository/addons_list-2.xml 
+2018-03-17 12:15:57,833 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-2.xml': dl.google.com 
+2018-03-17 12:15:57,833 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/addons_list-1.xml 
+2018-03-17 12:15:57,833 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - IOException: https://dl.google.com/android/repository/addons_list-1.xml 
+2018-03-17 12:15:57,833 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/addons_list-1.xml': dl.google.com 
+2018-03-17 12:15:57,833 [d thread 4]   WARN - s.RepoProgressIndicatorAdapter - Failed to download any source lists! 
+2018-03-17 12:15:57,833 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - Downloading file:/C:/Program%20Files/Android/Android%20Studio/plugins/sdk-updates/offline-repo/offline-repo.xml 
+2018-03-17 12:16:00,490 [d thread 1]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.ide.ui.search.SearchableOptionPreloader@64b83d93 
+2018-03-17 12:16:00,818 [d thread 4]   INFO - s.RepoProgressIndicatorAdapter - Downloading https://dl.google.com/android/repository/repository2-1.xml 
+2018-03-17 12:16:00,833 [d thread 4]   WARN - s.RepoProgressIndicatorAdapter - java.io.IOException: Cannot download 'https://dl.google.com/android/repository/repository2-1.xml': dl.google.com 
+2018-03-17 12:16:00,833 [d thread 4]   WARN - s.RepoProgressIndicatorAdapter - File C:\Users\mastermind\.android\repositories.cfg could not be loaded. 
+2018-03-17 12:16:00,833 [se-915-b01]   INFO - rtup.GradleSpecificInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2018-03-17 12:16:00,833 [se-915-b01]   INFO - rtup.GradleSpecificInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2018-03-17 12:16:00,833 [se-915-b01]   INFO - rtup.GradleSpecificInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2018-03-17 12:16:00,833 [se-915-b01]   INFO - rtup.GradleSpecificInitializer - Unable to locate SDK within the Android studio installation. 
+2018-03-17 12:16:00,833 [se-915-b01]   INFO - rtup.GradleSpecificInitializer - Checking if ANDROID_HOME is set: 'ANDROID_HOME' is 'null' 
+2018-03-17 12:16:00,833 [se-915-b01]   INFO - rtup.GradleSpecificInitializer - Unable to locate last SDK used by Android tools 
+2018-03-17 12:16:00,833 [se-915-b01]   INFO - .startup.AndroidSdkInitializer - Found Studio home directory at: 'C:\Program Files\Android\Android Studio' 
+2018-03-17 12:16:00,833 [se-915-b01]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/Android Studio/sdk' 
+2018-03-17 12:16:00,833 [se-915-b01]   INFO - .startup.AndroidSdkInitializer - Looking for Android SDK at 'C:/Program Files/Android/sdk' 
+2018-03-17 12:16:00,833 [se-915-b01]   INFO - .startup.AndroidSdkInitializer - Unable to locate SDK within the Android studio installation. 
+2018-03-17 12:16:00,833 [se-915-b01]   INFO - .startup.AndroidSdkInitializer - Checking if ANDROID_HOME is set: 'ANDROID_HOME' is 'null' 
+2018-03-17 12:16:00,833 [se-915-b01]   INFO - .startup.AndroidSdkInitializer - Unable to locate last SDK used by Android tools 
+2018-03-17 12:16:00,990 [se-915-b01]   WARN - vdmanager.AvdManagerConnection - No Android SDK Found 
+2018-03-17 12:16:03,271 [d thread 1]   INFO - .openapi.application.Preloader - Finished preloading com.intellij.codeInsight.completion.CompletionPreloader@1fe3108c 
+2018-03-17 12:16:08,568 [se-915-b01]   WARN - til.ui.update.LazyUiDisposable - use application as a parent disposable 
+2018-03-17 12:19:55,735 [se-915-b01]   INFO - ellij.project.impl.ProjectImpl - 151 project components initialized in 4078 ms 
+2018-03-17 12:19:55,735 [se-915-b01]   INFO - le.impl.ModuleManagerComponent - 0 module(s) loaded in 0 ms 
+2018-03-17 12:19:56,266 [se-915-b01]   INFO - i.vcs.changes.ChangeListWorker - default list not found when copy 
+2018-03-17 12:19:56,266 [se-915-b01]   INFO - i.vcs.changes.ChangeListWorker - default list not found when copy in original object too 
+2018-03-17 12:19:56,797 [se-915-b01]   WARN - rationStore.ComponentStoreImpl - Cannot find virtual file D:\SCHOOL\Personal\zude\StudentManage\.idea\misc.xml 
+2018-03-17 12:19:59,829 [d thread 2]   INFO - tartup.impl.StartupManagerImpl - InitToolWindowsActivity run in 235 
+2018-03-17 12:20:00,126 [d thread 5]   INFO - .diagnostic.PerformanceWatcher - Pushing properties took 375ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-03-17 12:20:00,141 [se-915-b01]   INFO - tartup.impl.StartupManagerImpl - D:/SCHOOL/Personal/zude/StudentManage/.idea case-sensitivity: expected=false actual=false 
+2018-03-17 12:20:01,266 [se-915-b01]   INFO - tor.impl.FileEditorManagerImpl - Project opening took 9672 ms 
+2018-03-17 12:20:01,829 [d thread 5]   INFO -       ScriptTemplatesProviders - [kts] loading script definitions [] using cp:  
+2018-03-17 12:20:01,860 [d thread 5]   INFO -       ScriptTemplatesProviders - Templates provider KotlinCompilerScriptTemplatesSettings is invalid:  
+2018-03-17 12:20:02,063 [d thread 5]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2018-03-17 12:20:02,063 [d thread 5]   INFO -       ScriptTemplatesProviders - Templates provider Gradle Kotlin DSL is invalid: Unable to get Gradle home directory 
+2018-03-17 12:20:02,063 [d thread 5]   INFO - s.plugins.gradle.GradleManager - Instructing gradle to use java from C:/Program Files/Android/Android Studio/jre 
+2018-03-17 12:20:02,063 [d thread 5]   INFO -       ScriptTemplatesProviders - Templates provider Gradle Script Kotlin is invalid: Unable to get Gradle home directory 
+2018-03-17 12:20:02,063 [d thread 5]   INFO -       ScriptTemplatesProviders - [kts] loading script definitions [kotlin.script.templates.standard.ScriptTemplateWithArgs] using cp:  
+2018-03-17 12:20:03,047 [d thread 5]   INFO - .diagnostic.PerformanceWatcher - Indexable file iteration took 2921ms; general responsiveness: ok; EDT responsiveness: 0/3 sluggish, 1/3 very slow 
+2018-03-17 12:20:03,063 [d thread 5]   INFO - indexing.UnindexedFilesUpdater - Unindexed files update started: 256 files to update 
+2018-03-17 12:20:05,985 [d thread 5]   INFO - .diagnostic.PerformanceWatcher - Unindexed files update took 2922ms; general responsiveness: ok; EDT responsiveness: ok 
+2018-03-17 12:20:06,032 [d thread 5]   WARN - .workspace.NdkWorkspaceManager - NDK support for project 'StudentManage' is disabled because it's not a valid Android project 
+2018-03-17 12:20:06,079 [d thread 5]   INFO -       #com.jetbrains.cidr.lang - Clearing symbols finished in 0 s. 
+2018-03-17 12:20:06,110 [d thread 5]   INFO -       #com.jetbrains.cidr.lang - Loading symbols finished in 0 s. 
+2018-03-17 12:20:06,141 [d thread 5]   INFO -       #com.jetbrains.cidr.lang - Building symbols finished in 0 s. 
+2018-03-17 12:20:06,141 [d thread 5]   INFO -       #com.jetbrains.cidr.lang - Saving symbols finished in 0 s. 
+2018-03-17 12:20:06,141 [d thread 5]   INFO -       #com.jetbrains.cidr.lang - Clearing symbols finished in 0 s. 
+2018-03-17 12:20:06,141 [d thread 5]   INFO -       #com.jetbrains.cidr.lang - Loading symbols finished in 0 s. 
+2018-03-17 12:20:06,141 [d thread 5]   INFO -       #com.jetbrains.cidr.lang - Building symbols finished in 0 s. 
+2018-03-17 12:20:06,141 [d thread 5]   INFO -       #com.jetbrains.cidr.lang - Saving symbols finished in 0 s. 
+2018-03-17 12:20:06,376 [se-915-b01]   INFO - tartup.impl.StartupManagerImpl - ProjectInspectionProfileStartUpActivity run in 219 
+2018-03-17 12:20:06,735 [se-915-b01]   INFO - tartup.impl.StartupManagerImpl - InitLogStartupActivity run in 203 
+2018-03-17 12:20:06,954 [d thread 2]   INFO - dvertisement.PluginsAdvertiser - plugins.jetbrains.com 
+java.net.UnknownHostException: plugins.jetbrains.com
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:673)
+	at sun.net.NetworkClient.doConnect(NetworkClient.java:175)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:432)
+	at sun.net.www.http.HttpClient.openServer(HttpClient.java:527)
+	at sun.net.www.protocol.https.HttpsClient.<init>(HttpsClient.java:264)
+	at sun.net.www.protocol.https.HttpsClient.New(HttpsClient.java:367)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(AbstractDelegateHttpsURLConnection.java:191)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1181)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1032)
+	at sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(AbstractDelegateHttpsURLConnection.java:177)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1546)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1474)
+	at java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:480)
+	at sun.net.www.protocol.https.HttpsURLConnectionImpl.getResponseCode(HttpsURLConnectionImpl.java:338)
+	at com.intellij.util.io.HttpRequests.openConnection(HttpRequests.java:511)
+	at com.intellij.util.io.HttpRequests.access$300(HttpRequests.java:61)
+	at com.intellij.util.io.HttpRequests$RequestImpl.getConnection(HttpRequests.java:289)
+	at com.intellij.ide.plugins.RepositoryHelper$1.process(RepositoryHelper.java:160)
+	at com.intellij.ide.plugins.RepositoryHelper$1.process(RepositoryHelper.java:153)
+	at com.intellij.util.io.HttpRequests.lambda$doProcess$0(HttpRequests.java:420)
+	at com.intellij.util.net.ssl.CertificateManager.runWithUntrustedCertificateStrategy(CertificateManager.java:349)
+	at com.intellij.util.io.HttpRequests.doProcess(HttpRequests.java:420)
+	at com.intellij.util.io.HttpRequests.process(HttpRequests.java:395)
+	at com.intellij.util.io.HttpRequests.access$100(HttpRequests.java:61)
+	at com.intellij.util.io.HttpRequests$RequestBuilderImpl.connect(HttpRequests.java:263)
+	at com.intellij.ide.plugins.RepositoryHelper.loadPlugins(RepositoryHelper.java:153)
+	at com.intellij.ide.plugins.RepositoryHelper.loadPlugins(RepositoryHelper.java:107)
+	at com.intellij.ide.plugins.RepositoryHelper.loadPlugins(RepositoryHelper.java:98)
+	at com.intellij.ide.plugins.RepositoryHelper.loadPluginsFromAllRepositories(RepositoryHelper.java:78)
+	at com.intellij.openapi.updateSettings.impl.pluginsAdvertisement.PluginsAdvertiser$4.run(PluginsAdvertiser.java:293)
+	at com.intellij.openapi.application.impl.ApplicationImpl$2.run(ApplicationImpl.java:334)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2018-03-17 12:20:07,391 [d thread 2]   INFO - CompilerWorkspaceConfiguration - Available processors: 4 
+2018-03-17 12:21:46,632 [se-915-b01]   INFO - stubs.SerializationManagerImpl - START StubSerializationManager SHUTDOWN 
+2018-03-17 12:21:46,632 [se-915-b01]   INFO - stubs.SerializationManagerImpl - END StubSerializationManager SHUTDOWN 
+2018-03-17 12:21:46,632 [se-915-b01]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 
+2018-03-17 12:21:46,663 [se-915-b01]   INFO - Types.impl.FileTypeManagerImpl - FileTypeManager: 6 auto-detected files
+Elapsed time on auto-detect: 594 ms 
+2018-03-17 12:21:46,663 [fier64.exe]   INFO - pl.local.NativeFileWatcherImpl - Watcher terminated with exit code 0 
+2018-03-17 12:21:46,663 [se-915-b01]   INFO - il.indexing.FileBasedIndexImpl - START INDEX SHUTDOWN 
+2018-03-17 12:21:46,991 [se-915-b01]   INFO - il.indexing.FileBasedIndexImpl - END INDEX SHUTDOWN 
+2018-03-17 12:21:47,007 [se-915-b01]   INFO - newvfs.persistent.PersistentFS - VFS dispose started 
+2018-03-17 12:21:47,007 [se-915-b01]   INFO - newvfs.persistent.PersistentFS - VFS dispose completed 
+2018-03-17 12:21:47,022 [ - logging]   INFO -        #com.intellij.idea.Main - ------------------------------------------------------ IDE SHUTDOWN ------------------------------------------------------ 
+2018-03-17 12:21:47,022 [wn tracker]   INFO - org.jetbrains.io.BuiltInServer - web server stopped 

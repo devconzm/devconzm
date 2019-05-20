@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conversion>
+  <applied-converters>
+    <converter id="android-module-to-java-module" />
+    <converter id="android-native-run-configurations" />
+    <converter id="android-proguard-options" />
+    <converter id="android-sdk-library" />
+    <converter id="groovy-modules-to-facets" />
+    <converter id="groovy-script-run-configurations" />
+    <converter id="junit-to-android-junit-configurations" />
+    <converter id="remove-java-aware-configurations" />
+  </applied-converters>
+  <project-files>
+    <file path="D:\SCHOOL\Personal\zude\StudentManage\.idea\StudentManage.iml" timestamp="1521281996657" />
+    <file path="D:\SCHOOL\Personal\zude\StudentManage\.idea\modules.xml" timestamp="1521281996891" />
+    <file path="D:\SCHOOL\Personal\zude\StudentManage\.idea\workspace.xml" timestamp="1521282106366" />
+  </project-files>
+</conversion>
+

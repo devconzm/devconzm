@@ -1,0 +1,8 @@
+[5.0.4][mastermind][Windows x64][32bit][14:32:54] ERROR: License file not found: C:\Users\mastermind\AppData\Local\Icecream\ebookreader\license.lic
+[5.0.4][mastermind][Windows x64][32bit][14:32:54] DEBUG: Crash installer setup time:89
+[5.0.4][mastermind][Windows x64][32bit][14:32:59] DEBUG: HDD OS ID V2:3318PB7WT
+[5.0.4][mastermind][Windows x64][32bit][14:32:59] DEBUG: Request url:'http://updates.icecreamapps.com/check.php?ver=5.04&pid=4&mh=a0bc02bebcb4c1856ed8deed39f05fc3&h=8e848487f8281280c86921d5c94a06e1'
+[5.0.4][mastermind][Windows x64][32bit][14:32:59] DEBUG: C:\Program Files (x86)\Icecream Ebook Reader\ebookreader.exe|C:\Users\mastermind\Desktop\Frederick Forsyth - The Day of the Jackal (v5.0).mobi|
+[5.0.4][mastermind][Windows x64][32bit][14:32:59] DEBUG: Add books start
+[5.0.4][mastermind][Windows x64][32bit][14:33:00] DEBUG: Add books [OK]
+[5.0.4][mastermind][Windows x64][32bit][14:33:00] DEBUG: Open book C:/Users/mastermind/Desktop/Frederick Forsyth - The Day of the Jackal (v5.0).mobi

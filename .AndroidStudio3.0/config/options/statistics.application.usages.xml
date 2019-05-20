@@ -1,0 +1,12 @@
+<application>
+  <component name="UsageTrigger">
+    <counts>
+      <entry feature="ide.settings.HTTP_Proxy" count="1" />
+      <entry feature="ideaapp.started" count="2" />
+      <entry feature="welcome.screen.WelcomeScreen.CreateNewProject" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.GetFromVcs" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.GoogleCloudTools.SampleImport" count="1" />
+      <entry feature="welcome.screen.WelcomeScreen.OpenProject" count="1" />
+    </counts>
+  </component>
+</application>

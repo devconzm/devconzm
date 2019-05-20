@@ -1,0 +1,11 @@
+<application>
+  <component name="DimensionService">
+    <location key="#HTTP_Proxy.0.0.1366.768" x="466" y="100" />
+    <location key="WELCOME_SCREEN.0.0.1366.768" x="686" y="333" />
+    <location key="HgCloneDialog.0.0.1366.768" x="482" y="237" />
+    <location key="SettingsEditor.0.0.1366.768" x="167" y="0" />
+    <location key="FileChooserDialogImpl.0.0.1366.768" x="466" y="82" />
+    <location key="com.intellij.ide.util.TipDialog.0.0.1366.768" x="390" y="175" />
+    <location key="#com.intellij.execution.impl.EditConfigurationsDialog.0.0.1366.768" x="137" y="12" />
+  </component>
+</application>

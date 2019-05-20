@@ -1,0 +1,486 @@
+{
+	"name": "project-manager",
+	"displayName": "Project Manager",
+	"description": "Easily switch between projects",
+	"version": "10.3.2",
+	"publisher": "alefragnani",
+	"galleryBanner": {
+		"color": "#000000",
+		"theme": "dark"
+	},
+	"engines": {
+		"vscode": "^1.23.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"project",
+		"folder",
+		"switch",
+		"manage",
+		"git",
+		"multi-root ready"
+	],
+	"icon": "images/icon.png",
+	"license": "SEE LICENSE IN LICENSE.md",
+	"homepage": "https://github.com/alefragnani/vscode-project-manager/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/alefragnani/vscode-project-manager.git"
+	},
+	"bugs": {
+		"url": "https://github.com/alefragnani/vscode-project-manager/issues"
+	},
+	"activationEvents": [
+		"*",
+		"onCommand:projectManager.saveProject",
+		"onCommand:projectManager.listProjects",
+		"onCommand:projectManager.listProjectsNewWindow",
+		"onCommand:projectManager.editProjects",
+		"onCommand:projectManager.refreshProjects",
+		"onCommand:projectManager.refreshVSCodeProjects",
+		"onCommand:projectManager.refreshGitProjects",
+		"onCommand:projectManager.refreshSVNProjects",
+		"onCommand:projectManager.refreshAnyProjects",
+		"onCommand:projectManager.refreshMercurialProjects",
+		"onView:projectsExplorer"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "project-manager",
+					"title": "Project Manager",
+					"icon": "images/ico-favorites-dark.svg"
+				}
+			]
+		},
+		"views": {
+			"project-manager": [
+				{
+					"id": "projectsExplorerFavorites",
+					"name": "Favorites",
+					"when": "projectManager.canShowTreeViewFavorites"
+				},
+				{
+					"id": "projectsExplorerGit",
+					"name": "Git",
+					"when": "projectManager.canShowTreeViewGit"
+				},
+				{
+					"id": "projectsExplorerSVN",
+					"name": "SVN",
+					"when": "projectManager.canShowTreeViewSVN"
+				},
+				{
+					"id": "projectsExplorerAny",
+					"name": "Any",
+					"when": "projectManager.canShowTreeViewAny"
+				},
+				{
+					"id": "projectsExplorerMercurial",
+					"name": "Mercurial",
+					"when": "projectManager.canShowTreeViewMercurial"
+				},
+				{
+					"id": "projectsExplorerVSCode",
+					"name": "VSCode",
+					"when": "projectManager.canShowTreeViewVSCode"
+				}
+			]
+		},
+		"commands": [
+			{
+				"command": "projectManager.saveProject",
+				"title": "Project Manager: Save Project"
+			},
+			{
+				"command": "projectManager.listProjects",
+				"title": "Project Manager: List Projects to Open"
+			},
+			{
+				"command": "projectManager.listProjectsNewWindow",
+				"title": "Project Manager: List Projects to Open in New Window"
+			},
+			{
+				"command": "projectManager.editProjects",
+				"title": "Project Manager: Edit Projects",
+				"icon": {
+					"light": "images/ico-edit-projects-light.svg",
+					"dark": "images/ico-edit-projects-dark.svg"
+				}
+			},
+			{
+				"command": "projectManager.refreshProjects",
+				"title": "Project Manager: Refresh Projects"
+			},
+			{
+				"command": "projectManager.refreshVSCodeProjects",
+				"title": "Project Manager: Refresh VSCode Projects",
+				"icon": {
+					"light": "images/ico-refresh-light.svg",
+					"dark": "images/ico-refresh-dark.svg"
+				}
+			},
+			{
+				"command": "projectManager.refreshGitProjects",
+				"title": "Project Manager: Refresh Git Projects",
+				"icon": {
+					"light": "images/ico-refresh-light.svg",
+					"dark": "images/ico-refresh-dark.svg"
+				}
+			},
+			{
+				"command": "projectManager.refreshSVNProjects",
+				"title": "Project Manager: Refresh SVN Projects",
+				"icon": {
+					"light": "images/ico-refresh-light.svg",
+					"dark": "images/ico-refresh-dark.svg"
+				}
+			},
+			{
+				"command": "projectManager.refreshAnyProjects",
+				"title": "Project Manager: Refresh Any Projects",
+				"icon": {
+					"light": "images/ico-refresh-light.svg",
+					"dark": "images/ico-refresh-dark.svg"
+				}
+			},
+			{
+				"command": "projectManager.refreshMercurialProjects",
+				"title": "Project Manager: Refresh Mercurial Projects",
+				"icon": {
+					"light": "images/ico-refresh-light.svg",
+					"dark": "images/ico-refresh-dark.svg"
+				}
+			},
+			{
+				"command": "projectManager.open",
+				"title": "Open"
+			},
+			{
+				"command": "projectManager.openInNewWindow",
+				"title": "Open in New Window"
+			},
+			{
+				"command": "projectManager.addToWorkspace",
+				"title": "Add to Workspace"
+			},
+			{
+				"command": "projectManager.deleteProject",
+				"title": "Delete Project"
+			},
+			{
+				"command": "projectManager.renameProject",
+				"title": "Rename Project"
+			},
+			{
+				"command": "projectManager.whatsNew",
+				"title": "Project Manager: What's New"
+			},
+			{
+				"command": "projectManager.addToFavorites",
+				"title": "Add to Favorites"
+			},
+			{
+				"command": "projectManager.toggleProjectEnabled",
+				"title": "Disable Project"
+			},
+			{
+				"command": "projectManager.saveFirstProject",
+				"title": "Save your First Project"
+			}
+		],
+		"menus": {
+			"commandPalette": [
+				{
+					"command": "projectManager.open",
+					"when": "false"
+				},
+				{
+					"command": "projectManager.openInNewWindow",
+					"when": "false"
+				},
+				{
+					"command": "projectManager.addToWorkspace",
+					"when": "false"
+				},
+				{
+					"command": "projectManager.deleteProject",
+					"when": "false"
+				},
+				{
+					"command": "projectManager.renameProject",
+					"when": "false"
+				}
+			],
+			"view/title": [
+				{
+					"command": "projectManager.editProjects",
+					"when": "view == projectsExplorerFavorites",
+					"group": "navigation"
+				},
+				{
+					"command": "projectManager.refreshVSCodeProjects",
+					"when": "view == projectsExplorerVSCode",
+					"group": "navigation"
+				},
+				{
+					"command": "projectManager.refreshGitProjects",
+					"when": "view == projectsExplorerGit",
+					"group": "navigation"
+				},
+				{
+					"command": "projectManager.refreshSVNProjects",
+					"when": "view == projectsExplorerSVN",
+					"group": "navigation"
+				},
+				{
+					"command": "projectManager.refreshAnyProjects",
+					"when": "view == projectsExplorerAny",
+					"group": "navigation"
+				},
+				{
+					"command": "projectManager.refreshMercurialProjects",
+					"when": "view == projectsExplorerMercurial",
+					"group": "navigation"
+				}
+			],
+			"view/item/context": [
+				{
+					"command": "projectManager.open",
+					"when": "view =~ /projectsExplorer(Favorites|VSCode|Git|SVN|Any|Mercurial)/ && viewItem == ProjectNodeKind",
+					"group": "navigation"
+				},
+				{
+					"command": "projectManager.openInNewWindow",
+					"when": "view =~ /projectsExplorer(Favorites|VSCode|Git|SVN|Any|Mercurial)/ && viewItem == ProjectNodeKind",
+					"group": "navigation"
+				},
+				{
+					"command": "projectManager.addToWorkspace",
+					"when": "view =~ /projectsExplorer(Favorites|VSCode|Git|SVN|Any|Mercurial)/ && viewItem == ProjectNodeKind",
+					"group": "workspace"
+				},
+				{
+					"command": "projectManager.addToFavorites",
+					"when": "view =~ /projectsExplorer(VSCode|Git|SVN|Any|Mercurial)/ && viewItem == ProjectNodeKind",
+					"group": "favorites"
+				},
+				{
+					"command": "projectManager.deleteProject",
+					"when": "view == projectsExplorerFavorites && viewItem == ProjectNodeKind",
+					"group": "favorites"
+				},
+				{
+					"command": "projectManager.renameProject",
+					"when": "view == projectsExplorerFavorites && viewItem == ProjectNodeKind",
+					"group": "favorites"
+				},
+				{
+					"command": "projectManager.toggleProjectEnabled",
+					"when": "view == projectsExplorerFavorites && viewItem == ProjectNodeKind",
+					"group": "favorites"
+				},
+				{
+					"command": "projectManager.saveFirstProject",
+					"when": "view == projectsExplorerFavorites && viewItem == ConfigNodeKind",
+					"group": "favorites"
+				}
+			]
+		},
+		"configuration": {
+			"type": "object",
+			"title": "Project Manager Configuration",
+			"properties": {
+				"projectManager.showProjectNameInStatusBar": {
+					"type": "boolean",
+					"default": true,
+					"description": "Should display the project name in the Status Bar?"
+				},
+				"projectManager.openInNewWindowWhenClickingInStatusBar": {
+					"type": "boolean",
+					"default": false,
+					"description": "Should the project be opened using a New Window when you click the Status Bar?"
+				},
+				"projectManager.removeCurrentProjectFromList": {
+					"type": "boolean",
+					"default": true,
+					"description": "Should the current project be hidden in the list of available projects?"
+				},
+				"projectManager.sortList": {
+					"type": "string",
+					"default": "Name",
+					"description": "List the projects sorted by...(Saved, Name, Path or Recent)",
+					"enum": [
+						"Saved",
+						"Name",
+						"Path",
+						"Recent"
+					]
+				},
+				"projectManager.groupList": {
+					"type": "boolean",
+					"default": false,
+					"description": "List the projects grouped by...(Favorites, VSCode, Git, Mercurial and SVN)"
+				},
+				"projectManager.projectsLocation": {
+					"type": "string",
+					"default": "",
+					"description": "Indicates an alternative location where the `projects.json` file is stored"
+				},
+				"projectManager.vscode.baseFolders": {
+					"type": "array",
+					"default": [],
+					"description": "Indicates the base folders to search for VSCode projects"
+				},
+				"projectManager.vscode.ignoredFolders": {
+					"type": "array",
+					"default": [
+						"node_modules",
+						"out",
+						"typings",
+						"test"
+					],
+					"description": "Indicates folders to be ignored, like \"node_modules\", \"out\", \"typings\", \"test\""
+				},
+				"projectManager.vscode.maxDepthRecursion": {
+					"type": "integer",
+					"default": 4,
+					"description": "Indicates the maximum depth of folder recursion to search for projects. Any value below 1 means there is no limit"
+				},
+				"projectManager.git.baseFolders": {
+					"type": "array",
+					"default": [],
+					"description": "Indicates the base folders to search for Git projects"
+				},
+				"projectManager.git.ignoredFolders": {
+					"type": "array",
+					"default": [
+						"node_modules",
+						"out",
+						"typings",
+						"test",
+						".haxelib"
+					],
+					"description": "Indicates folders to be ignored, like \"node_modules\", \"out\", \"typings\", \"test\""
+				},
+				"projectManager.git.maxDepthRecursion": {
+					"type": "integer",
+					"default": 4,
+					"description": "Indicates the maximum depth of folder recursion to search for projects. Any value below 1 means there is no limit"
+				},
+				"projectManager.hg.baseFolders": {
+					"type": "array",
+					"default": [],
+					"description": "Indicates the base folders to search for Mercurial projects"
+				},
+				"projectManager.hg.ignoredFolders": {
+					"type": "array",
+					"default": [
+						"node_modules",
+						"out",
+						"typings",
+						"test",
+						".haxelib"
+					],
+					"description": "Indicates folders to be ignored, like \"node_modules\", \"out\", \"typings\", \"test\""
+				},
+				"projectManager.hg.maxDepthRecursion": {
+					"type": "integer",
+					"default": 4,
+					"description": "Indicates the maximum depth of folder recursion to search for projects. Any value below 1 means there is no limit"
+				},
+				"projectManager.svn.baseFolders": {
+					"type": "array",
+					"default": [],
+					"description": "Indicates the base folders to search for SVN projects"
+				},
+				"projectManager.svn.ignoredFolders": {
+					"type": "array",
+					"default": [
+						"node_modules",
+						"out",
+						"typings",
+						"test"
+					],
+					"description": "Indicates folders to be ignored, like \"node_modules\", \"out\", \"typings\", \"test\""
+				},
+				"projectManager.svn.maxDepthRecursion": {
+					"type": "integer",
+					"default": 4,
+					"description": "Indicates the maximum depth of folder recursion to search for projects. Any value below 1 means there is no limit"
+				},
+				"projectManager.any.baseFolders": {
+					"type": "array",
+					"default": [],
+					"description": "Indicates the base folders to search for any folder projects"
+				},
+				"projectManager.any.ignoredFolders": {
+					"type": "array",
+					"default": [
+						"node_modules",
+						"out",
+						"typings",
+						"test"
+					],
+					"description": "Indicates folders to be ignored, like \"node_modules\", \"out\", \"typings\", \"test\""
+				},
+				"projectManager.any.maxDepthRecursion": {
+					"type": "integer",
+					"default": 4,
+					"description": "Indicates the maximum depth of folder recursion to search for projects. Any value below 1 means there is no limit"
+				},
+				"projectManager.cacheProjectsBetweenSessions": {
+					"type": "boolean",
+					"default": true,
+					"description": "Should cache the VSCode, Git and SVN projects found?"
+				},
+				"projectManager.checkInvalidPathsBeforeListing": {
+					"type": "boolean",
+					"default": true,
+					"description": "Should check for invalid paths before listing, showing a message below the project name?"
+				},
+				"projectManager.treeview.visible": {
+					"type": "boolean",
+					"default": true,
+					"description": "Should display the Treeview?"
+				},
+				"projectManager.filterOnFullPath": {
+					"type": "boolean",
+					"default": false,
+					"description": "Should filter projects through full path?"
+				}
+			}
+		},
+		"keybindings": [
+			{
+				"command": "projectManager.listProjects",
+				"key": "shift+alt+p",
+				"mac": "cmd+alt+p"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"@types/node": "^6.0.40",
+		"typescript": "^3.1.6",
+		"vscode": "^1.1.22"
+	},
+	"dependencies": {
+		"walker": "^1.0.7",
+		"@types/semver": "^5.5.0",
+		"semver": "^5.6.0"
+	},
+	"__metadata": {
+		"id": "1b747f06-3789-4ebd-ac99-f1fe430c3347",
+		"publisherId": "3fbdef65-bdf5-4723-aeaf-9e12a50546ef",
+		"publisherDisplayName": "Alessandro Fragnani"
+	}
+}
