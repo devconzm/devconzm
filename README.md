@@ -29,8 +29,8 @@ read the [code of conduct](https://github.com/devconzm/devconzm/blob/master/CODE
 
 **Requirements**
 
-- Node(ˆv8.0)
-- npm (ˆv5) or yarn(ˆv1.12)
+- Node (ˆv8.0)
+- npm (ˆv5) or yarn (ˆv1.12)
 - git
 
 clone the repo
