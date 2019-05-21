@@ -98,6 +98,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "tumbone",
+      "name": "Tumbone Asukile",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9964968?v=4",
+      "profile": "http://tumbone.co.za",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
