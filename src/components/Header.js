@@ -70,11 +70,6 @@ function Header() {
                 </a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="#contact_us">
-                        Contact Us
-                </a>
-                    </li>
-                    <li className="nav-item">
                       <a className="btn btn-outline-primary devcon" href="#devcon">
                         DevCon19
                 </a>
