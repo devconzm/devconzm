@@ -6,7 +6,7 @@ function Venue() {
         <section id="venue">
             <div className="container">
                 <div className="text-center">
-                    <img src={theGrandHotelLogo} alt="THE GRAND HOTEL MAIN HALL" title="THE GRAND HOTEL MAIN HALL" />
+                    <img className="img-fluid" src={theGrandHotelLogo} alt="THE GRAND HOTEL MAIN HALL" title="THE GRAND HOTEL MAIN HALL" />
                     <p>THE GRAND HOTEL</p>
                     <p>MAIN HALL</p>
                     <p>08am - 5pm</p>
