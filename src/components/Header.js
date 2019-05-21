@@ -24,7 +24,7 @@ function Header() {
 
           <div className="row">
             {/* Navbar Brand */}
-            <div className="col-sm">
+            <div className="col">
               <a className="navbar-brand" href="#header">
                 <img className="img-fluid" src={navbarBranding} alt="DevConZM19" title="DevConZM19" />
               </a>
@@ -32,7 +32,7 @@ function Header() {
             {/* Navbar Brand */}
 
             {/* Navbar Info */}
-            <div className="col-sm">
+            <div className="col">
               <div className="pr-4 pt-2 col-12 ml-auto">
                 <div
                   className="collapse navbar-collapse justify-content-end"
