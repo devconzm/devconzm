@@ -1,4 +1,5 @@
 # Devconzm
+
 [![All Contributors](https://img.shields.io/badge/all_contributors-11-orange.svg?style=flat-square)](#contributors)
 ![David](https://img.shields.io/david/dev/devconzm/devconzm.svg?style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/devconzm/devconzm.svg?style=flat-square)
@@ -30,7 +31,7 @@ read the [code of conduct](https://github.com/devconzm/devconzm/blob/master/CODE
 **Requirements**
 
 - Node (ˆv8.0)
-- npm (ˆv5) or yarn (ˆv1.12)
+- npm
 - git
 
 **Clone the repo**  
@@ -40,20 +41,14 @@ read the [code of conduct](https://github.com/devconzm/devconzm/blob/master/CODE
 **Install dependencies**
 
 `npm install`
-or
-`yarn`
 
 **Run**
 
 `npm start`
-or
-`yarn start`
 
 ### Issues
 
 If you encounter any issues feel free to report them [here](https://github.com/devconzm/devconzm/issues)
-
-
 
 ## Contributors
 
