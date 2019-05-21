@@ -2,7 +2,7 @@ import React from "react";
 
 function Tickets() {
   return (
-    <div className="card mb-4 box-shadow">
+    <div className="card mb-3 box-shadow">
       <div className="card-header">
         <h4 className="my-0 font-weight-normal">Early Bird Access</h4>
       </div>

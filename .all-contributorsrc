@@ -11,8 +11,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/12296763?v=4",
       "profile": "http://www.agorainnovatus.com",
       "contributions": [
+        "content",
         "doc",
-        "eventOrganizing",
         "ideas"
       ]
     },
@@ -26,11 +26,13 @@
       ]
     },
     {
-      "login": "djtwenty6",
-      "name": "John Allan Zgambo Jr",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/32264045?v=4",
-      "profile": "http://www.twitter.com/djtwenty6",
+      "login": "OlivierJM",
+      "name": "Olivier JM",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/11255454?v=4",
+      "profile": "https://pastsix.netlify.com/",
       "contributions": [
+        "code",
+        "doc",
         "ideas"
       ]
     },
@@ -44,13 +46,66 @@
       ]
     },
     {
-      "login": "OlivierJM",
-      "name": "Olivier JM",
-      "avatar_url": "https://avatars1.githubusercontent.com/u/11255454?v=4",
-      "profile": "https://pastsix.netlify.com/",
+      "login": "Mulency",
+      "name": "Cynthia M. Mulenga",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/23038552?v=4",
+      "profile": "https://github.com/Mulency",
       "contributions": [
-        "code",
+        "eventOrganizing"
+      ]
+    },
+    {
+      "login": "makayi",
+      "name": "Mbuyu  Makayi",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/16419710?v=4",
+      "profile": "http://www.twitter.com/mbuyu_",
+      "contributions": [
+        "eventOrganizing"
+      ]
+    },
+    {
+      "login": "djtwenty6",
+      "name": "John Allan Zgambo Jr",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/32264045?v=4",
+      "profile": "http://www.twitter.com/djtwenty6",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "Chizzoz",
+      "name": "Chizzo Cheese",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/17289498?v=4",
+      "profile": "http://oneziko.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "chrisdesilva",
+      "name": "Chris DeSilva",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/35354955?v=4",
+      "profile": "http://desilvadev.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Big-Zude",
+      "name": "Big-Zude",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/40924941?v=4",
+      "profile": "https://github.com/Big-Zude",
+      "contributions": [
         "doc"
+      ]
+    },
+    {
+      "login": "tumbone",
+      "name": "Tumbone Asukile",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9964968?v=4",
+      "profile": "http://tumbone.co.za",
+      "contributions": [
+        "code"
       ]
     }
   ],
