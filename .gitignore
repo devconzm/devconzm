@@ -25,3 +25,6 @@ yarn-error.log*
 # package managers
 package-lock.json
 yarn.lock
+
+# Misc
+.eslintrc
