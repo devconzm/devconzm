@@ -76,9 +76,6 @@ textarea.form-control {
     color: #fff;
 }
 
-section {
-}
-
 header,
 footer {
     padding: 0;
@@ -99,6 +96,10 @@ footer {
     padding-top: 0;
 }
 
+.navbar-nav li.nav-item a.nav-link:hover {
+    color: #00CCFF;
+}
+
 .event-date {
     color: #420042;
     font-size: 2.4em;
@@ -107,9 +108,6 @@ footer {
 
 .my-flex-container {
     width: 100%;
-}
-
-.my-flex-item {
 }
 
 .mr-4 {
@@ -276,10 +274,4 @@ footer.page-footer {
 	margin-top: 1rem;
 	background-color: #e6e6e6;
 	color: #000000;
-}
-
-footer.page-footer {
-}
-
-footer.page-footer a {
 }
