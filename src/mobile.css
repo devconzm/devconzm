@@ -6,6 +6,9 @@
   .navbar-toggler {
     margin: 10px;
   }
+  #speakers .row {
+    margin: 0;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
