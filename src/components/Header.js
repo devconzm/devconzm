@@ -102,7 +102,7 @@ function Header() {
               <div className="pl-5 pt-5 col-12 text-center">
                 <button
                   type="button"
-                  className="btn btn-outline-light text-white"
+                  className="btn btn-outline-primary devcon"
                 >
                   Register Now
                 </button>

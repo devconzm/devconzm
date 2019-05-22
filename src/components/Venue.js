@@ -11,7 +11,7 @@ function Venue() {
                     <p>MAIN HALL</p>
                     <p>08am - 5pm</p>
                     <p><a href="#header" className="btn btn-light btn-lg email">ENTER EMAIL</a></p>
-                    <p><a href="#header" className="btn btn-outline-light text-white register">REGISTER NOW</a></p>
+                    <p><a href="#header" className="btn btn-outline-primary devcon">REGISTER NOW</a></p>
                 </div>
             </div>
         </section>
