@@ -24,7 +24,7 @@ function Header() {
 
           <div className="row">
             {/* Navbar Brand */}
-            <div className="col">
+            <div id="banner-img" className="col">
               <a className="navbar-brand" href="#header">
                 <img
                   className="img-fluid"
