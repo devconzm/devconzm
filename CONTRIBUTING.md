@@ -1,4 +1,3 @@
-
 ## Contributing to Devconzm
 
 We love your input! We want to make contributing to this project as easy and transparent as possible, whether it's:
@@ -15,13 +14,15 @@ Pull requests are the best way to propose changes to the codebase (we use Github
 
 1. Fork the repo and create your branch from master.
 2. If you've added code that should be tested, add tests.
-4. Ensure the test suite passes.
-5. Make sure your code lints.
-6. Issue that pull request!
+3. Ensure the test suite passes.
+4. Make sure your code lints.
+5. Issue that pull request!
 
 ### Basic guide for a successful contribution
 
-Fork this repo using the button in the right corner of this page.  
+Fork this repo using the button in the right corner of this page.
+
+**Note:** If you are contributing to docs, you don't need the following steps, you can make use of Github text editor in the browser.
 
 Clone your forked repo
 
@@ -31,7 +32,7 @@ Before pushing anything to your fork, always
 
 Set up the remote version
 
-`git remote add upstream https://github.com/devconzm/devconzm` 
+`git remote add upstream https://github.com/devconzm/devconzm`
 
 verify that you have added and you have 2 remotes
 
@@ -40,16 +41,16 @@ verify that you have added and you have 2 remotes
 - **origin** should point to your fork
 - **upstream** should point to this repo
 
-To Keep your fork up to date, do the following and make sure you do it everytime you want to push      
+To Keep your fork up to date, do the following and make sure you do it everytime you want to push
 
-`git pull upstream master` 
+`git pull upstream master`
 
 After making changes on a specific branch, push your changes  
 Always remember to create a specific branch that describes the issue you are working, and create a pull-request against the master of this repo.
 
-`git push origin your_branch_name` 
+`git push origin your_branch_name`
 
-Then create a Pull Request from here, we will take a look at it and merge it as soon as we can. 
+Then create a Pull Request from here, we will take a look at it and merge it as soon as we can.
 
 > Make sure your commit messages should be clear not vague e.g "Changes and Updates made"  
 > Work from a branch other than master whenever possible and branch name should be clear  
@@ -68,7 +69,8 @@ Before you make commit, make sure that the linting are passing, check with the e
 
 ### Report bugs using Github's issues
 
-We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/devconzm/devconzm/issues); it's that easy!  
+We use GitHub issues to track public bugs. Report a bug by [opening a new issue](https://github.com/devconzm/devconzm/issues); it's that easy!
 
-### License 
+### License
+
 By contributing, you agree that your contributions will be licensed under its MIT License.

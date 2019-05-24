@@ -16,9 +16,9 @@ function Speakers() {
         <h1 className='text-center'>Speakers</h1>
         <div className="row">
           {details.map(speaker => (
-            <div className="col-lg-4 col-sm-6" key={speaker.i}>
+            <div className="col-sm-6 col-lg-4 p-0" key={speaker.i}>
               <img
-                className="rounded-circle mx-auto d-block"
+                className="rounded-circle mx-auto d-block img-fluid"
                 src="https://via.placeholder.com/600/771796"
                 alt="Generic placeholder"
                 width="180"

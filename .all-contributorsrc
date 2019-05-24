@@ -98,6 +98,33 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "tumbone",
+      "name": "Tumbone Asukile",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9964968?v=4",
+      "profile": "http://tumbone.co.za",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "ikayz",
+      "name": "Isaac Miti",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/31007212?v=4",
+      "profile": "https://ikayz.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "AbednegoTM",
+      "name": "Abednego Mwanza",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/10270151?v=4",
+      "profile": "https://github.com/AbednegoTM",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,

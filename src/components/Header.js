@@ -22,72 +22,90 @@ function Header() {
             <span className="navbar-toggler-icon" />
           </button>
 
-          <div className="d-flex flex-row my-flex-container">
+          <div className="row">
             {/* Navbar Brand */}
-            <div className="my-flex-item">
+            <div id="banner-img" className="col">
               <a className="navbar-brand" href="#header">
-                <img src={navbarBranding} alt="DevConZM19" title="DevConZM19" />
+                <img
+                  className="img-fluid"
+                  src={navbarBranding}
+                  alt="DevConZM19"
+                  title="DevConZM19"
+                />
               </a>
             </div>
             {/* Navbar Brand */}
 
             {/* Navbar Info */}
-            <div className="d-flex flex-column my-flex-container">
-              <div className="pr-4 pt-2 my-flex-item ml-auto">
+            <div className="col">
+              <div className="pr-4 pt-2 col-12 ml-auto">
                 <div
                   className="collapse navbar-collapse justify-content-end"
                   id="navbarSupportedContent"
                 >
-                  <ul className="navbar-nav pull-right smooth-scroll" data-testid="head-list">
+                  <ul
+                    className="navbar-nav pull-right smooth-scroll"
+                    data-testid="head-list"
+                  >
                     <li className="nav-item">
                       <a className="nav-link active" href="#venue">
                         Venue
-                </a>
+                      </a>
                     </li>
                     <li className="nav-item">
                       <a className="nav-link" href="#partners">
                         Partners
-                </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#agenda">
-                        Agenda
-                </a>
+                      </a>
                     </li>
                     <li className="nav-item">
                       <a className="nav-link" href="#speakers">
                         Speakers
-                </a>
+                      </a>
                     </li>
                     <li className="nav-item">
                       <a className="nav-link" href="#tickets">
                         Tickets
-                </a>
+                      </a>
                     </li>
                     <li className="nav-item">
                       <a className="nav-link" href="#about">
                         About
-                </a>
+                      </a>
                     </li>
                     <li className="nav-item">
-                      <a className="nav-link" href="#contact_us">
-                        Contact Us
-                </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="btn btn-outline-primary devcon" href="#devcon">
+                      <a
+                        className="btn btn-outline-primary devcon"
+                        href="#devcon"
+                      >
                         DevCon19
-                </a>
+                      </a>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div className="pl-4 pt-5 my-flex-item"><img src={devConZmLogoPlus19} alt="DevConZM19" title="DevConZM19" /></div>
-              <div className="pl-4 pt-5 event-date my-flex-item">17th<br />November<br />2019<br /></div>
-              <div className="pl-5 pt-5 my-flex-item">
-                <button type="button" className="btn btn-outline-light text-white">
+              <div className="pl-4 pt-5 col-12">
+                <img
+                  className="img-fluid"
+                  src={devConZmLogoPlus19}
+                  alt="DevConZM19"
+                  title="DevConZM19"
+                />
+              </div>
+              <div className="pl-4 pt-5 event-date col-12">
+                17th
+                <br />
+                November
+                <br />
+                2019
+                <br />
+              </div>
+              <div className="pl-5 pt-5 col-12 text-center">
+                <button
+                  type="button"
+                  className="btn btn-outline-primary devcon"
+                >
                   Register Now
-              </button>
+                </button>
               </div>
             </div>
             {/* Navbar Info */}
