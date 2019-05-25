@@ -1,33 +1,40 @@
-import React, { Fragment } from "react";
-import Info from "./components/Info";
-import Speakers from "./components/Speakers";
-import Tickets from "./components/Tickets";
+import React, { Fragment } from 'react'
+import Info from './components/Info'
+import Partners from './components/Partners'
+import Speakers from './components/Speakers'
+import Tickets from './components/Tickets'
+import About from './components/About'
+import Venue from './components/Venue'
+import Footer from './components/Footer'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+
+library.add(fab)
 
 function App() {
   return (
     <Fragment>
       {/* <Header /> */}
       <Info />
-      <br />
-      <br />
+      <About />
       <Speakers />
-      <br />
-      <br />
       <Fragment>
-        <div className="container">
-          <h1 className="text-center">Tickets</h1>
-          <br />
-          <br />
-          <br />
-          <div className="card-deck mb-3 text-center">
-            {[1, 2, 4].map(i => (
-              <Tickets key={i} />
-            ))}
+        <section id='tickets'>
+          <div className='container'>
+            <h1 className='text-center'>Tickets</h1>
+            <div className='card-deck mb-3 text-center'>
+              {[1, 2, 4].map(i => (
+                <Tickets key={i} />
+              ))}
+            </div>
           </div>
-        </div>
+        </section>
       </Fragment>
+      <Partners />
+      <Venue />
+      <Footer />
     </Fragment>
-  );
+  )
 }
 
-export default App;
+export default App
