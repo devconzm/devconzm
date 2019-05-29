@@ -134,6 +134,15 @@
       "contributions": [
         "ideas"
       ]
+    },
+    {
+      "login": "locness3",
+      "name": "Locness",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/37651007?v=4",
+      "profile": "http://locnesssite.wordpress.com",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
