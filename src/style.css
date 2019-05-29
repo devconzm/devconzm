@@ -269,6 +269,39 @@ footer {
 	font-weight: bold;
 }
 
+#tickets .ticket {
+    position: relative;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 372px;
+}
+
+#tickets .ticket-1 {
+    background-image: url('assets/dev5.png');
+}
+
+#tickets .ticket-2 {
+    background-image: url('assets/dev6.png');
+}
+
+#tickets .ticket-3 {
+    background-image: url('assets/dev7.png');
+}
+
+#tickets .ticket-header {
+    padding-top: 10px;
+}
+
+#tickets .ticket-price {
+    margin-top: 10%;
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#tickets .ticket-content {
+}
+
 footer.page-footer {
 	overflow: hidden;
 	margin-top: 1rem;
