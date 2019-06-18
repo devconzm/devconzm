@@ -10,7 +10,7 @@ function About() {
             <div className="col-sm-12 ">
               {/* TODO */}
               <p>
-              Devcon is an annual platform elected by Agora Code Community and collective members of 
+              Devconzm is an annual platform elected by Agora Code Community and collective members of 
               the technology community in Zambia. It is specifically crafted with Software Developers
                and Tech enthusiasts in mind. Its aim is first of all, to raise the quality of the craft, 
                secondly, to raise awareness of the industry which is still in its infancy in Zambia.
@@ -18,7 +18,7 @@ function About() {
                 to building products and communities.
                </p>
                <p>
-               Devcon brings exposure that will prove useful to innovation in various industrial sectors leading to direct economic value addition. Apart from the technical opportunities available, Devcon will also give developers access to networking and investment opportunities which is critical to growth.
+               Devconzm brings exposure that will prove useful to innovation in various industrial sectors leading to direct economic value addition. Apart from the technical opportunities available, Devcon will also give developers access to networking and investment opportunities which is critical to growth.
                </p>
             </div>
         </div>
