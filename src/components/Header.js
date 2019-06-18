@@ -92,7 +92,7 @@ function Header() {
                 />
               </div>
               <div className="pl-4 pt-5 event-date col-12">
-                19th - 21st
+                19th - 20th
                 <br />
                 September
                 <br />
