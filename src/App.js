@@ -17,9 +17,10 @@ function App() {
       {/* <Header /> */}
       <Info />
       <About />
+      < Partners />
       {/* <Speakers />
       <Tickets />
-      <Partners />
+      
       <Venue />
       <Footer /> */}
     </Fragment>

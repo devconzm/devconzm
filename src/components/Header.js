@@ -47,17 +47,17 @@ function Header() {
                     className="navbar-nav pull-right smooth-scroll"
                     data-testid="head-list"
                   >
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <a className="nav-link active" href="#venue">
                         Venue
                       </a>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                       <a className="nav-link" href="#partners">
                         Partners
                       </a>
                     </li>
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <a className="nav-link" href="#speakers">
                         Speakers
                       </a>
@@ -66,7 +66,7 @@ function Header() {
                       <a className="nav-link" href="#tickets">
                         Tickets
                       </a>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                       <a className="nav-link" href="#about">
                         About
@@ -100,12 +100,12 @@ function Header() {
                 <br />
               </div>
               <div className="pl-5 pt-5 col-12 text-center">
-                <button
+                {/* <button
                   type="button"
                   className="btn btn-outline-primary devcon"
                 >
                   Register Now
-                </button>
+                </button> */}
               </div>
             </div>
             {/* Navbar Info */}

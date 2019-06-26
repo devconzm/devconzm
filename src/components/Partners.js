@@ -7,7 +7,24 @@ function Partners() {
         <h1 className='text-center'>Partners</h1>
         <div className="">
           {/* TODO */}
-          <p>Partners</p>
+          < div class = "container" >
+              <div class = "row" >
+                <div class = "col-sm" >
+                    <img target = "_blank"
+                        href = {
+                            'https://www.jetbrains.com/'
+                        }
+                        width = "200"
+                        height = "200"
+                        alt = "JetBrains"
+                        src = {
+                            require('../assets/jetbrains.png')
+                        }
+                        />
+                </div> 
+
+            </div>
+          </div>
         </div>
       </div>
     </section>
