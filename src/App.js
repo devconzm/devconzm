@@ -17,12 +17,12 @@ function App() {
       {/* <Header /> */}
       <Info />
       <About />
-      < Partners />
+      <Partners />
       {/* <Speakers />
       <Tickets />
       
-      <Venue />
-      <Footer /> */}
+      <Venue /> */}
+      <Footer />
     </Fragment>
   )
 }

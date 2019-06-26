@@ -10,17 +10,16 @@ function Partners() {
           < div class = "container" >
               <div class = "row" >
                 <div class = "col-sm" >
-                    <img target = "_blank"
-                        href = {
-                            'https://www.jetbrains.com/'
-                        }
-                        width = "200"
-                        height = "200"
-                        alt = "JetBrains"
-                        src = {
-                            require('../assets/jetbrains.png')
-                        }
+                    <a href = "https://www.jetbrains.com" target="_blank">
+                        <img
+                            width = "200"
+                            height = "200"
+                            alt = "JetBrains"
+                            src = {
+                                require('../assets/jetbrains.png')
+                            }
                         />
+                    </a>
                 </div> 
 
             </div>
