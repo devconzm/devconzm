@@ -20,7 +20,23 @@ function Partners() {
                             }
                         />
                     </a>
+                </div>
+                <div class = "col-sm" >
+                    <a href = "#"
+                        target = "_blank" >
+                        <img
+                            width = "200"
+                            height = "200"
+                            alt = "JetBrains"
+                            src = {
+                                require('../assets/agoracode.png')
+                            }
+                        />
+                    </a>
                 </div> 
+                <div class = "col-sm"></div>
+                <div class = "col-sm"></div>
+                <div class = "col-sm"></div>
 
             </div>
           </div>
