@@ -20,8 +20,8 @@ function App() {
       <Partners />
       {/* <Speakers />
       <Tickets />
-      
-      <Venue /> */}
+      */}
+      <Venue /> 
       <Footer />
     </Fragment>
   )
