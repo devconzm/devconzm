@@ -11,7 +11,7 @@ function Venue() {
                     <br />
                     <h3>Venue</h3>
                     <p>Confucious Center - University of Zambia </p>
-                    <p>08am - 5pm</p>
+                    <p>09am - 5pm</p>
                     {/* <p><a href="#header" className="btn btn-outline-primary devcon">REGISTER NOW</a></p> */}
                 </div>
             </div>
