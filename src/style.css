@@ -115,15 +115,15 @@ footer {
     color: #fff;
 }
 
-#agenda .container,
-#speakers .container,
-#venue .container,
-#contact_us .container {
+#agenda,
+#speakers ,
+#venue ,
+#contact_us {
     background-color: #e6e6e6;
 }
 
 #partners {
-    background-image: url('assets/background.jpg');
+    background-color: #fff;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -141,7 +141,7 @@ footer {
 #tickets .container:before {
     content: '';
     position: absolute;
-    top: -60px;
+    /*top: -60px;*/
     width: 0;
     height: 0;
     border-bottom: 60px solid #fff;
@@ -151,7 +151,7 @@ footer {
 #tickets .container:after {
     content: '';
     position: absolute;
-    top: -60px;
+    /*top: -60px;*/
     right: 0;
     width: 0;
     height: 0;
@@ -171,7 +171,7 @@ footer {
 #speakers .container:before {
     content: '';
     position: absolute;
-    top: -60px;
+    /*top: -60px;*/
     width: 0;
     height: 0;
     border-bottom: 60px solid #e6e6e6;
@@ -180,11 +180,10 @@ footer {
 #speakers .container:after {
     content: '';
     position: absolute;
-    top: -60px;
+    /*top: -60px;*/
     right: 0;
     width: 0;
     height: 0;
-    border-bottom: 60px solid #e6e6e6;
     border-left: 30vw solid transparent;
 }
 /* Grey Chevron */
@@ -198,21 +197,17 @@ footer {
 #partners .container:before {
     content: '';
     position: absolute;
-    top: 0px;
     width: 0;
     height: 0;
-    border-top: 60px solid #fff;
     border-right: 50vw solid transparent;
 }
 
 #partners .container:after {
     content: '';
     position: absolute;
-    top: 0px;
     right: 0;
     width: 0;
     height: 0;
-    border-top: 60px solid #fff;
     border-left: 30vw solid transparent;
 }
 /* Reverse White Chevron */
@@ -227,21 +222,18 @@ footer {
 #venue .container:before {
     content: '';
     position: absolute;
-    top: -60px;
+    /*top: -60px;*/
     width: 0;
     height: 0;
-    border-bottom: 60px solid #e6e6e6;
     border-right: 30vw solid transparent;
 }
 
 #venue .container:after {
     content: '';
     position: absolute;
-    top: -60px;
-    right: 0;
+    /*top: -60px;*/
     width: 0;
     height: 0;
-    border-bottom: 60px solid #e6e6e6;
     border-left: 50vw solid transparent;
 }
 /* Opposite Grey Chevron */
@@ -304,7 +296,6 @@ footer {
 
 footer.page-footer {
 	overflow: hidden;
-	margin-top: 1rem;
 	background-color: #e6e6e6;
 	color: #000000;
 }
