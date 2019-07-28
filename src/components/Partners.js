@@ -4,7 +4,7 @@ function Partners() {
   return (
     <section id="partners">
       <div className="container">
-        <h1 className='text-center'>Partners</h1>
+        <h1 className='text-center section-title'>Partners</h1>
         <div className="">
           {/* TODO */}
             <div class = "container" >

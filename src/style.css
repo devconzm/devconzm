@@ -13,6 +13,40 @@
     display: block;
 }
 
+img:hover {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.section-title {
+    color: #420042;
+}
+
+.section-title:hover {
+    text-decoration: underline;
+}
+
+.justify {
+    text-align: justify;
+}
+
 .plus-image {
     left: 50%;
     top: 50%;

@@ -6,8 +6,8 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-12 col-lg-12 col-xl-12">
-            <h1 className='text-center'>About</h1>
-            <div className="col-sm-12 ">
+            <h1 className='text-center section-title'>About</h1>
+            <div className="col-sm-12 justify">
               {/* TODO */}
               <p>
               DevConZM is an annual platform elected by Agora Code Community and collective members of 
