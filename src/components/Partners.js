@@ -10,7 +10,7 @@ function Partners() {
           <div className="container">
             <div className="row">
               <div className="col-sm">
-                <a href="https://www.jetbrains.com" target="_blank">
+                <a href="https://www.jetbrains.com" title="jet brains" target="_blank">
                   <img
                     width="200"
                     height="200"
@@ -20,7 +20,7 @@ function Partners() {
                 </a>
               </div>
               <div className="col-sm">
-                <a href="https://www.stickermule.com" target="_blank">
+                <a href="https://www.stickermule.com" title="sticker mule" target="_blank">
                   <img
                     width="200"
                     height="200"
@@ -30,7 +30,7 @@ function Partners() {
                 </a>
               </div>
               <div className="col-sm">
-                <a href="#" target="_blank">
+                <a href="#" title="agora code" target="_blank">
                   <img
                     width="200"
                     height="200"
@@ -40,7 +40,7 @@ function Partners() {
                 </a>
               </div>
               <div className="col-sm">
-                <a href="https://www.gitkraken.com" target="_blank">
+                <a href="https://www.gitkraken.com" title="git kraken" target="_blank">
                   <img
                     width="200"
                     height="200"
@@ -50,7 +50,7 @@ function Partners() {
                 </a>
               </div>
               <div className="col-sm">
-                <a href="https://www.bongohive.co.zm" target="_blank">
+                <a href="https://www.bongohive.co.zm" title="bongo hive" target="_blank">
                   <img
                     width="200"
                     height="200"
@@ -77,7 +77,7 @@ function Partners() {
       <div className="center email-header">
         <h6>
           If you would like to partner with us, send us an email at{" "}
-          <a href="mailto:info@devcon.co.zm">info@devcon.co.zm</a>
+          <a href="mailto:info@devcon.co.zm" title="email">info@devcon.co.zm</a>
         </h6>
       </div>
     </section>
