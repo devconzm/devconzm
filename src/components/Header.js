@@ -73,11 +73,8 @@ function Header() {
                       </a>
                     </li>
                     <li className="nav-item">
-                      <a
-                        className="btn btn-outline-primary devcon"
-                        href="#devcon"
-                      >
-                        DevCon19
+                      <a className="nav-link" href="#code-of-conduct">
+                        Code of Conduct
                       </a>
                     </li>
                   </ul>
@@ -92,12 +89,8 @@ function Header() {
                 />
               </div>
               <div className="pl-4 pt-5 event-date col-12">
-                19th - 20th
-                <br />
-                September
-                <br />
-                2019
-                <br />
+                19th - 20th, September 2019
+                <br></br>
               </div>
               <div className="pl-5 pt-5 col-12 text-center">
                 {/* <button

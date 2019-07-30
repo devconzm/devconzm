@@ -9,9 +9,10 @@ function Venue() {
                     <img className="img-fluid" src={theGrandHotelLogo} alt="devcon logo" title="devcon logo" />
                     <br />
                     <br />
-                    <h3>Venue</h3>
+                    <h3>It's happening at </h3>
                     <p>Confucious Center - University of Zambia </p>
-                    <p>09am - 5pm</p>
+                    <h3> 19th to 20th Sept. from  </h3>
+                    <p>9 to 5 o'clock</p>
                     {/* <p><a href="#header" className="btn btn-outline-primary devcon">REGISTER NOW</a></p> */}
                 </div>
             </div>
