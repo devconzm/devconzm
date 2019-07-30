@@ -49,6 +49,10 @@
     text-align: justify;
 }
 
+.center {
+    text-align: center;
+}
+
 .plus-image {
     left: 50%;
     top: 50%;
@@ -246,6 +250,10 @@ footer {
     height: 0;
     border-left: 30vw solid transparent;
 }
+
+.email-header {
+    margin-bottom: 3rem;
+}
 /* Reverse White Chevron */
 
 /* Opposite Grey Chevron */
@@ -330,8 +338,27 @@ footer {
 #tickets .ticket-content {
 }
 
+/* footer section */
 footer.page-footer {
 	overflow: hidden;
 	background-color: #e6e6e6;
 	color: #000000;
+}
+
+.social-media {
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.social-media a {
+    margin: 0 3px;
+    color: #420042;
+}
+
+.social-media h6 {
+    margin-top: 10px;
+}
+
+.footer-copyright a{
+    text-decoration: none;
 }

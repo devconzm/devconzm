@@ -152,6 +152,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "bgongre",
+      "name": "Brittani Gongre",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/27456325?s=460&v=4",
+      "profile": "https://github.com/bgongre",
+      "contributions": [
+        "code", "code organization"
+      ]
     }
   ],
   "contributorsPerLine": 7,
