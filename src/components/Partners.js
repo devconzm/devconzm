@@ -7,9 +7,9 @@ function Partners() {
         <h1 className='text-center section-title'>Partners</h1>
         <div className="">
           {/* TODO */}
-            <div class = "container" >
-                <div class = "row" >
-                    <div class="col-sm" >
+            <div className = "container" >
+                <div className = "row" >
+                    <div className="col-sm" >
                         <a href="https://www.jetbrains.com" target="_blank">
                             <img
                                 width="200"
@@ -21,7 +21,7 @@ function Partners() {
                             />
                         </a>
                     </div>
-                    <div class="col-sm" >
+                    <div className="col-sm" >
                         <a href="https://www.stickermule.com" target="_blank">
                             <img width="200" height="200" alt="Stickermule"
                                 src={
@@ -30,7 +30,7 @@ function Partners() {
                             />
                         </a>
                     </div>
-                    <div class = "col-sm" >
+                    <div className = "col-sm" >
                         <a href = "#"
                             target = "_blank" >
                             <img
@@ -43,7 +43,7 @@ function Partners() {
                             />
                         </a>
                     </div>
-                    <div class="col-sm" >
+                    <div className="col-sm" >
                         <a href="https://www.gitkraken.com" target="_blank">
                             <img width="200" height="200" alt="GitKraken"
                                 src={
@@ -52,7 +52,7 @@ function Partners() {
                             />
                         </a>
                     </div>
-                    <div class="col-sm" >
+                    <div className="col-sm" >
                         <a href="https://www.bongohive.co.zm" target="_blank">
                             <img width="200" height="200" alt="Bongohive"
                                 src={
@@ -61,7 +61,7 @@ function Partners() {
                             />
                         </a>
                     </div>
-                    <div class = "col-sm"></div>
+                    <div className = "col-sm"></div>
 
             </div>
           </div>
