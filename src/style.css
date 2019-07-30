@@ -346,6 +346,8 @@ footer.page-footer {
 }
 
 .social-media {
+    display: flex;
+    justify-content: center;
     text-align: center;
     padding-top: 2rem;
 }
@@ -355,7 +357,7 @@ footer.page-footer {
     color: #420042;
 }
 
-.social-media h6 {
+.social-media-header {
     margin-top: 10px;
 }
 

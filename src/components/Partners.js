@@ -77,7 +77,7 @@ function Partners() {
       <div className="center email-header">
         <h6>
           If you would like to partner with us, send us an email at{" "}
-          <a href="mailto:info@devcon.co.zm">DevConZM</a>
+          <a href="mailto:info@devcon.co.zm">info@devcon.co.zm</a>
         </h6>
       </div>
     </section>

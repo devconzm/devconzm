@@ -5,36 +5,38 @@ function Footer() {
     return (
         <footer className="page-footer font-small">
             {/* Social Media */}
-            <div className="social-media">
-                <a href="https://m.facebook.com/devconzm/">
-                    <FaFacebookSquare 
-                        size={50}
-                    />
-                </a>
-                <a href="https://twitter.com/devcon_zm">
-                    <FaTwitterSquare 
-                        size={50}
-                    />
-                </a>
-                <a href="https://www.linkedin.com/company/developer-conference-zambia-19">
-                    <FaLinkedin 
-                        size={50}
-                    />
-                </a>
-                <a href="mailto:info@devcon.co.zm">
-                    <FaEnvelope 
-                        size={50}
-                    />
-                </a>
-                <div>
-                    <h6>Check us out on social media!</h6>
+            <div className="center">
+                <div className="social-media">
+                    <a href="https://m.facebook.com/devconzm/">
+                        <FaFacebookSquare 
+                            size={40}
+                        />
+                    </a>
+                    <a href="https://twitter.com/devcon_zm">
+                        <FaTwitterSquare 
+                            size={40}
+                        />
+                    </a>
+                    <a href="https://www.linkedin.com/company/developer-conference-zambia-19">
+                        <FaLinkedin 
+                            size={40}
+                        />
+                    </a>
+                    <a href="mailto:info@devcon.co.zm">
+                        <FaEnvelope 
+                            size={40}
+                        />
+                    </a>
                 </div>
+                    <div className="social-media-header">
+                        <h6>Check us out on social media!</h6>
+                    </div>
             </div>
             {/* Social Media */}
 
             {/* Copyright */}
             <div className="container footer-copyright text-center py-3">
-                <p>&copy;2019 <a href="http://devcon.co.zm"> DevCon Zambia</a> all rights reserved.</p>
+                <p>&copy;2019 <a href="http://devcon.co.zm"> DevCon Zambia</a> All rights reserved.</p>
             </div>
             {/* Copyright */}
 
