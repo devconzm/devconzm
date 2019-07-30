@@ -77,7 +77,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="http://locnesssite.wordpress.com"><img src="https://avatars1.githubusercontent.com/u/37651007?v=4" width="100px;" alt="Locness"/><br /><sub><b>Locness</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/issues?q=author%3Alocness3" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/bgongre"><img src="https://avatars0.githubusercontent.com/u/27456325?v=4" width="100px;" alt="bgongre"/><br /><sub><b>bgongre</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=bgongre" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/bgongre"><img src="https://avatars0.githubusercontent.com/u/27456325?v=4" width="100px;" alt="bgongre"/><br /><sub><b>bgongre</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=bgongre" title="Code">💻</a> <a href="https://github.com/devconzm/devconzm/issues?q=author%3Abgongre" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
