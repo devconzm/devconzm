@@ -13,7 +13,7 @@
     display: block;
 }
 
-img:hover {
+#venue img:hover, #partners img:hover {
 	opacity: 1;
 	-webkit-animation: flash 1.5s;
 	animation: flash 1.5s;
@@ -37,14 +37,20 @@ img:hover {
 
 .section-title {
     color: #420042;
+    transition: all .2s ease-in-out;
 }
 
 .section-title:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    transform: scale(1.1);
 }
 
 .justify {
     text-align: justify;
+}
+
+.center {
+    text-align: center;
 }
 
 .plus-image {
@@ -244,6 +250,10 @@ footer {
     height: 0;
     border-left: 30vw solid transparent;
 }
+
+.email-header {
+    margin-bottom: 3rem;
+}
 /* Reverse White Chevron */
 
 /* Opposite Grey Chevron */
@@ -328,8 +338,29 @@ footer {
 #tickets .ticket-content {
 }
 
+/* footer section */
 footer.page-footer {
 	overflow: hidden;
 	background-color: #e6e6e6;
 	color: #000000;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.social-media a {
+    margin: 0 3px;
+    color: #420042;
+}
+
+.social-media-header {
+    margin-top: 10px;
+}
+
+.footer-copyright a{
+    text-decoration: none;
 }
