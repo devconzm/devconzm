@@ -143,6 +143,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "bgongre",
+      "name": "bgongre",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/27456325?v=4",
+      "profile": "https://github.com/bgongre",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
