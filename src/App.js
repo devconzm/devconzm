@@ -19,9 +19,9 @@ function App() {
       <About />
       <Venue /> 
       <Partners />
-      {/* <Speakers />
+      {/* <Speakers />*/
       <Tickets />
-      */}
+      }
       <Footer />
     </Fragment>
   )
