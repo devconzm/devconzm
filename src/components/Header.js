@@ -21,8 +21,7 @@ function Header() {
           >
             <span
               className="navbar-toggler-icon"
-              title="expand-navbar"
-              tabIndex="1"
+              title="toggle-navigation"
             />
           </button>
 
@@ -62,7 +61,6 @@ function Header() {
                           className="nav-link"
                           href="#partners"
                           title="partners"
-                          tabIndex="2"
                         >
                           Partners
                         </a>
@@ -82,7 +80,6 @@ function Header() {
                           className="nav-link" 
                           href="#about" 
                           title="about"
-                          tabIndex="3"
                         >
                           About
                         </a>
@@ -92,7 +89,6 @@ function Header() {
                           className="nav-link"
                           href="#code-of-conduct"
                           title="code of conduct"
-                          tabIndex="4"
                         >
                           Code of Conduct
                         </a>
@@ -110,7 +106,7 @@ function Header() {
                 />
               </div>
               <div className="pl-4 pt-5 event-date col-12">
-                19th - 20th, September 2019
+                <h1>19th - 20th, September 2019</h1>
                 <br />
               </div>
               <div className="pl-5 pt-5 col-12 text-center">

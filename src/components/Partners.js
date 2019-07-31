@@ -34,7 +34,7 @@ function Partners() {
                   <img
                     width="200"
                     height="200"
-                    alt="JetBrains"
+                alt="Agora Code"
                     src={require("../assets/agoracode.png")}
                   />
                 </a>
