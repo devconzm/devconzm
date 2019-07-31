@@ -338,6 +338,76 @@ footer {
 #tickets .ticket-content {
 }
 
+/* code of conduct section */
+.conduct-container {
+    background-color: whitesmoke;
+}
+
+#code-of-conduct {
+    display: flex;
+    flex-direction: column;
+}
+
+/*  header font */
+#code-of-conduct h2,#code-of-conduct h4,#code-of-conduct h5 {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+}
+
+.conduct-header {
+    text-align: center;
+}
+
+#code-of-conduct h2 {
+    margin-bottom: 40px;
+}
+
+/* scale image here */
+.conduct-header img {
+    margin: 70px 0 20px 0;
+    /* height: 60px;
+    width: 400px; */
+}
+
+/* paragraph font */
+#code-of-conduct p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.expected-behaviours, .anti-harassment, .diversity, .reporting, .enforcement, .contact {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    #code-of-conduct {
+        margin: 0 10%;
+    }
+
+    .conduct-header img {
+        height: auto;
+        width: 100%;
+    }
+} 
+
+@media only screen and (min-width: 600px) {
+    #code-of-conduct { 
+        margin: 0 15%;
+    }
+  }
+
+@media only screen and (min-width: 992px) {
+    #code-of-conduct { 
+        margin: 0 20%;
+    }
+} 
+
+@media only screen and (min-width: 1200px) {
+    #code-of-conduct {
+        margin: 0 30%;
+    }
+}
+/* code of conduct section */
+
 /* footer section */
 footer.page-footer {
 	overflow: hidden;

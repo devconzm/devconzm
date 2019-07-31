@@ -42,7 +42,7 @@ function Footer() {
 
             {/* Code of Conduct */ } 
             <div className="container footer-copyright text-center py-3">
-                <a target="_blank" href="https://github.com/devconzm/devconzm/blob/master/CODE_OF_CONDUCT.md" title="code of conduct">Code of Conduct</a>
+                <a target="_blank" href="./CodeOfConduct.js" title="code of conduct">Code of Conduct</a>
             </div>
             {/* Code of Conduct */ }
 
