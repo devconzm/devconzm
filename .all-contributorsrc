@@ -162,6 +162,15 @@
         "code",
         "bug"
       ]
+    },
+    {
+      "login": "Beardless-sheik",
+      "name": "Beardless-sheik",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/44676055?v=4",
+      "profile": "https://github.com/Beardless-sheik",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
