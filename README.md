@@ -1,6 +1,6 @@
 # Devconzm
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5086ccf6-48d9-47ba-b0b8-7b448219399a/deploy-status)](https://app.netlify.com/sites/devconzm/deploys)
-[![All Contributors](https://img.shields.io/badge/all_contributors-16-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors)
 ![David](https://img.shields.io/david/dev/devconzm/devconzm.svg?style=flat-square)
 ![GitHub repo size](https://img.shields.io/github/repo-size/devconzm/devconzm.svg?style=flat-square)
 ![GitHub](https://img.shields.io/github/license/devconzm/devconzm.svg?style=flat-square)
