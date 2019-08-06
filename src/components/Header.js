@@ -4,8 +4,8 @@ import devConZmLogoPlus19 from "../assets/dev2.png";
 
 function Header() {
   return (
-    <header id="header">
-      <nav
+    <section id="header-section">
+      <div
         className="navbar fixed  navbar-expand-lg navbar-light top-navbar"
         data-toggle="sticky-onscroll"
       >
@@ -19,13 +19,16 @@ function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="navbar-toggler-icon" />
+            <span
+              className="navbar-toggler-icon"
+              title="toggle-navigation"
+            />
           </button>
 
           <div className="row">
             {/* Navbar Brand */}
             <div id="banner-img" className="col">
-              <a className="navbar-brand" href="#header">
+              <a className="navbar-brand" href="#header" title="DevCon Zambia">
                 <img
                   className="img-fluid"
                   src={navbarBranding}
@@ -43,21 +46,26 @@ function Header() {
                   className="collapse navbar-collapse justify-content-end"
                   id="navbarSupportedContent"
                 >
-                  <ul
-                    className="navbar-nav pull-right smooth-scroll"
-                    data-testid="head-list"
-                  >
-                    {/* <li className="nav-item">
+                  <nav>
+                    <ul
+                      className="navbar-nav pull-right smooth-scroll"
+                      data-testid="head-list"
+                    >
+                      {/* <li className="nav-item">
                       <a className="nav-link active" href="#venue">
                         Venue
                       </a>
                     </li> */}
-                    <li className="nav-item">
-                      <a className="nav-link" href="#partners">
-                        Partners
-                      </a>
-                    </li>
-                    {/* <li className="nav-item">
+                      <li className="nav-item">
+                        <a
+                          className="nav-link"
+                          href="#partners"
+                          title="partners"
+                        >
+                          Partners
+                        </a>
+                      </li>
+                      {/* <li className="nav-item">
                       <a className="nav-link" href="#speakers">
                         Speakers
                       </a>
@@ -67,17 +75,26 @@ function Header() {
                         Tickets
                       </a>
                     </li> */}
-                    <li className="nav-item">
-                      <a className="nav-link" href="#about">
-                        About
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#code-of-conduct">
-                        Code of Conduct
-                      </a>
-                    </li>
-                  </ul>
+                      <li className="nav-item">
+                        <a 
+                          className="nav-link" 
+                          href="#about" 
+                          title="about"
+                        >
+                          About
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a
+                          className="nav-link"
+                          href="#code-of-conduct"
+                          title="code of conduct"
+                        >
+                          Code of Conduct
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
                 </div>
               </div>
               <div className="pl-4 pt-5 col-12">
@@ -89,8 +106,8 @@ function Header() {
                 />
               </div>
               <div className="pl-4 pt-5 event-date col-12">
-                19th - 20th, September 2019
-                <br></br>
+                <h1>19th - 20th, September 2019</h1>
+                <br />
               </div>
               <div className="pl-5 pt-5 col-12 text-center">
                 {/* <button
@@ -104,8 +121,8 @@ function Header() {
             {/* Navbar Info */}
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </section>
   );
 }
 
