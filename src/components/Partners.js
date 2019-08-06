@@ -10,7 +10,11 @@ function Partners() {
           <div className="container">
             <div className="row">
               <div className="col-sm">
-                <a href="https://www.jetbrains.com" title="jet brains" target="_blank">
+                <a
+                  href="https://www.jetbrains.com"
+                  title="jet brains"
+                  target="_blank"
+                >
                   <img
                     width="200"
                     height="200"
@@ -20,7 +24,11 @@ function Partners() {
                 </a>
               </div>
               <div className="col-sm">
-                <a href="https://www.stickermule.com" title="sticker mule" target="_blank">
+                <a
+                  href="https://www.stickermule.com"
+                  title="sticker mule"
+                  target="_blank"
+                >
                   <img
                     width="200"
                     height="200"
@@ -34,13 +42,17 @@ function Partners() {
                   <img
                     width="200"
                     height="200"
-                alt="Agora Code"
+                    alt="Agora Code"
                     src={require("../assets/agoracode.png")}
                   />
                 </a>
               </div>
               <div className="col-sm">
-                <a href="https://www.gitkraken.com" title="git kraken" target="_blank">
+                <a
+                  href="https://www.gitkraken.com"
+                  title="git kraken"
+                  target="_blank"
+                >
                   <img
                     width="200"
                     height="200"
@@ -50,7 +62,11 @@ function Partners() {
                 </a>
               </div>
               <div className="col-sm">
-                <a href="https://www.bongohive.co.zm" title="bongo hive" target="_blank">
+                <a
+                  href="https://www.bongohive.co.zm"
+                  title="bongo hive"
+                  target="_blank"
+                >
                   <img
                     width="200"
                     height="200"
@@ -59,17 +75,6 @@ function Partners() {
                   />
                 </a>
               </div>
-              {/* Below section is kept for styling purposes */}
-              {/* Section is preset to add new partner */}
-              <div className="col-sm" />
-              <a href="#" target="_blank">
-                <img 
-                    width="200" 
-                    height="200" 
-                    alt="" 
-                    src="" 
-                />
-              </a>
             </div>
           </div>
         </div>
@@ -77,7 +82,9 @@ function Partners() {
       <div className="center email-header">
         <h6>
           If you would like to partner with us, send us an email at{" "}
-          <a href="mailto:info@devcon.co.zm" title="email">info@devcon.co.zm</a>
+          <a href="mailto:info@devcon.co.zm" title="email">
+            info@devcon.co.zm
+          </a>
         </h6>
       </div>
     </section>

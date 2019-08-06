@@ -1,3 +1,15 @@
+/* Keep Calm font import */
+@font-face {
+    font-family: 'Keep Calm Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Keep Calm Regular'), url('../src/fonts/KeepCalm-Medium.woff') format('woff');
+}
+
+body {
+    font-family: 'Keep Calm Regular';
+}
+
 .masthead {
     min-height: 800px;
     background-image: url('assets/background.jpg');
@@ -62,7 +74,7 @@
 }
 
 #contact {
-    font-family: 'Teko', sans-serif;
+    font-family: 'Keep Calm Regular';
     padding-top: 60px;
     width: 100%;
     width: 100vw;
@@ -350,7 +362,7 @@ footer {
 
 /*  header font */
 #code-of-conduct h2,#code-of-conduct h4,#code-of-conduct h5 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Keep Calm Regular';
     margin-bottom: 10px;
 }
 
@@ -371,7 +383,7 @@ footer {
 
 /* paragraph font */
 #code-of-conduct p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Keep Calm Regular';
 }
 
 .expected-behaviours, .anti-harassment, .diversity, .reporting, .enforcement, .contact {
@@ -431,6 +443,7 @@ footer.page-footer {
     margin-top: 10px;
 }
 
-.footer-copyright a{
+.footer-copyright a, .footer-copyright p{
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
