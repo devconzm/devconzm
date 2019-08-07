@@ -9,18 +9,13 @@ function Tickets() {
           <div className="ticket ticket-1 col-sm box-shadow">
             <h4 className="ticket-header">EARLY-BIRD PASS</h4>
             <p className="ticket-price">K 150</p>
-            <p className="ticket-content">Available from 29th July to 19th August 2019.</p>
+            <p className="ticket-content">Get from 29th July to 19th August 2019</p>
             <a href="https://qkt.io/I3SHAd"><p className="btn btn-info btn-sm">Click here to Purchase.</p></a>
           </div>
-          {/*<div className="ticket ticket-2 col-sm box-shadow">
-            <h4 className="ticket-header">STUDENT PASS</h4>
-            <p className="ticket-price">K 80</p>
-            <p className="ticket-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id mauris ex.</p>
-  </div>*/}
           <div className="ticket ticket-2 col-sm box-shadow">
             <h4 className="ticket-header">REGULAR PASS</h4>
             <p className="ticket-price">K 250</p>
-            <p className="ticket-content">Available from 20th August to 20th September 2019.</p>
+            <p className="ticket-content">Get from 20th August to 20th September 2019</p>
             {/*<a href="https://qkt.io/I3SHAd"><p className="btn btn-info btn-sm">Click here to Purchase.</p></a>*/}
           </div>
         </div>
