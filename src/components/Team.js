@@ -3,7 +3,7 @@ import React from "react";
 function Team() {
     return (
 <section class="body">
-    <hr></hr>
+
     <br></br>
     <br></br>
 <h1 className="text-center section-title">DevConZM19 Organising Team</h1>
