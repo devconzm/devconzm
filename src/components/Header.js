@@ -1,9 +1,16 @@
 import React from "react";
-import { withRouter } from "react-router-dom";
+import { NavHashLink as NavLink } from "react-router-hash-link";
 import navbarBranding from "../assets/dev1.png";
 import devConZmLogoPlus19 from "../assets/dev2.png";
 
-function Header(props) {
+function Header() {
+  const styles = {
+    textTransform: "uppercase",
+    fontWeight: "bold",
+    color: "#420042",
+    textDecoration: "none",
+    marginLeft: "15px"
+  };
   return (
     <section id="header-section">
       <div
@@ -50,43 +57,51 @@ function Header(props) {
                       data-testid="head-list"
                     >
                       <li className="nav-item">
-                        <a
-                          className="nav-link"
-                          href="#partners"
-                          title="partners"
+                        <NavLink
+                          smooth
+                          activeClassName={"active"}
+                          style={styles}
+                          to="/#partners"
                         >
                           Partners
-                        </a>
+                        </NavLink>
                       </li>
 
                       <li className="nav-item">
-                        <a className="nav-link" href="#about" title="about">
+                        <NavLink
+                          smooth
+                          style={styles}
+                          activeClassName={"active"}
+                          to="/#about"
+                        >
                           About
-                        </a>
+                        </NavLink>
                       </li>
                       <li className="nav-item">
-                        <a
-                          className="nav-link"
-                          href=""
-                          title="Speakers"
-                          onClick={() => props.history.push("/speakers")}
+                        <NavLink
+                          smooth
+                          activeClassName={"active"}
+                          style={styles}
+                          to="/speakers#speakers"
                         >
                           Speakers
-                        </a>
+                        </NavLink>
                       </li>
                       <li className="nav-item">
-                        <a
-                          className="nav-link"
-                          href="#code-of-conduct"
-                          title="code of conduct"
+                        <NavLink
+                          smooth
+                          activeClassName={"active"}
+                          style={styles}
+                          to="/coc#coc"
                         >
                           Code of Conduct
-                        </a>
+                        </NavLink>
                       </li>
                     </ul>
                   </nav>
                 </div>
               </div>
+              {/* The section below can be rendered conditionally so that it doesn't show on some pages */}
               <div className="pl-4 pt-5 col-12">
                 <img
                   className="img-fluid"
@@ -108,4 +123,4 @@ function Header(props) {
   );
 }
 
-export default withRouter(Header);
+export default Header;
