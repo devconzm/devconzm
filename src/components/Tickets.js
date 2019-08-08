@@ -3,7 +3,7 @@ import React from "react";
 function Tickets() {
   return (
     <section class="pricing py-5">
-        <h1 className="text-center section-title">DevConZM19 Organising Team</h1>
+        <h1 className="text-center section-titlet">Tickets</h1>
       <div class="container">
     <div class="row">
   

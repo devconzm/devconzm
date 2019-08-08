@@ -365,6 +365,7 @@ section.pricing {
     background: linear-gradient(to right, #0062E6, #33AEFF);
   }
   
+
   .pricing .card {
     border: none;
     border-radius: 1rem;
@@ -409,7 +410,13 @@ section.pricing {
     opacity: 0.7;
     transition: all 0.2s;
   }
-  
+
+  .section-titlet {
+    color: #fff;
+    transition: all .2s ease-in-out;
+  }
+  /*ticket new*/
+
   /* Hover Effects on Card */
   
   @media (min-width: 992px) {
