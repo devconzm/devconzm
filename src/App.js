@@ -4,6 +4,7 @@ import Partners from './components/Partners'
 import Speakers from './components/Speakers'
 import Tickets from './components/Tickets'
 import About from './components/About'
+import Team from './components/Team'
 import Venue from './components/Venue'
 import Footer from './components/Footer'
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -20,6 +21,7 @@ function App() {
       <Venue /> 
       <Partners />
       <Tickets />
+      <Team />
       {/* <Speakers /> */}
       
       <Footer />
