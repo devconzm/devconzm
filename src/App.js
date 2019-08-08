@@ -1,9 +1,10 @@
 import React, { Fragment } from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Info from "./components/Info";
 import Partners from "./components/Partners";
 import Speakers from "./components/Speakers";
-import CodeOfConduct from "./components/Tickets";
+import Tickets from "./components/Tickets";
+import CodeOfConduct from "./components/CodeOfConduct";
 import About from "./components/About";
 import Venue from "./components/Venue";
 import Footer from "./components/Footer";
@@ -15,11 +16,11 @@ library.add(fab);
 function App() {
   return (
     <Router>
-      <>
+      <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/speakers" component={Speakers} />
         <Route path="/coc" component={CodeOfConduct} />
-      </>
+      </Switch>
     </Router>
   );
 }

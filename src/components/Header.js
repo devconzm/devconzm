@@ -1,8 +1,9 @@
 import React from "react";
+import { withRouter } from "react-router-dom";
 import navbarBranding from "../assets/dev1.png";
 import devConZmLogoPlus19 from "../assets/dev2.png";
 
-function Header() {
+function Header(props) {
   return (
     <section id="header-section">
       <div
@@ -19,10 +20,7 @@ function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span
-              className="navbar-toggler-icon"
-              title="toggle-navigation"
-            />
+            <span className="navbar-toggler-icon" title="toggle-navigation" />
           </button>
 
           <div className="row">
@@ -51,11 +49,6 @@ function Header() {
                       className="navbar-nav pull-right smooth-scroll"
                       data-testid="head-list"
                     >
-                      {/* <li className="nav-item">
-                      <a className="nav-link active" href="#venue">
-                        Venue
-                      </a>
-                    </li> */}
                       <li className="nav-item">
                         <a
                           className="nav-link"
@@ -65,23 +58,20 @@ function Header() {
                           Partners
                         </a>
                       </li>
-                      {/* <li className="nav-item">
-                      <a className="nav-link" href="#speakers">
-                        Speakers
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#tickets">
-                        Tickets
-                      </a>
-                    </li> */}
+
                       <li className="nav-item">
-                        <a 
-                          className="nav-link" 
-                          href="#about" 
-                          title="about"
-                        >
+                        <a className="nav-link" href="#about" title="about">
                           About
+                        </a>
+                      </li>
+                      <li className="nav-item">
+                        <a
+                          className="nav-link"
+                          href=""
+                          title="Speakers"
+                          onClick={() => props.history.push("/speakers")}
+                        >
+                          Speakers
                         </a>
                       </li>
                       <li className="nav-item">
@@ -109,16 +99,8 @@ function Header() {
                 <h1>19th - 20th, September 2019</h1>
                 <br />
               </div>
-              <div className="pl-5 pt-5 col-12 text-center">
-                {/* <button
-                  type="button"
-                  className="btn btn-outline-primary devcon"
-                >
-                  Register Now
-                </button> */}
-              </div>
+              <div className="pl-5 pt-5 col-12 text-center" />
             </div>
-            {/* Navbar Info */}
           </div>
         </div>
       </div>
@@ -126,4 +108,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default withRouter(Header);
