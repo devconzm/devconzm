@@ -513,3 +513,16 @@ footer.page-footer {
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
+
+
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
