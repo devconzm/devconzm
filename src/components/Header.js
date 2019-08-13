@@ -1,8 +1,16 @@
 import React from "react";
+import { NavHashLink as NavLink } from "react-router-hash-link";
 import navbarBranding from "../assets/dev1.png";
 import devConZmLogoPlus19 from "../assets/dev2.png";
 
 function Header() {
+  const styles = {
+    textTransform: "uppercase",
+    fontWeight: "bold",
+    color: "#420042",
+    textDecoration: "none",
+    marginLeft: "15px"
+  };
   return (
     <section id="header-section">
       <div
@@ -19,10 +27,7 @@ function Header() {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span
-              className="navbar-toggler-icon"
-              title="toggle-navigation"
-            />
+            <span className="navbar-toggler-icon" title="toggle-navigation" />
           </button>
 
           <div className="row">
@@ -51,52 +56,52 @@ function Header() {
                       className="navbar-nav pull-right smooth-scroll"
                       data-testid="head-list"
                     >
-                      {/* <li className="nav-item">
-                      <a className="nav-link active" href="#venue">
-                        Venue
-                      </a>
-                    </li> */}
                       <li className="nav-item">
-                        <a
-                          className="nav-link"
-                          href="#partners"
-                          title="partners"
+                        <NavLink
+                          smooth
+                          activeClassName={"active"}
+                          style={styles}
+                          to="/#partners"
                         >
                           Partners
-                        </a>
+                        </NavLink>
                       </li>
-                      {/* <li className="nav-item">
-                      <a className="nav-link" href="#speakers">
-                        Speakers
-                      </a>
-                    </li>
-                    <li className="nav-item">
-                      <a className="nav-link" href="#tickets">
-                        Tickets
-                      </a>
-                    </li> */}
+
                       <li className="nav-item">
-                        <a 
-                          className="nav-link" 
-                          href="#about" 
-                          title="about"
+                        <NavLink
+                          smooth
+                          style={styles}
+                          activeClassName={"active"}
+                          to="/#about"
                         >
                           About
-                        </a>
+                        </NavLink>
                       </li>
                       <li className="nav-item">
-                        <a
-                          className="nav-link"
-                          href="#code-of-conduct"
-                          title="code of conduct"
+                        <NavLink
+                          smooth
+                          activeClassName={"active"}
+                          style={styles}
+                          to="/speakers#speakers"
+                        >
+                          Speakers
+                        </NavLink>
+                      </li>
+                      <li className="nav-item">
+                        <NavLink
+                          smooth
+                          activeClassName={"active"}
+                          style={styles}
+                          to="/coc#coc"
                         >
                           Code of Conduct
-                        </a>
+                        </NavLink>
                       </li>
                     </ul>
                   </nav>
                 </div>
               </div>
+              {/* The section below can be rendered conditionally so that it doesn't show on some pages */}
               <div className="pl-4 pt-5 col-12">
                 <img
                   className="img-fluid"
@@ -109,16 +114,8 @@ function Header() {
                 <h1>19th - 20th, September 2019</h1>
                 <br />
               </div>
-              <div className="pl-5 pt-5 col-12 text-center">
-                {/* <button
-                  type="button"
-                  className="btn btn-outline-primary devcon"
-                >
-                  Register Now
-                </button> */}
-              </div>
+              <div className="pl-5 pt-5 col-12 text-center" />
             </div>
-            {/* Navbar Info */}
           </div>
         </div>
       </div>
