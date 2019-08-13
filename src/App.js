@@ -29,8 +29,10 @@ function Home() {
     <Fragment>
       <Info />
       <About />
-      <Venue />
+      <Venue /> 
+      <Tickets />
       <Partners />
+      {/* <Speakers />*/}
       <Footer />
     </Fragment>
   );

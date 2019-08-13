@@ -317,11 +317,12 @@ footer {
 }
 
 #tickets .ticket {
-  position: relative;
-  background-position: top;
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 372px;
+    position: relative;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 29.5rem;
+
 }
 
 #tickets .ticket-1 {
@@ -346,7 +347,8 @@ footer {
   font-weight: bold;
 }
 
-#tickets .ticket-content {
+#tickets .ticket-content{
+    font-style:italic;
 }
 
 /* code of conduct section */
