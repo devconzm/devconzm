@@ -32,7 +32,7 @@ function Tickets() {
             <h6 class="card-price text-center">ZK250<span class="period">/</span></h6>
             <hr></hr>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Runs from 20th August to 20th September 2019</strong></li>
+            Runs from 20th August to 20th September 2019
              
              
             </ul>
@@ -49,7 +49,7 @@ function Tickets() {
             <h6 class="card-price text-center">ZK---<span class="period"></span></h6>
             <hr></hr>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Your Donation will be highly Apreciated</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Your Donation will be highly Apreciated</li>
               
              
             </ul>
