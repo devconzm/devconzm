@@ -1,22 +1,20 @@
 import React from "react";
-import DevConLogo2019 from "../assets/dev2.png";
+import Header from "./Header";
 import Footer from "./Footer";
 
 const CodeOfConduct = () => {
   return (
     <div className="conduct-container">
+      <div className="masthead">
+        <Header />
+      </div>
       <section id="code-of-conduct">
         <div className="conduct-header">
-          <img
-            src={DevConLogo2019}
-            alt="DevCon Zambia Logo"
-            title="DevCon Zambia 2019 Logo"
-          />
           <h2>Code Of Conduct</h2>
         </div>
         <div className="expected-behaviours">
           <h4>Expected Behaviours</h4>
-          <div className="behaviours-intro-paragraph">
+          <div className="behaviours-intro-paragraph" id="coc">
             <p>
               DevCon Zambia strives on being a healthy community! Part of being
               a community is to set standards on how we make our events and
@@ -29,7 +27,8 @@ const CodeOfConduct = () => {
               connect, and grow together. This Code of Conduct applies to all
               events run by DevCon Zambia, including any self-organised events
               derived from our events. We also expect the same code of conduct
-              to carry through to any other medium that relates to DevCon Zambia, for example, social media, blogs, forums and chat
+              to carry through to any other medium that relates to DevCon
+              Zambia, for example, social media, blogs, forums and chat
               services.
             </p>
             <p>
@@ -157,7 +156,9 @@ const CodeOfConduct = () => {
               other concerns—please report it by contacting any of the
               following:
             </p>
-            <ul> {/* more contact info can be added here later */}
+            <ul>
+              {" "}
+              {/* more contact info can be added here later */}
               <li>
                 Email:{" "}
                 <a href="mailto:info@devcon.co.zm" title="email">
@@ -226,9 +227,9 @@ const CodeOfConduct = () => {
           <h4>Contact Us</h4>
           <p>
             If you have any questions about the code of conduct, please contact
-            us at {" "}
+            us at{" "}
             <a href="mailto:info@devcon.co.zm" title="email">
-                info@devcon.co.zm
+              info@devcon.co.zm
             </a>
           </p>
         </div>
