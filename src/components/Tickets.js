@@ -14,7 +14,7 @@ function Tickets() {
             <h6 class="card-price text-center">ZK150<span class="period"></span></h6>
             <hr></hr>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span>Runs from 29th July to 19th August 2019</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Runs from 29th July to 1st September 2019</li>
 
               
             
@@ -32,7 +32,7 @@ function Tickets() {
             <h6 class="card-price text-center">ZK250<span class="period">/</span></h6>
             <hr></hr>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Runs from 20th August to 20th September 2019</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Runs from 1st to 20th September 2019</strong></li>
              
              
             </ul>
@@ -49,7 +49,7 @@ function Tickets() {
             <h6 class="card-price text-center">ZK---<span class="period"></span></h6>
             <hr></hr>
             <ul class="fa-ul">
-              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Your Donation will be highly Apreciated</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Your Donation will be highly appreciated</strong></li>
               
              
             </ul>
