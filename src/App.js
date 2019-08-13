@@ -7,6 +7,7 @@ import Tickets from "./components/Tickets";
 import CodeOfConduct from "./components/CodeOfConduct";
 import About from "./components/About";
 import Venue from "./components/Venue";
+import Team from "./components/Team";
 import Footer from "./components/Footer";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
@@ -32,7 +33,6 @@ function Home() {
       <Venue /> 
       <Tickets />
       <Partners />
-      <Tickets />
       <Team />
       <Footer />
     </Fragment>
