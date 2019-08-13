@@ -20,7 +20,7 @@ function Tickets() {
             
             </ul>
             
-            <a href="#" class="btn btn-block btn-primary text-uppercase">Get Tickets</a>
+            <a href="https://www.quicket.co.zm/events/80301-developer-conference-zambia-19/" class="btn btn-block btn-primary text-uppercase">Get Tickets</a>
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@ function Tickets() {
              
             </ul>
            
-            <a href="#" class="btn btn-block btn-primary text-uppercase">Get Tickets</a>
+            <a href="https://www.quicket.co.zm/events/80301-developer-conference-zambia-19/" class="btn btn-block btn-primary text-uppercase">Get Tickets</a>
           </div>
         </div>
       </div>
@@ -54,7 +54,7 @@ function Tickets() {
              
             </ul>
             
-            <a href="#" class="btn btn-block btn-primary text-uppercase">Donate</a>
+            <a href="https://www.quicket.co.zm/events/80301-developer-conference-zambia-19/" class="btn btn-block btn-primary text-uppercase">Donate</a>
           </div>
         </div>
       </div>
