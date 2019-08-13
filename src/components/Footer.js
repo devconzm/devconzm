@@ -7,22 +7,22 @@ function Footer() {
             {/* Social Media */}
             <div className="center">
                 <div className="social-media">
-                    <a href="https://m.facebook.com/devconzm/">
+                    <a href="https://m.facebook.com/devconzm/" title="facebook">
                         <FaFacebookSquare 
                             size={40}
                         />
                     </a>
-                    <a href="https://twitter.com/devcon_zm">
+                    <a href="https://twitter.com/devcon_zm" title="twitter">
                         <FaTwitterSquare 
                             size={40}
                         />
                     </a>
-                    <a href="https://www.linkedin.com/company/developer-conference-zambia-19">
+                    <a href="https://www.linkedin.com/company/developer-conference-zambia-19" title="linked-in">
                         <FaLinkedin 
                             size={40}
                         />
                     </a>
-                    <a href="mailto:info@devcon.co.zm">
+                    <a href="mailto:info@devcon.co.zm" title="email">
                         <FaEnvelope 
                             size={40}
                         />
@@ -36,13 +36,13 @@ function Footer() {
 
             {/* Copyright */}
             <div className="container footer-copyright text-center py-3">
-                <p>&copy;2019 <a href="http://devcon.co.zm"> DevCon Zambia</a> All rights reserved.</p>
+                <p>&copy;2019 <a href="http://devcon.co.zm" title="DevCon Zambia"> DevCon Zambia</a> All rights reserved.</p>
             </div>
             {/* Copyright */}
 
             {/* Code of Conduct */ } 
             <div className="container footer-copyright text-center py-3">
-                <a target="_blank" href = "https://github.com/devconzm/devconzm/blob/master/CODE_OF_CONDUCT.md" >Code of Conduct</a>
+                <a target="_blank" href="./CodeOfConduct.js" title="code of conduct">Code of Conduct</a>
             </div>
             {/* Code of Conduct */ }
 
