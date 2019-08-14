@@ -211,6 +211,11 @@ footer {
   border-bottom: 60px solid #fff;
   border-left: 30vw solid transparent;
 }
+
+.about-video {
+  display: flex;
+  justify-content: center;
+}
 /* White Chevron */
 
 /* Grey Chevron */
@@ -352,6 +357,10 @@ footer {
 }
 
 /* code of conduct section */
+.conduct-header {
+  margin-top: 9%;
+}
+
 .conduct-container {
   background-color: whitesmoke;
 }
@@ -375,13 +384,6 @@ footer {
 
 #code-of-conduct h2 {
   margin-bottom: 40px;
-}
-
-/* scale image here */
-.conduct-header img {
-  margin: 70px 0 20px 0;
-  /* height: 60px;
-    width: 400px; */
 }
 
 /* paragraph font */
