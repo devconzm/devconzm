@@ -92,7 +92,7 @@ function Header() {
                           smooth
                           activeClassName={"active"}
                           style={styles}
-                          to="/coc#coc"
+                          to="/coc#code-of-conduct"
                         >
                           Code of Conduct
                         </NavLink>
