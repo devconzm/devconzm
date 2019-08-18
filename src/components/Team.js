@@ -23,7 +23,7 @@ function Team() {
                         <a href="#" class="social-icon" title="Linkedin"><i class="fa fa-linkedin"></i></a>
                     </div>{/*<!-- End .social-icons --> */}
                 </div>{/*<!-- End .member-top --> */}
-                <h3 class="member-title"><a href="#">John Doe</a> <small>(Co-founder)</small></h3>
+                <h3 class="member-title"><a href="#">Olivier JM</a> <small>(Co-founder)</small></h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit osam error quo.</p>
             </div>{/*<!-- End .member --> */}
         </div>{/*<!-- End .col-md-3 --> */}
