@@ -14,7 +14,7 @@ function Team() {
             <div class="member text-center">
                 <div class="member-top">
                     <figure>
-                        <img src="https://cdn1.imggmi.com/uploads/2019/8/18/f2657b72180b66ecc17258d363f7b3cb-full.jpg" alt="Olivia"></img>
+                        <img src="https://cdn1.imggmi.com/uploads/2019/8/18/f2657b72180b66ecc17258d363f7b3cb-full.jpg" alt="Olivier JM"></img>
                     </figure>
                     <div class="social-icons">
                         <a href="#" class="social-icon" title="Facebook"><i class="fa fa-facebook"></i></a>
