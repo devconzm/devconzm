@@ -23,8 +23,8 @@ function Team() {
                         <a href="#" class="social-icon" title="Linkedin"><i class="fa fa-linkedin"></i></a>
                     </div>{/*<!-- End .social-icons --> */}
                 </div>{/*<!-- End .member-top --> */}
-                <h3 class="member-title"><a href="#">Olivier JM</a> <small>(Co-founder)</small></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit osam error quo.</p>
+                <h3 class="member-title"><a href="#">Olivier JM</a> <small>(Developer)</small></h3>
+                <p></p>
             </div>{/*<!-- End .member --> */}
         </div>{/*<!-- End .col-md-3 --> */}
     
@@ -32,18 +32,18 @@ function Team() {
             <div class="member text-center">
                 <div class="member-top">
                     <figure>
-                        <img src="https://a.imge.to/2019/08/08/Q4Q0Y.jpg" alt="Member Name"></img>
+                        <img src="https://b.imge.to/2019/08/19/Jxpi0.md.jpg" alt="sour_bones"></img>
                     </figure>
                     <div class="social-icons">
                         <a href="#" class="social-icon" title="Facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="social-icon" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="https://twitter.com/@sour_bones" class="social-icon" title="Twitter"><i class="fa fa-twitter"></i></a>
                         <a href="#" class="social-icon" title="Linkedin"><i class="fa fa-linkedin"></i></a>
                         <a href="#" class="social-icon" title="Tumblr"><i class="fa fa-tumblr"></i></a>
                         <a href="#" class="social-icon" title="Flickr"><i class="fa fa-flickr"></i></a>
                     </div>{/*<!-- End .social-icons --> */}
                 </div>{/*<!-- End .member-top --> */}
-                <h3 class="member-title"><a href="#">John Doe</a> <small>(Developer)</small></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit osam error quo.</p>
+                <h3 class="member-title"><a href="#">Mukuma Musenge</a> <small>(Developer)</small></h3>
+                <p></p>
             </div>{/*<!-- End .member --> */}
         </div>{/*<!-- End .col-md-3 --> */}
     
