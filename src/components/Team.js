@@ -19,7 +19,7 @@ function Team() {
                     <div class="social-icons">
                         <a href="https://facebook.com/manolivier" class="social-icon" title="Facebook"><i class="fa fa-facebook"></i></a>
                         <a href="https://twitter.com/@olivierjmm" class="social-icon" title="Twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="social-icon" title="Github"><i class="fa fa-github"></i></a>
+                        <a href="https://github.com/OlivierJM" class="social-icon" title="Github"><i class="fa fa-github"></i></a>
                         <a href="#" class="social-icon" title="Linkedin"><i class="fa fa-linkedin"></i></a>
                     </div>{/*<!-- End .social-icons --> */}
                 </div>{/*<!-- End .member-top --> */}
@@ -38,8 +38,7 @@ function Team() {
                         <a href="#" class="social-icon" title="Facebook"><i class="fa fa-facebook"></i></a>
                         <a href="https://twitter.com/@sour_bones" class="social-icon" title="Twitter"><i class="fa fa-twitter"></i></a>
                         <a href="#" class="social-icon" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-                        <a href="#" class="social-icon" title="Tumblr"><i class="fa fa-tumblr"></i></a>
-                        <a href="#" class="social-icon" title="Flickr"><i class="fa fa-flickr"></i></a>
+                        <a href="https://github.com/k9uma" class="social-icon" title="Github"><i class="fa fa-github"></i></a>
                     </div>{/*<!-- End .social-icons --> */}
                 </div>{/*<!-- End .member-top --> */}
                 <h3 class="member-title"><a href="#">Mukuma Musenge</a> <small>(Developer)</small></h3>
