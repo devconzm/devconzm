@@ -52,18 +52,18 @@ function Team() {
             <div class="member text-center">
                 <div class="member-top">
                     <figure>
-                        <img src="https://a.imge.to/2019/08/08/Q4zNA.png" alt="Member Name"></img>
+                        <img src="https://a.imge.to/2019/08/21/bq624.md.jpg" alt="Daniel Madalitso Phiri"></img>
                     </figure>
                     <div class="social-icons">
                         <a href="#" class="social-icon" title="Facebook"><i class="fa fa-facebook"></i></a>
-                        <a href="#" class="social-icon" title="Twitter"><i class="fa fa-twitter"></i></a>
-                        <a href="#" class="social-icon" title="Github"><i class="fa fa-github"></i></a>
+                        <a href="https://twitter.com/@malgamves" class="social-icon" title="Twitter"><i class="fa fa-twitter"></i></a>
+                        <a href="https://github.com/malgamves" class="social-icon" title="Github"><i class="fa fa-github"></i></a>
                         <a href="#" class="social-icon" title="Linkedin"><i class="fa fa-linkedin"></i></a>
-                        <a href="#" class="social-icon" title="Tumblr"><i class="fa fa-tumblr"></i></a>
+                        
                     </div>{/*<!-- End .social-icons --> */}
                 </div>{/*<!-- End .member-top --> */}
-                <h3 class="member-title"><a href="#">Jane Doe</a> <small>(Developer)</small></h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit osam error quo.</p>
+                <h3 class="member-title"><a href="#">Daniel Madalitso Phiri</a> <small>(Developer)</small></h3>
+                <p></p>
             </div>{/*<!-- End .member --> */}
         </div>{/*<!-- End .col-md-3 --> */}
     
