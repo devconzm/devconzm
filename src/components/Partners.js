@@ -100,6 +100,21 @@ function Partners() {
                 </a>
               </div>
 
+              <div className="col-sm">
+                <a
+                  href="https://aws.amazon.com/"
+                  title="AWS"
+                  target="_blank"
+                >
+                  <img
+                    width="200"
+                    height="200"
+                    alt="amazon web services"
+                    src={require("../assets/aws.png")}
+                  />
+                </a>
+              </div>
+
             </div>
           </div>
         </div>

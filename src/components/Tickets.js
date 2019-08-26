@@ -14,7 +14,7 @@ function Tickets() {
             <h6 class="card-price text-center">ZK150<span class="period"></span></h6>
             <hr></hr>
             <ul class="fa-ul">
-              Runs from 29th July to 19th August 2019
+              Runs from 29th July to 1st September 2019
             </ul>
             
             <a href="https://www.quicket.co.zm/events/80301-developer-conference-zambia-19/" class="btn btn-block btn-primary text-uppercase">Get Tickets</a>
@@ -26,10 +26,10 @@ function Tickets() {
         <div class="card mb-5 mb-lg-0">
           <div class="card-body">
             <h5 class="card-title text-muted text-uppercase text-center">Regular Ticket</h5>
-            <h6 class="card-price text-center">ZK250<span class="period">/</span></h6>
+            <h6 class="card-price text-center">ZK250<span class="period"></span></h6>
             <hr></hr>
             <ul class="fa-ul">
-            Runs from 20th August to 20th September 2019
+            Runs from 1st September to 20th September 2019
            </ul>
            
             <a href="https://www.quicket.co.zm/events/80301-developer-conference-zambia-19/" class="btn btn-block btn-primary text-uppercase">Get Tickets</a>
