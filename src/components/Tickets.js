@@ -2,43 +2,59 @@ import React from "react";
 
 function Tickets() {
   return (
-    <section id="tickets">
-      <div className="container">
-        <h1 className="text-center">Tickets</h1>
-        <div className="tickets row text-center">
-          <div className="ticket ticket-1 col-sm box-shadow">
-            <h4 className="ticket-header">EARLY-BIRD PASS</h4>
-            <p className="ticket-price">K 150</p>
-            <p className="ticket-content">
-              Get from 29th July to 31st August 2019
-            </p>
-            <a href="https://qkt.io/I3SHAd">
-              <p className="btn btn-info btn-sm">Click here to Purchase.</p>
-            </a>
+    <section class="pricing py-5">
+        <h1 className="text-center section-titlet">Tickets</h1>
+      <div class="container">
+    <div class="row">
+  
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Early Bird Ticket</h5>
+            <h6 class="card-price text-center">ZK150<span class="period"></span></h6>
+            <hr></hr>
+            <ul class="fa-ul">
+              Runs from 29th July to 1st September 2019
+            </ul>
+            
+            <a href="https://www.quicket.co.zm/events/80301-developer-conference-zambia-19/" class="btn btn-block btn-primary text-uppercase">Get Tickets</a>
           </div>
-          <div className="ticket ticket-2 col-sm box-shadow">
-            <h4 className="ticket-header">REGULAR PASS</h4>
-            <p className="ticket-price">K 250</p>
-            <p className="ticket-content">
-              From 20th August to 20th September 2019
-            </p>
-            {/* <a href="https://qkt.io/I3SHAd">
-              <p className="btn btn-info btn-sm">Click here to Purchase.</p>
-            </a> */}
-          </div>
-          {/* <div className="ticket ticket-2 col-sm box-shadow">
-            <h4 className="ticket-header">REGULAR PASS</h4>
-            <p className="ticket-price">K 250</p>
-            <p className="ticket-content">
-              Get from 20th August to 20th September 2019
-            </p>
-            <a href="https://qkt.io/I3SHAd">
-              <p className="btn btn-info btn-sm">Click here to Purchase.</p>
-            </a>
-          </div> */}
         </div>
       </div>
-    </section>
+      
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Regular Ticket</h5>
+            <h6 class="card-price text-center">ZK250<span class="period"></span></h6>
+            <hr></hr>
+            <ul class="fa-ul">
+            Runs from 1st September to 20th September 2019
+           </ul>
+           
+            <a href="https://www.quicket.co.zm/events/80301-developer-conference-zambia-19/" class="btn btn-block btn-primary text-uppercase">Get Tickets</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-muted text-uppercase text-center">Donation</h5>
+            <h6 class="card-price text-center">ZK---<span class="period"></span></h6>
+            <hr></hr>
+            <ul class="fa-ul">
+              Your Donation will be highly Apreciated
+            </ul>
+            
+            <a href="https://www.quicket.co.zm/events/80301-developer-conference-zambia-19/" class="btn btn-block btn-primary text-uppercase">Donate</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  
   );
 }
 

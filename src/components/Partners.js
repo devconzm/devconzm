@@ -84,6 +84,37 @@ function Partners() {
                   />
                 </a>
               </div>
+
+              <div className="col-sm">
+                <a
+                  href="https://asikananetwork.org"
+                  title="asikana network"
+                  target="_blank"
+                >
+                  <img
+                    width="200"
+                    height="200"
+                    alt="asikananetwork"
+                    src={require("../assets/asikananetwork.jpg")}
+                  />
+                </a>
+              </div>
+
+              <div className="col-sm">
+                <a
+                  href="https://aws.amazon.com/"
+                  title="AWS"
+                  target="_blank"
+                >
+                  <img
+                    width="200"
+                    height="200"
+                    alt="amazon web services"
+                    src={require("../assets/aws.png")}
+                  />
+                </a>
+              </div>
+
             </div>
           </div>
         </div>
