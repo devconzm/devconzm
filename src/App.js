@@ -18,18 +18,7 @@ function App() {
       <Info />
       <About />
       <Speakers />
-      <Fragment>
-        <section id='tickets'>
-          <div className='container'>
-            <h1 className='text-center'>Tickets</h1>
-            <div className='card-deck mb-3 text-center'>
-              {[1, 2, 4].map(i => (
-                <Tickets key={i} />
-              ))}
-            </div>
-          </div>
-        </section>
-      </Fragment>
+      <Tickets />
       <Partners />
       <Venue />
       <Footer />

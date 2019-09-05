@@ -125,6 +125,33 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "WillzMu",
+      "name": "Wilfred",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/16624002?v=4",
+      "profile": "https://github.com/WillzMu",
+      "contributions": [
+        "ideas"
+      ]
+    },
+    {
+      "login": "locness3",
+      "name": "Locness",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/37651007?v=4",
+      "profile": "http://locnesssite.wordpress.com",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "geraldMaboshe",
+      "name": "geraldMaboshe",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/41299580?v=4",
+      "profile": "https://github.com/geraldMaboshe",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
