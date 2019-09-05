@@ -1,4 +1,5 @@
 import React from "react";
+import Header from "./Info";
 
 function Speakers() {
   const speakers = [
@@ -80,8 +81,8 @@ function Speakers() {
             </div>
           ))}
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
 
