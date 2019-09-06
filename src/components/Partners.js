@@ -90,6 +90,7 @@ function Partners() {
                   href="https://asikananetwork.org"
                   title="asikana network"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img
                     width="200"
@@ -104,6 +105,7 @@ function Partners() {
                 <a
                   href="https://aws.amazon.com/"
                   title="AWS"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <img
@@ -114,7 +116,6 @@ function Partners() {
                   />
                 </a>
               </div>
-
             </div>
           </div>
         </div>
