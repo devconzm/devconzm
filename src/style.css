@@ -995,6 +995,15 @@ footer {
   height: 0;
   border-left: 30vw solid transparent;
 }
+@media only screen and (max-width:768px){
+#partners img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  widows: 200px;;
+  height:200px;
+    }
+}
 
 .email-header {
   margin-bottom: 3rem;
