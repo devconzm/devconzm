@@ -77,8 +77,9 @@ function Speakers() {
                   width="180"
                   height="180"
                 />
+                <br />
                 <div className="speaker-text-div">
-                  <h3 className="text-center">{speaker.name}</h3>
+                  <h4 className="text-center">{speaker.name}</h4>
                   <h6 className="text-center">{speaker.company}</h6>
                   <p className="text-center">{speaker.talk}</p>
                 </div>
