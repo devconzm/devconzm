@@ -14,6 +14,7 @@ function Partners() {
                   href="https://www.jetbrains.com"
                   title="jet brains"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img
                     width="200"
@@ -28,6 +29,7 @@ function Partners() {
                   href="https://www.stickermule.com"
                   title="sticker mule"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img
                     width="200"
@@ -38,7 +40,12 @@ function Partners() {
                 </a>
               </div>
               <div className="col-sm">
-                <a href="#" title="agora code" target="_blank">
+                <a
+                  href="https://github.com/agora-code-community"
+                  title="agora code"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     width="200"
                     height="200"
@@ -52,6 +59,7 @@ function Partners() {
                   href="https://www.gitkraken.com"
                   title="git kraken"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img
                     width="200"
@@ -66,6 +74,7 @@ function Partners() {
                   href="https://www.bongohive.co.zm"
                   title="bongo hive"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img
                     width="200"
@@ -75,6 +84,37 @@ function Partners() {
                   />
                 </a>
               </div>
+
+              <div className="col-sm">
+                <a
+                  href="https://asikananetwork.org"
+                  title="asikana network"
+                  target="_blank"
+                >
+                  <img
+                    width="200"
+                    height="200"
+                    alt="asikananetwork"
+                    src={require("../assets/asikananetwork.jpg")}
+                  />
+                </a>
+              </div>
+
+              <div className="col-sm">
+                <a
+                  href="https://aws.amazon.com/"
+                  title="AWS"
+                  target="_blank"
+                >
+                  <img
+                    width="200"
+                    height="200"
+                    alt="amazon web services"
+                    src={require("../assets/aws.png")}
+                  />
+                </a>
+              </div>
+
             </div>
           </div>
         </div>
