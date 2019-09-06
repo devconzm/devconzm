@@ -11,25 +11,25 @@ function Speakers() {
     },
     {
       name: "Rahul Sharma",
-      image: "/img/speakers/rahul.png",
+      image: "/img/speakers/rahul.jpg",
       company: "Agile Coach at Think Agile",
       talk: "Know it better, to facilitate it better"
     },
     {
       name: " Dennis Mubamba",
-      image: "/img/speakers/dennis.png",
+      image: "/img/speakers/dennis.jpg",
       company: "Senior Software Engineer - Mika Express",
       talk: "Actors systems and Asynchronous Software Development"
     },
     {
       name: "Twaambo Haamucenje",
-      image: "/img/speakers/twaambo.png",
+      image: "/img/speakers/twaambo.jpg",
       company: "CTO - Mvesesani Media",
       talk: "Building a Zambian Company and Staying Sane"
     },
     {
       name: "Sekayi Fundafunda Lungu",
-      image: "/img/speakers/sekayi.png",
+      image: "/img/speakers/sekayi.jpg",
       company: "Campus Innovation Lead - BongoHive",
       talk:
         "Creativity for Technology: An interactive session on finding your niche"
@@ -37,7 +37,7 @@ function Speakers() {
 
     {
       name: "Mwaamba Alec Mugala",
-      image: "/img/speakers/mwaamba.png",
+      image: "/img/speakers/mwaamba.jpg",
       company: "Director - EpicArts Studios",
       talk: "The Game Industry - It is time For Africa"
     },
@@ -50,7 +50,7 @@ function Speakers() {
     },
     {
       name: "Shakerrie Almond",
-      image: "img/speakers/shakerrie.png",
+      image: "img/speakers/shakerrie.jpg",
       company: "Chief Operations Officer - BroadPay",
       talk: "TBD"
     },
