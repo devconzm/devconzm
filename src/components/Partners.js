@@ -90,6 +90,7 @@ function Partners() {
                   href="https://asikananetwork.org"
                   title="asikana network"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img
                     width="200"
@@ -104,6 +105,7 @@ function Partners() {
                 <a
                   href="https://aws.amazon.com/"
                   title="AWS"
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <img
@@ -114,12 +116,11 @@ function Partners() {
                   />
                 </a>
               </div>
-
             </div>
           </div>
         </div>
       </div>
-      <div className="center email-header">
+      <div className="d-flex justify-content-center">
         <h6>
           If you would like to partner with us, send us an email at{" "}
           <a href="mailto:info@devcon.co.zm" title="email">
