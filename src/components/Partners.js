@@ -107,7 +107,6 @@ function Partners() {
                   title="AWS"
                   rel="noopener noreferrer"
                   target="_blank"
-                  rel="noopener noreferrer"
                 >
                   <img
                     width="200"
