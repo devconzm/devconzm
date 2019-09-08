@@ -29,7 +29,7 @@ function Home() {
     <Fragment>
       <Info />
       <About />
-      <Venue /> 
+      <Venue />
       <Tickets />
       <Partners />
       {/*<Team />*/}
