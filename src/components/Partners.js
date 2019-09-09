@@ -26,7 +26,7 @@ function Partners() {
               </div>
               <div className="col-sm">
                 <a
-                  href="https://www.stickermule.com"
+                  href="https://www.stickermule.com/supports/you"
                   title="sticker mule"
                   target="_blank"
                   rel="noopener noreferrer"
