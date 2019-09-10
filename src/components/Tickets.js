@@ -17,14 +17,14 @@ function Tickets() {
                 </h6>
                 <hr></hr>
                 <ul className="fa-ul">
-                  Runs from 29th July to 1st September 2019
+                  Sale ended on 31st August 2019
                 </ul>
 
                 <a
-                  href="https://www.quicket.co.zm/events/80301-developer-conference-zambia-19/"
+                  href="#"
                   className="btn btn-block btn-primary text-uppercase"
                 >
-                  Get Tickets
+                  Sold Out
                 </a>
               </div>
             </div>
@@ -58,21 +58,21 @@ function Tickets() {
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title text-muted text-uppercase text-center">
-                  Donation
+                  Corporate Ticket
                 </h5>
                 <h6 className="card-price text-center">
-                  ZK---<span className="period"></span>
+                  ZK500<span className="period"></span>
                 </h6>
                 <hr></hr>
                 <ul className="fa-ul">
-                  Your Donation will be highly Apreciated
+                  Includes access to our exclusive networking mixer
                 </ul>
 
                 <a
                   href="https://www.quicket.co.zm/events/80301-developer-conference-zambia-19/"
                   className="btn btn-block btn-primary text-uppercase"
                 >
-                  Donate
+                  Get Tickets
                 </a>
               </div>
             </div>
