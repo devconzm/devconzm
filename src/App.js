@@ -17,9 +17,10 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/" exact component={Home} />
-        <Route path="/speakers" component={Speakers} />
-        <Route path="/coc" component={CodeOfConduct} />
+        <Route exact path="/" exact component={Home} />
+        <Route exact path="/speakers" component={Speakers} />
+        <Route exact path="/coc" component={CodeOfConduct} />
+        <Route component={() => <h4>Not Found</h4>} />
       </Switch>
     </Router>
   );
