@@ -76,7 +76,7 @@ function ScheduleItem({ schedule, id }) {
           className="collapse"
           data-parent="#accordion"
         >
-          <div className="card-body">{Schedule.description}</div>
+          <div className="card-body">{schedule.description}</div>
         </div>
       </div>
       <br />

@@ -9,7 +9,8 @@
           "activity": "Opening Keynote(S)",
           "speaker": "Akintunde Sultan/Sponsor",
           "topic": "Developers in Africa, Beginning to Intermediate",
-          "image": "/img/speakers/corbus.jpg"
+          "image": "/img/speakers/corbus.jpg",
+          "description": "Here is the topic description"
         },
         {
           "id": 2,
@@ -17,7 +18,8 @@
           "activity": "Topic",
           "speaker": "Dennis Mubamba",
           "topic": "Developers in Africa, Beginning to Intermediate",
-          "image": "/img/speakers/dennis.jpg"
+          "image": "/img/speakers/dennis.jpg",
+          "description": "Here is the topic description"
         },
         {
           "id": 3,
@@ -25,7 +27,8 @@
           "activity": "Presentation",
           "speaker": "Sekayi Funda Funda",
           "topic": "Developers in Africa, Beginning to Intermediate",
-          "image": "/img/speakers/sekayi.jpg"
+          "image": "/img/speakers/sekayi.jpg",
+          "description": "Here is the topic description"
         }
       ]
     },
@@ -37,14 +40,18 @@
           "time": "09:30am",
           "activity": "Opening Keynote(S)",
           "speaker": "Sponsor",
-          "topic": ""
+          "topic": "",
+          "image": "/img/speakers/dennis.jpg",
+          "description": "Here is the topic description"
         },
         {
           "id": 21,
           "time": "10:30am",
           "activity": "Topic",
           "speaker": "Twaambo Hamuceenje",
-          "topic": "Building a Zambian Tech Company and Staying Sane"
+          "topic": "Building a Zambian Tech Company and Staying Sane",
+          "image": "/img/speakers/sekayi.jpg",
+          "description": "Here is the topic description"
         }
       ]
     }
