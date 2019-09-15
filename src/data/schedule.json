@@ -8,14 +8,24 @@
           "time": "09:30am",
           "activity": "Opening Keynote(S)",
           "speaker": "Akintunde Sultan/Sponsor",
-          "topic": "Developers in Africa, Beginning to Intermediate"
+          "topic": "Developers in Africa, Beginning to Intermediate",
+          "image": "/img/speakers/corbus.jpg"
         },
         {
           "id": 2,
           "time": "10:30am",
           "activity": "Topic",
           "speaker": "Dennis Mubamba",
-          "topic": "Developers in Africa, Beginning to Intermediate"
+          "topic": "Developers in Africa, Beginning to Intermediate",
+          "image": "/img/speakers/dennis.jpg"
+        },
+        {
+          "id": 3,
+          "time": "11:00am",
+          "activity": "Presentation",
+          "speaker": "Sekayi Funda Funda",
+          "topic": "Developers in Africa, Beginning to Intermediate",
+          "image": "/img/speakers/sekayi.jpg"
         }
       ]
     },

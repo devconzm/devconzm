@@ -4,8 +4,8 @@ import scheduleData from "../data/schedule.json";
 
 export class Schedule extends Component {
   render() {
+    // honestly this isn't the best solution, If it can be optimized further give it a go
     const [day1, day2] = scheduleData.schedule;
-
     return (
       <div className="container">
         <Fragment>
@@ -39,7 +39,7 @@ function ScheduleItem({ schedule, id }) {
           >
             <div className="col m2">
               <img
-                src="img/speakers/rahul.jpg"
+                src={schedule.image}
                 className="rounded-circle"
                 width={80}
                 height={80}
