@@ -1,0 +1,42 @@
+{
+  "schedule": [
+    {
+      "day": "Day One",
+      "schedule": [
+        {
+          "id": 1,
+          "time": "09:30am",
+          "activity": "Opening Keynote(S)",
+          "speaker": "Akintunde Sultan/Sponsor",
+          "topic": "Developers in Africa, Beginning to Intermediate"
+        },
+        {
+          "id": 2,
+          "time": "10:30am",
+          "activity": "Topic",
+          "speaker": "Dennis Mubamba",
+          "topic": "Developers in Africa, Beginning to Intermediate"
+        }
+      ]
+    },
+    {
+      "day": "Day Two",
+      "schedule": [
+        {
+          "id": 20,
+          "time": "09:30am",
+          "activity": "Opening Keynote(S)",
+          "speaker": "Sponsor",
+          "topic": ""
+        },
+        {
+          "id": 21,
+          "time": "10:30am",
+          "activity": "Topic",
+          "speaker": "Twaambo Hamuceenje",
+          "topic": "Building a Zambian Tech Company and Staying Sane"
+        }
+      ]
+    }
+  ]
+}
