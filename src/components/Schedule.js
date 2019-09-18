@@ -11,11 +11,11 @@ export class Schedule extends Component {
     return (
       <>
         <Header />
-        <div className="container">
+        <div className="container" id="schedule">
           <Fragment>
             <h3>{day1.day}</h3>
-            {day1.schedule.map((schedule, i) => (
-              <ScheduleItem schedule={schedule} key={i} />
+            {day1.schedule.map(schedule => (
+              <ScheduleItem schedule={schedule} id={schedule.id} />
             ))}
           </Fragment>
           <br />

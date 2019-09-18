@@ -66,29 +66,18 @@ function Header() {
                           Partners
                         </NavLink>
                       </li>
-    
-                       <li className="nav-item">
-                        <NavLink
-                          smooth
-                          activeClassName={"active"}
-                          style={styles}
-                          to="/schedule"
-                        >
-                          Schedule
-                        </NavLink>
-                      </li>
 
                       <li className="nav-item">
                         <NavLink
                           smooth
                           activeClassName={"active"}
                           style={styles}
-                          to="/schedule"
+                          to="/schedule#schedule"
                         >
                           Schedule
                         </NavLink>
                       </li>
-                      
+
                       <li className="nav-item">
                         <NavLink
                           smooth
