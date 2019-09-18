@@ -105,23 +105,9 @@ description={schedule.speaker}
        </div>
       </div>
       <Footer/>
+
       </div>
     );
   }
 }
 
-
-{/* <ActivityTimeline>
-{
-day1.schedule.map(schedule => (
-
-<TimelineMarker
-label={schedule.activity +": " + schedule.topic}
-datetime={schedule.time}
-icon={ <UserSignUpIcon src={schedule.image} size="large"/>}
-description={schedule.speaker}
-/>
-))
-}
-
-</ActivityTimeline> */}

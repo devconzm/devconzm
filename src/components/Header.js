@@ -81,6 +81,17 @@ function Header() {
                       <li className="nav-item">
                         <NavLink
                           smooth
+                          activeClassName={"active"}
+                          style={styles}
+                          to="/schedule"
+                        >
+                          Schedule
+                        </NavLink>
+                      </li>
+                      
+                      <li className="nav-item">
+                        <NavLink
+                          smooth
                           style={styles}
                           activeClassName={"active"}
                           to="/#about"
