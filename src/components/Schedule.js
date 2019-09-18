@@ -10,24 +10,24 @@ export class Schedule extends Component {
     const [day1, day2] = scheduleData.schedule;
     return (
       <>
-      <Header/>
-      <div className="container">
-        <Fragment>
-          <h3>{day1.day}</h3>
-          {day1.schedule.map(schedule => (
-            <ScheduleItem schedule={schedule} id={schedule.id} />
-          ))}
-        </Fragment>
-        <br />
-        <br />
-        <Fragment>
-          <h3>{day2.day}</h3>
-          {day2.schedule.map(_schedule => (
-            <ScheduleItem schedule={_schedule} id={_schedule.id} />
-          ))}
-        </Fragment>
-      </div>
-      <Footer/>
+        <Header />
+        <div className="container">
+          <Fragment>
+            <h3>{day1.day}</h3>
+            {day1.schedule.map((schedule, i) => (
+              <ScheduleItem schedule={schedule} key={i} />
+            ))}
+          </Fragment>
+          <br />
+          <br />
+          <Fragment>
+            <h3>{day2.day}</h3>
+            {day2.schedule.map(_schedule => (
+              <ScheduleItem schedule={_schedule} id={_schedule.id} />
+            ))}
+          </Fragment>
+        </div>
+        <Footer />
       </>
     );
   }
@@ -35,7 +35,7 @@ export class Schedule extends Component {
 
 function ScheduleItem({ schedule, id }) {
   return (
-    <div id="accordion" key={id}>
+    <div id="accordion">
       <div className="card">
         <div className="card-header">
           <a
