@@ -59,12 +59,6 @@ function ScheduleItem({ schedule, id }) {
                   />
                   <br />
                   <br />
-                  <a href={schedule.githubLink} title="github">
-                    <FaGithubSquare size={20} />
-                  </a>
-                  <a href="https://twitter.com/Olivierjmm?s=17" title="twitter">
-                    <FaTwitterSquare size={20} />
-                  </a>
                 </div>
                 <div className="col-md-8 text-center">
                     <h2>{schedule.speaker}</h2>
@@ -76,6 +70,12 @@ function ScheduleItem({ schedule, id }) {
                   <span>60mins</span>
                 </div>
               </a>
+              <a href={schedule.githubLink} title="github">
+                    <FaGithubSquare size={20} />
+                  </a>
+                  <a href="https://twitter.com/Olivierjmm?s=17" title="twitter">
+                    <FaTwitterSquare size={20} />
+                  </a>
             </div>
           </div>
           <div
@@ -86,6 +86,7 @@ function ScheduleItem({ schedule, id }) {
             <div className="card-footer text-secondry">
               {schedule.description}
             </div>
+            
           </div>
         </div>
         <br />
