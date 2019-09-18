@@ -10,7 +10,7 @@ export class Schedule extends Component {
     // honestly this isn't the best solution, If it can be optimized further give it a go
     const [day1, day2] = scheduleData.schedule;
     return (
-      <div>
+      <div className="masthead">
         <Info />
         <br />
         <Fragment>
@@ -90,6 +90,7 @@ function ScheduleItem({ schedule, id }) {
         </div>
         <br />
       </div>
+      <br />
     </div>
   );
 }
