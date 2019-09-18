@@ -1,12 +1,16 @@
 import React, { Component, Fragment } from "react";
 import { FaTwitterSquare, FaGithubSquare } from "react-icons/fa";
+import Header from "./Info";
 import scheduleData from "../data/schedule.json";
+import Footer from "./Footer";
 
 export class Schedule extends Component {
   render() {
     // honestly this isn't the best solution, If it can be optimized further give it a go
     const [day1, day2] = scheduleData.schedule;
     return (
+      <>
+      <Header/>
       <div className="container">
         <Fragment>
           <h3>{day1.day}</h3>
@@ -23,6 +27,8 @@ export class Schedule extends Component {
           ))}
         </Fragment>
       </div>
+      <Footer/>
+      </>
     );
   }
 }
