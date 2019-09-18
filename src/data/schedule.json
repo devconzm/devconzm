@@ -1,0 +1,144 @@
+{
+    "schedule": [
+      {
+        "day": "Day One",
+        "schedule": [
+          {
+            "id": 1,
+            "time": "09:30am",
+            "activity": "Opening Keynote(S)",
+            "speaker": "Akintunde Sultan/Sponsor",
+            "topic": "Developers in Africa, Beginning to Intermediate",
+            "image": "/img/speakers/corbus.jpg",
+            "description": "Here is the topic description",
+            "twitterLink":"",
+            "githubLink":""
+          },
+          {
+            "id": 2,
+            "time": "10:30am",
+            "activity": "Topic",
+            "speaker": "Dennis Mubamba",
+            "topic": "Actors, Systems and Asynchronous Software Development",
+            "image": "/img/speakers/dennis.jpg",
+            "description": "Here is the topic description",
+            "twitterLink":"",
+            "githubLink":""
+          },
+          {
+            "id": 3,
+            "time": "11:00am",
+            "activity": "Workshop",
+            "speaker": "Mwaaba Mugala",
+            "topic": "The Game Industry - It's Time For Africa",
+            "image": "/img/speakers/sekayi.jpg",
+            "description": "Here is the topic description",
+            "twitterLink":"",
+            "githubLink":""
+          },
+          {
+            "id": 4,
+            "time": "12:00pm",
+            "activity": "Topic",
+            "speaker": "Rahul Sharma",
+            "topic": "Know it Better, Facilitate it Better",
+            "image": "/img/speakers/sekayi.jpg",
+            "description": "Here is the topic description",
+            "twitterLink":"",
+            "githubLink":""
+          },
+          {
+            "id": 5,
+            "time": "1:00pm",
+            "activity": "Lunch",
+            "speaker": "",
+            "topic": "Lunch",
+            "image": "/img/speakers/sekayi.jpg",
+            "description": "Here is the topic description",
+            "twitterLink":"",
+            "githubLink":""
+          },
+          {
+            "id": 6,
+            "time": "2:10pm",
+            "activity": "Interactive Exercise",
+            "speaker": "Ngosa Chungu",
+            "topic": "",
+            "image": "/img/speakers/sekayi.jpg",
+            "description": "Interactive Exercise",
+            "twitterLink":"",
+            "githubLink":""
+          },
+          {
+            "id": 7,
+            "time": "2:30pm",
+            "activity": "Interactive Topic",
+            "speaker": "Chinedu Koggu",
+            "topic": "Innovative Product Development from Concept to Launch",
+            "image": "/img/speakers/sekayi.jpg",
+            "description": "Here is the topic description",
+            "twitterLink":"",
+            "githubLink":""
+          },
+          {
+            "id": 8,
+            "time": "3:00pm",
+            "activity": "Topic",
+            "speaker": "Shakerrie Allmond",
+            "topic": "Impact of Helth Technology",
+            "image": "/img/speakers/sekayi.jpg",
+            "description": "Here is the topic description",
+            "twitterLink":"",
+            "githubLink":""
+          },
+          {
+            "id": 9,
+            "time": "3:30pm",
+            "activity": "Topic",
+            "speaker": "Olivier Mani",
+            "topic": "Modern PaaS on Azure",
+            "image": "/img/speakers/sekayi.jpg",
+            "description": "Here is the topic description",
+            "twitterLink":"https://twitter.com/Olivierjmm?s=17",
+            "githubLink":"https://github.com/OlivierJM"
+          },
+          {
+            "id": 10,
+            "time": "3:00pm",
+            "activity": "Closing Keynote",
+            "speaker": "Sponsor",
+            "topic": "Closing Keynote",
+            "image": "/img/speakers/sekayi.jpg",
+            "description": "Here is the topic description",
+            "twitterLink":"",
+            "githubLink":""
+          }
+        ]
+      },
+      {
+        "day": "Day Two",
+        "schedule": [
+          {
+            "id": 20,
+            "time": "09:30am",
+            "activity": "Opening Keynote(S)",
+            "speaker": "Sponsor",
+            "topic": "",
+            "image": "/img/speakers/dennis.jpg",
+            "description": "Here is the topic description",
+            "shortDescription":"Here is the short summarised topic description"
+          },
+          {
+            "id": 21,
+            "time": "10:30am",
+            "activity": "Topic",
+            "speaker": "Twaambo Hamuceenje",
+            "topic": "Building a Zambian Tech Company and Staying Sane",
+            "image": "/img/speakers/sekayi.jpg",
+            "description": "Here is the topic description",
+            "shortDescription":"Here is the short summarised topic description"
+          }
+        ]
+      }
+    ]
+  }
