@@ -12,19 +12,24 @@ export class Schedule extends Component {
     return (
       <div>
         <Info />
+        <br />
         <Fragment>
-          <h1>{day1.day}</h1>
-          {day1.schedule.map(schedule => (
-            <ScheduleItem schedule={schedule} id={schedule.id} />
-          ))}
+          <div className="container">
+            <h3>{day1.day}</h3>
+            {day1.schedule.map(schedule => (
+              <ScheduleItem schedule={schedule} id={schedule.id} />
+            ))}
+          </div>
         </Fragment>
         <br />
         <br />
         <Fragment>
-          <h3>{day2.day}</h3>
-          {day2.schedule.map(_schedule => (
-            <ScheduleItem schedule={_schedule} id={_schedule.id} />
-          ))}
+          <div className="container">
+            <h3>{day2.day}</h3>
+            {day2.schedule.map(_schedule => (
+              <ScheduleItem schedule={_schedule} id={_schedule.id} />
+            ))}
+          </div>
         </Fragment>
         <Footer />
       </div>
@@ -34,42 +39,44 @@ export class Schedule extends Component {
 
 function ScheduleItem({ schedule, id }) {
   return (
-    <div className="container card border-primary">
-      <div id="accordion" key={id}>
-        <div className="container">
-          <div className="card-body border-primary">
-            <a
-              className="row card-link text-decoraton-none"
-              href={"#collapseOne" + id}
-              data-toggle="collapse"
-            >
-              <div className="col-md-1">
-                <img
-                  src={schedule.image}
-                  className="rounded-circle"
-                  width={80}
-                  height={80}
-                  alt="keynote speaker"
-                />
-                <br />
-                <br />
-                <a href={schedule.githubLink} title="github">
-                  <FaGithubSquare size={20} />
-                </a>
-                <a href="https://twitter.com/Olivierjmm?s=17" title="twitter">
-                  <FaTwitterSquare size={20} />
-                </a>
-              </div>
-              <div className="col-md-8 text-center">
-                  <h2>{schedule.speaker}</h2>
-                  <p>{schedule.topic}</p>
-              </div>
-              <div className="col-md-2 text-right">
-                <span>{schedule.time}</span> 
+    <div className="container">
+      <div className="card border-primary">
+        <div id="accordion" key={id}>
+          <div className="container">
+            <div className="card-body border-primary">
+              <a
+                className="row card-link text-decoraton-none"
+                href={"#collapseOne" + id}
+                data-toggle="collapse"
+              >
+                <div className="col-md-1">
+                  <img
+                    src={schedule.image}
+                    className="rounded-circle"
+                    width={80}
+                    height={80}
+                    alt="keynote speaker"
+                  />
                   <br />
-                <span>60mins</span>
-              </div>
-            </a>
+                  <br />
+                  <a href={schedule.githubLink} title="github">
+                    <FaGithubSquare size={20} />
+                  </a>
+                  <a href="https://twitter.com/Olivierjmm?s=17" title="twitter">
+                    <FaTwitterSquare size={20} />
+                  </a>
+                </div>
+                <div className="col-md-8 text-center">
+                    <h2>{schedule.speaker}</h2>
+                    <p>{schedule.topic}</p>
+                </div>
+                <div className="col-md-2 text-right">
+                  <span>{schedule.time}</span> 
+                    <br />
+                  <span>60mins</span>
+                </div>
+              </a>
+            </div>
           </div>
           <div
             id={"collapseOne" + id}
