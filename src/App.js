@@ -10,7 +10,9 @@ import Venue from "./components/Venue";
 import Footer from "./components/Footer";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
-import { Schedule } from "./components/Schedule";
+
+import Schedule from "./components/Schedule";
+
 
 library.add(fab);
 

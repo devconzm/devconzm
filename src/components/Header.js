@@ -66,8 +66,8 @@ function Header() {
                           Partners
                         </NavLink>
                       </li>
-
-                      <li className="nav-item">
+    
+                       <li className="nav-item">
                         <NavLink
                           smooth
                           activeClassName={"active"}
@@ -105,7 +105,7 @@ function Header() {
                           style={styles}
                           to="/coc#code-of-conduct"
                         >
-                          Code of Conduct
+                          C.O.C
                         </NavLink>
                       </li>
                     </ul>
