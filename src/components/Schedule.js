@@ -91,7 +91,7 @@ description={schedule.speaker}
                                 ariaControls="primaryTab" />
 
                             <Tab
-                                label="20th Spetember 2019"
+                                label="20th September 2019"
                                 name="DAY_TWO"
                                 id="DAY_TWO"
                                 ariaControls="sharedTab" />

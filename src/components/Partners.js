@@ -116,6 +116,23 @@ function Partners() {
                   />
                 </a>
               </div>
+
+              <div className="col-sm">
+                <a
+                  href="https://pubnub.com"
+                  title="pubnub"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    width="300"
+                    height="100"
+                    alt="pubnub"
+                    src={require("../assets/pubnub.png")}
+                  />
+                </a>
+              </div>
+
             </div>
           </div>
         </div>
