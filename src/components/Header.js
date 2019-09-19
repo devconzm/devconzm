@@ -77,17 +77,6 @@ function Header() {
                           Schedule
                         </NavLink>
                       </li>
-
-                      <li className="nav-item">
-                        <NavLink
-                          smooth
-                          activeClassName={"active"}
-                          style={styles}
-                          to="/schedule"
-                        >
-                          Schedule
-                        </NavLink>
-                      </li>
                       
                       <li className="nav-item">
                         <NavLink
@@ -116,7 +105,7 @@ function Header() {
                           style={styles}
                           to="/coc#code-of-conduct"
                         >
-                          Code of Conduct
+                          C.O.C
                         </NavLink>
                       </li>
                     </ul>

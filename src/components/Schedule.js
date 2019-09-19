@@ -69,9 +69,12 @@ description={schedule.speaker}
       <div className="container">
         <div  className="row">
           <div className="col-lg-12 col-md-12 col-sm-4">
-             <h1 className="text-center" style={{marginTop:"20px",marginBottom:"30px"}}>DevCon Zambia Schedule</h1>
+             <h1 className="text-center" style={{marginTop:"30px",marginBottom:"30px"}}>DevCon Zambia Schedule</h1>
+             <p className="lead small text-center"> Note: Schedule subject  to Change</p>
+            
           </div>
         </div>
+        <br></br>
        <div className="row">
        <div className="col-lg-12 col-md-12 d-flex justify-content-center">
       <div className="rainbow-m-around_xx-large">
