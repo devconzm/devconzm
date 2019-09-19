@@ -12,7 +12,7 @@ function Venue() {
                     <h3>It's happening at </h3>
                     <p>Modoreen Conference Centre</p>
                     <p>Lusaka, Zambia</p>
-                    <a href="https://maps.app.goo.gl/a8QJzb1S6qLK2Es58"> <button type="button" class="btn btn-outline-primary">Direction</button> </a>
+                    <a href="https://maps.app.goo.gl/a8QJzb1S6qLK2Es58"> <button type="button" class="btn btn-outline-primary">Directions</button> </a>
                     <br></br>
                     <br></br>
                     <p className="small lead">Dates: 19th - 20th Sept 2019 </p>
