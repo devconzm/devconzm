@@ -739,6 +739,11 @@ body {
   font-family: "Keep Calm Regular";
 }
 
+.partner-image {
+  padding: 1%;
+  
+}
+
 .masthead {
   min-height: 800px;
   background-image: url("assets/background.jpg");

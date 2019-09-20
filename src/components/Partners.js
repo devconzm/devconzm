@@ -24,36 +24,40 @@ function Partners() {
                   />
                 </a>
               </div>
+
               <div className="col-sm">
                 <a
-                  href="https://www.stickermule.com/supports/you"
-                  title="sticker mule"
+                  href="https://aws.amazon.com/"
+                  title="AWS"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <img
+                    width="220"
+                    height="200"
+                    alt="amazon web services"
+                    src={require("../assets/aws.png")}
+                  />
+                </a>
+              </div>
+
+              <div className="col-sm" class="partner-image">
+                 <a
+                  href="https://pubnub.com"
+                  title="pubnub"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img
-                    width="200"
-                    height="200"
-                    alt="Stickermule"
-                    src={require("../assets/stickermule.svg")}
+                    width="300"
+                    height="100"
+                    alt="pubnub"
+                    src={require("../assets/pubnub.png")}
                   />
                 </a>
               </div>
-              <div className="col-sm">
-                <a
-                  href="https://github.com/agora-code-community"
-                  title="agora code"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    width="200"
-                    height="200"
-                    alt="Agora Code"
-                    src={require("../assets/agoracode.png")}
-                  />
-                </a>
-              </div>
+
+              
               <div className="col-sm">
                 <a
                   href="https://www.gitkraken.com"
@@ -62,7 +66,7 @@ function Partners() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    width="200"
+                    width="250"
                     height="200"
                     alt="GitKraken"
                     src={require("../assets/gitkraken.svg")}
@@ -103,32 +107,50 @@ function Partners() {
 
               <div className="col-sm">
                 <a
-                  href="https://aws.amazon.com/"
-                  title="AWS"
-                  rel="noopener noreferrer"
+                  href="https://www.stickermule.com/supports/you"
+                  title="sticker mule"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   <img
                     width="200"
                     height="200"
-                    alt="amazon web services"
-                    src={require("../assets/aws.png")}
+                    alt="Stickermule"
+                    src={require("../assets/stickermule.svg")}
                   />
                 </a>
               </div>
 
               <div className="col-sm">
                 <a
-                  href="https://pubnub.com"
-                  title="pubnub"
+                  href="https://github.com/agora-code-community"
+                  title="agora code"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img
-                    width="300"
-                    height="100"
-                    alt="pubnub"
-                    src={require("../assets/pubnub.png")}
+                    width="200"
+                    height="190"
+                    margin-top="5"
+                    alt="Agora Code"
+                    src={require("../assets/agoracode.png")}
+                  />
+                </a>
+              </div>
+
+
+              <div className="col-sm" class="partner-image">
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.multibrains.taxi.passenger.ulendotaxizambia&hl=en"
+                  title="ulendo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    width="200"
+                    height="200"
+                    alt="ulendo"
+                    src={require("../assets/ulendo.png")}
                   />
                 </a>
               </div>
