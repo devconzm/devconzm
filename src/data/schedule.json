@@ -9,7 +9,7 @@
           "activity": "Opening Keynote",
           "speaker": "Daniel Phiri",
           "topic": "State of The Developer Ecosystem",
-          "image": "/img/speakers/chinedu.jpg",
+          "image": "/img/speakers/male-avatar.jpg",
           "description": "Here is the topic description"
         },
         {
@@ -128,8 +128,8 @@
         {
           "id": 14,
           "time": "09:30am",
-          "activity": "Opening Keynote(S)",
-          "speaker": "Sponsor",
+          "activity": "Opening Keynote",
+          "speaker": "Surprise",
           "topic": "",
           "image": "/img/female-avatar.png",
           "description": "Here is the topic description"
@@ -147,9 +147,9 @@
           "id": 16,
           "time": "11:00am",
           "activity": "Presentation",
-          "speaker": "Surprise",
-          "topic": "Surprise Session",
-          "image": "/img/female-avatar.png",
+          "speaker": "Cobus Bernard",
+          "topic": "Modern App Development in the Cloud, why Service Meshes",
+          "image": "/img/speakers/corbus.jpg",
           "description": "Here is the topic description"
         },
         {
@@ -165,8 +165,8 @@
           "id": 18,
           "time": "12:00pm",
           "activity": "Presentation",
-          "speaker": "Ekaba Bisong",
-          "topic": "Building Machine Learning Products with Tensor",
+          "speaker": "Surprise Speaker",
+          "topic": "Surprise Session",
           "image": "/img/male-avatar.png",
           "description": "Here is the topic description"
         },
@@ -198,26 +198,8 @@
           "description": "Here is the topic description"
         },
         {
-          "id": 22,
-          "time": "15:00pm",
-          "activity": "Presentation",
-          "speaker": "Cobus Bernard",
-          "topic": "Modern App Development in the Cloud, why Service Meshes",
-          "image": "/img/speakers/corbus.jpg",
-          "description": "Here is the topic description"
-        },
-        {
-          "id": 23,
-          "time": "15:30pm",
-          "activity": "Workshop",
-          "speaker": "Workshop",
-          "topic": "Workshop",
-          "image": "/img/female-avatar.png",
-          "description": "Here is the topic description"
-        },
-        {
           "id": 24,
-          "time": "16:00pm",
+          "time": "15:00pm",
           "activity": "Presentation",
           "speaker": "Sekayi Funda-Funda",
           "topic": "Presentation",
@@ -225,21 +207,12 @@
           "description": "Here is the topic description"
         },
         {
-          "id": 25,
-          "time": "16:30pm",
-          "activity": "Presentation",
-          "speaker": "Surprise Speaker",
+          "id": 24,
+          "time": "15:30pm",
+          "activity": "Lightening Talks",
+          "speaker": "Various Speakers",
           "topic": "Presentation",
-          "image": "/img/female-avatar.png",
-          "description": "Here is the topic description"
-        },
-        {
-          "id": 26,
-          "time": "16:45pm",
-          "activity": "Closing Keynote",
-          "speaker": "Surprise Speaker",
-          "topic": "Presentation",
-          "image": "/img/female-avatar.png",
+          "image": "/img/speakers/female-avatar.jpg",
           "description": "Here is the topic description"
         },
         {
