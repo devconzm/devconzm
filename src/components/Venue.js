@@ -10,11 +10,16 @@ function Venue() {
                     <br />
                     <br />
                     <h3>It's happening at </h3>
-                    <p>Confucious Center - University of Zambia</p>
+                    <p>Modoreen Conference Centre</p>
                     <p>Lusaka, Zambia</p>
-                    <h3> 19th to 20th Sept. from  </h3>
-                    <p>9 to 5 o'clock</p>
+                    <a href="https://maps.app.goo.gl/a8QJzb1S6qLK2Es58"> <button type="button" class="btn btn-outline-primary">Directions</button> </a>
+                    <br></br>
+                    <br></br>
+                    <p className="small lead">Dates: 19th - 20th Sept 2019 </p>
+                    <p className="small lead"> Time: 9 - 5 o'clock each day </p>
+
                     {/* <p><a href="#header" className="btn btn-outline-primary devcon">REGISTER NOW</a></p> */}
+                 
                 </div>
             </div>
         </section>
