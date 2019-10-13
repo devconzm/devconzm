@@ -20,7 +20,7 @@ function Partners() {
                     width="200"
                     height="200"
                     alt="JetBrains"
-                    src={require("../assets/jetbrains.png")}
+                    src={require("../assets/jetbrains.webp")}
                   />
                 </a>
               </div>
@@ -50,7 +50,7 @@ function Partners() {
                     width="200"
                     height="200"
                     alt="Agora Code"
-                    src={require("../assets/agoracode.png")}
+                    src={require("../assets/agoracode.webp")}
                   />
                 </a>
               </div>
@@ -80,7 +80,7 @@ function Partners() {
                     width="200"
                     height="200"
                     alt="Bongohive"
-                    src={require("../assets/bongohive.png")}
+                    src={require("../assets/bongohive.webp")}
                   />
                 </a>
               </div>
@@ -96,7 +96,7 @@ function Partners() {
                     width="200"
                     height="200"
                     alt="asikananetwork"
-                    src={require("../assets/asikananetwork.jpg")}
+                    src={require("../assets/asikananetwork.webp")}
                   />
                 </a>
               </div>
@@ -112,7 +112,7 @@ function Partners() {
                     width="200"
                     height="200"
                     alt="amazon web services"
-                    src={require("../assets/aws.png")}
+                    src={require("../assets/aws.webp")}
                   />
                 </a>
               </div>
@@ -128,7 +128,7 @@ function Partners() {
                     width="300"
                     height="100"
                     alt="pubnub"
-                    src={require("../assets/pubnub.png")}
+                    src={require("../assets/pubnub.webp")}
                   />
                 </a>
               </div>
