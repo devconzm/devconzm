@@ -21,7 +21,7 @@ function Tickets() {
                 </ul>
 
                 <a
-                  href="#" 
+                  href="./" 
                   className="btn btn-block btn-primary text-uppercase"
                 >
                   Sold Out
