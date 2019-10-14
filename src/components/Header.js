@@ -1,7 +1,7 @@
 import React from "react";
 import { NavHashLink as NavLink } from "react-router-hash-link";
-import navbarBranding from "../assets/dev1.png";
-import devConZmLogoPlus19 from "../assets/dev2.png";
+import navbarBranding from "../assets/dev1.webp";
+import devConZmLogoPlus19 from "../assets/dev2.webp";
 
 function Header() {
   const styles = {
