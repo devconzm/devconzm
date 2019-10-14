@@ -392,6 +392,7 @@ section.pricing {
 
 .pricing ul li {
   margin-bottom: 1rem;
+  list-style: none;
 }
 
 .pricing .text-muted {
@@ -686,6 +687,12 @@ section.pricing {
   }
 }
 /* code of conduct section */
+
+/* Partners */
+.pubnub {
+  margin-top: 50px;
+}
+/* Partners */
 
 /* footer section */
 footer.page-footer {

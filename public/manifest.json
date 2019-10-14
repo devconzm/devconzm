@@ -4,7 +4,7 @@
     "description": "DevConZM is an annual platform elected by Agora Code Community and collective members of the technology community in Zambia. It is specifically crafted with Software Developers and Tech Enthusiasts in mind. Its aim is first of all, to raise the quality of the craft, secondly, to raise awareness of the industry which is still in its infancy in Zambia. We believe that providing a platform for developers to level up is key to a progressive approach to building products and communities.",
     "start_url": "/",
     "theme_color" : "#5cc6d0",
-    "background_color" : "transparent",
+    "background_color" : "#420042",
     "display": "standalone",
     "orientation": "any",
     "lang": "English",
@@ -13,97 +13,97 @@
         {
             "src": "\/images\/android-icon-36x36.webp",
             "sizes": "36x36",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/android-icon-48x48.webp",
             "sizes": "48x48",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/android-icon-72x72.webp",
             "sizes": "72x72",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/android-icon-96x96.webp",
             "sizes": "96x96",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/android-icon-144x144.webp",
             "sizes": "144x144",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/android-icon-192x192.webp",
             "sizes": "192x192",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/356c4ed3-8fc8-0356-ae7c-20c2d7597863.webPlatform.webp",
             "sizes": "44x44",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/920c4a35-9cec-bb8a-2cd1-019f0a64ef4a.webPlatform.webp",
             "sizes": "1240x600",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/ed41083b-854a-406a-209c-474c285241e0.webPlatform.webp",
             "sizes": "300x300",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/e3ecd12c-fb7b-4c74-5b22-31ab3ed2f9fd.webPlatform.webp",
             "sizes": "150x150",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/25f41389-5301-c01f-41d7-02b3960126c7.webPlatform.webp",
             "sizes": "88x88",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/8414a031-4856-d97d-74bf-9f1226ef560c.webPlatform.webp",
             "sizes": "24x24",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/a5fa3b05-abc2-331f-c3c4-572f3ba32b30.webPlatform.webp",
             "sizes": "50x50",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/f497642a-6e21-15c8-0066-17f6e2a0fdc8.webPlatform.webp",
             "sizes": "620x300",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/3ec22143-2e5a-6cc2-c3ba-ec16f9fd23c5.webPlatform.webp",
             "sizes": "1024x1024",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/c7729e67-08f1-6971-12ad-62748f694bff.webPlatform.webp",
             "sizes": "180x180",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/f9fb7fcc-ccaa-4d42-e3cf-04caeb325ba2.webPlatform.webp",
             "sizes": "152x152",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/b35643b1-c066-3594-0e42-89d3070f171e.webPlatform.webp",
             "sizes": "120x120",
-            "type": "image\/png"
+            "type": "image\/webp"
         },
         {
             "src": "\/images\/cf1f3a89-56ea-a453-de40-47d79914286c.webPlatform.webp",
             "sizes": "76x76",
-            "type": "image\/png"
+            "type": "image\/webp"
         }
     ],
     "screenshots": []
