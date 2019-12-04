@@ -13,7 +13,7 @@ body {
 
 .masthead {
   min-height: 800px;
-  background-image: url("assets/background.jpg");
+  background-image: url("assets/background.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -326,15 +326,15 @@ footer {
 }
 
 #tickets .ticket-1 {
-  background-image: url("assets/dev5.png");
+  background-image: url("assets/dev5.webp");
 }
 
 #tickets .ticket-2 {
-  background-image: url("assets/dev6.png");
+  background-image: url("assets/dev6.webp");
 }
 
 #tickets .ticket-3 {
-  background-image: url("assets/dev7.png");
+  background-image: url("assets/dev7.webp");
 }
 
 #tickets .ticket-header {
@@ -392,6 +392,7 @@ section.pricing {
 
 .pricing ul li {
   margin-bottom: 1rem;
+  list-style: none;
 }
 
 .pricing .text-muted {
@@ -687,6 +688,12 @@ section.pricing {
 }
 /* code of conduct section */
 
+/* Partners */
+.pubnub {
+  margin-top: 50px;
+}
+/* Partners */
+
 /* footer section */
 footer.page-footer {
   overflow: hidden;
@@ -741,7 +748,7 @@ body {
 
 .masthead {
   min-height: 800px;
-  background-image: url("assets/background.jpg");
+  background-image: url("assets/background.webp");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1067,15 +1074,15 @@ footer {
 }
 
 #tickets .ticket-1 {
-  background-image: url("assets/dev5.png");
+  background-image: url("assets/dev5.webp");
 }
 
 #tickets .ticket-2 {
-  background-image: url("assets/dev6.png");
+  background-image: url("assets/dev6.webp");
 }
 
 #tickets .ticket-3 {
-  background-image: url("assets/dev7.png");
+  background-image: url("assets/dev7.webp");
 }
 
 #tickets .ticket-header {

@@ -18,9 +18,9 @@ function Partners() {
                 >
                   <img
                     width="200"
-                    height="200"
+                    height="auto"
                     alt="JetBrains"
-                    src={require("../assets/jetbrains.png")}
+                    src={require("../assets/jetbrains.webp")}
                   />
                 </a>
               </div>
@@ -33,7 +33,7 @@ function Partners() {
                 >
                   <img
                     width="200"
-                    height="200"
+                    height="auto"
                     alt="Stickermule"
                     src={require("../assets/stickermule.svg")}
                   />
@@ -48,9 +48,9 @@ function Partners() {
                 >
                   <img
                     width="200"
-                    height="200"
+                    height="auto"
                     alt="Agora Code"
-                    src={require("../assets/agoracode.png")}
+                    src={require("../assets/agoracode.webp")}
                   />
                 </a>
               </div>
@@ -63,7 +63,7 @@ function Partners() {
                 >
                   <img
                     width="200"
-                    height="200"
+                    height="auto"
                     alt="GitKraken"
                     src={require("../assets/gitkraken.svg")}
                   />
@@ -78,9 +78,9 @@ function Partners() {
                 >
                   <img
                     width="200"
-                    height="200"
+                    height="auto"
                     alt="Bongohive"
-                    src={require("../assets/bongohive.png")}
+                    src={require("../assets/bongohive.webp")}
                   />
                 </a>
               </div>
@@ -94,9 +94,9 @@ function Partners() {
                 >
                   <img
                     width="200"
-                    height="200"
+                    height="auto"
                     alt="asikananetwork"
-                    src={require("../assets/asikananetwork.jpg")}
+                    src={require("../assets/asikananetwork.webp")}
                   />
                 </a>
               </div>
@@ -110,12 +110,30 @@ function Partners() {
                 >
                   <img
                     width="200"
-                    height="200"
+                    height="auto"
                     alt="amazon web services"
-                    src={require("../assets/aws.png")}
+                    src={require("../assets/aws.webp")}
                   />
                 </a>
               </div>
+
+              <div className="col-sm">
+                <a
+                  href="https://pubnub.com"
+                  title="pubnub"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    className="pubnub"
+                    width="200"
+                    height="auto"
+                    alt="pubnub"
+                    src={require("../assets/pubnub.webp")}
+                  />
+                </a>
+              </div>
+
             </div>
           </div>
         </div>

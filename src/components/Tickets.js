@@ -21,7 +21,7 @@ function Tickets() {
                 </ul>
 
                 <a
-                  href="#"
+                  href="./" 
                   className="btn btn-block btn-primary text-uppercase"
                 >
                   Sold Out
@@ -65,7 +65,9 @@ function Tickets() {
                 </h6>
                 <hr></hr>
                 <ul className="fa-ul">
-                  Includes access to our exclusive networking mixer
+                  <li>
+                    Includes access to our exclusive networking mixer
+                  </li>
                 </ul>
 
                 <a

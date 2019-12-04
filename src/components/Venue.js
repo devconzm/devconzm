@@ -1,5 +1,5 @@
 import React from 'react';
-import theGrandHotelLogo from "../assets/dev4.png";
+import theGrandHotelLogo from "../assets/dev4.webp";
 
 function Venue() {
     return (

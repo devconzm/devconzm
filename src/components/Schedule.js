@@ -1,14 +1,11 @@
-import React, { Component, Fragment } from "react";
-import { FaTwitterSquare, FaGithubSquare } from "react-icons/fa";
+import React, { Component } from "react";
 import Header from "./Info";
 import scheduleData from "../data/schedule.json";
 import Footer from "./Footer";
 import ActivityTimeline from  'react-rainbow-components/components/ActivityTimeline'
 import TimelineMarker from   'react-rainbow-components/components/TimelineMarker'
-import UserSignUpIcon  from  'react-rainbow-components/components/Avatar'
 import Tabset from 'react-rainbow-components/components/Tabset'
 import Tab from 'react-rainbow-components/components/Tab'
-const iconStyles = { width: 32, height: 32 };
 const [day1, day2] = scheduleData.schedule;
 console.log(day1)
 export default class Schedule extends Component {

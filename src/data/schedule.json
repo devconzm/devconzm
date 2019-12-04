@@ -9,7 +9,7 @@
           "activity": "Opening Keynote",
           "speaker": "Daniel Phiri",
           "topic": "State of The Developer Ecosystem",
-          "image": "/img/speakers/chinedu.jpg",
+          "image": "/img/speakers/male-avatar.webp",
           "description": "Here is the topic description"
         },
         {
@@ -18,7 +18,7 @@
           "activity": "Presentation",
           "speaker": "Clement Sinyangwe",
           "topic": "ICTAZ Membership",
-          "image": "/img/male-avatar.png",
+          "image": "/img/male-avatar.webp",
           "description": "Here is the topic description"
         },
         {
@@ -27,7 +27,7 @@
           "activity": "Presentation",
           "speaker": "Dennis Mubamba",
           "topic": "Actors, Systems and Asynchronous Software Development",
-          "image": "/img/speakers/dennis.jpg",
+          "image": "/img/speakers/dennis.webp",
           "description": "Here is the topic description"
         },
         {
@@ -36,7 +36,7 @@
           "activity": "Presentation",
           "speaker": "Mwaamba Mugala",
           "topic": "The Game Industry - It's time For Africa",
-          "image": "/img/speakers/mwaamba.jpg",
+          "image": "/img/speakers/mwaamba.webp",
           "description": "Here is the topic description"
         },
         {
@@ -45,7 +45,7 @@
           "activity": "Health Break",
           "speaker": "Networking Session",
           "topic": "Networking Session",
-          "image": "/img/networking-avatar.png",
+          "image": "/img/networking-avatar.webp",
           "description": "Here is the topic description"
         },
         {
@@ -54,7 +54,7 @@
           "activity": "Presentation",
           "speaker": "Rahul Sharma",
           "topic": "Know it Better, facilitated it Better",
-          "image": "/img/speakers/rahul.jpg",
+          "image": "/img/speakers/rahul.webp",
           "description": "Here is the topic description"
         },
         {
@@ -63,7 +63,7 @@
           "activity": "Lunch",
           "speaker": "Networking Session",
           "topic": "Networking Session",
-          "image": "/img/networking-avatar.png",
+          "image": "/img/networking-avatar.webp",
           "description": "Here is the topic description"
         },
         {
@@ -72,7 +72,7 @@
           "activity": "Interactive Exercise",
           "speaker": "MC",
           "topic": "Interactive Exercise",
-          "image": "/img/female-avatar.png",
+          "image": "/img/female-avatar.webp",
           "description": "Here is the topic description"
         },
         {
@@ -81,7 +81,7 @@
           "activity": "Interactive Topic",
           "speaker": "Gilbert Mwale",
           "topic": "Interactive Topic",
-          "image": "/img/male-avatar.png",
+          "image": "/img/male-avatar.webp",
           "description": "Here is the topic description"
         },
         {
@@ -90,7 +90,7 @@
           "activity": "Presentation",
           "speaker": "Shakerrie Allmond",
           "topic": "Impact of Health Technology",
-          "image": "/img/speakers/shakerrie.jpg",
+          "image": "/img/speakers/shakerrie.webp",
           "description": "Here is the topic description"
         },
         {
@@ -108,7 +108,7 @@
           "activity": "Closing Keynote",
           "speaker": "Sponsor",
           "topic": "Closing Keynote",
-          "image": "/img/male-avatar.png",
+          "image": "/img/male-avatar.webp",
           "description": "Here is the topic description"
         },
         {
@@ -117,7 +117,7 @@
           "activity": "Close Day One - Short Mixer",
           "speaker": "Networking Session",
           "topic": "Networking Session",
-          "image": "/img/networking-avatar.png",
+          "image": "/img/networking-avatar.webp",
           "description": "Here is the topic description"
         }
       ]
@@ -128,10 +128,10 @@
         {
           "id": 14,
           "time": "09:30am",
-          "activity": "Opening Keynote(S)",
-          "speaker": "Sponsor",
+          "activity": "Opening Keynote",
+          "speaker": "Surprise",
           "topic": "",
-          "image": "/img/female-avatar.png",
+          "image": "/img/female-avatar.webp",
           "description": "Here is the topic description"
         },
         {
@@ -140,16 +140,16 @@
           "activity": "Topic",
           "speaker": "Twaambo Hamuceenje",
           "topic": "Building a Zambian Tech Company and Staying Sane",
-          "image": "/img/speakers/twaambo.jpg",
+          "image": "/img/speakers/twaambo.webp",
           "description": "Here is the topic description"
         },
         {
           "id": 16,
           "time": "11:00am",
           "activity": "Presentation",
-          "speaker": "Surprise",
-          "topic": "Surprise Session",
-          "image": "/img/female-avatar.png",
+          "speaker": "Cobus Bernard",
+          "topic": "Modern App Development in the Cloud, why Service Meshes",
+          "image": "/img/speakers/corbus.webp",
           "description": "Here is the topic description"
         },
         {
@@ -158,16 +158,16 @@
           "activity": "Break",
           "speaker": "Networking Session",
           "topic": "Networking Session",
-          "image": "/img/networking-avatar.png",
+          "image": "/img/networking-avatar.webp",
           "description": "Here is the topic description"
         },
         {
           "id": 18,
           "time": "12:00pm",
           "activity": "Presentation",
-          "speaker": "Ekaba Bisong",
-          "topic": "Building Machine Learning Products with Tensor",
-          "image": "/img/male-avatar.png",
+          "speaker": "Surprise Speaker",
+          "topic": "Surprise Session",
+          "image": "/img/male-avatar.webp",
           "description": "Here is the topic description"
         },
         {
@@ -176,7 +176,7 @@
           "activity": "Lunch",
           "speaker": "Networking Session",
           "topic": "Networking Session",
-          "image": "/img/networking-avatar.png",
+          "image": "/img/networking-avatar.webp",
           "description": "Here is the topic description"
         },
         {
@@ -185,7 +185,7 @@
           "activity": "INTERACTIVE EXERCISE ",
           "speaker": "MC",
           "topic": "INTERACTIVE EXERCISE ",
-          "image": "/img/female-avatar.png",
+          "image": "/img/female-avatar.webp",
           "description": "Here is the topic description"
         },
         {
@@ -194,52 +194,25 @@
           "activity": "Presentation",
           "speaker": "Lee Lwando",
           "topic": "",
-          "image": "/img/male-avatar.png",
-          "description": "Here is the topic description"
-        },
-        {
-          "id": 22,
-          "time": "15:00pm",
-          "activity": "Presentation",
-          "speaker": "Cobus Bernard",
-          "topic": "Modern App Development in the Cloud, why Service Meshes",
-          "image": "/img/speakers/corbus.jpg",
-          "description": "Here is the topic description"
-        },
-        {
-          "id": 23,
-          "time": "15:30pm",
-          "activity": "Workshop",
-          "speaker": "Workshop",
-          "topic": "Workshop",
-          "image": "/img/female-avatar.png",
+          "image": "/img/male-avatar.webp",
           "description": "Here is the topic description"
         },
         {
           "id": 24,
-          "time": "16:00pm",
+          "time": "15:00pm",
           "activity": "Presentation",
           "speaker": "Sekayi Funda-Funda",
           "topic": "Presentation",
-          "image": "/img/speakers/sekayi.jpg",
+          "image": "/img/speakers/sekayi.webp",
           "description": "Here is the topic description"
         },
         {
-          "id": 25,
-          "time": "16:30pm",
-          "activity": "Presentation",
-          "speaker": "Surprise Speaker",
+          "id": 24,
+          "time": "15:30pm",
+          "activity": "Lightening Talks",
+          "speaker": "Various Speakers",
           "topic": "Presentation",
-          "image": "/img/female-avatar.png",
-          "description": "Here is the topic description"
-        },
-        {
-          "id": 26,
-          "time": "16:45pm",
-          "activity": "Closing Keynote",
-          "speaker": "Surprise Speaker",
-          "topic": "Presentation",
-          "image": "/img/female-avatar.png",
+          "image": "/img/speakers/female-avatar.webp",
           "description": "Here is the topic description"
         },
         {
@@ -248,7 +221,7 @@
           "activity": "CLOSING REMARKS & VOTE OF THANKS",
           "speaker": "Closing Remarks & Vote Of Thanks",
           "topic": "Presentation",
-          "image": "/img/female-avatar.png",
+          "image": "/img/female-avatar.webp",
           "description": "Here is the topic description"
         }
       ]
