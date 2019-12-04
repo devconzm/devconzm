@@ -17,7 +17,7 @@ function Tickets() {
                 </h6>
                 <hr></hr>
                 <ul className="fa-ul">
-                  Sale ended on 31st August 2019
+                  Sale ended on 31st August 2020
                 </ul>
 
                 <a
@@ -41,7 +41,7 @@ function Tickets() {
                 </h6>
                 <hr></hr>
                 <ul className="fa-ul">
-                  Runs from 1st September to 20th September 2019
+                  Runs from 1st September to 20th September 2020
                 </ul>
 
                 <a

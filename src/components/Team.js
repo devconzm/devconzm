@@ -18,7 +18,7 @@ function Team() {
               <div class="member-top">
                 <figure>
                   <img
-                    src="https://b.imge.to/2019/08/19/J5OWY.th.jpg"
+                    src="https://b.imge.to/2020/08/19/J5OWY.th.jpg"
                     alt="Olivier JM"
                   ></img>
                 </figure>
@@ -65,7 +65,7 @@ function Team() {
               <div class="member-top">
                 <figure>
                   <img
-                    src="https://b.imge.to/2019/08/19/Jxpi0.md.jpg"
+                    src="https://b.imge.to/2020/08/19/Jxpi0.md.jpg"
                     alt="sour_bones"
                   ></img>
                 </figure>
@@ -111,7 +111,7 @@ function Team() {
               <div class="member-top">
                 <figure>
                   <img
-                    src="https://a.imge.to/2019/08/21/bq624.md.jpg"
+                    src="https://a.imge.to/2020/08/21/bq624.md.jpg"
                     alt="Daniel Madalitso Phiri"
                   ></img>
                 </figure>
@@ -155,7 +155,7 @@ function Team() {
               <div class="member-top">
                 <figure>
                   <img
-                    src="https://a.imge.to/2019/08/08/Q4ws2.png"
+                    src="https://a.imge.to/2020/08/08/Q4ws2.png"
                     alt="Member Name"
                   ></img>
                 </figure>

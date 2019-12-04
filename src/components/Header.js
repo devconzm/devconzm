@@ -1,7 +1,7 @@
 import React from "react";
 import { NavHashLink as NavLink } from "react-router-hash-link";
 import navbarBranding from "../assets/dev1.png";
-import devConZmLogoPlus19 from "../assets/dev2.png";
+import devConZmLogoPlus19 from "../assets/dev2020.png";
 
 function Header() {
   const styles = {
@@ -56,7 +56,7 @@ function Header() {
                       className="navbar-nav pull-right smooth-scroll"
                       data-testid="head-list"
                     >
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <NavLink
                           smooth
                           activeClassName={"active"}
@@ -66,8 +66,8 @@ function Header() {
                           Partners
                         </NavLink>
                       </li>
-    
-                       <li className="nav-item">
+     */}
+                       {/* <li className="nav-item">
                         <NavLink
                           smooth
                           activeClassName={"active"}
@@ -76,7 +76,7 @@ function Header() {
                         >
                           Schedule
                         </NavLink>
-                      </li>
+                      </li> */}
                       
                       <li className="nav-item">
                         <NavLink
@@ -88,7 +88,7 @@ function Header() {
                           About
                         </NavLink>
                       </li>
-                      <li className="nav-item">
+                      {/* <li className="nav-item">
                         <NavLink
                           smooth
                           activeClassName={"active"}
@@ -97,7 +97,7 @@ function Header() {
                         >
                           Speakers
                         </NavLink>
-                      </li>
+                      </li> */}
                       <li className="nav-item">
                         <NavLink
                           smooth
@@ -122,7 +122,7 @@ function Header() {
                 />
               </div>
               <div className="pl-4 pt-5 event-date col-12">
-                <h1>19th - 20th, September 2019</h1>
+                <h1>19th - 20th, September 2020</h1>
                 <br />
               </div>
               <div className="pl-5 pt-5 col-12 text-center" />

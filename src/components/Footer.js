@@ -38,7 +38,7 @@ function Footer() {
         {/* Copyright */}
         <div className="container footer-copyright text-center py-3">
           <p>
-            &copy;2019{" "}
+            &copy;2020{" "}
             <a href="http://devcon.co.zm" title="DevCon Zambia">
               {" "}
               DevCon Zambia
