@@ -35,8 +35,8 @@ function Home() {
       <Info />
       <About />
       <Venue />
-      <Tickets />
-      <Partners />
+      {/* <Tickets /> */}
+      {/* <Partners /> */}
       {/*<Team />*/}
       <Footer />
     </Fragment>

@@ -82,13 +82,13 @@ description={schedule.speaker}
                         className="rainbow-background-color_gray-1 rainbow-p-horizontal_x-large text-center">
 
                             <Tab
-                                label="19th September 2019"
+                                label="19th September 2020"
                                 name="DAY_ONE"
                                 id="DAY_ONE"
                                 ariaControls="primaryTab" />
 
                             <Tab
-                                label="20th September 2019"
+                                label="20th Spetember 2020"
                                 name="DAY_TWO"
                                 id="DAY_TWO"
                                 ariaControls="sharedTab" />
