@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 
 function About() {
   return (
@@ -6,16 +6,34 @@ function About() {
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-12 col-lg-12 col-xl-12">
-            <h1 className='text-center'>About</h1>
-            <div className="col-sm-12 ">
+            <h1 className="text-center section-title">About</h1>
+            <div className="col-sm-12 justify">
               {/* TODO */}
-              <h4>What is Lorem Ipsum?</h4>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <p>
+                DevConZM is an annual platform elected by Agora Code Community
+                and collective members of the technology community in Zambia. It
+                is specifically crafted with Software Developers and Tech
+                Enthusiasts in mind. Its aim is first of all, to raise the
+                quality of the craft, secondly, to raise awareness of the
+                industry which is still in its infancy in Zambia. We believe
+                that providing a platform for developers to level up is key to a
+                progressive approach to building products and communities.
+              </p>
+              <p>
+                DevConZM brings exposure that will prove useful to innovation in
+                various industrial sectors leading to direct economic value
+                addition. Apart from the technical opportunities available,
+                Devcon will also give developers access to networking and
+                investment opportunities which is critical to growth.
+              </p>
+              <div className="about-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/k4q6gGcslA0" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" title="DevCon Zambia" allowFullScreen></iframe>
+              </div>
             </div>
-        </div>
+          </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
 export default About;

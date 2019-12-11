@@ -2,24 +2,82 @@ import React from "react";
 
 function Tickets() {
   return (
-    <section id='tickets'>
-      <div className='container'>
-        <h1 className='text-center'>Tickets</h1>
-        <div className='tickets row text-center'>
-          <div className="ticket ticket-1 col-sm box-shadow">
-            <h4 className="ticket-header">EARLY-BIRD PASS</h4>
-            <p className="ticket-price">K 50</p>
-            <p className="ticket-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <section className="pricing py-5">
+      <h1 className="text-center section-titlet">Tickets</h1>
+      <div className="container">
+        <div className="row">
+          <div className="col-lg-4">
+            <div className="card mb-5 mb-lg-0">
+              <div className="card-body">
+                <h5 className="card-title text-muted text-uppercase text-center">
+                  Early Bird Ticket
+                </h5>
+                <h6 className="card-price text-center">
+                  ZK150<span className="period"></span>
+                </h6>
+                <hr></hr>
+                <ul className="fa-ul">
+                  Sale ended on 31st August 2020
+                </ul>
+
+                <a
+                  href="./" 
+                  className="btn btn-block btn-primary text-uppercase"
+                >
+                  Sold Out
+                </a>
+              </div>
+            </div>
           </div>
-          <div className="ticket ticket-2 col-sm box-shadow">
-            <h4 className="ticket-header">STUDENT PASS</h4>
-            <p className="ticket-price">K 80</p>
-            <p className="ticket-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id mauris ex.</p>
+
+          <div className="col-lg-4">
+            <div className="card mb-5 mb-lg-0">
+              <div className="card-body">
+                <h5 className="card-title text-muted text-uppercase text-center">
+                  Regular Ticket
+                </h5>
+                <h6 className="card-price text-center">
+                  ZK250<span className="period"></span>
+                </h6>
+                <hr></hr>
+                <ul className="fa-ul">
+                  Runs from 1st September to 20th September 2020
+                </ul>
+
+                <a
+                  href="https://www.quicket.co.zm/events/80301-developer-conference-zambia-19/"
+                  className="btn btn-block btn-primary text-uppercase"
+                >
+                  Get Tickets
+                </a>
+              </div>
+            </div>
           </div>
-          <div className="ticket ticket-3 col-sm box-shadow">
-            <h4 className="ticket-header">REGULAR PASS</h4>
-            <p className="ticket-price">K 100</p>
-            <p className="ticket-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis id mauris ex.</p>
+
+          <div className="col-lg-4">
+            <div className="card">
+              <div className="card-body">
+                <h5 className="card-title text-muted text-uppercase text-center">
+                  Corporate Ticket
+                </h5>
+                <h6 className="card-price text-center">
+                  ZK500<span className="period"></span>
+                </h6>
+                <hr></hr>
+                <ul className="fa-ul">
+                  <li>
+                    Includes access to our exclusive networking mixer
+                  </li>
+                </ul>
+
+                <a
+                  href="https://www.quicket.co.zm/events/80301-developer-conference-zambia-19/"
+                  className="btn btn-block btn-primary text-uppercase"
+                >
+                  Get Tickets
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

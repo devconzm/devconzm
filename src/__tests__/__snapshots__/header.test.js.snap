@@ -5,10 +5,10 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div>
-      <header
-        id="header"
+      <section
+        id="header-section"
       >
-        <nav
+        <div
           class="navbar fixed  navbar-expand-lg navbar-light top-navbar"
           data-toggle="sticky-onscroll"
         >
@@ -26,6 +26,7 @@ Object {
             >
               <span
                 class="navbar-toggler-icon"
+                title="toggle-navigation"
               />
             </button>
             <div
@@ -38,6 +39,7 @@ Object {
                 <a
                   class="navbar-brand"
                   href="#header"
+                  title="DevCon Zambia"
                 >
                   <img
                     alt="DevConZM19"
@@ -57,71 +59,46 @@ Object {
                     class="collapse navbar-collapse justify-content-end"
                     id="navbarSupportedContent"
                   >
-                    <ul
-                      class="navbar-nav pull-right smooth-scroll"
-                      data-testid="head-list"
-                    >
-                      <li
-                        class="nav-item"
+                    <nav>
+                      <ul
+                        class="navbar-nav pull-right smooth-scroll"
+                        data-testid="head-list"
                       >
-                        <a
-                          class="nav-link active"
-                          href="#venue"
+                        <li
+                          class="nav-item"
                         >
-                          Venue
-                        </a>
-                      </li>
-                      <li
-                        class="nav-item"
-                      >
-                        <a
-                          class="nav-link"
-                          href="#partners"
+                          <a
+                            class="nav-link"
+                            href="#partners"
+                            title="partners"
+                          >
+                            Partners
+                          </a>
+                        </li>
+                        <li
+                          class="nav-item"
                         >
-                          Partners
-                        </a>
-                      </li>
-                      <li
-                        class="nav-item"
-                      >
-                        <a
-                          class="nav-link"
-                          href="#speakers"
+                          <a
+                            class="nav-link"
+                            href="#about"
+                            title="about"
+                          >
+                            About
+                          </a>
+                        </li>
+                        <li
+                          class="nav-item"
                         >
-                          Speakers
-                        </a>
-                      </li>
-                      <li
-                        class="nav-item"
-                      >
-                        <a
-                          class="nav-link"
-                          href="#tickets"
-                        >
-                          Tickets
-                        </a>
-                      </li>
-                      <li
-                        class="nav-item"
-                      >
-                        <a
-                          class="nav-link"
-                          href="#about"
-                        >
-                          About
-                        </a>
-                      </li>
-                      <li
-                        class="nav-item"
-                      >
-                        <a
-                          class="btn btn-outline-primary devcon"
-                          href="#devcon"
-                        >
-                          DevCon19
-                        </a>
-                      </li>
-                    </ul>
+                          <a
+                            class="nav-link"
+                            href="#code-of-conduct"
+                            title="code of conduct"
+                          >
+                            Code of Conduct
+                          </a>
+                        </li>
+                      </ul>
+                    </nav>
                   </div>
                 </div>
                 <div
@@ -137,35 +114,26 @@ Object {
                 <div
                   class="pl-4 pt-5 event-date col-12"
                 >
-                  17th
-                  <br />
-                  November
-                  <br />
-                  2019
+                  <h1>
+                    19th - 20th, September 2020
+                  </h1>
                   <br />
                 </div>
                 <div
                   class="pl-5 pt-5 col-12 text-center"
-                >
-                  <button
-                    class="btn btn-outline-primary devcon"
-                    type="button"
-                  >
-                    Register Now
-                  </button>
-                </div>
+                />
               </div>
             </div>
           </div>
-        </nav>
-      </header>
+        </div>
+      </section>
     </div>
   </body>,
   "container": <div>
-    <header
-      id="header"
+    <section
+      id="header-section"
     >
-      <nav
+      <div
         class="navbar fixed  navbar-expand-lg navbar-light top-navbar"
         data-toggle="sticky-onscroll"
       >
@@ -183,6 +151,7 @@ Object {
           >
             <span
               class="navbar-toggler-icon"
+              title="toggle-navigation"
             />
           </button>
           <div
@@ -195,6 +164,7 @@ Object {
               <a
                 class="navbar-brand"
                 href="#header"
+                title="DevCon Zambia"
               >
                 <img
                   alt="DevConZM19"
@@ -214,71 +184,46 @@ Object {
                   class="collapse navbar-collapse justify-content-end"
                   id="navbarSupportedContent"
                 >
-                  <ul
-                    class="navbar-nav pull-right smooth-scroll"
-                    data-testid="head-list"
-                  >
-                    <li
-                      class="nav-item"
+                  <nav>
+                    <ul
+                      class="navbar-nav pull-right smooth-scroll"
+                      data-testid="head-list"
                     >
-                      <a
-                        class="nav-link active"
-                        href="#venue"
+                      <li
+                        class="nav-item"
                       >
-                        Venue
-                      </a>
-                    </li>
-                    <li
-                      class="nav-item"
-                    >
-                      <a
-                        class="nav-link"
-                        href="#partners"
+                        <a
+                          class="nav-link"
+                          href="#partners"
+                          title="partners"
+                        >
+                          Partners
+                        </a>
+                      </li>
+                      <li
+                        class="nav-item"
                       >
-                        Partners
-                      </a>
-                    </li>
-                    <li
-                      class="nav-item"
-                    >
-                      <a
-                        class="nav-link"
-                        href="#speakers"
+                        <a
+                          class="nav-link"
+                          href="#about"
+                          title="about"
+                        >
+                          About
+                        </a>
+                      </li>
+                      <li
+                        class="nav-item"
                       >
-                        Speakers
-                      </a>
-                    </li>
-                    <li
-                      class="nav-item"
-                    >
-                      <a
-                        class="nav-link"
-                        href="#tickets"
-                      >
-                        Tickets
-                      </a>
-                    </li>
-                    <li
-                      class="nav-item"
-                    >
-                      <a
-                        class="nav-link"
-                        href="#about"
-                      >
-                        About
-                      </a>
-                    </li>
-                    <li
-                      class="nav-item"
-                    >
-                      <a
-                        class="btn btn-outline-primary devcon"
-                        href="#devcon"
-                      >
-                        DevCon19
-                      </a>
-                    </li>
-                  </ul>
+                        <a
+                          class="nav-link"
+                          href="#code-of-conduct"
+                          title="code of conduct"
+                        >
+                          Code of Conduct
+                        </a>
+                      </li>
+                    </ul>
+                  </nav>
                 </div>
               </div>
               <div
@@ -294,28 +239,19 @@ Object {
               <div
                 class="pl-4 pt-5 event-date col-12"
               >
-                17th
-                <br />
-                November
-                <br />
-                2019
+                <h1>
+                  19th - 20th, September 2020
+                </h1>
                 <br />
               </div>
               <div
                 class="pl-5 pt-5 col-12 text-center"
-              >
-                <button
-                  class="btn btn-outline-primary devcon"
-                  type="button"
-                >
-                  Register Now
-                </button>
-              </div>
+              />
             </div>
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </section>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],

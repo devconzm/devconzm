@@ -1,39 +1,36 @@
 import React from "react";
+import Header from "./Info";
+import { speakers } from "../data/speakers";
 
 function Speakers() {
-  const details = [
-    { i: 1, text: 'Heading' },
-    { i: 2, text: 'Speakers' },
-    { i: 3, text: 'Voters' },
-    { i: 4, text: 'Me ' },
-    { i: 5, text: 'Olivier' },
-    { i: 6, text: 'Heading' }
-
-  ]
   return (
-    <section id="speakers">
-      <div className="container">
-        <h1 className='text-center'>Speakers</h1>
-        <div className="row">
-          {details.map(speaker => (
-            <div className="col-sm-6 col-lg-4 p-0" key={speaker.i}>
-              <img
-                className="rounded-circle mx-auto d-block img-fluid"
-                src="https://via.placeholder.com/600/771796"
-                alt="Generic placeholder"
-                width="180"
-                height="180"
-              />
-              <h2 className='text-center'>{speaker.text}</h2>
-              <p className='text-center'>
-                Donec sed odio dui. Etiam porta sem malesuada magna mollis
-                euismod.
-            </p>
-            </div>
-          ))}
+    <>
+      <Header />
+      <section id="speakers">
+        <div className="container">
+          <h1 className="text-center">Speakers</h1>
+          <div className="row">
+            {speakers.map(speaker => (
+              <div className="col-sm-6 col-lg-4 p-0" key={speaker.id}>
+                <img
+                  className="rounded-circle mx-auto d-block img-fluid"
+                  src={speaker.image}
+                  alt={speaker.name}
+                  width="180"
+                  height="180"
+                />
+                <br />
+                <div className="speaker-text-div">
+                  <h4 className="text-center">{speaker.name}</h4>
+                  <h6 className="text-center">{speaker.company}</h6>
+                  <p className="text-center">{speaker.talk}</p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
 
