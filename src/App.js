@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Info from './components/Info';
-import Partners from './components/Partners';
+// import Partners from './components/Partners';
 import Speakers from './components/Speakers';
-import Tickets from './components/Tickets';
+// import Tickets from './components/Tickets';
 import CodeOfConduct from './components/CodeOfConduct';
 import About from './components/About';
 import Venue from './components/Venue';
