@@ -1,6 +1,6 @@
-import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
+import React from 'react';
+import Header from './Header';
+import Footer from './Footer';
 
 const CodeOfConduct = () => {
   return (
@@ -157,10 +157,10 @@ const CodeOfConduct = () => {
               following:
             </p>
             <ul>
-              {" "}
+              {' '}
               {/* more contact info can be added here later */}
               <li>
-                Email:{" "}
+                Email:{' '}
                 <a href="mailto:info@devcon.co.zm" title="email">
                   info@devcon.co.zm
                 </a>
@@ -227,7 +227,7 @@ const CodeOfConduct = () => {
           <h4>Contact Us</h4>
           <p>
             If you have any questions about the code of conduct, please contact
-            us at{" "}
+            us at{' '}
             <a href="mailto:info@devcon.co.zm" title="email">
               info@devcon.co.zm
             </a>

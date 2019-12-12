@@ -1,6 +1,6 @@
-import React from "react";
-import Header from "./Info";
-import { speakers } from "../data/speakers";
+import React from 'react';
+import Header from './Info';
+import { speakers } from '../data/speakers';
 
 function Speakers() {
   return (

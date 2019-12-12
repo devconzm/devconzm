@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function About() {
   return (
@@ -27,7 +27,15 @@ function About() {
                 investment opportunities which is critical to growth.
               </p>
               <div className="about-video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/k4q6gGcslA0" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;" title="DevCon Zambia" allowFullScreen></iframe>
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/k4q6gGcslA0"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope;"
+                  title="DevCon Zambia"
+                  allowFullScreen
+                ></iframe>
               </div>
             </div>
           </div>

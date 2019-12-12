@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function Tickets() {
   return (
@@ -16,12 +16,10 @@ function Tickets() {
                   ZK150<span className="period"></span>
                 </h6>
                 <hr></hr>
-                <ul className="fa-ul">
-                  Sale ended on 31st August 2020
-                </ul>
+                <ul className="fa-ul">Sale ended on 31st August 2020</ul>
 
                 <a
-                  href="./" 
+                  href="./"
                   className="btn btn-block btn-primary text-uppercase"
                 >
                   Sold Out
@@ -65,9 +63,7 @@ function Tickets() {
                 </h6>
                 <hr></hr>
                 <ul className="fa-ul">
-                  <li>
-                    Includes access to our exclusive networking mixer
-                  </li>
+                  <li>Includes access to our exclusive networking mixer</li>
                 </ul>
 
                 <a
