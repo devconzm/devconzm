@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 function Partners() {
   return (
@@ -20,7 +20,7 @@ function Partners() {
                     width="200"
                     height="auto"
                     alt="JetBrains"
-                    src={require("../assets/jetbrains.webp")}
+                    src={require('../assets/jetbrains.webp')}
                   />
                 </a>
               </div>
@@ -35,7 +35,7 @@ function Partners() {
                     width="200"
                     height="auto"
                     alt="Stickermule"
-                    src={require("../assets/stickermule.svg")}
+                    src={require('../assets/stickermule.svg')}
                   />
                 </a>
               </div>
@@ -50,7 +50,7 @@ function Partners() {
                     width="200"
                     height="auto"
                     alt="Agora Code"
-                    src={require("../assets/agoracode.webp")}
+                    src={require('../assets/agoracode.webp')}
                   />
                 </a>
               </div>
@@ -65,7 +65,7 @@ function Partners() {
                     width="200"
                     height="auto"
                     alt="GitKraken"
-                    src={require("../assets/gitkraken.svg")}
+                    src={require('../assets/gitkraken.svg')}
                   />
                 </a>
               </div>
@@ -80,7 +80,7 @@ function Partners() {
                     width="200"
                     height="auto"
                     alt="Bongohive"
-                    src={require("../assets/bongohive.webp")}
+                    src={require('../assets/bongohive.webp')}
                   />
                 </a>
               </div>
@@ -96,7 +96,7 @@ function Partners() {
                     width="200"
                     height="auto"
                     alt="asikananetwork"
-                    src={require("../assets/asikananetwork.webp")}
+                    src={require('../assets/asikananetwork.webp')}
                   />
                 </a>
               </div>
@@ -112,7 +112,7 @@ function Partners() {
                     width="200"
                     height="auto"
                     alt="amazon web services"
-                    src={require("../assets/aws.webp")}
+                    src={require('../assets/aws.webp')}
                   />
                 </a>
               </div>
@@ -129,18 +129,17 @@ function Partners() {
                     width="200"
                     height="auto"
                     alt="pubnub"
-                    src={require("../assets/pubnub.webp")}
+                    src={require('../assets/pubnub.webp')}
                   />
                 </a>
               </div>
-
             </div>
           </div>
         </div>
       </div>
       <div className="d-flex justify-content-center">
         <h6>
-          If you would like to partner with us, send us an email at{" "}
+          If you would like to partner with us, send us an email at{' '}
           <a href="mailto:info@devcon.co.zm" title="email">
             info@devcon.co.zm
           </a>

@@ -1,15 +1,15 @@
-import React from "react";
-import { NavHashLink as NavLink } from "react-router-hash-link";
-import navbarBranding from "../assets/dev1.png";
-import devConZmLogoPlus19 from "../assets/dev2020.png";
+import React from 'react';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
+import navbarBranding from '../assets/dev1.png';
+import devConZmLogoPlus19 from '../assets/dev2020.png';
 
 function Header() {
   const styles = {
-    textTransform: "uppercase",
-    fontWeight: "bold",
-    color: "#420042",
-    textDecoration: "none",
-    marginLeft: "15px"
+    textTransform: 'uppercase',
+    fontWeight: 'bold',
+    color: '#420042',
+    textDecoration: 'none',
+    marginLeft: '15px'
   };
   return (
     <section id="header-section">
@@ -67,7 +67,7 @@ function Header() {
                         </NavLink>
                       </li>
      */}
-                       {/* <li className="nav-item">
+                      {/* <li className="nav-item">
                         <NavLink
                           smooth
                           activeClassName={"active"}
@@ -77,12 +77,12 @@ function Header() {
                           Schedule
                         </NavLink>
                       </li> */}
-                      
+
                       <li className="nav-item">
                         <NavLink
                           smooth
                           style={styles}
-                          activeClassName={"active"}
+                          activeClassName={'active'}
                           to="/#about"
                         >
                           About
@@ -101,7 +101,7 @@ function Header() {
                       <li className="nav-item">
                         <NavLink
                           smooth
-                          activeClassName={"active"}
+                          activeClassName={'active'}
                           style={styles}
                           to="/coc#code-of-conduct"
                         >

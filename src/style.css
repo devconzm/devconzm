@@ -1,19 +1,19 @@
 /* Keep Calm font import */
 @font-face {
-  font-family: "Keep Calm Regular";
+  font-family: 'Keep Calm Regular';
   font-style: normal;
   font-weight: normal;
-  src: local("Keep Calm Regular"),
-    url("../src/fonts/KeepCalm-Medium.woff") format("woff");
+  src: local('Keep Calm Regular'),
+    url('../src/fonts/KeepCalm-Medium.woff') format('woff');
 }
 
 body {
-  font-family: "Keep Calm Regular";
+  font-family: 'Keep Calm Regular';
 }
 
 .masthead {
   min-height: 800px;
-  background-image: url("assets/background.webp");
+  background-image: url('assets/background.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,7 +76,7 @@ body {
 }
 
 #contact {
-  font-family: "Keep Calm Regular";
+  font-family: 'Keep Calm Regular';
   padding-top: 60px;
   width: 100%;
   width: 100vw;
@@ -193,7 +193,7 @@ footer {
 
 #about .container:before,
 #tickets .container:before {
-  content: "";
+  content: '';
   position: absolute;
   /*top: -60px;*/
   width: 0;
@@ -203,7 +203,7 @@ footer {
 }
 #about .container:after,
 #tickets .container:after {
-  content: "";
+  content: '';
   position: absolute;
   /*top: -60px;*/
   right: 0;
@@ -222,7 +222,7 @@ footer {
 }
 
 #speakers .container:before {
-  content: "";
+  content: '';
   position: absolute;
   /*top: -60px;*/
   width: 0;
@@ -231,7 +231,7 @@ footer {
   border-right: 50vw solid transparent;
 }
 #speakers .container:after {
-  content: "";
+  content: '';
   position: absolute;
   /*top: -60px;*/
   right: 0;
@@ -248,7 +248,7 @@ footer {
 }
 
 #partners .container:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 0;
   height: 0;
@@ -256,7 +256,7 @@ footer {
 }
 
 #partners .container:after {
-  content: "";
+  content: '';
   position: absolute;
   right: 0;
   width: 0;
@@ -276,7 +276,7 @@ footer {
 }
 
 #venue .container:before {
-  content: "";
+  content: '';
   position: absolute;
   /*top: -60px;*/
   width: 0;
@@ -285,7 +285,7 @@ footer {
 }
 
 #venue .container:after {
-  content: "";
+  content: '';
   position: absolute;
   /*top: -60px;*/
   width: 0;
@@ -326,15 +326,15 @@ footer {
 }
 
 #tickets .ticket-1 {
-  background-image: url("assets/dev5.webp");
+  background-image: url('assets/dev5.webp');
 }
 
 #tickets .ticket-2 {
-  background-image: url("assets/dev6.webp");
+  background-image: url('assets/dev6.webp');
 }
 
 #tickets .ticket-3 {
-  background-image: url("assets/dev7.webp");
+  background-image: url('assets/dev7.webp');
 }
 
 #tickets .ticket-header {
@@ -458,7 +458,7 @@ section.pricing {
 }
 
 .member .member-top figure:after {
-  content: "";
+  content: '';
   position: absolute;
   left: 0;
   right: 0;
@@ -535,7 +535,7 @@ section.pricing {
 }
 
 .member .member-title:after {
-  content: "";
+  content: '';
   clear: both;
   display: table;
 }
@@ -572,7 +572,7 @@ section.pricing {
 }
 
 .social-icons:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
@@ -625,7 +625,7 @@ section.pricing {
 #code-of-conduct h2,
 #code-of-conduct h4,
 #code-of-conduct h5 {
-  font-family: "Keep Calm Regular";
+  font-family: 'Keep Calm Regular';
   margin-bottom: 10px;
 }
 
@@ -646,7 +646,7 @@ section.pricing {
 
 /* paragraph font */
 #code-of-conduct p {
-  font-family: "Keep Calm Regular";
+  font-family: 'Keep Calm Regular';
 }
 
 .expected-behaviours,
@@ -735,20 +735,20 @@ footer.page-footer {
 
 /* Keep Calm font import */
 @font-face {
-  font-family: "Keep Calm Regular";
+  font-family: 'Keep Calm Regular';
   font-style: normal;
   font-weight: normal;
-  src: local("Keep Calm Regular"),
-    url("../src/fonts/KeepCalm-Medium.woff") format("woff");
+  src: local('Keep Calm Regular'),
+    url('../src/fonts/KeepCalm-Medium.woff') format('woff');
 }
 
 body {
-  font-family: "Keep Calm Regular";
+  font-family: 'Keep Calm Regular';
 }
 
 .masthead {
   min-height: 800px;
-  background-image: url("assets/background.webp");
+  background-image: url('assets/background.webp');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -816,7 +816,7 @@ body {
 }
 
 #contact {
-  font-family: "Keep Calm Regular";
+  font-family: 'Keep Calm Regular';
   padding-top: 60px;
   width: 100%;
   width: 100vw;
@@ -927,7 +927,7 @@ footer {
 
 #about .container:before,
 #tickets .container:before {
-  content: "";
+  content: '';
   position: absolute;
   /*top: -60px;*/
   width: 0;
@@ -937,7 +937,7 @@ footer {
 }
 #about .container:after,
 #tickets .container:after {
-  content: "";
+  content: '';
   position: absolute;
   /*top: -60px;*/
   right: 0;
@@ -961,7 +961,7 @@ footer {
 }
 
 #speakers .container:before {
-  content: "";
+  content: '';
   position: absolute;
   /*top: -60px;*/
   width: 0;
@@ -970,7 +970,7 @@ footer {
   border-right: 50vw solid transparent;
 }
 #speakers .container:after {
-  content: "";
+  content: '';
   position: absolute;
   /*top: -60px;*/
   right: 0;
@@ -987,7 +987,7 @@ footer {
 }
 
 #partners .container:before {
-  content: "";
+  content: '';
   position: absolute;
   width: 0;
   height: 0;
@@ -995,21 +995,21 @@ footer {
 }
 
 #partners .container:after {
-  content: "";
+  content: '';
   position: absolute;
   right: 0;
   width: 0;
   height: 0;
   border-left: 30vw solid transparent;
 }
-@media only screen and (max-width:768px){
-#partners img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  widows: 200px;;
-  height:200px;
-    }
+@media only screen and (max-width: 768px) {
+  #partners img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    widows: 200px;
+    height: 200px;
+  }
 }
 
 .email-header {
@@ -1024,7 +1024,7 @@ footer {
 }
 
 #venue .container:before {
-  content: "";
+  content: '';
   position: absolute;
   /*top: -60px;*/
   width: 0;
@@ -1033,7 +1033,7 @@ footer {
 }
 
 #venue .container:after {
-  content: "";
+  content: '';
   position: absolute;
   /*top: -60px;*/
   width: 0;
@@ -1074,15 +1074,15 @@ footer {
 }
 
 #tickets .ticket-1 {
-  background-image: url("assets/dev5.webp");
+  background-image: url('assets/dev5.webp');
 }
 
 #tickets .ticket-2 {
-  background-image: url("assets/dev6.webp");
+  background-image: url('assets/dev6.webp');
 }
 
 #tickets .ticket-3 {
-  background-image: url("assets/dev7.webp");
+  background-image: url('assets/dev7.webp');
 }
 
 #tickets .ticket-header {
@@ -1117,7 +1117,7 @@ footer {
 #code-of-conduct h2,
 #code-of-conduct h4,
 #code-of-conduct h5 {
-  font-family: "Keep Calm Regular";
+  font-family: 'Keep Calm Regular';
   margin-bottom: 10px;
 }
 
@@ -1131,7 +1131,7 @@ footer {
 
 /* paragraph font */
 #code-of-conduct p {
-  font-family: "Keep Calm Regular";
+  font-family: 'Keep Calm Regular';
 }
 
 .expected-behaviours,

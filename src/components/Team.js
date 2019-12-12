@@ -1,5 +1,5 @@
 /* eslint-disable */
-import React from "react";
+import React from 'react';
 
 function Team() {
   return (
@@ -141,7 +141,7 @@ function Team() {
               </div>
               {/*<!-- End .member-top --> */}
               <h3 className="member-title">
-                <a href="#">Daniel Madalitso Phiri</a>{" "}
+                <a href="#">Daniel Madalitso Phiri</a>{' '}
                 <small>(Developer)</small>
               </h3>
               <p></p>

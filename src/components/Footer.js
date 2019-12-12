@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 import {
   FaFacebookSquare,
   FaTwitterSquare,
   FaLinkedin,
   FaEnvelope
-} from "react-icons/fa";
+} from 'react-icons/fa';
 
 function Footer() {
   return (
@@ -38,11 +38,11 @@ function Footer() {
         {/* Copyright */}
         <div className="container footer-copyright text-center py-3">
           <p>
-            &copy;2020{" "}
+            &copy;2020{' '}
             <a href="http://devcon.co.zm" title="DevCon Zambia">
-              {" "}
+              {' '}
               DevCon Zambia
-            </a>{" "}
+            </a>{' '}
             All rights reserved.
           </p>
         </div>

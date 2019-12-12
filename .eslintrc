@@ -1,3 +1,17 @@
 {
-    "extends" : "rallycoding"
+  "extends": [
+    "react-app",
+    "plugin:jsx-a11y/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["jsx-a11y", "prettier"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ],
+    "quotes": [2, "single"]
+  }
 }
