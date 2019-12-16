@@ -5,6 +5,7 @@ import Partners from "./components/Partners";
 import Speakers from "./components/Speakers";
 import Tickets from "./components/Tickets";
 import CodeOfConduct from "./components/CodeOfConduct";
+import MailChimpSignUpForm from  './components/MailChimp';
 import About from "./components/About";
 import Venue from "./components/Venue";
 import Footer from "./components/Footer";
@@ -35,6 +36,28 @@ function Home() {
       <Info />
       <About />
       <Venue />
+      <MailChimpSignUpForm fields={[
+          {
+            name: 'EMAIL',
+            placeholder: 'Email',
+            type: 'email',
+            required: true
+          },
+
+          {
+            name: 'FNAME',
+            placeholder: 'Firstname',
+            type: 'text',
+            required: true
+          },
+          {
+            name: 'LNAME',
+            placeholder: 'Lastname',
+            type: 'text',
+            required: true
+          }
+
+        ]} action={''}/>
       {/* <Tickets /> */}
       {/* <Partners /> */}
       {/*<Team />*/}
