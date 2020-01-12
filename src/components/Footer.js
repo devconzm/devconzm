@@ -10,7 +10,6 @@ function Footer() {
   return (
     <div className=" text-center ">
       <footer className="  justify-content-center page-footer font-small">
-        {/* Social Media */}
         <div className="center">
           <div className="social-media">
             <a href="https://m.facebook.com/devconzm/" title="facebook">

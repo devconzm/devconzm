@@ -6,6 +6,22 @@ function Venue() {
     <section id="venue">
       <div className="container">
         <div className="text-center">
+          {/* buy tickets buttn */}
+          <div className="p-5 text-center">
+            <button
+              onClick={() =>
+                window.open(
+                  'https://www.quicket.co.zm/events/80301-developer-conference-zambia-19/'
+                )
+              }
+              type="button"
+              className="btn btn-info devcon"
+            >
+              Buy tickets
+            </button>
+          </div>
+          {/*  */}
+          {/* Social Media */}
           <img
             className="img-fluid"
             src={theGrandHotelLogo}
