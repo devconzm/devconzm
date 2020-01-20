@@ -1,0 +1,79 @@
+@tailwind base;
+
+@font-face {
+  font-family: "Avenir";
+  font-display: auto;
+  src: url("../fonts/Avenir/AvenirLTStd-Roman.otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  font-display: auto;
+  src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #081e32;
+}
+
+::selection {
+  background: #283756;
+  color: #fff;
+}
+::-moz-selection {
+  background: #283756;
+  color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+iframe,
+object,
+embed {
+  max-width: 100% !important;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+}
+
+.line span {
+  content: "";
+  flex: 1 1 auto;
+  border-top: 1px dashed #c4c4c4;
+  margin-left: 20px;
+}

@@ -1,52 +1,130 @@
 {
-  "name": "devconfzm19",
-  "version": "0.1.0",
-  "private": true,
+  "name": "osf-website",
+  "description": "Website for OSCA Open Source Festival",
+  "version": "3.0.141",
+  "author": "OSCAFRICA",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.18",
-    "@fortawesome/free-brands-svg-icons": "^5.8.2",
-    "@fortawesome/free-solid-svg-icons": "^5.8.2",
-    "@fortawesome/react-fontawesome": "^0.1.4",
-    "moment": "^2.24.0",
-    "react": "^16.8.6",
-    "react-agenda": "0.0.8",
-    "react-dom": "^16.8.6",
-    "react-icons": "^3.7.0",
-    "react-rainbow-components": "^1.4.0",
-    "react-router-dom": "^5.0.1",
-    "react-router-hash-link": "^1.2.2",
-    "react-scripts": "^3.3.0"
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-brands-svg-icons": "^5.12.0",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "@storybook/addon-storysource": "^5.2.8",
+    "classnames": "2.2.6",
+    "gatsby": "^2.18.25",
+    "gatsby-plugin-gtag": "^1.0.12",
+    "gatsby-plugin-manifest": "2.2.27",
+    "gatsby-plugin-offline": "3.0.21",
+    "gatsby-plugin-postcss": "2.1.15",
+    "gatsby-plugin-purgecss": "4.0.1",
+    "gatsby-plugin-react-helmet": "3.1.14",
+    "gatsby-plugin-sitemap": "^2.2.24",
+    "graphql": "14.5.8",
+    "opencollective": "1.0.3",
+    "prop-types": "15.7.2",
+    "react-datepicker": "^2.10.1",
+    "react-dom": "16.11.0",
+    "react-helmet": "5.2.1"
   },
+  "keywords": [
+    "gatsby",
+    "tailwind",
+    "tailwindcss",
+    "purgecss"
+  ],
+  "license": "MIT",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --coverage",
-    "eject": "react-scripts eject",
-    "lint": "prettier --single-quote --write \"src/**/*.{js,jsx,json,css}\"",
-    "precommit": "lint-staged"
+    "analyze:lint": "eslint --ext .jsx --ext .js src",
+    "analyze:prettier": "prettier --list-different '**/*.{js,css,md,json}'",
+    "analyze": "npm run analyze:lint && npm run analyze:prettier",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "fix:lint": "eslint --ext .jsx --ext .js src --fix",
+    "fix:prettier": "prettier --write '**/*.{js,css,md,json}'",
+    "fix": "npm run fix:lint && npm run fix:prettier",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "commit": "git-cz",
+    "storybook": "start-storybook",
+    "cypress:open": "cross-env TZ=UTC cypress open",
+    "cypress:run": "cross-env TZ=UTC cypress run",
+    "test": "nyc --silent cross-env npm run test:unit && npm run test:e2e",
+    "test:unit": "jest",
+    "test:e2e": "start-server-and-test develop http://localhost:8000 cypress:run"
+  },
+  "devDependencies": {
+    "@cypress/code-coverage": "^1.10.2",
+    "@storybook/addon-docs": "^5.2.8",
+    "@storybook/addon-viewport": "^5.2.8",
+    "@storybook/react": "5.2.8",
+    "@typescript-eslint/eslint-plugin": "2.7.0",
+    "@typescript-eslint/parser": "2.7.0",
+    "babel-eslint": "10.0.3",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-istanbul": "^5.2.0",
+    "babel-preset-gatsby": "^0.2.23",
+    "chai": "^4.2.0",
+    "chai-enzyme": "^1.0.0-beta.1",
+    "commitizen": "^4.0.3",
+    "coveralls": "^3.0.9",
+    "cross-env": "^6.0.3",
+    "cssnano": "^4.1.10",
+    "cypress": "^3.7.0",
+    "cz-conventional-changelog": "^3.0.2",
+    "dotenv": "8.2.0",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "eslint": "^6.6.0",
+    "eslint-config-react-app": "5.0.2",
+    "eslint-plugin-chai-friendly": "^0.5.0",
+    "eslint-plugin-cypress": "^2.7.0",
+    "eslint-plugin-flowtype": "4.4.1",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-jsx-a11y": "6.2.3",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-react": "7.16.0",
+    "eslint-plugin-react-hooks": "2.3.0",
+    "husky": "^3.1.0",
+    "identity-obj-proxy": "^3.0.0",
+    "istanbul-instrumenter-loader": "^3.0.1",
+    "istanbul-lib-coverage": "^2.0.5",
+    "jest": "^24.9.0",
+    "jest-environment-enzyme": "^7.1.2",
+    "jest-enzyme": "^7.1.2",
+    "lint-staged": "^9.5.0",
+    "nyc": "^14.1.1",
+    "prettier": "1.19.1",
+    "react": "^16.12.0",
+    "react-is": "^16.12.0",
+    "start-server-and-test": "^1.10.6",
+    "tailwindcss": "1.1.3",
+    "typescript": "3.7.2"
+  },
+  "nyc": {
+    "report-dir": "coverage/cypress-coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oscommunityafrica/osf-website"
+  },
+  "bugs": {
+    "url": "https://github.com/oscommunityafrica/osf-website/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
-    "src/**/*.{js,jsx,json,css}": [
-      "prettier --single-quote --write",
+    "*.{js,jsx}": "npm run fix:lint",
+    "*.{js,json,md,graphql}": [
+      "npm run fix:prettier",
       "git add"
     ]
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ],
-  "devDependencies": {
-    "eslint-config-prettier": "^6.7.0",
-    "eslint-plugin-prettier": "^3.1.1",
-    "husky": "^3.1.0",
-    "jest-dom": "^3.1.2",
-    "lint-staged": "^9.5.0",
-    "prettier": "^1.19.1",
-    "react-testing-library": "^6.0.0"
   }
 }
