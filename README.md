@@ -37,64 +37,7 @@ read the [code of conduct](https://github.com/devconzm/devconzm/blob/master/CODE
 - npm
 - git
 
-**Clone the repo**  
-`git clone https://github.com/devconzm/devconzm.git`  
-`cd devconzm`
 
-**Install dependencies**
-
-`npm install`
-
-**Run**
-
-`npm start`
-
-### Issues
-
-If you encounter any issues feel free to report them [here](https://github.com/devconzm/devconzm/issues)
-
-## Contributors
-
-Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore -->
-<table>
-  <tr>
-    <td align="center"><a href="http://www.agorainnovatus.com"><img src="https://avatars0.githubusercontent.com/u/12296763?v=4" width="100px;" alt="Mukuma Musenge"/><br /><sub><b>Mukuma Musenge</b></sub></a><br /><a href="#content-k9uma" title="Content">🖋</a> <a href="https://github.com/devconzm/devconzm/commits?author=k9uma" title="Documentation">📖</a> <a href="#ideas-k9uma" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="http://www.linkedin.com/in/luis-zulu-b7b49bb8"><img src="https://avatars1.githubusercontent.com/u/34923214?v=4" width="100px;" alt="Luis Roy Zulu"/><br /><sub><b>Luis Roy Zulu</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=LuisRoyZulu06" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://pastsix.netlify.com/"><img src="https://avatars1.githubusercontent.com/u/11255454?v=4" width="100px;" alt="Olivier JM"/><br /><sub><b>Olivier JM</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=OlivierJM" title="Code">💻</a> <a href="https://github.com/devconzm/devconzm/commits?author=OlivierJM" title="Documentation">📖</a> <a href="#ideas-OlivierJM" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://malgamves.dev"><img src="https://avatars1.githubusercontent.com/u/25641936?v=4" width="100px;" alt="Daniel Madalitso Phiri"/><br /><sub><b>Daniel Madalitso Phiri</b></sub></a><br /><a href="#ideas-malgamves" title="Ideas, Planning, & Feedback">🤔</a></td>
-    <td align="center"><a href="https://github.com/Mulency"><img src="https://avatars2.githubusercontent.com/u/23038552?v=4" width="100px;" alt="Cynthia M. Mulenga"/><br /><sub><b>Cynthia M. Mulenga</b></sub></a><br /><a href="#eventOrganizing-Mulency" title="Event Organizing">📋</a></td>
-    <td align="center"><a href="http://www.twitter.com/mbuyu_"><img src="https://avatars1.githubusercontent.com/u/16419710?v=4" width="100px;" alt="Mbuyu  Makayi"/><br /><sub><b>Mbuyu  Makayi</b></sub></a><br /><a href="#eventOrganizing-makayi" title="Event Organizing">📋</a></td>
-    <td align="center"><a href="http://www.twitter.com/djtwenty6"><img src="https://avatars2.githubusercontent.com/u/32264045?v=4" width="100px;" alt="John Allan Zgambo Jr"/><br /><sub><b>John Allan Zgambo Jr</b></sub></a><br /><a href="#ideas-djtwenty6" title="Ideas, Planning, & Feedback">🤔</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="http://oneziko.com"><img src="https://avatars0.githubusercontent.com/u/17289498?v=4" width="100px;" alt="Chizzo Cheese"/><br /><sub><b>Chizzo Cheese</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=Chizzoz" title="Code">💻</a></td>
-    <td align="center"><a href="http://desilvadev.com"><img src="https://avatars0.githubusercontent.com/u/35354955?v=4" width="100px;" alt="Chris DeSilva"/><br /><sub><b>Chris DeSilva</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=chrisdesilva" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/Big-Zude"><img src="https://avatars0.githubusercontent.com/u/40924941?v=4" width="100px;" alt="Big-Zude"/><br /><sub><b>Big-Zude</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=Big-Zude" title="Documentation">📖</a></td>
-    <td align="center"><a href="http://tumbone.co.za"><img src="https://avatars3.githubusercontent.com/u/9964968?v=4" width="100px;" alt="Tumbone Asukile"/><br /><sub><b>Tumbone Asukile</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=tumbone" title="Code">💻</a></td>
-    <td align="center"><a href="https://ikayz.github.io/"><img src="https://avatars1.githubusercontent.com/u/31007212?v=4" width="100px;" alt="Isaac Miti"/><br /><sub><b>Isaac Miti</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=ikayz" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/AbednegoTM"><img src="https://avatars0.githubusercontent.com/u/10270151?v=4" width="100px;" alt="Abednego Mwanza"/><br /><sub><b>Abednego Mwanza</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=AbednegoTM" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/WillzMu"><img src="https://avatars3.githubusercontent.com/u/16624002?v=4" width="100px;" alt="Wilfred"/><br /><sub><b>Wilfred</b></sub></a><br /><a href="#ideas-WillzMu" title="Ideas, Planning, & Feedback">🤔</a></td>
-  </tr>
-  <tr>
-    <td align="center"><a href="http://locnesssite.wordpress.com"><img src="https://avatars1.githubusercontent.com/u/37651007?v=4" width="100px;" alt="Locness"/><br /><sub><b>Locness</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/issues?q=author%3Alocness3" title="Bug reports">🐛</a></td>
-    <td align="center"><a href="https://github.com/bgongre"><img src="https://avatars0.githubusercontent.com/u/27456325?v=4" width="100px;" alt="bgongre"/><br /><sub><b>bgongre</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=bgongre" title="Code">💻</a> <a href="https://github.com/devconzm/devconzm/issues?q=author%3Abgongre" title="Bug reports">🐛</a></td>
-  </tr>
-</table>
-
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
-<div align="center"  style="margin-bottom:30px">
-  <img src="src/images/NXTBC.png" alt="Logo" width='500px' height='auto'/>
-</div>
-
-<div align="center">
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/41ea43c2-911b-4892-a6ad-002a35ee76c2/deploy-status)](https://app.netlify.com/sites/osca-festival/deploys) [![Coverage Status](https://coveralls.io/repos/github/oscommunityafrica/osf-website/badge.svg?branch=master)](https://coveralls.io/github/oscommunityafrica/osf-website?branch=master) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![All Contributors](https://img.shields.io/badge/all_contributors-10-orange.svg?style=flat-square)](#contributors) [![Financial Contributors on Open Collective](https://opencollective.com/osca/all/badge.svg?label=financial+contributors)](https://opencollective.com/osca) [![OpenCollective](https://opencollective.com/osca/backers/badge.svg)](#backers) [![OpenCollective](https://opencollective.com/osca/sponsors/badge.svg)](#sponsors)
-
-</div>
 
 ## Getting Started
 
@@ -174,56 +117,44 @@ npm run analyze
 npm run fix
 ```
 
+
+
+### Issues
+
+If you encounter any issues feel free to report them [here](https://github.com/devconzm/devconzm/issues)
+
 ## Contributors
 
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
+<!-- prettier-ignore -->
 <table>
   <tr>
-    <td align="center"><a href="https://bolajiayodeji.com"><img src="https://avatars2.githubusercontent.com/u/30334776?v=4" width="100px;" alt=""/><br /><sub><b>Bolaji Ayodeji</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=BolajiAyodeji" title="Code">💻</a> <a href="https://github.com/oscommunityafrica/osf-website/commits?author=BolajiAyodeji" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://github.com/perriefidelis"><img src="https://avatars1.githubusercontent.com/u/30669761?v=4" width="100px;" alt=""/><br /><sub><b>Peace Ojemeh</b></sub></a><br /><a href="#design-perriefidelis" title="Design">🎨</a></td>
-    <td align="center"><a href="http:// http://steve-anthony.com/"><img src="https://avatars1.githubusercontent.com/u/45064217?v=4" width="100px;" alt=""/><br /><sub><b>Steve Anthony</b></sub></a><br /><a href="#design-mrstevea" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/legendaryofor"><img src="https://avatars2.githubusercontent.com/u/56217883?v=4" width="100px;" alt=""/><br /><sub><b>OFOR</b></sub></a><br /><a href="#design-legendaryofor" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/alabobriggs"><img src="https://avatars3.githubusercontent.com/u/38571291?v=4" width="100px;" alt=""/><br /><sub><b>Alabo David Briggs</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=alabobriggs" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.patreon.com/cooproton"><img src="https://avatars0.githubusercontent.com/u/25608335?v=4" width="100px;" alt=""/><br /><sub><b>Bolaji Olajide</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=BolajiOlajide" title="Code">💻</a> <a href="https://github.com/oscommunityafrica/osf-website/commits?author=BolajiOlajide" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://johs.dev"><img src="https://avatars0.githubusercontent.com/u/29008971?v=4" width="100px;" alt=""/><br /><sub><b>Ike Josh</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=NotJohs" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://www.agorainnovatus.com"><img src="https://avatars0.githubusercontent.com/u/12296763?v=4" width="100px;" alt="Mukuma Musenge"/><br /><sub><b>Mukuma Musenge</b></sub></a><br /><a href="#content-k9uma" title="Content">🖋</a> <a href="https://github.com/devconzm/devconzm/commits?author=k9uma" title="Documentation">📖</a> <a href="#ideas-k9uma" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="http://www.linkedin.com/in/luis-zulu-b7b49bb8"><img src="https://avatars1.githubusercontent.com/u/34923214?v=4" width="100px;" alt="Luis Roy Zulu"/><br /><sub><b>Luis Roy Zulu</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=LuisRoyZulu06" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://pastsix.netlify.com/"><img src="https://avatars1.githubusercontent.com/u/11255454?v=4" width="100px;" alt="Olivier JM"/><br /><sub><b>Olivier JM</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=OlivierJM" title="Code">💻</a> <a href="https://github.com/devconzm/devconzm/commits?author=OlivierJM" title="Documentation">📖</a> <a href="#ideas-OlivierJM" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://malgamves.dev"><img src="https://avatars1.githubusercontent.com/u/25641936?v=4" width="100px;" alt="Daniel Madalitso Phiri"/><br /><sub><b>Daniel Madalitso Phiri</b></sub></a><br /><a href="#ideas-malgamves" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/Mulency"><img src="https://avatars2.githubusercontent.com/u/23038552?v=4" width="100px;" alt="Cynthia M. Mulenga"/><br /><sub><b>Cynthia M. Mulenga</b></sub></a><br /><a href="#eventOrganizing-Mulency" title="Event Organizing">📋</a></td>
+    <td align="center"><a href="http://www.twitter.com/mbuyu_"><img src="https://avatars1.githubusercontent.com/u/16419710?v=4" width="100px;" alt="Mbuyu  Makayi"/><br /><sub><b>Mbuyu  Makayi</b></sub></a><br /><a href="#eventOrganizing-makayi" title="Event Organizing">📋</a></td>
+    <td align="center"><a href="http://www.twitter.com/djtwenty6"><img src="https://avatars2.githubusercontent.com/u/32264045?v=4" width="100px;" alt="John Allan Zgambo Jr"/><br /><sub><b>John Allan Zgambo Jr</b></sub></a><br /><a href="#ideas-djtwenty6" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/fakela"><img src="https://avatars2.githubusercontent.com/u/39309699?v=4" width="100px;" alt=""/><br /><sub><b>Favour Kelvin</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=fakela" title="Code">💻</a></td>
-    <td align="center"><a href="https://twitter.com/ashinzekene"><img src="https://avatars2.githubusercontent.com/u/20991583?v=4" width="100px;" alt=""/><br /><sub><b>Ashinze Ekene</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=ashinzekene" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/joshikeno"><img src="https://avatars0.githubusercontent.com/u/29008971?v=4" width="100px;" alt=""/><br /><sub><b>Ike Josh</b></sub></a><br /><a href="https://github.com/oscommunityafrica/osf-website/commits?author=joshikeno" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/NdibeRaymond"><img src="https://avatars2.githubusercontent.com/u/40905613?v=4" width="100px;" alt=""/><br /><sub><b>Ndibe Raymond Olisaemeka</b></sub></a><br /><a href="#content-NdibeRaymond" title="Content">🖋</a></td>
+    <td align="center"><a href="http://oneziko.com"><img src="https://avatars0.githubusercontent.com/u/17289498?v=4" width="100px;" alt="Chizzo Cheese"/><br /><sub><b>Chizzo Cheese</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=Chizzoz" title="Code">💻</a></td>
+    <td align="center"><a href="http://desilvadev.com"><img src="https://avatars0.githubusercontent.com/u/35354955?v=4" width="100px;" alt="Chris DeSilva"/><br /><sub><b>Chris DeSilva</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=chrisdesilva" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/Big-Zude"><img src="https://avatars0.githubusercontent.com/u/40924941?v=4" width="100px;" alt="Big-Zude"/><br /><sub><b>Big-Zude</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=Big-Zude" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://tumbone.co.za"><img src="https://avatars3.githubusercontent.com/u/9964968?v=4" width="100px;" alt="Tumbone Asukile"/><br /><sub><b>Tumbone Asukile</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=tumbone" title="Code">💻</a></td>
+    <td align="center"><a href="https://ikayz.github.io/"><img src="https://avatars1.githubusercontent.com/u/31007212?v=4" width="100px;" alt="Isaac Miti"/><br /><sub><b>Isaac Miti</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=ikayz" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/AbednegoTM"><img src="https://avatars0.githubusercontent.com/u/10270151?v=4" width="100px;" alt="Abednego Mwanza"/><br /><sub><b>Abednego Mwanza</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=AbednegoTM" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/WillzMu"><img src="https://avatars3.githubusercontent.com/u/16624002?v=4" width="100px;" alt="Wilfred"/><br /><sub><b>Wilfred</b></sub></a><br /><a href="#ideas-WillzMu" title="Ideas, Planning, & Feedback">🤔</a></td>
+  </tr>
+  <tr>
+    <td align="center"><a href="http://locnesssite.wordpress.com"><img src="https://avatars1.githubusercontent.com/u/37651007?v=4" width="100px;" alt="Locness"/><br /><sub><b>Locness</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/issues?q=author%3Alocness3" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="https://github.com/bgongre"><img src="https://avatars0.githubusercontent.com/u/27456325?v=4" width="100px;" alt="bgongre"/><br /><sub><b>bgongre</b></sub></a><br /><a href="https://github.com/devconzm/devconzm/commits?author=bgongre" title="Code">💻</a> <a href="https://github.com/devconzm/devconzm/issues?q=author%3Abgongre" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
-<!-- markdownlint-enable -->
-<!-- prettier-ignore-end -->
-
-<!-- ALL-CONTRIBUTORS-LIST:END -->
-
-### Financial Contributors
-
-Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/osca/contribute)]
-
-#### Individuals
-
-<a href="https://opencollective.com/osca"><img src="https://opencollective.com/osca/individuals.svg?width=890"></a>
-
-#### Organizations
-
-Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/osca/contribute)]
-
-<a href="https://opencollective.com/osca/organization/0/website"><img src="https://opencollective.com/osca/organization/0/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/1/website"><img src="https://opencollective.com/osca/organization/1/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/2/website"><img src="https://opencollective.com/osca/organization/2/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/3/website"><img src="https://opencollective.com/osca/organization/3/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/4/website"><img src="https://opencollective.com/osca/organization/4/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/5/website"><img src="https://opencollective.com/osca/organization/5/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/6/website"><img src="https://opencollective.com/osca/organization/6/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/7/website"><img src="https://opencollective.com/osca/organization/7/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/8/website"><img src="https://opencollective.com/osca/organization/8/avatar.svg"></a>
-<a href="https://opencollective.com/osca/organization/9/website"><img src="https://opencollective.com/osca/organization/9/avatar.svg"></a>
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
 
 # Road Map
 
