@@ -1,37 +1,37 @@
-import React from "react";
-import { Router, Location, BaseContext } from "@reach/router";
-import { ScrollContext } from "gatsby-react-router-scroll";
+import React from "react"
+import { Router, Location, BaseContext } from "@reach/router"
+import { ScrollContext } from "gatsby-react-router-scroll"
 
 import {
   shouldUpdateScroll,
   init as navigationInit,
-  RouteUpdates
-} from "./navigation";
-import { apiRunner } from "./api-runner-browser";
-import loader from "./loader";
-import JSONStore from "./json-store";
-import EnsureResources from "./ensure-resources";
+  RouteUpdates,
+} from "./navigation"
+import { apiRunner } from "./api-runner-browser"
+import loader from "./loader"
+import { PageQueryStore, StaticQueryStore } from "./query-result-store"
+import EnsureResources from "./ensure-resources"
 
-import { reportError, clearError } from "./error-overlay-handler";
+import { reportError, clearError } from "./error-overlay-handler"
 
 if (window.__webpack_hot_middleware_reporter__ !== undefined) {
-  const overlayErrorID = `webpack`;
+  const overlayErrorID = `webpack`
   // Report build errors
   window.__webpack_hot_middleware_reporter__.useCustomOverlay({
     showProblems(type, obj) {
       if (type !== `errors`) {
-        clearError(overlayErrorID);
-        return;
+        clearError(overlayErrorID)
+        return
       }
-      reportError(overlayErrorID, obj[0]);
+      reportError(overlayErrorID, obj[0])
     },
     clear() {
-      clearError(overlayErrorID);
-    }
-  });
+      clearError(overlayErrorID)
+    },
+  })
 }
 
-navigationInit();
+navigationInit()
 
 // In gatsby v2 if Router is used in page using matchPaths
 // paths need to contain full path.
@@ -45,16 +45,16 @@ const RouteHandler = props => (
   <BaseContext.Provider
     value={{
       baseuri: `/`,
-      basepath: `/`
+      basepath: `/`,
     }}
   >
-    <JSONStore {...props} />
+    <PageQueryStore {...props} />
   </BaseContext.Provider>
-);
+)
 
 class LocationHandler extends React.Component {
   render() {
-    let { location } = this.props;
+    const { location } = this.props
 
     if (!loader.isPageNotFound(location.pathname)) {
       return (
@@ -83,16 +83,16 @@ class LocationHandler extends React.Component {
             </RouteUpdates>
           )}
         </EnsureResources>
-      );
+      )
     }
 
-    const dev404PageResources = loader.loadPageSync(`/dev-404-page`);
-    const real404PageResources = loader.loadPageSync(`/404.html`);
-    let custom404;
+    const dev404PageResources = loader.loadPageSync(`/dev-404-page`)
+    const real404PageResources = loader.loadPageSync(`/404.html`)
+    let custom404
     if (real404PageResources) {
       custom404 = (
-        <JSONStore {...this.props} pageResources={real404PageResources} />
-      );
+        <PageQueryStore {...this.props} pageResources={real404PageResources} />
+      )
     }
 
     return (
@@ -110,7 +110,7 @@ class LocationHandler extends React.Component {
           />
         </Router>
       </RouteUpdates>
-    );
+    )
   }
 }
 
@@ -118,7 +118,7 @@ const Root = () => (
   <Location>
     {locationContext => <LocationHandler {...locationContext} />}
   </Location>
-);
+)
 
 // Let site, plugins wrap the site e.g. for Redux.
 const WrappedRoot = apiRunner(
@@ -126,8 +126,8 @@ const WrappedRoot = apiRunner(
   { element: <Root /> },
   <Root />,
   ({ result, plugin }) => {
-    return { element: result };
+    return { element: result }
   }
-).pop();
+).pop()
 
-export default () => WrappedRoot;
+export default () => <StaticQueryStore>{WrappedRoot}</StaticQueryStore>

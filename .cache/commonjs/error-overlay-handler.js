@@ -12,14 +12,7 @@ ErrorOverlay.startReportingRuntimeErrors({
   onError: () => {},
   filename: `/commons.js`
 });
-ErrorOverlay.setEditorHandler(errorLocation =>
-  window.fetch(
-    `/__open-stack-frame-in-editor?fileName=` +
-      window.encodeURIComponent(errorLocation.fileName) +
-      `&lineNumber=` +
-      window.encodeURIComponent(errorLocation.lineNumber || 1)
-  )
-);
+ErrorOverlay.setEditorHandler(errorLocation => window.fetch(`/__open-stack-frame-in-editor?fileName=` + window.encodeURIComponent(errorLocation.fileName) + `&lineNumber=` + window.encodeURIComponent(errorLocation.lineNumber || 1)));
 const errorMap = {};
 exports.errorMap = errorMap;
 
@@ -32,23 +25,21 @@ const handleErrorOverlay = () => {
   let errorStringsToDisplay = [];
 
   if (errors.length > 0) {
-    errorStringsToDisplay = flat(errors)
-      .map(error => {
-        if (typeof error === `string`) {
-          return error;
-        } else if (typeof error === `object`) {
-          const errorStrBuilder = [error.text];
+    errorStringsToDisplay = flat(errors).map(error => {
+      if (typeof error === `string`) {
+        return error;
+      } else if (typeof error === `object`) {
+        const errorStrBuilder = [error.text];
 
-          if (error.filePath) {
-            errorStrBuilder.push(`File: ${error.filePath}`);
-          }
-
-          return errorStrBuilder.join(`\n\n`);
+        if (error.filePath) {
+          errorStrBuilder.push(`File: ${error.filePath}`);
         }
 
-        return null;
-      })
-      .filter(Boolean);
+        return errorStrBuilder.join(`\n\n`);
+      }
+
+      return null;
+    }).filter(Boolean);
   }
 
   if (errorStringsToDisplay.length > 0) {

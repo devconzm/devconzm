@@ -1,21 +1,21 @@
-import { match } from "@reach/router/lib/utils";
-import stripPrefix from "./strip-prefix";
-import normalizePagePath from "./normalize-page-path";
+import { match } from "@reach/router/lib/utils"
+import stripPrefix from "./strip-prefix"
+import normalizePagePath from "./normalize-page-path"
 
-const pathCache = new Map();
-let matchPaths = [];
+const pathCache = new Map()
+let matchPaths = []
 
 const trimPathname = rawPathname => {
-  const pathname = decodeURIComponent(rawPathname);
+  const pathname = decodeURIComponent(rawPathname)
   // Remove the pathPrefix from the pathname.
   const trimmedPathname = stripPrefix(pathname, __BASE_PATH__)
     // Remove any hashfragment
     .split(`#`)[0]
     // Remove search query
-    .split(`?`)[0];
+    .split(`?`)[0]
 
-  return trimmedPathname;
-};
+  return trimmedPathname
+}
 
 /**
  * Set list of matchPaths
@@ -23,8 +23,8 @@ const trimPathname = rawPathname => {
  * @param {Array<{path: string, matchPath: string}>} value collection of matchPaths
  */
 export const setMatchPaths = value => {
-  matchPaths = value;
-};
+  matchPaths = value
+}
 
 /**
  * Return a matchpath url
@@ -35,16 +35,16 @@ export const setMatchPaths = value => {
  * @return {string|null}
  */
 export const findMatchPath = rawPathname => {
-  const trimmedPathname = cleanPath(rawPathname);
+  const trimmedPathname = cleanPath(rawPathname)
 
   for (const { matchPath, path } of matchPaths) {
     if (match(matchPath, trimmedPathname)) {
-      return normalizePagePath(path);
+      return normalizePagePath(path)
     }
   }
 
-  return null;
-};
+  return null
+}
 
 // Given a raw URL path, returns the cleaned version of it (trim off
 // `#` and query params), or if it matches an entry in
@@ -55,22 +55,22 @@ export const findMatchPath = rawPathname => {
 // Or if `match-paths.json` contains `{ "/foo*": "/page1", ...}`, then
 // `/foo?bar=far` => `/page1`
 export const findPath = rawPathname => {
-  const trimmedPathname = trimPathname(rawPathname);
+  const trimmedPathname = trimPathname(rawPathname)
 
   if (pathCache.has(trimmedPathname)) {
-    return pathCache.get(trimmedPathname);
+    return pathCache.get(trimmedPathname)
   }
 
-  let foundPath = findMatchPath(trimmedPathname);
+  let foundPath = findMatchPath(trimmedPathname)
 
   if (!foundPath) {
-    foundPath = cleanPath(rawPathname);
+    foundPath = cleanPath(rawPathname)
   }
 
-  pathCache.set(trimmedPathname, foundPath);
+  pathCache.set(trimmedPathname, foundPath)
 
-  return foundPath;
-};
+  return foundPath
+}
 
 /**
  * Clean a url and converts /index.html => /
@@ -80,14 +80,14 @@ export const findPath = rawPathname => {
  * @return {string}
  */
 export const cleanPath = rawPathname => {
-  const trimmedPathname = trimPathname(rawPathname);
+  const trimmedPathname = trimPathname(rawPathname)
 
-  let foundPath = trimmedPathname;
+  let foundPath = trimmedPathname
   if (foundPath === `/index.html`) {
-    foundPath = `/`;
+    foundPath = `/`
   }
 
-  foundPath = normalizePagePath(foundPath);
+  foundPath = normalizePagePath(foundPath)
 
-  return foundPath;
-};
+  return foundPath
+}

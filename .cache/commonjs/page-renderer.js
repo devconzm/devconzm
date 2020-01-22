@@ -20,37 +20,27 @@ class PageRenderer extends _react.default.Component {
     const props = Object.assign({}, this.props, {
       pathContext: this.props.pageContext
     });
-    const [replacementElement] = (0, _apiRunnerBrowser.apiRunner)(
-      `replaceComponentRenderer`,
-      {
-        props: this.props,
-        loader: _loader.publicLoader
-      }
-    );
-    const pageElement =
-      replacementElement ||
-      (0, _react.createElement)(
-        this.props.pageResources.component,
-        Object.assign({}, props, {
-          key: this.props.path || this.props.pageResources.page.path
-        })
-      );
-    const wrappedPage = (0, _apiRunnerBrowser.apiRunner)(
-      `wrapPageElement`,
-      {
-        element: pageElement,
+    const [replacementElement] = (0, _apiRunnerBrowser.apiRunner)(`replaceComponentRenderer`, {
+      props: this.props,
+      loader: _loader.publicLoader
+    });
+    const pageElement = replacementElement || (0, _react.createElement)(this.props.pageResources.component, Object.assign({}, props, {
+      key: this.props.path || this.props.pageResources.page.path
+    }));
+    const wrappedPage = (0, _apiRunnerBrowser.apiRunner)(`wrapPageElement`, {
+      element: pageElement,
+      props
+    }, pageElement, ({
+      result
+    }) => {
+      return {
+        element: result,
         props
-      },
-      pageElement,
-      ({ result }) => {
-        return {
-          element: result,
-          props
-        };
-      }
-    ).pop();
+      };
+    }).pop();
     return wrappedPage;
   }
+
 }
 
 PageRenderer.propTypes = {

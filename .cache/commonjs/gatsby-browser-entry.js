@@ -23,9 +23,7 @@ exports.replace = _gatsbyLink.replace;
 exports.navigateTo = _gatsbyLink.navigateTo;
 exports.parsePath = _gatsbyLink.parsePath;
 
-var _publicPageRenderer = _interopRequireDefault(
-  require("./public-page-renderer")
-);
+var _publicPageRenderer = _interopRequireDefault(require("./public-page-renderer"));
 
 exports.PageRenderer = _publicPageRenderer.default;
 
@@ -38,45 +36,36 @@ const StaticQueryContext = _react.default.createContext({});
 
 exports.StaticQueryContext = StaticQueryContext;
 
-function StaticQueryDataRenderer({ staticQueryData, data, query, render }) {
-  const finalData = data
-    ? data.data
-    : staticQueryData[query] && staticQueryData[query].data;
-  return _react.default.createElement(
-    _react.default.Fragment,
-    null,
-    finalData && render(finalData),
-    !finalData &&
-      _react.default.createElement("div", null, "Loading (StaticQuery)")
-  );
+function StaticQueryDataRenderer({
+  staticQueryData,
+  data,
+  query,
+  render
+}) {
+  const finalData = data ? data.data : staticQueryData[query] && staticQueryData[query].data;
+  return _react.default.createElement(_react.default.Fragment, null, finalData && render(finalData), !finalData && _react.default.createElement("div", null, "Loading (StaticQuery)"));
 }
 
 const StaticQuery = props => {
-  const { data, query, render, children } = props;
-  return _react.default.createElement(
-    StaticQueryContext.Consumer,
-    null,
-    staticQueryData =>
-      _react.default.createElement(StaticQueryDataRenderer, {
-        data: data,
-        query: query,
-        render: render || children,
-        staticQueryData: staticQueryData
-      })
-  );
+  const {
+    data,
+    query,
+    render,
+    children
+  } = props;
+  return _react.default.createElement(StaticQueryContext.Consumer, null, staticQueryData => _react.default.createElement(StaticQueryDataRenderer, {
+    data: data,
+    query: query,
+    render: render || children,
+    staticQueryData: staticQueryData
+  }));
 };
 
 exports.StaticQuery = StaticQuery;
 
 const useStaticQuery = query => {
-  if (
-    typeof _react.default.useContext !== `function` &&
-    process.env.NODE_ENV === `development`
-  ) {
-    throw new Error(
-      `You're likely using a version of React that doesn't support Hooks\n` +
-        `Please update React and ReactDOM to 16.8.0 or later to use the useStaticQuery hook.`
-    );
+  if (typeof _react.default.useContext !== `function` && process.env.NODE_ENV === `development`) {
+    throw new Error(`You're likely using a version of React that doesn't support Hooks\n` + `Please update React and ReactDOM to 16.8.0 or later to use the useStaticQuery hook.`);
   }
 
   const context = _react.default.useContext(StaticQueryContext);
@@ -84,11 +73,7 @@ const useStaticQuery = query => {
   if (context[query] && context[query].data) {
     return context[query].data;
   } else {
-    throw new Error(
-      `The result of this StaticQuery could not be fetched.\n\n` +
-        `This is likely a bug in Gatsby and if refreshing the page does not fix it, ` +
-        `please open an issue in https://github.com/gatsbyjs/gatsby/issues`
-    );
+    throw new Error(`The result of this StaticQuery could not be fetched.\n\n` + `This is likely a bug in Gatsby and if refreshing the page does not fix it, ` + `please open an issue in https://github.com/gatsbyjs/gatsby/issues`);
   }
 };
 
@@ -101,10 +86,5 @@ StaticQuery.propTypes = {
 };
 
 function graphql() {
-  throw new Error(
-    `It appears like Gatsby is misconfigured. Gatsby related \`graphql\` calls ` +
-      `are supposed to only be evaluated at compile time, and then compiled away. ` +
-      `Unfortunately, something went wrong and the query was left in the compiled code.\n\n` +
-      `Unless your site has a complex or custom babel/Gatsby configuration this is likely a bug in Gatsby.`
-  );
+  throw new Error(`It appears like Gatsby is misconfigured. Gatsby related \`graphql\` calls ` + `are supposed to only be evaluated at compile time, and then compiled away. ` + `Unfortunately, something went wrong and the query was left in the compiled code.\n\n` + `Unless your site has a complex or custom babel/Gatsby configuration this is likely a bug in Gatsby.`);
 }

@@ -1,23 +1,23 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from "react"
+import PropTypes from "prop-types"
 
-import InternalPageRenderer from "./page-renderer";
+import InternalPageRenderer from "./page-renderer"
 
 const ProdPageRenderer = ({ location, pageResources }) => {
   if (!pageResources) {
-    return null;
+    return null
   }
   return React.createElement(InternalPageRenderer, {
     location,
     pageResources,
-    ...pageResources.json
-  });
-};
+    ...pageResources.json,
+  })
+}
 
 ProdPageRenderer.propTypes = {
   location: PropTypes.shape({
-    pathname: PropTypes.string.isRequired
-  }).isRequired
-};
+    pathname: PropTypes.string.isRequired,
+  }).isRequired,
+}
 
-export default ProdPageRenderer;
+export default ProdPageRenderer

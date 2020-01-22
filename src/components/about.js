@@ -14,22 +14,31 @@ function About() {
   `);
   return (
     <section className="flex flex-col lg:flex-row items-center my-16 mx-4 lg:mx-32">
-      <figure className="w-full lg:w-1/3">
-        <img className="pb-4 lg:pl-4" alt={`${site.siteMetadata.title}.`} src={patterns.nextBillion} />
+      <figure className="w-full lg:w-1/2">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/k4q6gGcslA0"
+          frameBorder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope;"
+          title="DevCon Zambia"
+          allowFullScreen
+        ></iframe>
+        {/* <img className="pb-4 lg:pl-4" alt={`${site.siteMetadata.title}.`} src={patterns.nextBillion} /> */}
       </figure>
 
       <div className="lg:w-1/2 lg:mx-12">
         <blockquote className="px-4 text-base text-justify tracking-tight text-dark-blue-500">
-          Open Source Community Africa is a community aimed at creating and supporting the open source movement within
-          Africa. As a community, we intend to help integrate the act of open source contribution to African developers
-          whilst strongly advocating the movement of free and open source software. <br />
+          DevConZM is an annual platform elected by Agora Code Community and collective members of the technology
+          community in Zambia. It is specifically crafted with Software Developers and Tech Enthusiasts in mind. Its aim
+          is first of all, to raise the quality of the craft, secondly, to raise awareness of the industry which is
+          still in its infancy in Zambia. We believe that providing a platform for developers to level up is key to a
+          progressive approach to building products and communities. <br />
           <br />
-          Open Source Festival is a high profile event that would attract student delegates, developers, designers and
-          corporate organizations on a large scale with series of talks, workshops, and awareness of open-sourced
-          developer tools. The maiden edition is going to be a forum for networking, discussions and ideas proration
-          around latest happenings in technology as well as the growth of open source in Africa. <br />
+          DevConZM brings exposure that will prove useful to innovation in various industrial sectors leading to direct
+          economic value addition. Apart from the technical opportunities available, Devcon will also give developers
+          access to networking and investment opportunities which is critical to growth. <br />
           <br />
-          Through this festival, we intend to move Africans from just the billion users to the NEXT BILLION CREATORS.
         </blockquote>
       </div>
       <div className="hidden lg:block absolute right-0 fixed">

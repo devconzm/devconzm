@@ -1,29 +1,29 @@
-import React from "react";
-import loader from "./loader";
-import shallowCompare from "shallow-compare";
+import React from "react"
+import loader from "./loader"
+import shallowCompare from "shallow-compare"
 
 class EnsureResources extends React.Component {
   constructor(props) {
-    super();
-    const { location, pageResources } = props;
+    super()
+    const { location, pageResources } = props
     this.state = {
       location: { ...location },
-      pageResources: pageResources || loader.loadPageSync(location.pathname)
-    };
+      pageResources: pageResources || loader.loadPageSync(location.pathname),
+    }
   }
 
   static getDerivedStateFromProps({ location }, prevState) {
     if (prevState.location.href !== location.href) {
-      const pageResources = loader.loadPageSync(location.pathname);
+      const pageResources = loader.loadPageSync(location.pathname)
       return {
         pageResources,
-        location: { ...location }
-      };
+        location: { ...location },
+      }
     }
 
     return {
-      location: { ...location }
-    };
+      location: { ...location },
+    }
   }
 
   loadResources(rawPath) {
@@ -31,34 +31,34 @@ class EnsureResources extends React.Component {
       if (pageResources && pageResources.status !== `error`) {
         this.setState({
           location: { ...window.location },
-          pageResources
-        });
+          pageResources,
+        })
       } else {
-        window.history.replaceState({}, ``, location.href);
-        window.location = rawPath;
+        window.history.replaceState({}, ``, location.href)
+        window.location = rawPath
       }
-    });
+    })
   }
 
   shouldComponentUpdate(nextProps, nextState) {
     // Always return false if we're missing resources.
     if (!nextState.pageResources) {
-      this.loadResources(nextProps.location.pathname);
-      return false;
+      this.loadResources(nextProps.location.pathname)
+      return false
     }
 
     // Check if the component or json have changed.
     if (this.state.pageResources !== nextState.pageResources) {
-      return true;
+      return true
     }
     if (
       this.state.pageResources.component !== nextState.pageResources.component
     ) {
-      return true;
+      return true
     }
 
     if (this.state.pageResources.json !== nextState.pageResources.json) {
-      return true;
+      return true
     }
     // Check if location has changed on a page using internal routing
     // via matchPath configuration.
@@ -68,14 +68,14 @@ class EnsureResources extends React.Component {
       (nextState.pageResources.page.matchPath ||
         nextState.pageResources.page.path)
     ) {
-      return true;
+      return true
     }
-    return shallowCompare(this, nextProps, nextState);
+    return shallowCompare(this, nextProps, nextState)
   }
 
   render() {
-    return this.props.children(this.state);
+    return this.props.children(this.state)
   }
 }
 
-export default EnsureResources;
+export default EnsureResources
