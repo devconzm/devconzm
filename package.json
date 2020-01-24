@@ -43,7 +43,7 @@
     "fix:prettier": "prettier --write '**/*.{js,css,md,json}'",
     "fix": "npm run fix:lint && npm run fix:prettier",
     "start": "npm run develop",
-    "lint": "eslint --ext .jsx --ext .js src",
+    "lint": "eslint --ext .jsx --ext .js src --fix",
     "serve": "gatsby serve",
     "commit": "git-cz",
     "storybook": "start-storybook",
