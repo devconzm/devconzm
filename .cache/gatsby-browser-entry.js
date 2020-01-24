@@ -1,5 +1,5 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from "react"
+import PropTypes from "prop-types"
 import Link, {
   withPrefix,
   withAssetPrefix,
@@ -7,30 +7,30 @@ import Link, {
   push,
   replace,
   navigateTo,
-  parsePath
-} from "gatsby-link";
-import PageRenderer from "./public-page-renderer";
-import loader from "./loader";
+  parsePath,
+} from "gatsby-link"
+import PageRenderer from "./public-page-renderer"
+import loader from "./loader"
 
-const prefetchPathname = loader.enqueue;
+const prefetchPathname = loader.enqueue
 
-const StaticQueryContext = React.createContext({});
+const StaticQueryContext = React.createContext({})
 
 function StaticQueryDataRenderer({ staticQueryData, data, query, render }) {
   const finalData = data
     ? data.data
-    : staticQueryData[query] && staticQueryData[query].data;
+    : staticQueryData[query] && staticQueryData[query].data
 
   return (
     <React.Fragment>
       {finalData && render(finalData)}
       {!finalData && <div>Loading (StaticQuery)</div>}
     </React.Fragment>
-  );
+  )
 }
 
 const StaticQuery = props => {
-  const { data, query, render, children } = props;
+  const { data, query, render, children } = props
 
   return (
     <StaticQueryContext.Consumer>
@@ -43,8 +43,8 @@ const StaticQuery = props => {
         />
       )}
     </StaticQueryContext.Consumer>
-  );
-};
+  )
+}
 
 const useStaticQuery = query => {
   if (
@@ -54,26 +54,26 @@ const useStaticQuery = query => {
     throw new Error(
       `You're likely using a version of React that doesn't support Hooks\n` +
         `Please update React and ReactDOM to 16.8.0 or later to use the useStaticQuery hook.`
-    );
+    )
   }
-  const context = React.useContext(StaticQueryContext);
+  const context = React.useContext(StaticQueryContext)
   if (context[query] && context[query].data) {
-    return context[query].data;
+    return context[query].data
   } else {
     throw new Error(
       `The result of this StaticQuery could not be fetched.\n\n` +
         `This is likely a bug in Gatsby and if refreshing the page does not fix it, ` +
         `please open an issue in https://github.com/gatsbyjs/gatsby/issues`
-    );
+    )
   }
-};
+}
 
 StaticQuery.propTypes = {
   data: PropTypes.object,
   query: PropTypes.string.isRequired,
   render: PropTypes.func,
-  children: PropTypes.func
-};
+  children: PropTypes.func,
+}
 
 function graphql() {
   throw new Error(
@@ -81,7 +81,7 @@ function graphql() {
       `are supposed to only be evaluated at compile time, and then compiled away. ` +
       `Unfortunately, something went wrong and the query was left in the compiled code.\n\n` +
       `Unless your site has a complex or custom babel/Gatsby configuration this is likely a bug in Gatsby.`
-  );
+  )
 }
 
 export {
@@ -98,5 +98,5 @@ export {
   StaticQuery,
   PageRenderer,
   useStaticQuery,
-  prefetchPathname
-};
+  prefetchPathname,
+}

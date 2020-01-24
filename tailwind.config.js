@@ -16,7 +16,7 @@ module.exports = {
       colors: {
         white: "#FFFFFF",
         "dark-blue": {
-          primary: "#081E31",
+          primary: "#420042",
           100: "#96ADDD",
           200: "#5A75AB",
           300: "#445984",
@@ -25,14 +25,14 @@ module.exports = {
           600: "#283757"
         },
         orange: {
-          primary: "#F79313",
+          primary: "#00CCFF",
           100: "#FFE0BC",
           200: "#F5C388",
           300: "#F9AA4F",
           400: "#F7931E"
         },
         gray: {
-          primary: "464B54",
+          primary: "#C73656",
           100: "#F0F0F0",
           200: "#D6D6D6"
         },

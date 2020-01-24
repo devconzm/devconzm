@@ -61,7 +61,7 @@ function Sponsors() {
       </div>
       <div className="flex flex-wrap">
         <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-dark-blue-primary-600">
-          <h1 className="text-sec font-bold font-ubuntu">Sponsors</h1>
+          <h1 className="text-sec font-bold font-ubuntu">Previous Sponsors and Partners</h1>
         </div>
         <div className="w-full hidden lg:block lg:w-1/2 pl-12 mt-10">
           <img src={patterns.section} alt="" className="w-auto" />
@@ -177,19 +177,6 @@ function Sponsors() {
                 </figure>
               </a>
             ))}
-        </div>
-
-        {/* Individual Sponsors */}
-        <h1 className="line text-h6 font-bold">
-          Open Collective Backers <span></span>
-        </h1>
-        <div className="overflow-hidden mt-4">
-          <object
-            aria-label="Open Collective Backers"
-            type="image/svg+xml"
-            data="https://opencollective.com/osca/backer.svg?avatarHeight=50&width=350"
-            className="my-12"
-          ></object>
         </div>
       </div>
 

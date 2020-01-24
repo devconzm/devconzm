@@ -1,5 +1,5 @@
-const path = require(`path`);
-const child = require(`child_process`);
+const path = require(`path`)
+const child = require(`child_process`)
 
 it(`Builds cache-dir with minimal config`, done => {
   const args = [
@@ -8,25 +8,25 @@ it(`Builds cache-dir with minimal config`, done => {
     `--config-file`,
     path.join(__dirname, `.babelrc`),
     `--ignore`,
-    `**/__tests__`
-  ];
+    `**/__tests__`,
+  ]
 
-  const spawn = child.spawn(process.execPath, args);
+  const spawn = child.spawn(process.execPath, args)
 
-  let stderr = ``;
-  let stdout = ``;
+  let stderr = ``
+  let stdout = ``
 
   spawn.stderr.on(`data`, function(chunk) {
-    stderr += chunk;
-  });
+    stderr += chunk
+  })
 
   spawn.stdout.on(`data`, function(chunk) {
-    stdout += chunk;
-  });
+    stdout += chunk
+  })
 
   spawn.on(`close`, function() {
-    expect(stderr).toEqual(``);
-    expect(stdout).not.toEqual(``);
-    done();
-  });
-}, 30000);
+    expect(stderr).toEqual(``)
+    expect(stdout).not.toEqual(``)
+    done()
+  })
+}, 30000)

@@ -36,9 +36,7 @@ function maybeRedirect(pathname) {
       const pageResources = _loader.default.loadPageSync(pathname);
 
       if (pageResources != null) {
-        console.error(
-          `The route "${pathname}" matches both a page and a redirect; this is probably not intentional.`
-        );
+        console.error(`The route "${pathname}" matches both a page and a redirect; this is probably not intentional.`);
       }
     }
 
@@ -76,7 +74,9 @@ const navigate = (to, options = {}) => {
     window.__navigatingToLink = true;
   }
 
-  let { pathname } = (0, _gatsbyLink.parsePath)(to);
+  let {
+    pathname
+  } = (0, _gatsbyLink.parsePath)(to);
   const redirect = redirectMap[pathname]; // If we're redirecting, just replace the passed in pathname
   // to the one we want to redirect to.
 
@@ -86,11 +86,13 @@ const navigate = (to, options = {}) => {
   } // If we had a service worker update, no matter the path, reload window and
   // reset the pathname whitelist
 
+
   if (window.___swUpdated) {
     window.location = pathname;
     return;
   } // Start a timer to wait for a second before transitioning and showing a
   // loader in case resources aren't around yet.
+
 
   const timeoutId = setTimeout(() => {
     _emitter.default.emit(`onDelayedLoadPageResources`, {
@@ -115,17 +117,11 @@ const navigate = (to, options = {}) => {
     } // If the loaded page has a different compilation hash to the
     // window, then a rebuild has occurred on the server. Reload.
 
+
     if (process.env.NODE_ENV === `production` && pageResources) {
-      if (
-        pageResources.page.webpackCompilationHash !==
-        window.___webpackCompilationHash
-      ) {
+      if (pageResources.page.webpackCompilationHash !== window.___webpackCompilationHash) {
         // Purge plugin-offline cache
-        if (
-          `serviceWorker` in navigator &&
-          navigator.serviceWorker.controller !== null &&
-          navigator.serviceWorker.controller.state === `activated`
-        ) {
+        if (`serviceWorker` in navigator && navigator.serviceWorker.controller !== null && navigator.serviceWorker.controller.state === `activated`) {
           navigator.serviceWorker.controller.postMessage({
             gatsbyApi: `clearPathResources`
           });
@@ -141,8 +137,13 @@ const navigate = (to, options = {}) => {
   });
 };
 
-function shouldUpdateScroll(prevRouterProps, { location }) {
-  const { pathname, hash } = location;
+function shouldUpdateScroll(prevRouterProps, {
+  location
+}) {
+  const {
+    pathname,
+    hash
+  } = location;
   const results = (0, _apiRunnerBrowser.apiRunner)(`shouldUpdateScroll`, {
     prevRouterProps,
     // `pathname` for backwards compatibility
@@ -161,7 +162,9 @@ function shouldUpdateScroll(prevRouterProps, { location }) {
 
   if (prevRouterProps) {
     const {
-      location: { pathname: oldPathname }
+      location: {
+        pathname: oldPathname
+      }
     } = prevRouterProps;
 
     if (oldPathname === pathname) {
@@ -178,20 +181,71 @@ function init() {
   // Temp hack while awaiting https://github.com/reach/router/issues/119
   window.__navigatingToLink = false;
 
-  window.___push = to =>
-    navigate(to, {
-      replace: false
-    });
+  window.___push = to => navigate(to, {
+    replace: false
+  });
 
-  window.___replace = to =>
-    navigate(to, {
-      replace: true
-    });
+  window.___replace = to => navigate(to, {
+    replace: true
+  });
 
   window.___navigate = (to, options) => navigate(to, options); // Check for initial page-load redirect
 
+
   maybeRedirect(window.location.pathname);
+}
+
+class RouteAnnouncer extends _react.default.Component {
+  constructor(props) {
+    super(props);
+    this.announcementRef = _react.default.createRef();
+  }
+
+  componentDidUpdate(prevProps, nextProps) {
+    requestAnimationFrame(() => {
+      let pageName = `new page at ${this.props.location.pathname}`;
+
+      if (document.title) {
+        pageName = document.title;
+      }
+
+      const pageHeadings = document.getElementById(`gatsby-focus-wrapper`).getElementsByTagName(`h1`);
+
+      if (pageHeadings && pageHeadings.length) {
+        pageName = pageHeadings[0].textContent;
+      }
+
+      const newAnnouncement = `Navigated to ${pageName}`;
+      const oldAnnouncement = this.announcementRef.current.innerText;
+
+      if (oldAnnouncement !== newAnnouncement) {
+        this.announcementRef.current.innerText = newAnnouncement;
+      }
+    });
+  }
+
+  render() {
+    return _react.default.createElement("div", {
+      id: "gatsby-announcer",
+      style: {
+        position: `absolute`,
+        width: 1,
+        height: 1,
+        padding: 0,
+        overflow: `hidden`,
+        clip: `rect(0, 0, 0, 0)`,
+        whiteSpace: `nowrap`,
+        border: 0
+      },
+      role: "alert",
+      "aria-live": "assertive",
+      "aria-atomic": "true",
+      ref: this.announcementRef
+    });
+  }
+
 } // Fire on(Pre)RouteUpdate APIs
+
 
 class RouteUpdates extends _react.default.Component {
   constructor(props) {
@@ -219,8 +273,11 @@ class RouteUpdates extends _react.default.Component {
   }
 
   render() {
-    return this.props.children;
+    return _react.default.createElement(_react.default.Fragment, null, this.props.children, _react.default.createElement(RouteAnnouncer, {
+      location: location
+    }));
   }
+
 }
 
 exports.RouteUpdates = RouteUpdates;

@@ -39,13 +39,11 @@ try {
 Html = Html && Html.__esModule ? Html.default : Html;
 
 var _default = (pagePath, callback) => {
-  let headComponents = [
-    _react.default.createElement("meta", {
-      key: "environment",
-      name: "note",
-      content: "environment=development"
-    })
-  ];
+  let headComponents = [_react.default.createElement("meta", {
+    key: "environment",
+    name: "note",
+    content: "environment=development"
+  })];
   let htmlAttributes = {};
   let bodyAttributes = {};
   let preBodyComponents = [];
@@ -114,27 +112,20 @@ var _default = (pagePath, callback) => {
     pathname: pagePath
   });
 
-  const htmlElement = _react.default.createElement(
-    Html,
-    Object.assign({}, bodyProps, {
-      body: ``,
-      headComponents: headComponents.concat([
-        _react.default.createElement("script", {
-          key: `io`,
-          src: "/socket.io/socket.io.js"
-        })
-      ]),
-      htmlAttributes,
-      bodyAttributes,
-      preBodyComponents,
-      postBodyComponents: postBodyComponents.concat([
-        _react.default.createElement("script", {
-          key: `commons`,
-          src: "/commons.js"
-        })
-      ])
-    })
-  );
+  const htmlElement = _react.default.createElement(Html, Object.assign({}, bodyProps, {
+    body: ``,
+    headComponents: headComponents.concat([_react.default.createElement("script", {
+      key: `io`,
+      src: "/socket.io/socket.io.js"
+    })]),
+    htmlAttributes,
+    bodyAttributes,
+    preBodyComponents,
+    postBodyComponents: postBodyComponents.concat([_react.default.createElement("script", {
+      key: `commons`,
+      src: "/commons.js"
+    })])
+  }));
 
   htmlStr = (0, _server.renderToStaticMarkup)(htmlElement);
   htmlStr = `<!DOCTYPE html>${htmlStr}`;

@@ -24,10 +24,7 @@ var _matchPaths = _interopRequireDefault(require("./match-paths.json"));
 
 // Generated during bootstrap
 window.___emitter = _emitter.default;
-const loader = new _devLoader.default(
-  _syncRequires.default,
-  _matchPaths.default
-);
+const loader = new _devLoader.default(_syncRequires.default, _matchPaths.default);
 (0, _loader.setLoader)(loader);
 loader.setApiRunner(_apiRunnerBrowser.apiRunner);
 window.___loader = _loader.publicLoader; // Let the site/plugins run code very early.
@@ -50,29 +47,17 @@ window.___loader = _loader.publicLoader; // Let the site/plugins run code very e
    * Let's warn if we find service workers in development.
    */
 
+
   if (`serviceWorker` in navigator) {
     navigator.serviceWorker.getRegistrations().then(registrations => {
-      if (registrations.length > 0)
-        console.warn(
-          `Warning: found one or more service workers present.`,
-          `If your site isn't behaving as expected, you might want to remove these.`,
-          registrations
-        );
+      if (registrations.length > 0) console.warn(`Warning: found one or more service workers present.`, `If your site isn't behaving as expected, you might want to remove these.`, registrations);
     });
   }
 
   const rootElement = document.getElementById(`___gatsby`);
-  const renderer = (0, _apiRunnerBrowser.apiRunner)(
-    `replaceHydrateFunction`,
-    undefined,
-    _reactDom.default.render
-  )[0];
-  Promise.all([
-    loader.loadPage(`/dev-404-page/`),
-    loader.loadPage(`/404.html`),
-    loader.loadPage(window.location.pathname)
-  ]).then(() => {
-    const preferDefault = m => (m && m.default) || m;
+  const renderer = (0, _apiRunnerBrowser.apiRunner)(`replaceHydrateFunction`, undefined, _reactDom.default.render)[0];
+  Promise.all([loader.loadPage(`/dev-404-page/`), loader.loadPage(`/404.html`), loader.loadPage(window.location.pathname)]).then(() => {
+    const preferDefault = m => m && m.default || m;
 
     let Root = preferDefault(require(`./root`));
     (0, _domready.default)(() => {

@@ -1,8 +1,8 @@
 {
-  "name": "osf-website",
-  "description": "Website for OSCA Open Source Festival",
-  "version": "3.0.141",
-  "author": "OSCAFRICA",
+  "name": "devcon-website",
+  "description": "Website for Developer Conference Zambia",
+  "version": "2.0.1",
+  "author": "DevConZM",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-brands-svg-icons": "^5.12.0",
