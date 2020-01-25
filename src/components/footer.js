@@ -11,16 +11,12 @@ function Footer() {
             title: "Code of Conduct"
           },
           {
-            route: "https://oscafrica.org/community",
-            title: "Community"
-          },
-          {
             route: "https://opencollective.com/osca",
-            title: "Open Collective"
+            title: "GitHub"
           },
           {
             route: "https://blog.oscafrica.org",
-            title: "Blog"
+            title: "2019"
           }
         ].map(link => (
           <ul className="m-0 p-0" key={link.title}>
