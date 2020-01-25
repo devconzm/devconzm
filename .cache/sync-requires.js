@@ -8,6 +8,7 @@ exports.components = {
   "component---cache-dev-404-page-js": hot(preferDefault(require("/home/dennis/Documents/devconzm/.cache/dev-404-page.js"))),
   "component---src-pages-404-js": hot(preferDefault(require("/home/dennis/Documents/devconzm/src/pages/404.js"))),
   "component---src-pages-index-js": hot(preferDefault(require("/home/dennis/Documents/devconzm/src/pages/index.js"))),
+  "component---src-pages-register-js": hot(preferDefault(require("/home/dennis/Documents/devconzm/src/pages/register.js"))),
   "component---src-pages-schedule-js": hot(preferDefault(require("/home/dennis/Documents/devconzm/src/pages/schedule.js"))),
   "component---src-pages-scholarship-js": hot(preferDefault(require("/home/dennis/Documents/devconzm/src/pages/scholarship.js"))),
   "component---src-pages-speakers-js": hot(preferDefault(require("/home/dennis/Documents/devconzm/src/pages/speakers.js"))),

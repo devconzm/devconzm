@@ -21,7 +21,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/home/dennis/Documents/devconzm/node_modules/gatsby-plugin-offline/gatsby-ssr'),
-      options: {"plugins":[],"precachePages":["/schedule/","/travel/","/speakers/","/scholarship/"]},
+      options: {"plugins":[],"precachePages":["/schedule/","/travel/","/speakers/","/scholarship/","/about/"]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

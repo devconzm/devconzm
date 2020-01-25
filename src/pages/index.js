@@ -1,7 +1,6 @@
 import React from "react";
 
 import "@fortawesome/fontawesome-svg-core/styles.css";
-
 import Layout from "../components/layout";
 import SEO from "../components/SEO/seo";
 

@@ -37,8 +37,6 @@ read the [code of conduct](https://github.com/devconzm/devconzm/blob/master/CODE
 - npm
 - git
 
-
-
 ## Getting Started
 
 - [Fork this repository](https://help.github.com/articles/fork-a-repo/)
@@ -116,8 +114,6 @@ npm run analyze
 ```sh
 npm run fix
 ```
-
-
 
 ### Issues
 

@@ -13,7 +13,7 @@ function Nav() {
       </div>
       <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 lg:py-8">
         <Link className="z-20 flex items-center no-underline text-white" to="/">
-          <img alt="Open Source Community Africa Logo." className="block mx-auto w-12" src={logo.test} />
+          <img alt="Open Source Community Africa Logo." className="block mx-auto w-16" src={logo.test} />
         </Link>
 
         <button
@@ -34,24 +34,24 @@ function Nav() {
         >
           {[
             {
-              route: "/schedule",
+              route: "/register",
               title: "Register"
+            },
+            {
+              route: "/#about",
+              title: "About"
             },
             {
               route: "/#speakers",
               title: "Speakers"
             },
-            {
-              route: "/schedule",
-              title: "Schedule"
-            },
-            {
-              route: "/travel",
-              title: "Travel"
-            },
+            // {
+            //   route: "/travel",
+            //   title: "Travel"
+            // },
             {
               route: "/#sponsors",
-              title: "Sponsorship"
+              title: "Sponsors"
             }
           ].map(link => (
             <a
