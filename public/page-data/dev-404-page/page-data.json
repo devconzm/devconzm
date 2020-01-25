@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 {"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSitePage":{"nodes":[{"path":"/404/"},{"path":"/"},{"path":"/register/"},{"path":"/schedule/"},{"path":"/scholarship/"},{"path":"/speakers/"},{"path":"/tailwind-config-demo/"},{"path":"/travel/"},{"path":"/404.html"}]}},"pageContext":{}}}
-=======
-{"componentChunkName":"component---cache-dev-404-page-js","path":"/dev-404-page/","result":{"data":{"allSitePage":{"nodes":[{"path":"/404/"},{"path":"/"},{"path":"/schedule/"},{"path":"/scholarship/"},{"path":"/speakers/"},{"path":"/tailwind-config-demo/"},{"path":"/travel/"},{"path":"/404.html"}]}},"pageContext":{}}}
->>>>>>> upstream/revamp
