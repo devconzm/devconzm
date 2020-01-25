@@ -40,19 +40,19 @@ function Footer() {
             key: 1,
             label: "Twitter",
             faIcon: ["fab", "twitter"],
-            href: "https://twitter.com/oscafrica"
+            href: "https://twitter.com/devcon_zm"
           },
           {
             key: 2,
             label: "Facebook",
             faIcon: ["fab", "facebook-square"],
-            href: "https://facebook.com/opensourcecommunityafrica"
+            href: "https://m.facebook.com/devconzm/"
           },
           {
             key: 3,
-            label: "GitHub",
-            faIcon: ["fab", "github"],
-            href: "https://github.com/oscommunityafrica"
+            label: "LinkedIn",
+            faIcon: ["fa", "linkedin"],
+            href: "https://www.linkedin.com/company/developer-conference-zambia-19"
           }
         ].map(icon => (
           <a
