@@ -170,7 +170,7 @@ Redo website to contain;
 Week 2 ( 27th Jan to 3rd Feb) and 3 (4th feb to 11th feb) - Additional pages should
 
 - Tickets (with Quicket embed)
-- Code of Conduct
+- Style Code of Conduct
 -
 
 Needs
