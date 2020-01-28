@@ -1,27 +1,27 @@
 var plugins = [{
-      plugin: require('/home/malgamves/Documents/GitHub/devconzm/node_modules/gatsby-plugin-gtag/gatsby-ssr'),
+      plugin: require('/home/dennis/Documents/devconzm/node_modules/gatsby-plugin-gtag/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/malgamves/Documents/GitHub/devconzm/node_modules/gatsby-plugin-gtag/gatsby-ssr'),
+      plugin: require('/home/dennis/Documents/devconzm/node_modules/gatsby-plugin-gtag/gatsby-ssr'),
       options: {"plugins":[],"trackingId":"UA-77563678-3","head":false,"anonymize":true},
     },{
-      plugin: require('/home/malgamves/Documents/GitHub/devconzm/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/home/dennis/Documents/devconzm/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/malgamves/Documents/GitHub/devconzm/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      plugin: require('/home/dennis/Documents/devconzm/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
       options: {"plugins":[],"name":"Open Source Festival","short_name":"OSF","start_url":"/","background_color":"#ffffff","theme_color":"#081e32","display":"minimal-ui","icon":"src/images/osca-logo.png"},
     },{
-      plugin: require('/home/malgamves/Documents/GitHub/devconzm/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('/home/dennis/Documents/devconzm/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/malgamves/Documents/GitHub/devconzm/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
+      plugin: require('/home/dennis/Documents/devconzm/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[],"exclude":["/tailwind-config-demo"]},
     },{
-      plugin: require('/home/malgamves/Documents/GitHub/devconzm/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      plugin: require('/home/dennis/Documents/devconzm/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/home/malgamves/Documents/GitHub/devconzm/node_modules/gatsby-plugin-offline/gatsby-ssr'),
-      options: {"plugins":[],"precachePages":["/schedule/","/travel/","/speakers/","/scholarship/"]},
+      plugin: require('/home/dennis/Documents/devconzm/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      options: {"plugins":[],"precachePages":["/schedule/","/travel/","/speakers/","/scholarship/","/about/"]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
