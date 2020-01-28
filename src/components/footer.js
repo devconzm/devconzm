@@ -7,7 +7,7 @@ function Footer() {
       <div className="flex flex-col lg:flex-row">
         {[
           {
-            route: "https://git.io/Jemzv",
+            route: "/coc",
             title: "Code of Conduct"
           },
           {

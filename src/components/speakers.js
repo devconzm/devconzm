@@ -10,7 +10,7 @@ function Speaker() {
       </div>
       <div className="flex flex-wrap">
         <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-white">
-          <h1 className="text-sec font-bold font-ubuntu">Meet our Speakers</h1>
+          <h1 className="text-sec font-bold font-ubuntu">Past Speakers</h1>
         </div>
         <div className="w-full hidden lg:block lg:w-1/2 pl-12 mt-10 text-white">
           <img src={patterns.section} alt="" className="w-auto" />
@@ -20,39 +20,39 @@ function Speaker() {
       <div className="flex flex-wrap text-white my-8">
         {[
           {
-            name: "Eriol Fox",
-            title: "Design Lead | Ushahidi",
-            image: speakers.eriol
+            name: "Olivier",
+            title: "Senior Software Engineer | The Zig",
+            image: speakers.olivier
           },
           {
-            name: "Aniedi Udo-Obong",
-            title: "Developer Relations, Sub-Saharan Africa | Google",
-            image: speakers.aniedi
+            name: "Dennis",
+            title: "Full Stack Developer | Mika Express",
+            image: speakers.dennis
           },
           {
-            name: "Prosper Otemuyiwa",
-            title: "Co-founder | Eden & forloop Africa",
-            image: speakers.prosper
+            name: "Rahul Sharma",
+            title: "Agile Coach | Think Agile",
+            image: speakers.rahul
           },
           {
-            name: "Marlene Mhangami",
-            title: "Director | PSF & Co-founder | ZimboPy",
-            image: speakers.marlene
+            name: "Sekayi Fundafunda",
+            title: "Campus Innovation Lead | Co-founder Mafashio | BongoHive",
+            image: speakers.sekayi
           },
           {
-            name: "Stephen Walli",
-            title: "Principal Program Manager | Microsoft",
-            image: speakers.stephen
+            name: "Shakerrie",
+            title: "Regional Ops. Director | Virtual Doctors",
+            image: speakers.shakerrie
           },
           {
-            name: "Gen Ashley",
-            title: "Founder | TECH(K)NOW & Lead | NASA SpaceApps",
-            image: speakers.ashley
+            name: "Twaambo",
+            title: "Co-founder | Mvesesani",
+            image: speakers.twaambo
           },
           {
-            name: "Henry Zhu",
-            title: "Maintainer | Babel & Open Source Advocate",
-            image: speakers.henry
+            name: "Cobus",
+            title: "Senior Tech Evangelist | Amazon Web Services",
+            image: speakers.cobus
           }
         ].map(speaker => (
           <figure key={speaker.name} className="relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2">
@@ -65,11 +65,11 @@ function Speaker() {
         ))}
       </div>
 
-      <div className="relative mt-12 text-center lg:text-right">
+      {/*<div className="relative mt-12 text-center lg:text-right">
         <a href="/speakers" className="px-6 py-3 border-2 border-white text-white rounded-lg uppercase">
           See all Speakers
         </a>
-      </div>
+      </div>*/}
     </section>
   );
 }

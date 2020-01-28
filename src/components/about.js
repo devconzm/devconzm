@@ -19,7 +19,9 @@ function About() {
       </div>
       <div className="flex flex-wrap pl-10 mx-20">
         <div className="mb-0 lg:mb-0 w-full lg:w-1/2 text-dark-blue-primary-600">
-          <h1 className="text-sec font-bold font-ubuntu">About</h1>
+          <h1 id="about" className="text-sec font-bold font-ubuntu">
+            About
+          </h1>
         </div>
         <div className="w-full hidden lg:block lg:w-1/2 pl-12 mt-10">
           <img src={patterns.section} alt="" className="w-auto" />
@@ -53,9 +55,6 @@ function About() {
             developers access to networking and investment opportunities which is critical to growth. <br />
             <br />
           </blockquote>
-        </div>
-        <div className="hidden lg:block absolute right-0 fixed">
-          <img className="-mt-24 -mb-12 -pl-4" src={patterns.africanMap} alt="" />
         </div>
       </section>
     </div>

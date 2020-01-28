@@ -29,10 +29,10 @@ function Header() {
             </div>
           </div>
           <p className="text-lg lg:text-xl text-gray-700 mt-4">
-            An annual open source gathering under <br /> Open Source Community Africa
+            An annual tech conference <br /> for software professionals
           </p>
           <a
-            href="https://opencollective.com/osca/events/open-source-festival-2020-4abe0517"
+            href="/register"
             className="w-1/2 block sm:inline-block sm:w-auto mt-8 px-12 py-3 bg-orange-primary text-black rounded-lg text-center uppercase"
           >
             Register

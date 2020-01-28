@@ -4,51 +4,51 @@ import { sponsors, patterns } from "../components/cloudImages";
 
 const sponsorsData = [
   {
-    tier: "headline",
-    name: "Facebook Open Source",
-    image: sponsors.facebookOSS,
+    tier: "cobalt",
+    name: "PubNub",
+    image: sponsors.pubnub,
     link: "https://opensource.facebook.com/"
   },
   {
-    tier: "diamond",
-    name: "Google Open Source",
-    image: sponsors.googleOSS,
+    tier: "cobalt",
+    name: "Amazon Web Services",
+    image: sponsors.aws,
     link: "https://opensource.google/"
   },
   {
-    tier: "gold",
-    name: "Your Company",
-    image: sponsors.dummyImage,
+    tier: "inkind",
+    name: "Jet Brains",
+    image: sponsors.jetbrains,
     link: "https://opencollective.com/osca/"
   },
   {
-    tier: "silver",
-    name: "Open Core Summit",
-    image: sponsors.ocs,
+    tier: "inkind",
+    name: "Sticker Mule",
+    image: sponsors.stickermule,
     link: "https://opencoresummit.com/"
   },
   {
-    tier: "silver",
-    name: "AWS Amplify",
-    image: sponsors.aws,
+    tier: "inkind",
+    name: "GitKraken",
+    image: sponsors.gitkraken,
     link: "https://aws.amazon.com/amplify/"
   },
   {
-    tier: "bronze",
-    name: "Salesforce",
-    image: sponsors.salesforce,
+    tier: "community",
+    name: "BongoHive",
+    image: sponsors.bongohive,
     link: "https://engineering.salesforce.com"
   },
   {
-    tier: "bronze",
-    name: "Webflow",
-    image: sponsors.webflow,
+    tier: "community",
+    name: "Asikana Network",
+    image: sponsors.asikana,
     link: "https://webflow.com/"
   },
   {
-    tier: "bronze",
-    name: "Open Source Collective",
-    image: sponsors.osc,
+    tier: "community",
+    name: "Agora Code Community",
+    image: sponsors.agora,
     link: "https://www.oscollective.org/"
   }
 ];
@@ -61,7 +61,7 @@ function Sponsors() {
       </div>
       <div className="flex flex-wrap">
         <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-dark-blue-primary-600">
-          <h1 className="text-sec font-bold font-ubuntu">Previous Sponsors and Partners</h1>
+          <h1 className="text-sec font-bold font-ubuntu">Previous Partners</h1>
         </div>
         <div className="w-full hidden lg:block lg:w-1/2 pl-12 mt-10">
           <img src={patterns.section} alt="" className="w-auto" />
@@ -71,11 +71,11 @@ function Sponsors() {
       <div className="my-12">
         {/* Headline Sponsors */}
         <h1 className="line text-h1 font-bold">
-          Headline <span></span>
+          Cobalt <span></span>
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
-            .filter(data => data.tier.includes("headline"))
+            .filter(data => data.tier.includes("cobalt"))
             .map(sponsor => (
               <a
                 href={sponsor.link}
@@ -93,11 +93,11 @@ function Sponsors() {
 
         {/* Diamond sponsors */}
         <h1 className="line text-h2 font-bold">
-          Diamond <span></span>
+          Others <span></span>
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
-            .filter(data => data.tier.includes("diamond"))
+            .filter(data => data.tier.includes("inkind"))
             .map(sponsor => (
               <a
                 href={sponsor.link}
@@ -113,57 +113,13 @@ function Sponsors() {
             ))}
         </div>
 
-        {/* Gold sponsors */}
+        {/* Community sponsors */}
         <h1 className="line text-h3 font-bold">
-          Gold <span></span>
+          Community <span></span>
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
-            .filter(data => data.tier.includes("gold"))
-            .map(sponsor => (
-              <a
-                href={sponsor.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                key={sponsor.name}
-                className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
-              >
-                <figure className="w-full">
-                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
-                </figure>
-              </a>
-            ))}
-        </div>
-
-        {/* Silver sponsors */}
-        <h1 className="line text-h4 font-bold">
-          Silver <span></span>
-        </h1>
-        <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
-          {sponsorsData
-            .filter(data => data.tier.includes("silver"))
-            .map(sponsor => (
-              <a
-                href={sponsor.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                key={sponsor.name}
-                className="relative lg:w-1/4 max-w-sm rounded px-3 my-12"
-              >
-                <figure className="w-full">
-                  <img className="w-auto mx-auto" src={sponsor.image} alt={`${sponsor.name}'s Logo.`} />
-                </figure>
-              </a>
-            ))}
-        </div>
-
-        {/* Bronze sponsors */}
-        <h1 className="line text-h5 font-bold">
-          Bronze <span></span>
-        </h1>
-        <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
-          {sponsorsData
-            .filter(data => data.tier.includes("bronze"))
+            .filter(data => data.tier.includes("community"))
             .map(sponsor => (
               <a
                 href={sponsor.link}

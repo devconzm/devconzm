@@ -11,7 +11,8 @@ const logo = Object.freeze({
 });
 
 const patterns = Object.freeze({
-  africanMap: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576543138/osf/Patterns/map.png",
+  africanMap:
+    "https://res.cloudinary.com/devconzm/image/upload/e_cartoonify/v1580217135/DevCon/2020/Assets/devconzm-2020.png",
   nextBillion: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1575379564/NXTBC.png",
   navRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548571/osf/Patterns/navRec.png",
   headerRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548796/osf/Patterns/headerRec.png",
@@ -20,27 +21,38 @@ const patterns = Object.freeze({
 
 const speakers = Object.freeze({
   dummyImage: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577683448/osf/Speakers/dummy.png",
-  amanda: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576722395/osf/Speakers/amanda.png",
-  aniedi: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576722396/osf/Speakers/aniedi.png",
-  stephen: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576722395/osf/Speakers/stephen.png",
-  eriol: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576722394/osf/Speakers/eriol.png",
-  prosper: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576722393/osf/Speakers/prosper.png",
-  marlene: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576722395/osf/Speakers/marlene.png",
-  ashley: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578737937/osf/Speakers/ashley.png",
-  henry: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1579165791/osf/Speakers/henry.png"
+  olivier:
+    "https://res.cloudinary.com/devconzm/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1580212815/DevCon/2019/Speakers/Olivier.jpg",
+  dennis:
+    "https://res.cloudinary.com/devconzm/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1580212812/DevCon/2019/Speakers/Dennis.jpg",
+  rahul:
+    "https://res.cloudinary.com/devconzm/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1579852790/DevCon/2019/Speakers/Rahul.jpg",
+  sekayi:
+    "https://res.cloudinary.com/devconzm/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1579852757/DevCon/2019/Speakers/Sekayi.jpg",
+  cobus: "https://res.cloudinary.com/devconzm/image/upload/v1579852732/DevCon/2019/Speakers/Cobus.jpg",
+  twaambo:
+    "https://res.cloudinary.com/devconzm/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1579852762/DevCon/2019/Speakers/Twaambo.jpg",
+  shakerrie:
+    "https://res.cloudinary.com/devconzm/image/upload/w_1000,ar_1:1,c_fill,g_auto,e_art:hokusai/v1579852795/DevCon/2019/Speakers/Shakerrie.png"
 });
 
 const sponsors = Object.freeze({
   dummyImage: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577569402/osf/Sponsors/dummy.png",
-  facebookOSS: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577321033/osf/Sponsors/facebook-oss.svg",
-  googleOSS: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578987787/osf/Sponsors/google.png",
-  salesforce:
-    "https://res.cloudinary.com/osca/image/upload/c_scale,w_175,q_auto,f_auto/v1578303109/osf/Sponsors/salesforce.png",
-  webflow:
-    "https://res.cloudinary.com/osca/image/upload/c_scale,w_175,q_auto,f_auto/v1577568790/osf/Sponsors/webflow.png",
-  osc: "https://res.cloudinary.com/osca/image/upload/c_scale,w_175,q_auto,f_auto/v1577569027/osf/Sponsors/osc.png",
-  ocs: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578266089/osf/Sponsors/open-core-summit.png",
-  aws: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578486228/osf/Sponsors/aws-amplify.png"
+  jetbrains:
+    "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/v1580212752/DevCon/2019/Sponsors/jetbrains_kjgsu3.png",
+  stickermule:
+    "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/v1580212751/DevCon/2019/Sponsors/stickermule_h1wqok.svg",
+  gitkraken:
+    "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/v1580212750/DevCon/2019/Sponsors/gitkraken_jvohse.svg",
+  pubnub:
+    "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/v1580212751/DevCon/2019/Sponsors/pubnub_citzck.png",
+  aws: "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/v1580212734/DevCon/2019/Sponsors/aws_cuyna9.png",
+  bongohive:
+    "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/v1580212734/DevCon/2019/Sponsors/bongohive_ftwlgq.png",
+  agora:
+    "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/v1580212733/DevCon/2019/Sponsors/agoracode_k9d1f7.png",
+  asikana:
+    "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/v1580212731/DevCon/2019/Sponsors/asikananetwork_btoqiv.jpg"
 });
 
 const gallery = Object.freeze({

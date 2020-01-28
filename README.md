@@ -165,11 +165,12 @@ Redo website to contain;
 - Previous Speakers
 - Previous Sponsors and button to report and deck
 - Footer with link to previous years conference
+- Change Font and Imagery
 
 Week 2 ( 27th Jan to 3rd Feb) and 3 (4th feb to 11th feb) - Additional pages should
 
 - Tickets (with Quicket embed)
-- Code of Conduct
+- Style Code of Conduct
 -
 
 Needs
