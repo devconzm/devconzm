@@ -9,11 +9,12 @@ function SchemaOrg() {
         {JSON.stringify({
           "@context": "http://www.schema.org",
           "@type": "Organization",
-          name: "Open Source Festival",
-          url: "https://festival.oscafrica.org/",
-          logo: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576374354/osf/Logo/PNG/orange.png",
+          name: "DevCon Zambia",
+          url: "https://devcon.co.zm",
+          logo:
+            "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/v1580215992/DevCon/2020/Assets/devconzm-favicon-rec.png",
           description: `
-          Open Source Festival is a high profile event that would attract student delegates, developers, designers and corporate organizations on a large scale with series of talks, workshops, and awareness of open-sourced developer tools.
+          DevCon Zambia is the annual developer event of Southern Africa attracting developers, designers and industry leaders with the aim of spurring growth through interactive sessions, workshops, and networking.
           `
         })}
       </script>

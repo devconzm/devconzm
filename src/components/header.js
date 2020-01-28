@@ -29,7 +29,7 @@ function Header() {
             </div>
           </div>
           <p className="text-lg lg:text-xl text-gray-700 mt-4">
-            An annual open source gathering under <br /> Open Source Community Africa
+            An annual tech conference <br /> for software professionals
           </p>
           <a
             href="/register"

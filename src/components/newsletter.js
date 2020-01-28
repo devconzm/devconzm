@@ -1,6 +1,7 @@
 import React from "react";
 
 import { gallery, patterns } from "./cloudImages";
+import Mailchimp from "../components/mailchimp";
 
 function Newsletter() {
   return (
@@ -17,38 +18,30 @@ function Newsletter() {
         </div>
       </div>
 
-      <div className="flex flex-wrap text-white my-20">
-        {[
+      <Mailchimp
+        fields={[
           {
-            day: "Day 1",
-            tag: "Sustain Africa + Workshop",
-            image: gallery.one,
-            href: "#"
+            name: "EMAIL",
+            placeholder: "Email",
+            type: "email",
+            required: true
+          },
+
+          {
+            name: "FNAME",
+            placeholder: "Firstname",
+            type: "text",
+            required: true
           },
           {
-            day: "Day 2",
-            tag: "Conference Day 1",
-            image: gallery.two,
-            href: "#"
-          },
-          {
-            day: "Day 3",
-            tag: "Conference Day 2",
-            image: gallery.three,
-            href: "#"
+            name: "LNAME",
+            placeholder: "Lastname",
+            type: "text",
+            required: true
           }
-        ].map(gallery => (
-          <a href={gallery.href} key={gallery.day} className="relative lg:w-1/3 max-w-sm rounded px-1 py-2">
-            <figure className="cursor-pointer">
-              <img className="w-auto mx-auto" src={gallery.image} alt={`An amazing photograph from ${gallery.tag}.`} />
-              <div className="z-0 -mt-20 pt-4 px-6 w-auto h-20 bg-black opacity-50 text-white">
-                <p className="text-sm lg:text-xs">{gallery.day}</p>
-                <h3 className="font-bold text-base">{gallery.tag}</h3>
-              </div>
-            </figure>
-          </a>
-        ))}
-      </div>
+        ]}
+        action={""}
+      />
     </section>
   );
 }

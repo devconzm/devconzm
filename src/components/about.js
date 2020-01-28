@@ -56,9 +56,6 @@ function About() {
             <br />
           </blockquote>
         </div>
-        <div className="hidden lg:block absolute right-0 fixed">
-          <img className="-mt-24 -mb-12 -pl-4" src={patterns.africanMap} alt="" />
-        </div>
       </section>
     </div>
   );
