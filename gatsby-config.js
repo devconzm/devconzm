@@ -23,7 +23,7 @@ module.exports = {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: "DevCon Zambia",
-        short_name: "DVZM",
+        short_name: "DevCon ZM",
         start_url: "/",
         background_color: "#ffffff",
         theme_color: "#C73656",

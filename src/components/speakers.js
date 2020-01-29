@@ -8,7 +8,7 @@ function Speaker() {
       <div className="absolute left-0 fixed"></div>
       <div className="flex flex-wrap">
         <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-white">
-          <h1 className="text-sec font-bold font-ubuntu">Past Speakers</h1>
+          <h1 className="text-sec font-bold font-century">Past Speakers</h1>
         </div>
         <div className="w-full hidden lg:block lg:w-1/2 pl-12 mt-10 text-white">
           <img src={patterns.section} alt="" className="w-auto" />

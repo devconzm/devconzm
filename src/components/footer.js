@@ -11,11 +11,11 @@ function Footer() {
             title: "Code of Conduct"
           },
           {
-            route: "https://opencollective.com/osca",
+            route: "https://github.com/devconzm/devconzm",
             title: "GitHub"
           },
           {
-            route: "https://blog.oscafrica.org",
+            route: "#",
             title: "2019"
           }
         ].map(link => (

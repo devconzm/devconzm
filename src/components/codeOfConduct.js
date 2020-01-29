@@ -1,7 +1,5 @@
 import React from "react";
 
-import { gallery, patterns } from "./cloudImages";
-
 function CodeOfConduct() {
   return (
     <section id="code-of-conduct">

@@ -12,11 +12,11 @@ const logo = Object.freeze({
 
 const patterns = Object.freeze({
   africanMap:
-    "https://res.cloudinary.com/devconzm/image/upload/e_cartoonify/v1580217135/DevCon/2020/Assets/devconzm-2020.png",
+    "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/e_cartoonify/v1580334757/DevCon/2020/Assets/2020_aq9yey.svg",
   nextBillion: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1575379564/NXTBC.png",
   navRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548571/osf/Patterns/navRec.png",
   headerRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548796/osf/Patterns/headerRec.png",
-  section: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576565664/osf/Patterns/speakers.png"
+  section: "https://res.cloudinary.com/devconzm/image/upload/v1580208195/DevCon/2020/Assets/DevCon_pattern5_dpdmr4.png"
 });
 
 const speakers = Object.freeze({
@@ -45,20 +45,14 @@ const sponsors = Object.freeze({
   gitkraken:
     "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/v1580212750/DevCon/2019/Sponsors/gitkraken_jvohse.svg",
   pubnub:
-    "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/v1580212751/DevCon/2019/Sponsors/pubnub_citzck.png",
+    "https://res.cloudinary.com/devconzm/image/upload/v1580333807/DevCon/2019/Sponsors/Untitled_design_4_mvpkkh.png",
   aws: "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/v1580212734/DevCon/2019/Sponsors/aws_cuyna9.png",
   bongohive:
     "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/v1580212734/DevCon/2019/Sponsors/bongohive_ftwlgq.png",
   agora:
     "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/v1580212733/DevCon/2019/Sponsors/agoracode_k9d1f7.png",
   asikana:
-    "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/v1580212731/DevCon/2019/Sponsors/asikananetwork_btoqiv.jpg"
-});
-
-const gallery = Object.freeze({
-  one: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578293203/osf/Gallery/one.jpg",
-  two: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578293177/osf/Gallery/two.jpg",
-  three: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578293718/osf/Gallery/three.png"
+    "https://res.cloudinary.com/devconzm/image/upload/v1580333807/DevCon/2019/Sponsors/asikananetwork_btoqiv-removebg-preview_tlkefo.png"
 });
 
 const hotels = Object.freeze({
@@ -76,4 +70,4 @@ const restaurants = Object.freeze({
   dummy: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578244998/osf/Restaurants/dummy.jpg"
 });
 
-export { logo, patterns, speakers, sponsors, gallery, hotels, restaurants };
+export { logo, patterns, speakers, sponsors, hotels, restaurants };

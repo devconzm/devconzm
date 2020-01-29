@@ -9,7 +9,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/home/malgamves/Documents/GitHub/devconzm/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"DevCon Zambia","short_name":"DVZM","start_url":"/","background_color":"#ffffff","theme_color":"#C73656","display":"minimal-ui","icon":"src/images/devcon_logo.png"},
+      options: {"plugins":[],"name":"DevCon Zambia","short_name":"DevCon ZM","start_url":"/","background_color":"#ffffff","theme_color":"#C73656","display":"minimal-ui","icon":"src/images/devcon_logo.png"},
     },{
       plugin: require('/home/malgamves/Documents/GitHub/devconzm/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},

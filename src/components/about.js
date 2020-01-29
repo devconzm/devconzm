@@ -17,7 +17,7 @@ function About() {
       <div className="absolute left-0 fixed "></div>
       <div className="flex flex-wrap pl-10 mx-20">
         <div className="mb-0 lg:mb-0 w-full lg:w-1/2 text-dark-blue-primary-600">
-          <h1 id="about" className="text-sec font-bold font-ubuntu">
+          <h1 id="about" className="text-sec font-bold font-century">
             About
           </h1>
         </div>
