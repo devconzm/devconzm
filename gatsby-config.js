@@ -1,13 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: "Open Source Festival",
+    title: "",
     description: `
-    Open Source Festival is a high profile event that would attract student delegates, developers, designers and corporate organizations on a large scale with series of talks, workshops, and awareness of open-sourced developer tools.
-    `,
-    siteUrl: "https://festival.oscafrica.org",
-    image: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578444985/osf-sustain.jpg",
-    twitter: "@oscafrica",
-    fbAppID: "201250060624015"
+    DevCon Zambia is the annual developer event of Southern Africa attracting developers, designers and industry leaders with the aim of spurring growth through interactive sessions, workshops, and networking.    `,
+    siteUrl: "https://devcon.co.zm",
+    image:
+      "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/v1580208211/DevCon/2020/Assets/devconzm-poster.png",
+    twitter: "@devcon_zm"
   },
   plugins: [
     "gatsby-plugin-gtag",
@@ -23,13 +22,13 @@ module.exports = {
     {
       resolve: "gatsby-plugin-manifest",
       options: {
-        name: "Open Source Festival",
-        short_name: "OSF",
+        name: "DevCon Zambia",
+        short_name: "DVZM",
         start_url: "/",
         background_color: "#ffffff",
-        theme_color: "#081e32",
+        theme_color: "#C73656",
         display: "minimal-ui",
-        icon: "src/images/osca-logo.png"
+        icon: "src/images/devcon_logo.png"
       }
     },
     "gatsby-plugin-postcss",
@@ -51,7 +50,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-offline",
       options: {
-        precachePages: ["/schedule/", "/travel/", "/speakers/", "/scholarship/", "/about/"]
+        precachePages: ["/schedule/", "/travel/", "/register/", "/coc/", "/speakers/", "/scholarship/", "/about/"]
       }
     }
   ]
