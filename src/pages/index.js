@@ -23,7 +23,7 @@ config.autoAddCss = false;
 function IndexPage() {
   return (
     <Layout>
-      <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Home" />
+      <SEO keywords={["Developer Conference Zambia", "DevConZM", "DevCon Zambia"]} title="Home" />
       <Nav />
       <Header />
       <Cta />

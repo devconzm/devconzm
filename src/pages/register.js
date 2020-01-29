@@ -10,7 +10,7 @@ import Footer from "../components/footer";
 function Register() {
   return (
     <Layout>
-      <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Tickets" />
+      <SEO keywords={["Developer Conference Zambia", "DevConZM", "DevCon Zambia"]} title="Tickets" />
       <Nav />
       <Breadcrumb name="Tickets" />
       <Footer />

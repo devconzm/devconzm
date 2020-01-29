@@ -56,16 +56,12 @@ const sponsorsData = [
 function Sponsors() {
   return (
     <section id="sponsors" className="bg-white-smoke lg:flex-row px-4 lg:px-40 pt-12 pb-20 lg:pt-24">
-      <div className="absolute left-0 fixed">
-        <img className="-mt-8 lg:-mt-12 -pl-4" src={patterns.headerRec} alt="" />
-      </div>
+      <div className="absolute left-0 fixed"></div>
       <div className="flex flex-wrap">
         <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-dark-blue-primary-600">
           <h1 className="text-sec font-bold font-ubuntu">Previous Partners</h1>
         </div>
-        <div className="w-full hidden lg:block lg:w-1/2 pl-12 mt-10">
-          <img src={patterns.section} alt="" className="w-auto" />
-        </div>
+        <div className="w-full hidden lg:block lg:w-1/2 pl-12 mt-10"></div>
       </div>
 
       <div className="my-12">

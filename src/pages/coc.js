@@ -11,7 +11,7 @@ import CodeOfConduct from "../components/codeOfConduct";
 function Register() {
   return (
     <Layout>
-      <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Tickets" />
+      <SEO keywords={["Developer Conference Zambia", "DevConZM", "DevCon Zambia"]} title="Tickets" />
       <Nav />
       <Breadcrumb name="Code Of Conduct" />
       <CodeOfConduct />
