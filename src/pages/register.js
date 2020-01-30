@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import SEO from "../components/SEO/seo";
 
 import Nav from "../components/nav";
-import Breadcrumb from "../components/breadcrumb";
+import Tickets from "../components/tickets";
 import Footer from "../components/footer";
 
 function Register() {
@@ -12,7 +12,7 @@ function Register() {
     <Layout>
       <SEO keywords={["Developer Conference Zambia", "DevConZM", "DevCon Zambia"]} title="Tickets" />
       <Nav />
-      <Breadcrumb name="Tickets" />
+      <Tickets />
       <Footer />
     </Layout>
   );

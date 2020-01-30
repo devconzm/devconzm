@@ -8,7 +8,7 @@ import Breadcrumb from "../components/breadcrumb";
 import Footer from "../components/footer";
 import CodeOfConduct from "../components/codeOfConduct";
 
-function Register() {
+function COC() {
   return (
     <Layout>
       <SEO keywords={["Developer Conference Zambia", "DevConZM", "DevCon Zambia"]} title="Tickets" />
@@ -19,4 +19,4 @@ function Register() {
     </Layout>
   );
 }
-export default Register;
+export default COC;
