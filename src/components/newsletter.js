@@ -20,20 +20,20 @@ function Newsletter() {
         fields={[
           {
             name: "EMAIL",
-            placeholder: "Email",
+            placeholderAccess: "Email",
             type: "email",
             required: true
           },
 
           {
             name: "FNAME",
-            placeholder: "Firstname",
+            placeholderAccess: "First name",
             type: "text",
             required: true
           },
           {
             name: "LNAME",
-            placeholder: "Lastname",
+            placeholderAccess: "Last name",
             type: "text",
             required: true
           }
