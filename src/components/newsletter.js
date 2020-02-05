@@ -19,22 +19,21 @@ function Newsletter() {
       <Mailchimp
         fields={[
           {
-            name: "EMAIL",
-            placeholder: "Email",
-            type: "email",
-            required: true
-          },
-
-          {
             name: "FNAME",
-            placeholder: "Firstname",
+            placeholder: "First name",
             type: "text",
             required: true
           },
           {
             name: "LNAME",
-            placeholder: "Lastname",
+            placeholder: "Last name",
             type: "text",
+            required: true
+          },
+          {
+            name: "EMAIL",
+            placeholder: "Email",
+            type: "email",
             required: true
           }
         ]}

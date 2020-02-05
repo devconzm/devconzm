@@ -51,19 +51,20 @@ class Mailchimp extends React.Component {
         <div className="row">
           <div className="col-xs-12 col-md-12 col-lg-12 col-xl-12">
             <h1 className="text-center section-title" style={{ paddingTop: "40px", paddingBottom: "20px" }}>
-              Sign To Our Newsletter
+              Sign Up To Our Newsletter
             </h1>
             <div className="col-sm-12 justify">
-              <div>
-                <form onSubmit={this.handleSubmit.bind(this)}>
-                  <div className="form-group">
+              <div className="w-full mb-6">
+                <form className="text-center" onSubmit={this.handleSubmit.bind(this)}>
+                  <div className="form-group mb-6">
                     {fields.map(input => (
                       <input
-                        className={"form-control"}
+                        className="form-control text-black border rounded py-2 px-3 m-2 placeholder-black"
                         {...input}
                         key={input.name}
                         onChange={({ target }) => this.setState({ [input.name]: target.value })}
                         defaultValue={this.state[input.name]}
+                        placeholder={input.placeholder}
                       />
                     ))}
                   </div>
@@ -71,7 +72,7 @@ class Mailchimp extends React.Component {
                     <button
                       disabled={status === "sending" || status === "success"}
                       type="submit"
-                      className="bg-orange-primary text-brown px-6 py-4 rounded-lg"
+                      className="bg-blue-400 hover:bg-blue-600 px-6 py-2 rounded-lg font-bold text-gray-700"
                     >
                       {messages.button}
                     </button>
