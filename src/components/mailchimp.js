@@ -59,7 +59,7 @@ class Mailchimp extends React.Component {
                   <div className="form-group">
                     {fields.map(input => (
                       <input
-                        className={"form-control"}
+                        className={"form-control "}
                         {...input}
                         key={input.name}
                         onChange={({ target }) => this.setState({ [input.name]: target.value })}

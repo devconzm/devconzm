@@ -7,49 +7,49 @@ const sponsorsData = [
     tier: "cobalt",
     name: "PubNub",
     image: sponsors.pubnub,
-    link: "https://opensource.facebook.com/"
+    link: "https://pubnub.com"
   },
   {
     tier: "cobalt",
     name: "Amazon Web Services",
     image: sponsors.aws,
-    link: "https://opensource.google/"
+    link: "https://aws.amazon.com/"
   },
   {
     tier: "inkind",
     name: "Jet Brains",
     image: sponsors.jetbrains,
-    link: "https://opencollective.com/osca/"
+    link: "https://www.jetbrains.com"
   },
   {
     tier: "inkind",
     name: "Sticker Mule",
     image: sponsors.stickermule,
-    link: "https://opencoresummit.com/"
+    link: "https://www.stickermule.com/supports/you"
   },
   {
     tier: "inkind",
     name: "GitKraken",
     image: sponsors.gitkraken,
-    link: "https://aws.amazon.com/amplify/"
+    link: "https://www.gitkraken.com"
   },
   {
     tier: "community",
     name: "BongoHive",
     image: sponsors.bongohive,
-    link: "https://engineering.salesforce.com"
+    link: "https://www.bongohive.co.zm"
   },
   {
     tier: "community",
     name: "Asikana Network",
     image: sponsors.asikana,
-    link: "https://webflow.com/"
+    link: "https://asikananetwork.org"
   },
   {
     tier: "community",
     name: "Agora Code Community",
     image: sponsors.agora,
-    link: "https://www.oscollective.org/"
+    link: "https://github.com/agora-code-community"
   }
 ];
 
