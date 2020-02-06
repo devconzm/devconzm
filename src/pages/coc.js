@@ -8,10 +8,10 @@ import Breadcrumb from "../components/breadcrumb";
 import Footer from "../components/footer";
 import CodeOfConduct from "../components/codeOfConduct";
 
-function Register() {
+function COC() {
   return (
     <Layout>
-      <SEO keywords={["Open Source Community Africa", "OSCA", "Open Source Festival", "OSF"]} title="Tickets" />
+      <SEO keywords={["Developer Conference Zambia", "DevConZM", "DevCon Zambia"]} title="Tickets" />
       <Nav />
       <Breadcrumb name="Code Of Conduct" />
       <CodeOfConduct />
@@ -19,4 +19,4 @@ function Register() {
     </Layout>
   );
 }
-export default Register;
+export default COC;

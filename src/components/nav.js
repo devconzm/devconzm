@@ -8,12 +8,10 @@ function Nav() {
 
   return (
     <header className="z-50 shadow-2xl w-full bg-dark-blue-primary fixed top-0 left-0 px-2 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-1">
-      <div className="absolute left-0 fixed">
-        <img className="-pl-4" src={patterns.navRec} alt="" />
-      </div>
+      <div className="absolute left-0 fixed"></div>
       <div className="flex flex-wrap items-center justify-between max-w-8xl mx-auto p-2 lg:py-8">
         <Link className="z-20 flex items-center no-underline text-white" to="/">
-          <img alt="Open Source Community Africa Logo." className="block mx-auto w-16" src={logo.test} />
+          <img alt="DevCon Zambia Logo" className="block mx-auto w-16" src={logo.test} />
         </Link>
 
         <button

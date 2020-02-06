@@ -16,6 +16,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Century";
+  font-display: auto;
+  src: url("../fonts/CenturyGothic/CenturyGothic.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @tailwind components;
 @tailwind utilities;
 

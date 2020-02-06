@@ -14,7 +14,6 @@ function SEO({ description, lang, meta, keywords, title }) {
           siteUrl
           image
           twitter
-          fbAppID
         }
       }
     }
@@ -58,10 +57,6 @@ function SEO({ description, lang, meta, keywords, title }) {
           {
             name: "og:image",
             content: site.siteMetadata.image
-          },
-          {
-            property: "fb:app_id",
-            content: site.siteMetadata.fbAppID
           },
           {
             /* Twitter Card tags */

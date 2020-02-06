@@ -9,7 +9,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/home/dennis/Documents/devconzm/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"Open Source Festival","short_name":"OSF","start_url":"/","background_color":"#ffffff","theme_color":"#081e32","display":"minimal-ui","icon":"src/images/osca-logo.png"},
+      options: {"plugins":[],"name":"DevCon Zambia","short_name":"DevCon ZM","start_url":"/","background_color":"#ffffff","theme_color":"#C73656","display":"minimal-ui","icon":"src/images/devcon_logo.png"},
     },{
       plugin: require('/home/dennis/Documents/devconzm/node_modules/gatsby-plugin-sitemap/gatsby-ssr'),
       options: {"plugins":[]},
@@ -21,7 +21,7 @@ var plugins = [{
       options: {"plugins":[]},
     },{
       plugin: require('/home/dennis/Documents/devconzm/node_modules/gatsby-plugin-offline/gatsby-ssr'),
-      options: {"plugins":[],"precachePages":["/schedule/","/travel/","/speakers/","/scholarship/","/about/"]},
+      options: {"plugins":[],"precachePages":["/schedule/","/travel/","/register/","/coc/","/speakers/","/scholarship/","/about/"]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

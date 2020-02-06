@@ -7,11 +7,9 @@ function Header() {
   return (
     <section>
       <div className="z-20 flex flex-wrap lg:flex-row bg-dark-blue-primary px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 pt-32 pb-10 sm:pb-6 lg:pt-40 lg:pb-12 lg:pt-40 xl:pb-24 2xl:pt-56 2xl:pb-48 sm:text-left">
-        <div className="absolute left-0 fixed">
-          <img className="-mt-24 -mb-12 -pl-4" src={patterns.headerRec} alt="" />
-        </div>
+        <div className="absolute left-0 fixed"></div>
         <div className="w-full sm:w-1/2 lg:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 relative sm:w-2/3 lg:w-1/2 z-10 text-white">
-          <h1 className="font-ubuntu text-4xl lg:text-6xl leading-tight font-bold uppercase">
+          <h1 className="font-century text-4xl lg:text-6xl leading-tight font-bold uppercase">
             Developer Conference Zambia
           </h1>
           <div className="font-ubuntu flex flex-wrap mt-2">
@@ -37,10 +35,6 @@ function Header() {
           >
             Register
           </a>
-        </div>
-
-        <div className="w-full -mt-48 lg:mt-0 sm:w-1/2 lg:w-1/2 lg:w-1/2 xl:w-1/2 mb-4">
-          <img className="pl-24" src={patterns.africanMap} alt="" />
         </div>
       </div>
     </section>

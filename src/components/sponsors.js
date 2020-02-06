@@ -7,7 +7,7 @@ const sponsorsData = [
     tier: "cobalt",
     name: "PubNub",
     image: sponsors.pubnub,
-    link: "https://pubnub.com"
+    link: "https://www.pubnub.com/"
   },
   {
     tier: "cobalt",
@@ -19,52 +19,47 @@ const sponsorsData = [
     tier: "inkind",
     name: "Jet Brains",
     image: sponsors.jetbrains,
-    link: "https://www.jetbrains.com"
+    link: "https://www.jetbrains.com/"
   },
   {
     tier: "inkind",
     name: "Sticker Mule",
     image: sponsors.stickermule,
-    link: "https://www.stickermule.com/supports/you"
+    link: "https://www.stickermule.com/"
   },
   {
     tier: "inkind",
     name: "GitKraken",
     image: sponsors.gitkraken,
-    link: "https://www.gitkraken.com"
+    link: "https://www.gitkraken.com/"
   },
   {
     tier: "community",
     name: "BongoHive",
     image: sponsors.bongohive,
-    link: "https://www.bongohive.co.zm"
+    link: "https://bongohive.co.zm/"
   },
   {
     tier: "community",
     name: "Asikana Network",
     image: sponsors.asikana,
-    link: "https://asikananetwork.org"
+    link: "https://asikananetwork.org/"
   },
   {
     tier: "community",
     name: "Agora Code Community",
     image: sponsors.agora,
-    link: "https://github.com/agora-code-community"
+    link: "https://agoracode.community/"
   }
 ];
 
 function Sponsors() {
   return (
     <section id="sponsors" className="bg-white-smoke lg:flex-row px-4 lg:px-40 pt-12 pb-20 lg:pt-24">
-      <div className="absolute left-0 fixed">
-        <img className="-mt-8 lg:-mt-12 -pl-4" src={patterns.headerRec} alt="" />
-      </div>
-      <div className="flex flex-wrap">
-        <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-dark-blue-primary-600">
-          <h1 className="text-sec font-bold font-ubuntu">Previous Partners</h1>
-        </div>
-        <div className="w-full hidden lg:block lg:w-1/2 pl-12 mt-10">
-          <img src={patterns.section} alt="" className="w-auto" />
+      <div className="absolute left-0 fixed"></div>
+      <div className="flex flex-wrap flex-horizontal-center">
+        <div className="mb-8 lg:mb-12 w-full text-center text-dark-blue-primary-600">
+          <h1 className="text-sec font-bold font-century ">Previous Partners</h1>
         </div>
       </div>
 
@@ -137,10 +132,7 @@ function Sponsors() {
       </div>
 
       <div className="relative mt-18 text-center">
-        <a
-          href="https://opencollective.com/open-source-festival-2020-4abe0517/donate"
-          className="bg-orange-primary text-brown px-6 py-4 rounded-lg uppercase"
-        >
+        <a href="mailto:info@devcon.co.zm" className="bg-orange-primary text-brown px-6 py-4 rounded-lg uppercase">
           Become a Sponsor
         </a>
       </div>
