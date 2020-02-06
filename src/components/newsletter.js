@@ -13,9 +13,6 @@ function Newsletter() {
         {/* <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-dark-blue-primary-600">
           <h1 className="text-sec font-bold ont-ubuntu">Subscribe for Updates</h1>
         </div> */}
-        {/* <div className="w-full hidden lg:block lg:w-1/2 pl-12 mt-10 text-white">
-          <img src={patterns.section} alt="" className="w-auto" />
-        </div> */}
       </div>
 
       <Mailchimp
