@@ -46,7 +46,7 @@ function Footer() {
             key: 2,
             label: "Facebook",
             faIcon: ["fab", "facebook-square"],
-            href: "https://m.facebook.com/devconzm/"
+            href: "https://facebook.com/devconzm/"
           },
           {
             key: 3,
