@@ -9,8 +9,20 @@ function Tickets() {
             We'll give you a signal
           </h1>
           <p className="text-lg lg:text-xl text-gray-700 mt-4">
-            Tickets Sales will start in a few months, in the mean time, follow us on Facebook and Twitter to stay upto
-            date or...
+            Tickets Sales will start in a few months, in the mean time, follow us on{" "}
+            <strong>
+              {" "}
+              <a href="https://facebook.com/devconzm/" rel="noopener noreferrer" target="_blank">
+                Facebook{" "}
+              </a>{" "}
+            </strong>
+            and{" "}
+            <strong>
+              <a href="https://twitter.com/devcon_zm" rel="noopener noreferrer" target="_blank">
+                Twitter
+              </a>{" "}
+            </strong>{" "}
+            to stay upto date or...
           </p>
           <a
             href="/"

@@ -36,10 +36,6 @@ function Header() {
             Register
           </a>
         </div>
-
-        <div className="w-full -mt-48 lg:mt-0 sm:w-1/2 lg:w-1/2 lg:w-1/2 xl:w-1/2 mb-4">
-          <img className="pl-24" src={patterns.africanMap} alt="" />
-        </div>
       </div>
     </section>
   );

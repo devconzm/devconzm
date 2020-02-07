@@ -50,7 +50,10 @@ class Mailchimp extends React.Component {
       <div className="container">
         <div className="row">
           <div className="col-xs-12 col-md-12 col-lg-12 col-xl-12">
-            <h1 className="text-center section-title" style={{ paddingTop: "40px", paddingBottom: "20px" }}>
+            <h1
+              className="text-center font-century text-2xl leading-tight font-bold"
+              style={{ paddingTop: "40px", paddingBottom: "20px" }}
+            >
               Sign Up To Our Newsletter
             </h1>
             <div className="col-sm-12 justify">

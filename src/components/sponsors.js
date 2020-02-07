@@ -57,11 +57,10 @@ function Sponsors() {
   return (
     <section id="sponsors" className="bg-white-smoke lg:flex-row px-4 lg:px-40 pt-12 pb-20 lg:pt-24">
       <div className="absolute left-0 fixed"></div>
-      <div className="flex flex-wrap">
-        <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-dark-blue-primary-600">
-          <h1 className="text-sec font-bold font-century">Previous Partners</h1>
+      <div className="flex flex-wrap flex-horizontal-center">
+        <div className="mb-8 lg:mb-12 w-full text-center text-dark-blue-primary-600">
+          <h1 className="text-sec font-bold font-century ">Previous Partners</h1>
         </div>
-        <div className="w-full hidden lg:block lg:w-1/2 pl-12 mt-10"></div>
       </div>
 
       <div className="my-12">
@@ -133,10 +132,7 @@ function Sponsors() {
       </div>
 
       <div className="relative mt-18 text-center">
-        <a
-          href="https://opencollective.com/open-source-festival-2020-4abe0517/donate"
-          className="bg-orange-primary text-brown px-6 py-4 rounded-lg uppercase"
-        >
+        <a href="mailto:info@devcon.co.zm" className="bg-orange-primary text-brown px-6 py-4 rounded-lg uppercase">
           Become a Sponsor
         </a>
       </div>
