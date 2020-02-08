@@ -9,7 +9,7 @@ function Tickets() {
             We'll give you a signal
           </h1>
           <p className="text-lg lg:text-xl text-gray-700 mt-4">
-            Tickets Sales will start in a few months, in the mean time, follow us on{" "}
+            Tickets sales will start in a few months, in the mean time, follow us on{" "}
             <strong>
               {" "}
               <a href="https://facebook.com/devconzm/" rel="noopener noreferrer" target="_blank">
@@ -22,15 +22,15 @@ function Tickets() {
                 Twitter
               </a>{" "}
             </strong>{" "}
-            to stay upto date or...
+            to stay up to.
           </p>
           <a
-            href="/"
+            href="https://www.youtube.com/channel/UCIeSq0SHS-Hjt9A5UhToJNg"
             className="w-1/2 block sm:inline-block sm:w-auto mt-8 px-12 py-3 bg-orange-primary text-black rounded-lg text-center uppercase"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Subscribe to Our Newsletter
+            Check out last year
           </a>
         </div>
       </div>

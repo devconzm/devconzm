@@ -1,21 +1,8 @@
 const logo = Object.freeze({
-  svgOrange: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576374332/osf/Logo/SVG/orange.svg",
-  svgWhite: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576374332/osf/Logo/SVG/white.svg",
-  svgBlue: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576374331/osf/Logo/SVG/blue.svg",
-  svgGray: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576374332/osf/Logo/SVG/gray.svg",
-  pngOrange: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576374354/osf/Logo/PNG/orange.png",
-  pngWhite: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576374354/osf/Logo/PNG/white.png",
-  pngBlue: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576374354/osf/Logo/PNG/blue.png",
-  pngGray: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576374354/osf/Logo/PNG/gray.png",
   test: "https://res.cloudinary.com/devconzm/image/upload/v1579525835/DevCon/devcon_logo.png"
 });
 
 const patterns = Object.freeze({
-  africanMap:
-    "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/e_cartoonify/v1580334757/DevCon/2020/Assets/2020_aq9yey.svg",
-  nextBillion: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1575379564/NXTBC.png",
-  navRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548571/osf/Patterns/navRec.png",
-  headerRec: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1576548796/osf/Patterns/headerRec.png",
   section: "https://res.cloudinary.com/devconzm/image/upload/v1580208195/DevCon/2020/Assets/DevCon_pattern5_dpdmr4.png"
 });
 
@@ -37,7 +24,6 @@ const speakers = Object.freeze({
 });
 
 const sponsors = Object.freeze({
-  dummyImage: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1577569402/osf/Sponsors/dummy.png",
   jetbrains:
     "https://res.cloudinary.com/devconzm/image/upload/q_auto,f_auto/v1580212752/DevCon/2019/Sponsors/jetbrains_kjgsu3.png",
   stickermule:

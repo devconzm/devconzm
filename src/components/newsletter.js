@@ -1,6 +1,5 @@
 import React from "react";
 
-import { gallery, patterns } from "./cloudImages";
 import Mailchimp from "../components/mailchimp";
 
 function Newsletter() {
@@ -17,13 +16,13 @@ function Newsletter() {
 
           {
             name: "FNAME",
-            placeholder: "Firstname",
+            placeholder: "First Name",
             type: "text",
             required: true
           },
           {
             name: "LNAME",
-            placeholder: "Lastname",
+            placeholder: "Last Name",
             type: "text",
             required: true
           }

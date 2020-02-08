@@ -51,8 +51,8 @@ class Mailchimp extends React.Component {
         <div className="row">
           <div className="col-xs-12 col-md-12 col-lg-12 col-xl-12">
             <h1
-              className="text-center font-century text-2xl leading-tight font-bold"
-              style={{ paddingTop: "40px", paddingBottom: "20px" }}
+              className="text-center text-h3 font-century text-2xl leading-tight font-bold"
+              style={{ paddingTop: "5px", paddingBottom: "50px" }}
             >
               Sign Up To Our Newsletter
             </h1>
@@ -75,7 +75,7 @@ class Mailchimp extends React.Component {
                     <button
                       disabled={status === "sending" || status === "success"}
                       type="submit"
-                      className="bg-blue-400 hover:bg-blue-600 px-6 py-2 rounded-lg font-bold text-gray-700"
+                      className="bg-orange-primary hover:bg-blue-600 px-6 py-2 rounded-lg text-gray-700"
                     >
                       {messages.button}
                     </button>
@@ -106,7 +106,7 @@ Mailchimp.defaultProps = {
     error: "An unexpected internal error has occurred.",
     empty: "You must write an e-mail.",
     duplicate: "Too many subscribe attempts for this email address",
-    button: "Subscribe!"
+    button: "SUBSCRIBE"
   },
   buttonClassName: "",
   styles: {

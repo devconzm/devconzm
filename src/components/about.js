@@ -1,6 +1,5 @@
 import { graphql, useStaticQuery } from "gatsby";
 import React from "react";
-import { patterns } from "../components/cloudImages";
 
 function About() {
   const { site } = useStaticQuery(graphql`
@@ -17,12 +16,9 @@ function About() {
       <div className="absolute left-0 fixed "></div>
       <div className="flex flex-wrap pl-10 mx-20">
         <div className="mb-0 lg:mb-0 w-full lg:w-1/2 text-dark-blue-primary-600">
-          <h1 id="about" className="text-sec font-bold font-century">
+          <h1 id="about" alt={`${site.siteMetadata.title}.`} className="text-sec font-bold text-center font-century">
             About
           </h1>
-        </div>
-        <div className="w-full hidden lg:block lg:w-1/2 pl-12 mt-10">
-          <img src={patterns.section} alt="" className="w-auto" />
         </div>
       </div>
 
@@ -37,11 +33,10 @@ function About() {
             title="DevCon Zambia"
             allowFullScreen
           ></iframe>
-          {/* <img className="pb-4 lg:pl-4" alt={`${site.siteMetadata.title}.`} src={patterns.nextBillion} /> */}
         </figure>
 
         <div className="lg:w-1/2 lg:mx-12">
-          <blockquote className="px-4 text-base text-justify tracking-tight text-dark-blue-500">
+          <blockquote className="px-4 text-base text-justify tracking-tight text-black">
             DevConZM is an annual platform elected by Agora Code Community and collective members of the technology
             community in Zambia. It is specifically crafted with Software Developers and Tech Enthusiasts in mind. Its
             aim is first of all, to raise the quality of the craft, secondly, to raise awareness of the industry which
@@ -49,7 +44,7 @@ function About() {
             a progressive approach to building products and communities. <br />
             <br />
             DevConZM brings exposure that will prove useful to innovation in various industrial sectors leading to
-            direct economic value addition. Apart from the technical opportunities available, Devcon will also give
+            direct economic value addition. Apart from the technical opportunities available, DevCon will also give
             developers access to networking and investment opportunities which is critical to growth. <br />
             <br />
           </blockquote>

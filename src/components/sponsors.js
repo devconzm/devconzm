@@ -65,8 +65,8 @@ function Sponsors() {
 
       <div className="my-12">
         {/* Headline Sponsors */}
-        <h1 className="line text-h1 font-bold">
-          Cobalt <span></span>
+        <h1 className="line text-h1 text-center font-bold">
+          <span></span> Cobalt <span></span>
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
@@ -87,8 +87,8 @@ function Sponsors() {
         </div>
 
         {/* Diamond sponsors */}
-        <h1 className="line text-h2 font-bold">
-          Others <span></span>
+        <h1 className="line text-h2 text-center font-bold">
+          <span></span>Others <span></span>
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
@@ -109,8 +109,8 @@ function Sponsors() {
         </div>
 
         {/* Community sponsors */}
-        <h1 className="line text-h3 font-bold">
-          Community <span></span>
+        <h1 className="line text-h3 text-center font-bold">
+          <span></span> Community <span></span>
         </h1>
         <div className="mt-4 mb-8 lg:mt-2 flex flex-wrap">
           {sponsorsData
@@ -132,9 +132,21 @@ function Sponsors() {
       </div>
 
       <div className="relative mt-18 text-center">
-        <a href="mailto:info@devcon.co.zm" className="bg-orange-primary text-brown px-6 py-4 rounded-lg uppercase">
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://trello-attachments.s3.amazonaws.com/5d5177cae71d172fb4f23b36/5d517ecea05da73835f7d071/0de8c37640957385ac9379478e049a00/DevConZM_19_Sponsorship_Desk.pdf"
+          className="bg-orange-primary text-brown px-6 py-4 rounded-lg uppercase"
+        >
           Become a Sponsor
         </a>
+        <p className="pt-4">or</p>
+        <p className="text-h4">
+          mail us on{" "}
+          <a className="underline" href="mailto:info@devcon.co.zm">
+            info@devcon.co.zm
+          </a>
+        </p>
       </div>
     </section>
   );

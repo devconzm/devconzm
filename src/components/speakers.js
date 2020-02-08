@@ -1,17 +1,14 @@
 import React from "react";
 
-import { speakers, patterns } from "../components/cloudImages";
+import { speakers } from "../components/cloudImages";
 
 function Speaker() {
   return (
     <section id="speakers" className="bg-dark-blue-primary lg:flex-row px-4 lg:px-40 pt-12 pb-24 lg:pt-24">
       <div className="absolute left-0 fixed"></div>
-      <div className="flex flex-wrap">
-        <div className="mb-8 lg:mb-12 w-full lg:w-1/2 text-white">
-          <h1 className="text-sec font-bold font-century">Past Speakers</h1>
-        </div>
-        <div className="w-full hidden lg:block lg:w-1/2 pl-12 mt-10 text-white">
-          <img src={patterns.section} alt="" className="w-auto" />
+      <div className="flex text-center flex-wrap">
+        <div className="mb-8 lg:mb-12 w-full text-center text-white">
+          <h1 className="text-sec text-center font-bold font-century">Past Speakers</h1>
         </div>
       </div>
 
@@ -55,7 +52,7 @@ function Speaker() {
         ].map(speaker => (
           <figure key={speaker.name} className="relative w-full h-full lg:w-1/4 max-w-sm rounded p-2 my-2">
             <img className="w-auto mx-auto" src={speaker.image} alt={`An amazing photograph of ${speaker.name}.`} />
-            <div className="z-0 -mt-20 pt-2 px-2 w-auto h-20 bg-dark-blue-500 opacity-75 text-center text-white">
+            <div className="z-0 -mt-20 pt-2 px-2 w-auto h-20 bg-black opacity-75 text-center text-white">
               <h3 className="font-bold text-xl">{speaker.name}</h3>
               <p className="text-sm">{speaker.title}</p>
             </div>
