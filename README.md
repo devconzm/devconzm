@@ -1,6 +1,6 @@
 # DevCon ZM
 
-![Banner]()
+![Banner](https://res.cloudinary.com/devconzm/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1580208206/DevCon/2020/Assets/DevCon_2020_mpripl.png)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5086ccf6-48d9-47ba-b0b8-7b448219399a/deploy-status)](https://app.netlify.com/sites/devconzm/deploys)
 [![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors)
@@ -12,13 +12,12 @@
 
 > This repo is for the zambia developer conference website
 
-## Revamp
 
 More details about the conference can be found [on our website](http://devcon.co.zm)
 
 ### Website Design - Prototype
 
-## Current Issues
+#### Current Issues
 
 ### Technologies Used
 
@@ -61,7 +60,7 @@ npm install -g gatsby-cli
 - Change directories into site folder
 
 ```sh
-cd osf-website
+cd devconzm
 ```
 
 - Create and checkout to a new branch for your feature
