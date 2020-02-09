@@ -1,0 +1,50 @@
+.oc_link_container {
+  text-decoration: none;
+  font-family: inherit;
+  text-transform: capitalize;
+  font-size: 15px;
+  line-height: 24px;
+}
+.oc_link_default {
+  color: #283756;
+}
+
+.oc_link_default:hover {
+  opacity: 0.8;
+}
+
+.oc_link_default:focus {
+  border: 2px dotted #283756;
+  padding: 0 3px;
+}
+
+.oc_link_default:active {
+  border: 2px dotted #283756;
+  padding: 0 3px;
+}
+
+.oc_link_white {
+  color: #ffffff;
+}
+
+.oc_link_white:hover {
+  opacity: 0.8;
+}
+
+.oc_link_white:active {
+  border: 2px dotted #ffffff;
+  padding: 0 3px;
+}
+
+.oc_link_dark {
+  color: #000000;
+}
+
+.oc_link_dark:hover {
+  opacity: 0.8;
+}
+
+.oc_link_dark:active {
+  border: 2px dotted #000000;
+  padding: 0 3px;
+}
