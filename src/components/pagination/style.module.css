@@ -1,0 +1,17 @@
+.paginationButton {
+  padding: 10px;
+  margin: 0 6px;
+  @apply rounded-lg bg-white text-dark-blue-primary border-none cursor-pointer my-2;
+}
+
+.paginationButton:first-of-type {
+  transform: rotateZ(180deg);
+}
+
+.active {
+  @apply text-white bg-dark-blue-primary;
+}
+
+.disabled {
+  @apply bg-gray-100 cursor-not-allowed;
+}

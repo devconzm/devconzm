@@ -1,0 +1,46 @@
+.oc_textbox_container {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #283756;
+  border: 1px solid #445984;
+  border-radius: 4px;
+  padding: 10px;
+  min-width: 150px;
+  cursor: auto;
+}
+
+.oc_textarea_container {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  color: #283756;
+  border: 1px solid #445984;
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 10px 10px 0;
+  resize: none;
+  cursor: auto;
+}
+
+.oc_textbox,
+.oc_textarea {
+  background: #ffffff;
+}
+
+.oc_textbox:focus,
+.oc_textarea:focus {
+  background: #ffffff;
+}
+
+.oc_textbox:disabled,
+.oc_textarea:disabled {
+  background: rgba(150, 173, 221, 0.33);
+  border: 0;
+}

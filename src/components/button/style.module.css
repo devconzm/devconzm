@@ -1,0 +1,142 @@
+.oc_btn_container {
+  border-radius: 6px;
+  padding: 10px;
+  min-width: 150px;
+  cursor: pointer;
+}
+
+.oc_btn_container:disabled {
+  border: 0;
+}
+
+.oc_btn_01 {
+  background: #283756;
+  color: #fff;
+}
+
+.oc_btn_01:hover {
+  background: #445984;
+}
+
+.oc_btn_01:active {
+  background: #96addd;
+}
+
+.oc_btn_01:disabled {
+  background: rgba(150, 173, 221, 0.33);
+}
+
+.oc_btn_02 {
+  background: #fff;
+  color: #283756;
+  border: 1px solid #283756;
+}
+
+.oc_btn_02:hover {
+  color: #445984;
+  border: 1px solid #445984;
+}
+
+.oc_btn_02:active {
+  color: #96addd;
+  border: 1px solid #96addd;
+}
+
+.oc_btn_02:disabled {
+  color: rgba(150, 173, 221, 0.33);
+  border: 1px solid rgba(150, 173, 221, 0.33);
+}
+
+.oc_btn_03 {
+  background: #f7931e;
+  color: #fcfded;
+}
+
+.oc_btn_03:hover {
+  background: #f9aa4f;
+}
+
+.oc_btn_03:active {
+  color: #fcfded;
+  background: #f5c388;
+}
+
+.oc_btn_03:disabled {
+  color: #fcfded;
+  background: rgba(245, 195, 136, 0.33);
+}
+
+.oc_btn_04 {
+  background: #fff;
+  color: #f7931e;
+  border: 1px solid #f7931e;
+}
+
+.oc_btn_04:hover {
+  color: #f9aa4f;
+  border: 1px solid #f9aa4f;
+}
+
+.oc_btn_04:active {
+  color: #f5c388;
+  border: 1px solid #f5c388;
+}
+
+.oc_btn_04:disabled {
+  color: rgba(245, 195, 136, 0.33);
+  border: 1px solid rgba(245, 195, 136, 0.33);
+}
+
+.oc_btn_05 {
+  background: #5a75ab;
+  color: #fff;
+}
+
+.oc_btn_05:hover {
+  background: #445984;
+}
+
+.oc_btn_05:active {
+  background: #283756;
+}
+
+.oc_btn_05:disabled {
+  background: rgba(40, 55, 86, 0.33);
+}
+
+.oc_btn_06 {
+  background: #f5c388;
+  color: #fff;
+}
+
+.oc_btn_06:hover {
+  background: #f9aa4f;
+}
+
+.oc_btn_06:active {
+  background: #f7931e;
+}
+
+.oc_btn_06:disabled {
+  background: rgba(247, 147, 30, 0.33);
+}
+
+.oc_btn_07 {
+  color: #f5c388;
+  border: 1px solid #f5c388;
+}
+
+.oc_btn_07:hover {
+  color: #f9aa4f;
+  border: 1px solid #f9aa4f;
+}
+
+.oc_btn_07:active {
+  color: #f7931e;
+  border: 1px solid #f7931e;
+}
+
+.oc_btn_07:disabled {
+  color: rgba(247, 147, 30, 0.33);
+  border: 1px solid rgba(247, 147, 30, 0.33);
+}

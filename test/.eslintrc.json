@@ -1,0 +1,15 @@
+{
+  "plugins": ["cypress", "chai-friendly"],
+  "rules": {
+    "no-unused-expressions": 0,
+    "chai-friendly/no-unused-expressions": 2,
+    "node/no-unpublished-import": "off",
+    "cypress/no-assigning-return-values": "error",
+    "cypress/no-unnecessary-waiting": "error",
+    "cypress/assertion-before-screenshot": "warn"
+  },
+  "env": {
+    "cypress/globals": true
+  },
+  "extends": ["plugin:cypress/recommended"]
+}

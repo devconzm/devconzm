@@ -1,0 +1,66 @@
+.oc_container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.oc_container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+  left: 2px;
+}
+
+.oc_checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border: 1px solid #f0f0f0;
+  box-sizing: border-box;
+  box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+}
+
+.oc_container:hover input ~ .oc_checkmark {
+  background-color: #ccc;
+}
+
+.oc_container input:checked ~ .oc_checkmark {
+  background-color: #96addd;
+}
+
+.oc_checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.oc_container input:checked ~ .oc_checkmark:after {
+  display: block;
+}
+
+.oc_container .oc_checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.oc_container input:disabled:checked ~ .oc_checkmark {
+  background-color: #96addd;
+}
