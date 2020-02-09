@@ -39,7 +39,7 @@ read the [code of conduct](https://github.com/devconzm/devconzm/blob/master/CODE
 
 ## Getting Started
 
-- [Fork this repository](https://help.github.com/articles/fork-a-repo/)
+- [How to fork a repository](https://help.github.com/articles/fork-a-repo/)
 
 - Clone the forked repository like so:
 
