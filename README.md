@@ -1,5 +1,3 @@
-# DevCon ZM
-
 ![Banner](https://res.cloudinary.com/devconzm/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1580208206/DevCon/2020/Assets/DevCon_2020_mpripl.png)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5086ccf6-48d9-47ba-b0b8-7b448219399a/deploy-status)](https://app.netlify.com/sites/devconzm/deploys)
