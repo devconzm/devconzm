@@ -7,8 +7,8 @@ configure(require.context("../src", true, /\.stories\.js$/), module);
 
 addParameters({
   options: {
-    name: "OS Festival",
-    url: "https://osca-festival.netlify.com/",
+    name: "DevCon Zambia",
+    url: "https://boring-blackwell-56bc9c.netlify.com/",
     hierarchySeparator: /\//,
     hierarchyRootSeparator: /\|/
   },

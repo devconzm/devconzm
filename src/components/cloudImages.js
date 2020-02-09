@@ -56,4 +56,8 @@ const restaurants = Object.freeze({
   dummy: "https://res.cloudinary.com/osca/image/upload/q_auto,f_auto/v1578244998/osf/Restaurants/dummy.jpg"
 });
 
-export { logo, patterns, speakers, sponsors, hotels, restaurants };
+const meme = Object.freeze({
+  micheal: ""
+});
+
+export { logo, patterns, speakers, sponsors, hotels, restaurants, meme };

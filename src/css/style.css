@@ -82,7 +82,7 @@ embed {
 .line span {
   content: "";
   flex: 1 1 auto;
-  border-top: 1px double #C73656;
+  border-top: 1px double #c73656;
   margin-left: 20px;
   margin-right: 20px;
 }

@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "",
+    title: "Developer Conference Zambia",
     description: `
     DevCon Zambia is the annual developer event of Southern Africa attracting developers, designers and industry leaders with the aim of spurring growth through interactive sessions, workshops, and networking.    `,
     siteUrl: "https://devcon.co.zm",
@@ -50,7 +50,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-offline",
       options: {
-        precachePages: ["/schedule/", "/travel/", "/register/", "/coc/", "/speakers/", "/scholarship/", "/about/"]
+        precachePages: ["/register/", "/coc/", "/404/"]
       }
     }
   ]

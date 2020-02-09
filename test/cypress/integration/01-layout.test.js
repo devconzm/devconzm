@@ -4,15 +4,15 @@ describe("home page", () => {
     cy.visit("/");
   });
 
-  it('should have text "Open Source Community Africa"', () => {
-    cy.contains("Open Source Community Africa");
+  it('should have text "Developer Conference Zambia"', () => {
+    cy.contains("Developer Conference Zambia");
   });
 
-  it("header should have 7 achor tags", () => {
-    cy.get("header a").should("have.length", 7);
+  it("header should have 5 anchor tags", () => {
+    cy.get("header a").should("have.length", 5);
   });
 
-  it("footer should have 8 achor tags", () => {
-    cy.get("footer a").should("have.length", 8);
+  it("footer should have 7 anchor tags", () => {
+    cy.get("footer a").should("have.length", 7);
   });
 });

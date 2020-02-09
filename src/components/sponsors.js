@@ -1,6 +1,6 @@
 import React from "react";
 
-import { sponsors, patterns } from "../components/cloudImages";
+import { sponsors } from "../components/cloudImages";
 
 const sponsorsData = [
   {

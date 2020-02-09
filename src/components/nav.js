@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import React, { useState } from "react";
 
-import { logo, patterns } from "../components/cloudImages";
+import { logo } from "../components/cloudImages";
 
 function Nav() {
   const [isExpanded, toggleExpansion] = useState(false);

@@ -12,7 +12,7 @@ module.exports = [{
       options: {"plugins":[]},
     },{
       plugin: require('../node_modules/gatsby-plugin-offline/gatsby-browser.js'),
-      options: {"plugins":[],"precachePages":["/schedule/","/travel/","/register/","/coc/","/speakers/","/scholarship/","/about/"]},
+      options: {"plugins":[],"precachePages":["/register/","/coc/","/404/"]},
     },{
       plugin: require('../gatsby-browser.js'),
       options: {"plugins":[]},
