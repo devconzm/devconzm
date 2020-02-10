@@ -1,4 +1,4 @@
-# Devconzm
+![Banner](https://res.cloudinary.com/devconzm/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1580208206/DevCon/2020/Assets/DevCon_2020_mpripl.png)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5086ccf6-48d9-47ba-b0b8-7b448219399a/deploy-status)](https://app.netlify.com/sites/devconzm/deploys)
 [![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors)
@@ -10,19 +10,19 @@
 
 > This repo is for the zambia developer conference website
 
-## Revamp
 
-more details about the conference can be found [here](http://devcon.co.zm)
+More details about the conference can be found [on our website](http://devcon.co.zm)
 
 ### Website Design - Prototype
 
-Website design details are available [here](https://drive.google.com/drive/folders/1-edCcmkQPXrmgG1VfFAxXawgZXFwYpjE?usp=sharing)
+#### Current Issues
 
-### Technologies used
+### Technologies Used
 
-- React
-- Bootstrap
+- Gatsby
+- Tailwind CSS
 - Netlify
+- Cloudinary
 
 ### Contributing
 
@@ -33,21 +33,19 @@ read the [code of conduct](https://github.com/devconzm/devconzm/blob/master/CODE
 
 **Requirements**
 
-- Node (ˆv8.0)
-- npm
-- git
+- Node (ˆv10.0)
+- NPM or Yarn
+- Git
 
 ## Getting Started
 
-- [Fork this repository](https://help.github.com/articles/fork-a-repo/)
+- [How to fork a repository](https://help.github.com/articles/fork-a-repo/)
 
 - Clone the forked repository like so:
 
 ```sh
-git clone https://github.com/<your username>/osf-website.git && cd osf-website
+git clone https://github.com/<your username>/devconzm.git && cd devconzm
 ```
-
-- Read the [Contributors Guide](https://github.com/oscommunityafrica/osf-website/blob/master/CONTRIBUTING.md)
 
 ## Installation Guide
 
@@ -60,7 +58,7 @@ npm install -g gatsby-cli
 - Change directories into site folder
 
 ```sh
-cd osf-website
+cd devconzm
 ```
 
 - Create and checkout to a new branch for your feature
@@ -151,28 +149,3 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 </table>
 
 This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
-
-# Road Map
-
-Week 1 (20th to 27th Jan)
-
-Redo website to contain;
-
-- Navbar
-- Main Graphic + Register button
-- About Section
-- Section to subscribe to mailing list
-- Previous Speakers
-- Previous Sponsors and button to report and deck
-- Footer with link to previous years conference
-- Change Font and Imagery
-
-Week 2 ( 27th Jan to 3rd Feb) and 3 (4th feb to 11th feb) - Additional pages should
-
-- Tickets (with Quicket embed)
-- Style Code of Conduct
--
-
-Needs
-
-- Colour scheme and assets
